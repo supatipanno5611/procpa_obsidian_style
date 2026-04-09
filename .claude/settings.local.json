@@ -2,7 +2,11 @@
   "permissions": {
     "allow": [
       "Bash(npm i:*)",
-      "Bash(npx --yes shadcn@latest init --base-color neutral --yes)"
+      "Bash(npx --yes shadcn@latest init --base-color neutral --yes)",
+      "Bash(npx velite:*)",
+      "Bash(npx next:*)",
+      "Bash(npm run:*)",
+      "Bash(cd:*)"
     ]
   }
 }

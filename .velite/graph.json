@@ -1,0 +1,115 @@
+{
+  "nodes": [
+    {
+      "id": "ai-productivity-intro",
+      "type": "post",
+      "title": "AI로 회계 실무 생산성 끌어올리기",
+      "category": "ai",
+      "url": "/posts/ai-productivity-intro",
+      "tags": [
+        "LLM",
+        "생산성"
+      ],
+      "degree": 2
+    },
+    {
+      "id": "hello-world",
+      "type": "post",
+      "title": "새로운 PROCPA 블로그를 시작하며",
+      "category": "accounting",
+      "url": "/posts/hello-world",
+      "tags": [
+        "공지",
+        "메타"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "wiki-test-2",
+      "type": "post",
+      "title": "Wiki Link Test 2 — AI 노트",
+      "category": "ai",
+      "url": "/posts/wiki-test-2",
+      "tags": [
+        "test",
+        "LLM"
+      ],
+      "degree": 4
+    },
+    {
+      "id": "wiki-test-3",
+      "type": "post",
+      "title": "Wiki Link Test 3 — 허브 노트",
+      "category": "accounting",
+      "url": "/posts/wiki-test-3",
+      "tags": [
+        "test",
+        "메타"
+      ],
+      "degree": 5
+    },
+    {
+      "id": "wiki-test",
+      "type": "post",
+      "title": "Wiki Link Test",
+      "category": "accounting",
+      "url": "/posts/wiki-test",
+      "tags": [
+        "test"
+      ],
+      "degree": 3
+    },
+    {
+      "id": "getting-started/01-intro",
+      "type": "chapter",
+      "title": "이 시리즈에 대하여",
+      "category": "accounting",
+      "url": "/series/getting-started/01-intro",
+      "tags": [],
+      "series": "getting-started",
+      "degree": 2
+    }
+  ],
+  "edges": [
+    {
+      "source": "wiki-test-3",
+      "target": "hello-world"
+    },
+    {
+      "source": "wiki-test-3",
+      "target": "ai-productivity-intro"
+    },
+    {
+      "source": "wiki-test-3",
+      "target": "wiki-test"
+    },
+    {
+      "source": "wiki-test-3",
+      "target": "wiki-test-2"
+    },
+    {
+      "source": "wiki-test-3",
+      "target": "getting-started/01-intro"
+    },
+    {
+      "source": "wiki-test-2",
+      "target": "hello-world"
+    },
+    {
+      "source": "wiki-test-2",
+      "target": "ai-productivity-intro"
+    },
+    {
+      "source": "wiki-test-2",
+      "target": "wiki-test"
+    },
+    {
+      "source": "hello-world",
+      "target": "getting-started/01-intro"
+    },
+    {
+      "source": "wiki-test",
+      "target": "hello-world"
+    }
+  ]
+}

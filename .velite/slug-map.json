@@ -1,0 +1,106 @@
+{
+  "ai-productivity-intro": {
+    "id": "ai-productivity-intro",
+    "type": "post",
+    "title": "AI로 회계 실무 생산성 끌어올리기",
+    "description": "회계·재무 실무자가 LLM과 자동화 도구를 일에 결합하는 첫 단계.",
+    "url": "/posts/ai-productivity-intro",
+    "category": "ai"
+  },
+  "ai로 회계 실무 생산성 끌어올리기": {
+    "id": "ai-productivity-intro",
+    "type": "post",
+    "title": "AI로 회계 실무 생산성 끌어올리기",
+    "description": "회계·재무 실무자가 LLM과 자동화 도구를 일에 결합하는 첫 단계.",
+    "url": "/posts/ai-productivity-intro",
+    "category": "ai"
+  },
+  "hello-world": {
+    "id": "hello-world",
+    "type": "post",
+    "title": "새로운 PROCPA 블로그를 시작하며",
+    "description": "옵시디언 기반 콘텐츠 파이프라인으로 새롭게 리빌드한 PROCPA 블로그의 첫 글.",
+    "url": "/posts/hello-world",
+    "category": "accounting"
+  },
+  "새로운 procpa 블로그를 시작하며": {
+    "id": "hello-world",
+    "type": "post",
+    "title": "새로운 PROCPA 블로그를 시작하며",
+    "description": "옵시디언 기반 콘텐츠 파이프라인으로 새롭게 리빌드한 PROCPA 블로그의 첫 글.",
+    "url": "/posts/hello-world",
+    "category": "accounting"
+  },
+  "wiki-test-2": {
+    "id": "wiki-test-2",
+    "type": "post",
+    "title": "Wiki Link Test 2 — AI 노트",
+    "description": "두 번째 wiki-link 테스트. AI 카테고리에서 회계 글을 참조한다.",
+    "url": "/posts/wiki-test-2",
+    "category": "ai"
+  },
+  "wiki link test 2 — ai 노트": {
+    "id": "wiki-test-2",
+    "type": "post",
+    "title": "Wiki Link Test 2 — AI 노트",
+    "description": "두 번째 wiki-link 테스트. AI 카테고리에서 회계 글을 참조한다.",
+    "url": "/posts/wiki-test-2",
+    "category": "ai"
+  },
+  "wiki-test-3": {
+    "id": "wiki-test-3",
+    "type": "post",
+    "title": "Wiki Link Test 3 — 허브 노트",
+    "description": "여러 글을 한 번에 묶는 허브 역할을 하는 세 번째 테스트.",
+    "url": "/posts/wiki-test-3",
+    "category": "accounting"
+  },
+  "wiki link test 3 — 허브 노트": {
+    "id": "wiki-test-3",
+    "type": "post",
+    "title": "Wiki Link Test 3 — 허브 노트",
+    "description": "여러 글을 한 번에 묶는 허브 역할을 하는 세 번째 테스트.",
+    "url": "/posts/wiki-test-3",
+    "category": "accounting"
+  },
+  "wiki-test": {
+    "id": "wiki-test",
+    "type": "post",
+    "title": "Wiki Link Test",
+    "description": "temp test for remark-wiki-link plugin",
+    "url": "/posts/wiki-test",
+    "category": "accounting"
+  },
+  "wiki link test": {
+    "id": "wiki-test",
+    "type": "post",
+    "title": "Wiki Link Test",
+    "description": "temp test for remark-wiki-link plugin",
+    "url": "/posts/wiki-test",
+    "category": "accounting"
+  },
+  "getting-started/01-intro": {
+    "id": "getting-started/01-intro",
+    "type": "chapter",
+    "title": "이 시리즈에 대하여",
+    "description": "PROCPA 시작하기 시리즈가 다루는 범위와 읽는 방법.",
+    "url": "/series/getting-started/01-intro",
+    "category": "accounting"
+  },
+  "01-intro": {
+    "id": "getting-started/01-intro",
+    "type": "chapter",
+    "title": "이 시리즈에 대하여",
+    "description": "PROCPA 시작하기 시리즈가 다루는 범위와 읽는 방법.",
+    "url": "/series/getting-started/01-intro",
+    "category": "accounting"
+  },
+  "이 시리즈에 대하여": {
+    "id": "getting-started/01-intro",
+    "type": "chapter",
+    "title": "이 시리즈에 대하여",
+    "description": "PROCPA 시작하기 시리즈가 다루는 범위와 읽는 방법.",
+    "url": "/series/getting-started/01-intro",
+    "category": "accounting"
+  }
+}

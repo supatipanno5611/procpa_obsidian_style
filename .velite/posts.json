@@ -1,0 +1,124 @@
+[
+  {
+    "slug": "posts/ai-productivity-intro",
+    "title": "AI로 회계 실무 생산성 끌어올리기",
+    "description": "회계·재무 실무자가 LLM과 자동화 도구를 일에 결합하는 첫 단계.",
+    "date": "2026-04-07T00:00:00.000Z",
+    "tags": [
+      "LLM",
+      "생산성"
+    ],
+    "category": "ai",
+    "draft": false,
+    "metadata": {
+      "readingTime": 1,
+      "wordCount": 2
+    },
+    "body": "const{Fragment:n,jsx:e,jsxs:r}=arguments[0];function _createMdxContent(c){const t={a:\"a\",h2:\"h2\",li:\"li\",p:\"p\",ul:\"ul\",...c.components};return r(n,{children:[e(t.h2,{id:\"시작하기\",children:e(t.a,{href:\"#시작하기\",children:\"시작하기\"})}),\"\\n\",e(t.p,{children:\"AI는 단순한 챗봇이 아니라 실무 워크플로의 일부가 되어야 합니다.\"}),\"\\n\",r(t.ul,{children:[\"\\n\",e(t.li,{children:\"반복 작업의 자동화\"}),\"\\n\",e(t.li,{children:\"문서 요약과 검토\"}),\"\\n\",e(t.li,{children:\"데이터 정리와 변환\"}),\"\\n\"]}),\"\\n\",e(t.h2,{id:\"다음-단계\",children:e(t.a,{href:\"#다음-단계\",children:\"다음 단계\"})}),\"\\n\",e(t.p,{children:\"이 시리즈에서는 회계·재무 실무자가 일상에서 바로 적용할 수 있는 AI 활용법을 다룰 예정입니다.\"})]})}return{default:function(n={}){const{wrapper:r}=n.components||{};return r?e(r,{...n,children:e(_createMdxContent,{...n})}):_createMdxContent(n)}};",
+    "toc": [
+      {
+        "title": "시작하기",
+        "url": "#시작하기",
+        "items": []
+      },
+      {
+        "title": "다음 단계",
+        "url": "#다음-단계",
+        "items": []
+      }
+    ],
+    "slugAsParams": "ai-productivity-intro"
+  },
+  {
+    "slug": "posts/hello-world",
+    "title": "새로운 PROCPA 블로그를 시작하며",
+    "description": "옵시디언 기반 콘텐츠 파이프라인으로 새롭게 리빌드한 PROCPA 블로그의 첫 글.",
+    "date": "2026-04-06T00:00:00.000Z",
+    "tags": [
+      "공지",
+      "메타"
+    ],
+    "category": "accounting",
+    "draft": false,
+    "metadata": {
+      "readingTime": 1,
+      "wordCount": 11
+    },
+    "body": "const{Fragment:n,jsx:e,jsxs:t}=arguments[0];function _createMdxContent(i){const r={a:\"a\",code:\"code\",h2:\"h2\",li:\"li\",p:\"p\",ul:\"ul\",...i.components};return t(n,{children:[e(r.h2,{id:\"왜-새로-만들었나\",children:e(r.a,{href:\"#왜-새로-만들었나\",children:\"왜 새로 만들었나\"})}),\"\\n\",t(r.p,{children:[\"기존 \",e(r.code,{children:\"procpa.co.kr\"}),\" 사이트를 Next.js 16 + Velite 조합으로 완전히 새로 작성했습니다.\"]}),\"\\n\",t(r.ul,{children:[\"\\n\",e(r.li,{children:\"옵시디언에서 작성한 마크다운을 그대로 사용\"}),\"\\n\",e(r.li,{children:\"시리즈(Docs)와 포스트 두 가지 콘텐츠 형식\"}),\"\\n\",e(r.li,{children:\"다크/라이트 모드, SEO, 고급 검색\"}),\"\\n\"]}),\"\\n\",e(r.h2,{id:\"앞으로\",children:e(r.a,{href:\"#앞으로\",children:\"앞으로\"})}),\"\\n\",t(r.p,{children:[\"회계·감사·데이터 분석, 그리고 개인적인 생각들을 정리해 나갈 예정입니다.\\n구조 개요는 \",e(r.a,{href:\"wiki:getting-started/01-intro\",\"data-wiki-link\":\"true\",\"data-wiki-target\":\"getting-started/01-intro\",\"data-wiki-alias\":\"시작 가이드\",children:\"시작 가이드\"}),\"를 참고하세요.\"]})]})}return{default:function(n={}){const{wrapper:t}=n.components||{};return t?e(t,{...n,children:e(_createMdxContent,{...n})}):_createMdxContent(n)}};",
+    "toc": [
+      {
+        "title": "왜 새로 만들었나",
+        "url": "#왜-새로-만들었나",
+        "items": []
+      },
+      {
+        "title": "앞으로",
+        "url": "#앞으로",
+        "items": []
+      }
+    ],
+    "slugAsParams": "hello-world"
+  },
+  {
+    "slug": "posts/wiki-test-2",
+    "title": "Wiki Link Test 2 — AI 노트",
+    "description": "두 번째 wiki-link 테스트. AI 카테고리에서 회계 글을 참조한다.",
+    "date": "2026-04-09T00:00:00.000Z",
+    "tags": [
+      "test",
+      "LLM"
+    ],
+    "category": "ai",
+    "draft": false,
+    "metadata": {
+      "readingTime": 1,
+      "wordCount": 10
+    },
+    "body": "const{Fragment:t,jsx:i,jsxs:a}=arguments[0];function _createMdxContent(e){const r={a:\"a\",p:\"p\",...e.components};return a(t,{children:[a(r.p,{children:[\"이 글은 \",i(r.a,{href:\"wiki:hello-world\",\"data-wiki-link\":\"true\",\"data-wiki-target\":\"hello-world\",children:\"hello-world\"}),\"와 \",i(r.a,{href:\"wiki:ai-productivity-intro\",\"data-wiki-link\":\"true\",\"data-wiki-target\":\"ai-productivity-intro\",\"data-wiki-alias\":\"AI 생산성 가이드\",children:\"AI 생산성 가이드\"}),\"를 모두 참조합니다.\\n또한 \",i(r.a,{href:\"wiki:wiki-test\",\"data-wiki-link\":\"true\",\"data-wiki-target\":\"wiki-test\",\"data-wiki-alias\":\"첫 번째 위키 테스트\",children:\"첫 번째 위키 테스트\"}),\"와도 연결되어 있습니다.\"]}),\"\\n\",a(r.p,{children:[\"깨진 링크 예시: \",i(r.a,{href:\"wiki:ghost-page\",\"data-wiki-link\":\"true\",\"data-wiki-target\":\"ghost-page\",children:\"ghost-page\"}),\".\"]})]})}return{default:function(t={}){const{wrapper:a}=t.components||{};return a?i(a,{...t,children:i(_createMdxContent,{...t})}):_createMdxContent(t)}};",
+    "toc": [],
+    "slugAsParams": "wiki-test-2"
+  },
+  {
+    "slug": "posts/wiki-test-3",
+    "title": "Wiki Link Test 3 — 허브 노트",
+    "description": "여러 글을 한 번에 묶는 허브 역할을 하는 세 번째 테스트.",
+    "date": "2026-04-09T00:00:00.000Z",
+    "tags": [
+      "test",
+      "메타"
+    ],
+    "category": "accounting",
+    "draft": false,
+    "metadata": {
+      "readingTime": 1,
+      "wordCount": 13
+    },
+    "body": "const{Fragment:i,jsx:t,jsxs:e}=arguments[0];function _createMdxContent(n){const a={a:\"a\",h2:\"h2\",li:\"li\",p:\"p\",ul:\"ul\",...n.components};return e(i,{children:[t(a.h2,{id:\"관련-글-모음\",children:t(a.a,{href:\"#관련-글-모음\",children:\"관련 글 모음\"})}),\"\\n\",e(a.ul,{children:[\"\\n\",e(a.li,{children:[t(a.a,{href:\"wiki:hello-world\",\"data-wiki-link\":\"true\",\"data-wiki-target\":\"hello-world\",children:\"hello-world\"}),\" — 블로그 시작\"]}),\"\\n\",t(a.li,{children:t(a.a,{href:\"wiki:ai-productivity-intro\",\"data-wiki-link\":\"true\",\"data-wiki-target\":\"ai-productivity-intro\",\"data-wiki-alias\":\"AI로 생산성 높이기\",children:\"AI로 생산성 높이기\"})}),\"\\n\",e(a.li,{children:[t(a.a,{href:\"wiki:wiki-test\",\"data-wiki-link\":\"true\",\"data-wiki-target\":\"wiki-test\",children:\"wiki-test\"}),\" — 첫 위키 테스트\"]}),\"\\n\",t(a.li,{children:t(a.a,{href:\"wiki:wiki-test-2\",\"data-wiki-link\":\"true\",\"data-wiki-target\":\"wiki-test-2\",\"data-wiki-alias\":\"두 번째 테스트\",children:\"두 번째 테스트\"})}),\"\\n\",t(a.li,{children:t(a.a,{href:\"wiki:getting-started/01-intro\",\"data-wiki-link\":\"true\",\"data-wiki-target\":\"getting-started/01-intro\",\"data-wiki-alias\":\"시리즈 1장\",children:\"시리즈 1장\"})}),\"\\n\"]}),\"\\n\",t(a.p,{children:\"이 노트는 허브로 동작해서 그래프에서 가장 높은 차수를 가져야 합니다.\"})]})}return{default:function(i={}){const{wrapper:e}=i.components||{};return e?t(e,{...i,children:t(_createMdxContent,{...i})}):_createMdxContent(i)}};",
+    "toc": [
+      {
+        "title": "관련 글 모음",
+        "url": "#관련-글-모음",
+        "items": []
+      }
+    ],
+    "slugAsParams": "wiki-test-3"
+  },
+  {
+    "slug": "posts/wiki-test",
+    "title": "Wiki Link Test",
+    "description": "temp test for remark-wiki-link plugin",
+    "date": "2026-04-09T00:00:00.000Z",
+    "tags": [
+      "test"
+    ],
+    "category": "accounting",
+    "draft": false,
+    "metadata": {
+      "readingTime": 1,
+      "wordCount": 12
+    },
+    "body": "const{Fragment:e,jsx:i,jsxs:t}=arguments[0];function _createMdxContent(a){const r={a:\"a\",code:\"code\",figure:\"figure\",p:\"p\",pre:\"pre\",span:\"span\",...a.components};return t(e,{children:[t(r.p,{children:[\"이 문서는 \",i(r.a,{href:\"wiki:hello-world\",\"data-wiki-link\":\"true\",\"data-wiki-target\":\"hello-world\",children:\"hello-world\"}),\"를 참조하고, 별칭도 \",i(r.a,{href:\"wiki:hello-world\",\"data-wiki-link\":\"true\",\"data-wiki-target\":\"hello-world\",\"data-wiki-alias\":\"첫 글\",children:\"첫 글\"}),\" 사용합니다.\\n헤딩 앵커 \",i(r.a,{href:\"wiki:hello-world#%EC%95%9E%EC%9C%BC%EB%A1%9C\",\"data-wiki-link\":\"true\",\"data-wiki-target\":\"hello-world\",\"data-wiki-heading\":\"앞으로\",children:\"hello-world#앞으로\"}),\" 및 \",i(r.a,{href:\"wiki:missing-target\",\"data-wiki-link\":\"true\",\"data-wiki-target\":\"missing-target\",\"data-wiki-alias\":\"깨진 링크\",children:\"깨진 링크\"}),\"도 테스트.\"]}),\"\\n\",i(r.figure,{\"data-rehype-pretty-code-figure\":\"\",children:i(r.pre,{style:{\"--shiki-dark\":\"#e1e4e8\",\"--shiki-light\":\"#24292e\",\"--shiki-dark-bg\":\"#24292e\",\"--shiki-light-bg\":\"#fff\"},tabIndex:\"0\",\"data-language\":\"ts\",\"data-theme\":\"github-dark github-light\",children:i(r.code,{\"data-language\":\"ts\",\"data-theme\":\"github-dark github-light\",style:{display:\"grid\"},children:i(r.span,{\"data-line\":\"\",children:i(r.span,{style:{\"--shiki-dark\":\"#6A737D\",\"--shiki-light\":\"#6A737D\"},children:\"// code 블록 안의 [[not-a-link]] 은 무시되어야 함\"})})})})})]})}return{default:function(e={}){const{wrapper:t}=e.components||{};return t?i(t,{...e,children:i(_createMdxContent,{...e})}):_createMdxContent(e)}};",
+    "toc": [],
+    "slugAsParams": "wiki-test"
+  }
+]

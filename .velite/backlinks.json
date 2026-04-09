@@ -1,0 +1,98 @@
+{
+  "hello-world": [
+    {
+      "sourceId": "wiki-test-3",
+      "sourceTitle": "Wiki Link Test 3 — 허브 노트",
+      "sourceUrl": "/posts/wiki-test-3",
+      "sourceType": "post",
+      "category": "accounting",
+      "context": "## 관련 글 모음 - [[hello-world]] — 블로그 시작 - [[ai-productivity-intro|AI로 생산성 높이기]] - [[wiki-test]] — 첫 위키 테스트 - [[wiki-test-2|두 번째 테스트]] - [[getting-star…"
+    },
+    {
+      "sourceId": "wiki-test-2",
+      "sourceTitle": "Wiki Link Test 2 — AI 노트",
+      "sourceUrl": "/posts/wiki-test-2",
+      "sourceType": "post",
+      "category": "ai",
+      "context": "이 글은 [[hello-world]]와 [[ai-productivity-intro|AI 생산성 가이드]]를 모두 참조합니다. 또한 [[wiki-test|첫 번째 위키 테스트]]와도 연결되어 있습니다. 깨진 링크 예시: [[ghost-page]]."
+    },
+    {
+      "sourceId": "wiki-test",
+      "sourceTitle": "Wiki Link Test",
+      "sourceUrl": "/posts/wiki-test",
+      "sourceType": "post",
+      "category": "accounting",
+      "context": "이 문서는 [[hello-world]]를 참조하고, 별칭도 [[hello-world|첫 글]] 사용합니다. 헤딩 앵커 [[hello-world#앞으로]] 및 [[missing-target|깨진 링크]]도 테스트."
+    }
+  ],
+  "ai-productivity-intro": [
+    {
+      "sourceId": "wiki-test-3",
+      "sourceTitle": "Wiki Link Test 3 — 허브 노트",
+      "sourceUrl": "/posts/wiki-test-3",
+      "sourceType": "post",
+      "category": "accounting",
+      "context": "## 관련 글 모음 - [[hello-world]] — 블로그 시작 - [[ai-productivity-intro|AI로 생산성 높이기]] - [[wiki-test]] — 첫 위키 테스트 - [[wiki-test-2|두 번째 테스트]] - [[getting-started/01-intro|시리즈 1장]] 이 노트는 허브로 동작해서 그래프에서 가장 높은…",
+      "alias": "AI로 생산성 높이기"
+    },
+    {
+      "sourceId": "wiki-test-2",
+      "sourceTitle": "Wiki Link Test 2 — AI 노트",
+      "sourceUrl": "/posts/wiki-test-2",
+      "sourceType": "post",
+      "category": "ai",
+      "context": "이 글은 [[hello-world]]와 [[ai-productivity-intro|AI 생산성 가이드]]를 모두 참조합니다. 또한 [[wiki-test|첫 번째 위키 테스트]]와도 연결되어 있습니다. 깨진 링크 예시: [[ghost-page]].",
+      "alias": "AI 생산성 가이드"
+    }
+  ],
+  "wiki-test": [
+    {
+      "sourceId": "wiki-test-3",
+      "sourceTitle": "Wiki Link Test 3 — 허브 노트",
+      "sourceUrl": "/posts/wiki-test-3",
+      "sourceType": "post",
+      "category": "accounting",
+      "context": "## 관련 글 모음 - [[hello-world]] — 블로그 시작 - [[ai-productivity-intro|AI로 생산성 높이기]] - [[wiki-test]] — 첫 위키 테스트 - [[wiki-test-2|두 번째 테스트]] - [[getting-started/01-intro|시리즈 1장]] 이 노트는 허브로 동작해서 그래프에서 가장 높은 차수를 가져야 합니다."
+    },
+    {
+      "sourceId": "wiki-test-2",
+      "sourceTitle": "Wiki Link Test 2 — AI 노트",
+      "sourceUrl": "/posts/wiki-test-2",
+      "sourceType": "post",
+      "category": "ai",
+      "context": "이 글은 [[hello-world]]와 [[ai-productivity-intro|AI 생산성 가이드]]를 모두 참조합니다. 또한 [[wiki-test|첫 번째 위키 테스트]]와도 연결되어 있습니다. 깨진 링크 예시: [[ghost-page]].",
+      "alias": "첫 번째 위키 테스트"
+    }
+  ],
+  "wiki-test-2": [
+    {
+      "sourceId": "wiki-test-3",
+      "sourceTitle": "Wiki Link Test 3 — 허브 노트",
+      "sourceUrl": "/posts/wiki-test-3",
+      "sourceType": "post",
+      "category": "accounting",
+      "context": "## 관련 글 모음 - [[hello-world]] — 블로그 시작 - [[ai-productivity-intro|AI로 생산성 높이기]] - [[wiki-test]] — 첫 위키 테스트 - [[wiki-test-2|두 번째 테스트]] - [[getting-started/01-intro|시리즈 1장]] 이 노트는 허브로 동작해서 그래프에서 가장 높은 차수를 가져야 합니다.",
+      "alias": "두 번째 테스트"
+    }
+  ],
+  "getting-started/01-intro": [
+    {
+      "sourceId": "wiki-test-3",
+      "sourceTitle": "Wiki Link Test 3 — 허브 노트",
+      "sourceUrl": "/posts/wiki-test-3",
+      "sourceType": "post",
+      "category": "accounting",
+      "context": "…[hello-world]] — 블로그 시작 - [[ai-productivity-intro|AI로 생산성 높이기]] - [[wiki-test]] — 첫 위키 테스트 - [[wiki-test-2|두 번째 테스트]] - [[getting-started/01-intro|시리즈 1장]] 이 노트는 허브로 동작해서 그래프에서 가장 높은 차수를 가져야 합니다.",
+      "alias": "시리즈 1장"
+    },
+    {
+      "sourceId": "hello-world",
+      "sourceTitle": "새로운 PROCPA 블로그를 시작하며",
+      "sourceUrl": "/posts/hello-world",
+      "sourceType": "post",
+      "category": "accounting",
+      "context": "…을 그대로 사용 - 시리즈(Docs)와 포스트 두 가지 콘텐츠 형식 - 다크/라이트 모드, SEO, 고급 검색 ## 앞으로 회계·감사·데이터 분석, 그리고 개인적인 생각들을 정리해 나갈 예정입니다. 구조 개요는 [[getting-started/01-intro|시작 가이드]]를 참고하세요.",
+      "alias": "시작 가이드"
+    }
+  ]
+}

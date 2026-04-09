@@ -1,0 +1,10 @@
+[
+  {
+    "sourceId": "wiki-test-2",
+    "target": "ghost-page"
+  },
+  {
+    "sourceId": "wiki-test",
+    "target": "missing-target"
+  }
+]

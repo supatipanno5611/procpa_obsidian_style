@@ -1,0 +1,424 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1775635427308,
+  "projectRoot": "C:\\Users\\wogus\\Desktop\\03. Project\\01. Playground\\new_procpa_blog",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "tsconfig.json"
+        ]
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "next",
+        "version": "16.2.2",
+        "category": "fullstack"
+      },
+      {
+        "name": "react",
+        "version": "19.2.4",
+        "category": "frontend"
+      },
+      {
+        "name": "react-dom",
+        "version": "19.2.4",
+        "category": "frontend"
+      }
+    ],
+    "packageManager": "npm",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": "npm run build",
+    "testCommand": null,
+    "lintCommand": "npm run lint",
+    "devCommand": "npm run dev",
+    "scripts": {
+      "predev": "velite",
+      "dev": "next dev",
+      "prebuild": "velite",
+      "build": "next build",
+      "start": "next start",
+      "lint": "eslint",
+      "content": "velite",
+      "content:watch": "velite --watch"
+    }
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": "type-based"
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "public",
+      "src"
+    ],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "content": {
+      "path": "content",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1775635427240,
+      "keyFiles": []
+    },
+    "public": {
+      "path": "public",
+      "purpose": "Public files",
+      "fileCount": 5,
+      "lastAccessed": 1775635427240,
+      "keyFiles": [
+        "file.svg",
+        "globe.svg",
+        "next.svg",
+        "vercel.svg",
+        "window.svg"
+      ]
+    },
+    "reference": {
+      "path": "reference",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1775635427257,
+      "keyFiles": []
+    },
+    "src": {
+      "path": "src",
+      "purpose": "Source code",
+      "fileCount": 0,
+      "lastAccessed": 1775635427257,
+      "keyFiles": []
+    },
+    "public\\static": {
+      "path": "public\\static",
+      "purpose": "Static files",
+      "fileCount": 0,
+      "lastAccessed": 1775635427258,
+      "keyFiles": []
+    },
+    "reference\\app": {
+      "path": "reference\\app",
+      "purpose": "Application code",
+      "fileCount": 9,
+      "lastAccessed": 1775635427259,
+      "keyFiles": [
+        "apple-icon.png",
+        "favicon.ico",
+        "globals.css"
+      ]
+    },
+    "reference\\components": {
+      "path": "reference\\components",
+      "purpose": "UI components",
+      "fileCount": 0,
+      "lastAccessed": 1775635427259,
+      "keyFiles": []
+    },
+    "reference\\lib": {
+      "path": "reference\\lib",
+      "purpose": "Library code",
+      "fileCount": 13,
+      "lastAccessed": 1775635427259,
+      "keyFiles": [
+        "content.ts",
+        "domains.ts",
+        "explore.ts"
+      ]
+    },
+    "src\\app": {
+      "path": "src\\app",
+      "purpose": "Application code",
+      "fileCount": 7,
+      "lastAccessed": 1775635427260,
+      "keyFiles": [
+        "favicon.ico",
+        "globals.css",
+        "layout.tsx"
+      ]
+    },
+    "src\\components": {
+      "path": "src\\components",
+      "purpose": "UI components",
+      "fileCount": 6,
+      "lastAccessed": 1775635427260,
+      "keyFiles": [
+        "command-palette.tsx",
+        "json-ld.tsx",
+        "mdx-content.tsx"
+      ]
+    },
+    "src\\lib": {
+      "path": "src\\lib",
+      "purpose": "Library code",
+      "fileCount": 4,
+      "lastAccessed": 1775635427260,
+      "keyFiles": [
+        "about-data.ts",
+        "search.ts",
+        "theme-script.ts"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "src\\components\\graph\\local-graph.tsx",
+      "accessCount": 9,
+      "lastAccessed": 1775694746607,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\page.tsx",
+      "accessCount": 8,
+      "lastAccessed": 1775694414818,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\posts\\[...slug]\\page.tsx",
+      "accessCount": 6,
+      "lastAccessed": 1775686744010,
+      "type": "file"
+    },
+    {
+      "path": "",
+      "accessCount": 5,
+      "lastAccessed": 1775655416672,
+      "type": "directory"
+    },
+    {
+      "path": "velite.config.ts",
+      "accessCount": 5,
+      "lastAccessed": 1775661013655,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\series\\[series]\\[...chapter]\\page.tsx",
+      "accessCount": 5,
+      "lastAccessed": 1775686754945,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\home-c\\page.tsx",
+      "accessCount": 4,
+      "lastAccessed": 1775636700268,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\graph\\global-graph.tsx",
+      "accessCount": 4,
+      "lastAccessed": 1775694729586,
+      "type": "file"
+    },
+    {
+      "path": "CLAUDE.md",
+      "accessCount": 3,
+      "lastAccessed": 1775655443270,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\command-palette.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1775691372243,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\site-header.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1775693771018,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\wiki-link.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1775694755231,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\layout.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1775636233594,
+      "type": "file"
+    },
+    {
+      "path": "AGENTS.md",
+      "accessCount": 2,
+      "lastAccessed": 1775655443030,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\mdx-content.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1775666288164,
+      "type": "file"
+    },
+    {
+      "path": "content\\posts\\wiki-test.md",
+      "accessCount": 2,
+      "lastAccessed": 1775666465726,
+      "type": "file"
+    },
+    {
+      "path": "content\\posts\\hello-world.md",
+      "accessCount": 2,
+      "lastAccessed": 1775687216536,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\site-footer.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1775691350482,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\ui\\scroll-area.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1775694423027,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\backlinks-panel.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1775694765425,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\home-c\\vault-drawer.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1775635429094,
+      "type": "file"
+    },
+    {
+      "path": "package.json",
+      "accessCount": 1,
+      "lastAccessed": 1775655423599,
+      "type": "file"
+    },
+    {
+      "path": ".claude\\settings.local.json",
+      "accessCount": 1,
+      "lastAccessed": 1775655424102,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\posts\\page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1775655435850,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\about\\page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1775655436302,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\search\\page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1775655436717,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\series\\page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1775655437112,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\tags\\page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1775655443926,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\terms\\page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1775655450643,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\disclaimer\\page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1775655450700,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\rss.xml\\route.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775655451243,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\search-index.json\\route.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775655451661,
+      "type": "file"
+    },
+    {
+      "path": "src\\lib\\velite\\remark-wiki-link.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775660477708,
+      "type": "file"
+    },
+    {
+      "path": "content\\posts\\_wiki-test.md",
+      "accessCount": 1,
+      "lastAccessed": 1775660506357,
+      "type": "file"
+    },
+    {
+      "path": "content\\posts\\wiki-test-2.md",
+      "accessCount": 1,
+      "lastAccessed": 1775687202963,
+      "type": "file"
+    },
+    {
+      "path": "content\\posts\\wiki-test-3.md",
+      "accessCount": 1,
+      "lastAccessed": 1775687209896,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\graph\\page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1775687285747,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\theme-toggle.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1775691300414,
+      "type": "file"
+    },
+    {
+      "path": "src",
+      "accessCount": 1,
+      "lastAccessed": 1775691306784,
+      "type": "directory"
+    },
+    {
+      "path": "src\\app\\scrollbar-sample\\page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1775693563887,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}
