@@ -3,11 +3,19 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: '이용약관',
   description: 'PROCPA 웹사이트의 이용약관',
+  alternates: { canonical: '/terms' },
+  openGraph: {
+    images: [{
+      url: '/api/og?kicker=PROCPA&title=%EC%9D%B4%EC%9A%A9%EC%95%BD%EA%B4%80',
+      width: 1200,
+      height: 630,
+    }],
+  },
 }
 
 export default function TermsPage() {
   return (
-    <div className="mx-auto max-w-3xl px-6 py-24">
+    <div className="mx-auto max-w-5xl px-6 py-12">
       <div className="font-mono text-[11px] uppercase tracking-widest text-muted-foreground">
         Terms of Service
       </div>

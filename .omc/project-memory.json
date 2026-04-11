@@ -184,20 +184,26 @@
   "hotPaths": [
     {
       "path": "src\\app\\[...slug]\\page.tsx",
-      "accessCount": 60,
-      "lastAccessed": 1775907434961,
+      "accessCount": 69,
+      "lastAccessed": 1775916689356,
       "type": "file"
     },
     {
       "path": "src\\app\\page.tsx",
-      "accessCount": 31,
-      "lastAccessed": 1775910415789,
+      "accessCount": 48,
+      "lastAccessed": 1775916938780,
       "type": "file"
     },
     {
       "path": "src\\app\\globals.css",
       "accessCount": 29,
       "lastAccessed": 1775906986959,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\site-header.tsx",
+      "accessCount": 24,
+      "lastAccessed": 1775914393741,
       "type": "file"
     },
     {
@@ -208,26 +214,50 @@
     },
     {
       "path": "velite.config.ts",
-      "accessCount": 19,
-      "lastAccessed": 1775899862618,
-      "type": "file"
-    },
-    {
-      "path": "src\\components\\site-header.tsx",
-      "accessCount": 16,
-      "lastAccessed": 1775911755224,
+      "accessCount": 21,
+      "lastAccessed": 1775916863367,
       "type": "file"
     },
     {
       "path": "src\\app\\explore\\page.tsx",
-      "accessCount": 14,
-      "lastAccessed": 1775907412417,
+      "accessCount": 17,
+      "lastAccessed": 1775916644197,
       "type": "file"
     },
     {
       "path": "src\\app\\sitemap.ts",
+      "accessCount": 13,
+      "lastAccessed": 1775916213273,
+      "type": "file"
+    },
+    {
+      "path": "",
+      "accessCount": 12,
+      "lastAccessed": 1775916779804,
+      "type": "directory"
+    },
+    {
+      "path": "src\\app\\layout.tsx",
+      "accessCount": 12,
+      "lastAccessed": 1775916933749,
+      "type": "file"
+    },
+    {
+      "path": "src",
       "accessCount": 11,
-      "lastAccessed": 1775898551470,
+      "lastAccessed": 1775916516211,
+      "type": "directory"
+    },
+    {
+      "path": "src\\app\\graph\\page.tsx",
+      "accessCount": 11,
+      "lastAccessed": 1775917072710,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\search\\page.tsx",
+      "accessCount": 10,
+      "lastAccessed": 1775916739771,
       "type": "file"
     },
     {
@@ -237,45 +267,21 @@
       "type": "file"
     },
     {
-      "path": "",
-      "accessCount": 9,
-      "lastAccessed": 1775907608619,
-      "type": "directory"
-    },
-    {
-      "path": "src",
-      "accessCount": 8,
-      "lastAccessed": 1775907401211,
-      "type": "directory"
-    },
-    {
       "path": "src\\app\\posts\\[...slug]\\page.tsx",
       "accessCount": 7,
       "lastAccessed": 1775886418050,
       "type": "file"
     },
     {
+      "path": "src\\app\\rss.xml\\route.ts",
+      "accessCount": 7,
+      "lastAccessed": 1775916824802,
+      "type": "file"
+    },
+    {
       "path": "src\\lib\\search.ts",
       "accessCount": 6,
       "lastAccessed": 1775891322809,
-      "type": "file"
-    },
-    {
-      "path": "src\\app\\layout.tsx",
-      "accessCount": 6,
-      "lastAccessed": 1775899834636,
-      "type": "file"
-    },
-    {
-      "path": "src\\app\\search\\page.tsx",
-      "accessCount": 6,
-      "lastAccessed": 1775907432797,
-      "type": "file"
-    },
-    {
-      "path": "src\\app\\graph\\page.tsx",
-      "accessCount": 6,
-      "lastAccessed": 1775907433890,
       "type": "file"
     },
     {
@@ -306,6 +312,24 @@
       "path": "src\\components\\graph\\local-graph.tsx",
       "accessCount": 4,
       "lastAccessed": 1775893940397,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\vault\\vault-sidebar.tsx",
+      "accessCount": 4,
+      "lastAccessed": 1775912502442,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\json-ld.tsx",
+      "accessCount": 4,
+      "lastAccessed": 1775916861070,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\explore\\result-list.tsx",
+      "accessCount": 4,
+      "lastAccessed": 1775916952005,
       "type": "file"
     },
     {
@@ -345,6 +369,12 @@
       "type": "file"
     },
     {
+      "path": "src\\app\\api\\og\\route.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1775916214719,
+      "type": "file"
+    },
+    {
       "path": "src\\app\\series\\page.tsx",
       "accessCount": 2,
       "lastAccessed": 1775885750244,
@@ -357,27 +387,9 @@
       "type": "file"
     },
     {
-      "path": "src\\app\\rss.xml\\route.ts",
-      "accessCount": 2,
-      "lastAccessed": 1775886600293,
-      "type": "file"
-    },
-    {
-      "path": "src\\components\\vault\\vault-sidebar.tsx",
-      "accessCount": 2,
-      "lastAccessed": 1775891296493,
-      "type": "file"
-    },
-    {
       "path": "src\\lib\\topics.ts",
       "accessCount": 2,
       "lastAccessed": 1775893882415,
-      "type": "file"
-    },
-    {
-      "path": "src\\components\\explore\\result-list.tsx",
-      "accessCount": 2,
-      "lastAccessed": 1775899043965,
       "type": "file"
     },
     {
@@ -387,21 +399,21 @@
       "type": "file"
     },
     {
+      "path": "src\\components\\vault\\vault-drawer.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1775912451319,
+      "type": "file"
+    },
+    {
+      "path": "next.config.ts",
+      "accessCount": 2,
+      "lastAccessed": 1775916106209,
+      "type": "file"
+    },
+    {
       "path": "tsconfig.json",
       "accessCount": 1,
       "lastAccessed": 1775885217111,
-      "type": "file"
-    },
-    {
-      "path": "src\\app\\api\\og\\route.tsx",
-      "accessCount": 1,
-      "lastAccessed": 1775885740209,
-      "type": "file"
-    },
-    {
-      "path": "src\\components\\json-ld.tsx",
-      "accessCount": 1,
-      "lastAccessed": 1775885745127,
       "type": "file"
     },
     {
@@ -444,18 +456,6 @@
       "path": "src\\components\\graph\\global-graph.tsx",
       "accessCount": 1,
       "lastAccessed": 1775891286633,
-      "type": "file"
-    },
-    {
-      "path": "next.config.ts",
-      "accessCount": 1,
-      "lastAccessed": 1775891288296,
-      "type": "file"
-    },
-    {
-      "path": "src\\components\\vault\\vault-drawer.tsx",
-      "accessCount": 1,
-      "lastAccessed": 1775891288927,
       "type": "file"
     },
     {

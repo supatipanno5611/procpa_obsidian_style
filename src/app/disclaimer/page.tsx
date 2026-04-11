@@ -3,11 +3,19 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: '면책조항',
   description: 'PROCPA 웹사이트의 면책조항',
+  alternates: { canonical: '/disclaimer' },
+  openGraph: {
+    images: [{
+      url: '/api/og?kicker=PROCPA&title=%EB%A9%B4%EC%B1%85%EC%A1%B0%ED%95%AD',
+      width: 1200,
+      height: 630,
+    }],
+  },
 }
 
 export default function DisclaimerPage() {
   return (
-    <div className="mx-auto max-w-3xl px-6 py-24">
+    <div className="mx-auto max-w-5xl px-6 py-12">
       <div className="font-mono text-[11px] uppercase tracking-widest text-muted-foreground">
         Disclaimer
       </div>

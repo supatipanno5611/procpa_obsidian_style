@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"cat > \\\"C:/Users/wogus/.claude/plans/immutable-twirling-kay-agent-ae5cf6f34ddb33af3.md\\\" << 'PLANEOF'\\n# Obsidian Blog Publisher Plugin - Implementation Plan\\n\\n## Overview\\n\\nAn Obsidian ...",
+  "error": "Exit code 2\n/usr/bin/bash: -c: line 213: unexpected EOF while looking for matching `''",
+  "timestamp": "2026-04-11T14:16:40.842Z",
+  "retry_count": 1
+}

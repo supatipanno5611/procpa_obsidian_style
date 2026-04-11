@@ -2,7 +2,11 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import { getSearchDocs } from '@/lib/search'
 
-export const metadata: Metadata = { title: '검색' }
+export const metadata: Metadata = {
+  title: '검색',
+  description: '키워드, 태그, 기간으로 모든 글을 검색합니다.',
+  alternates: { canonical: '/search' },
+}
 
 interface PageProps {
   searchParams: Promise<{

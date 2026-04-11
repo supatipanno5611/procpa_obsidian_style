@@ -4,6 +4,14 @@ import { GlobalGraph } from '@/components/graph/global-graph'
 export const metadata: Metadata = {
   title: 'Graph',
   description: '전체 vault 노트 네트워크 조감도',
+  alternates: { canonical: '/graph' },
+  openGraph: {
+    images: [{
+      url: '/api/og?kicker=PROCPA&title=%EC%A7%80%EC%8B%9D%20%EA%B7%B8%EB%9E%98%ED%94%84',
+      width: 1200,
+      height: 630,
+    }],
+  },
 }
 
 export default function GraphPage() {

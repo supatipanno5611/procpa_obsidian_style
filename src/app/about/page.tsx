@@ -10,10 +10,19 @@ import {
   stats,
   contacts,
 } from '@/lib/about-data'
+import { JsonLd, personJsonLd } from '@/components/json-ld'
 
 export const metadata: Metadata = {
   title: '소개',
   description: '한국공인회계사 이재현 — 회계·재무 전문성과 AI의 생산성을 모두 갖춘 새로운 시대의 전문가.',
+  alternates: { canonical: '/about' },
+  openGraph: {
+    images: [{
+      url: '/api/og?kicker=PROCPA&title=%EC%86%8C%EA%B0%9C&subtitle=%ED%95%9C%EA%B5%AD%EA%B3%B5%EC%9D%B8%ED%9A%8C%EA%B3%84%EC%82%AC%20%EC%9D%B4%EC%9E%AC%ED%98%84',
+      width: 1200,
+      height: 630,
+    }],
+  },
 }
 
 function Section({
@@ -117,9 +126,14 @@ function GithubIcon({ className }: { className?: string }) {
   )
 }
 
+const SAME_AS = contacts
+  .filter((c) => c.href.startsWith('http'))
+  .map((c) => c.href)
+
 export default function AboutPage() {
   return (
     <>
+      <JsonLd data={personJsonLd({ sameAs: SAME_AS })} />
       {/* Hero */}
       <section>
         <div className="mx-auto max-w-5xl px-6 py-12">
@@ -164,7 +178,7 @@ export default function AboutPage() {
               <Timeline items={career} />
             </div>
           </div>
-          <div className="col-span-12 border-t border-border/60 pt-12 lg:col-span-6 lg:border-0 lg:pt-0">
+          <div className="col-span-12 border-t border-border/60 pt-20 lg:col-span-6 lg:border-0 lg:pt-0">
             <div className="font-mono text-[11px] text-muted-foreground">
               Education
             </div>
@@ -177,9 +191,9 @@ export default function AboutPage() {
       </section>
 
       <Section label="Expertise" title="전문 분야">
-        <div className="grid gap-10 sm:grid-cols-2">
+        <div className="grid gap-4 sm:grid-cols-2">
           {expertise.map((e) => (
-            <div key={e.title}>
+            <div key={e.title} className="rounded-xl border border-border/60 p-6">
               <h3 className="text-base font-medium">{e.title}</h3>
               <ul className="mt-3 space-y-2 text-sm leading-7 text-muted-foreground">
                 {e.items.map((line) => (
@@ -195,15 +209,18 @@ export default function AboutPage() {
       </Section>
 
       <Section label="Certificates" title="자격증">
-        <div className="grid gap-8 sm:grid-cols-3">
+        <div className="grid gap-4 sm:grid-cols-3">
           {certificates.map((c) => (
-            <div key={c.group}>
+            <div key={c.group} className="rounded-xl border border-border/60 p-6">
               <div className="font-mono text-[11px] uppercase tracking-widest text-muted-foreground">
                 {c.group}
               </div>
               <ul className="mt-3 space-y-2 text-sm">
                 {c.items.map((it) => (
-                  <li key={it}>{it}</li>
+                  <li key={it} className="flex gap-2">
+                    <span className="text-primary">·</span>
+                    <span>{it}</span>
+                  </li>
                 ))}
               </ul>
             </div>

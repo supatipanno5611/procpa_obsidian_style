@@ -3,11 +3,12 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { useState } from 'react'
-import { Menu, X } from 'lucide-react'
-import { Button } from '@/components/ui/button'
+import { Menu } from 'lucide-react'
+import { Sheet, SheetContent, SheetTitle, SheetTrigger } from '@/components/ui/sheet'
 import { ThemeToggle } from '@/components/theme-toggle'
 import { PalettePicker } from '@/components/palette-picker'
 import { CommandPalette } from '@/components/command-palette'
+import { MobileVaultSidebar } from '@/components/vault/mobile-vault-sidebar'
 
 const nav = [
   { href: '/', label: '홈' },
@@ -55,39 +56,24 @@ export function SiteHeader() {
           </div>
         </nav>
 
-        {/* Mobile tools + hamburger */}
-        <div className="flex items-center gap-0.5 md:hidden">
+        {/* Mobile/tablet: icons + hamburger */}
+        <div className="flex items-center gap-0.5 text-muted-foreground md:hidden">
           <CommandPalette />
           <PalettePicker />
           <ThemeToggle />
-          <Button
-            variant="ghost"
-            size="icon"
-            aria-label="메뉴 열기"
-            onClick={() => setOpen((o) => !o)}
-          >
-            {open ? <X className="h-4 w-4" /> : <Menu className="h-4 w-4" />}
-          </Button>
+          <Sheet open={open} onOpenChange={setOpen}>
+            <SheetTrigger className="inline-flex h-9 w-9 items-center justify-center rounded-md transition-colors hover:bg-accent hover:text-foreground">
+              <Menu className="h-4 w-4" />
+            </SheetTrigger>
+            <SheetContent side="left" className="w-[280px] overflow-y-auto p-0">
+              <SheetTitle className="sr-only">메뉴</SheetTitle>
+              <div className="px-6 py-5">
+                <MobileVaultSidebar onNavigate={() => setOpen(false)} />
+              </div>
+            </SheetContent>
+          </Sheet>
         </div>
       </div>
-
-      {/* Mobile dropdown */}
-      {open && (
-        <nav className="border-t border-border/60 md:hidden">
-          <div className="mx-auto max-w-5xl space-y-1 px-6 py-3">
-            {nav.map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                onClick={() => setOpen(false)}
-                className="block rounded-md px-3 py-2 text-sm text-muted-foreground transition-colors hover:bg-accent hover:text-foreground"
-              >
-                {item.label}
-              </Link>
-            ))}
-          </div>
-        </nav>
-      )}
     </header>
   )
 }

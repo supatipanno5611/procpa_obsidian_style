@@ -37,7 +37,7 @@ export function ResultList({ items }: { items: ResultItem[] }) {
                   {TYPE_LABEL[item.type]}
                 </span>
                 {item.category && (
-                  <span className="font-mono text-[10px] uppercase tracking-wider text-muted-foreground/70">
+                  <span className="font-mono text-[10px] uppercase tracking-wider text-muted-foreground">
                     · {item.category}
                   </span>
                 )}

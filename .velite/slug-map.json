@@ -287,48 +287,6 @@
     "url": "/ai/AI도구/비개발자를-위한-Antigravity-가이드/8-브라우저-서브-에이전트",
     "category": "ai"
   },
-  "accounting/일반/내부회계관리제도-실무-가이드북/0-시작하며": {
-    "id": "accounting/일반/내부회계관리제도-실무-가이드북/0-시작하며",
-    "type": "chapter",
-    "title": "0. 시작하며",
-    "url": "/accounting/일반/내부회계관리제도-실무-가이드북/0-시작하며",
-    "category": "accounting"
-  },
-  "0-시작하며": {
-    "id": "accounting/일반/내부회계관리제도-실무-가이드북/0-시작하며",
-    "type": "chapter",
-    "title": "0. 시작하며",
-    "url": "/accounting/일반/내부회계관리제도-실무-가이드북/0-시작하며",
-    "category": "accounting"
-  },
-  "0. 시작하며": {
-    "id": "accounting/일반/내부회계관리제도-실무-가이드북/0-시작하며",
-    "type": "chapter",
-    "title": "0. 시작하며",
-    "url": "/accounting/일반/내부회계관리제도-실무-가이드북/0-시작하며",
-    "category": "accounting"
-  },
-  "accounting/일반/내부회계관리제도-실무-가이드북/1-개요": {
-    "id": "accounting/일반/내부회계관리제도-실무-가이드북/1-개요",
-    "type": "chapter",
-    "title": "1. 개요",
-    "url": "/accounting/일반/내부회계관리제도-실무-가이드북/1-개요",
-    "category": "accounting"
-  },
-  "1-개요": {
-    "id": "accounting/일반/내부회계관리제도-실무-가이드북/1-개요",
-    "type": "chapter",
-    "title": "1. 개요",
-    "url": "/accounting/일반/내부회계관리제도-실무-가이드북/1-개요",
-    "category": "accounting"
-  },
-  "1. 개요": {
-    "id": "accounting/일반/내부회계관리제도-실무-가이드북/1-개요",
-    "type": "chapter",
-    "title": "1. 개요",
-    "url": "/accounting/일반/내부회계관리제도-실무-가이드북/1-개요",
-    "category": "accounting"
-  },
   "ai/ai도구/클로드-엑셀claude-for-excel-가이드/1-클로드-엑셀-소개": {
     "id": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/1-클로드-엑셀-소개",
     "type": "chapter",
@@ -497,6 +455,62 @@
     "url": "/ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/8-실무-사례-1-DCF-평가",
     "category": "ai"
   },
+  "accounting/일반/내부회계관리제도-실무-가이드북/0-시작하며": {
+    "id": "accounting/일반/내부회계관리제도-실무-가이드북/0-시작하며",
+    "type": "chapter",
+    "title": "0. 시작하며",
+    "url": "/accounting/일반/내부회계관리제도-실무-가이드북/0-시작하며",
+    "category": "accounting"
+  },
+  "0-시작하며": {
+    "id": "accounting/일반/내부회계관리제도-실무-가이드북/0-시작하며",
+    "type": "chapter",
+    "title": "0. 시작하며",
+    "url": "/accounting/일반/내부회계관리제도-실무-가이드북/0-시작하며",
+    "category": "accounting"
+  },
+  "0. 시작하며": {
+    "id": "accounting/일반/내부회계관리제도-실무-가이드북/0-시작하며",
+    "type": "chapter",
+    "title": "0. 시작하며",
+    "url": "/accounting/일반/내부회계관리제도-실무-가이드북/0-시작하며",
+    "category": "accounting"
+  },
+  "accounting/일반/내부회계관리제도-실무-가이드북/1-개요": {
+    "id": "accounting/일반/내부회계관리제도-실무-가이드북/1-개요",
+    "type": "chapter",
+    "title": "1. 개요",
+    "url": "/accounting/일반/내부회계관리제도-실무-가이드북/1-개요",
+    "category": "accounting"
+  },
+  "1-개요": {
+    "id": "accounting/일반/내부회계관리제도-실무-가이드북/1-개요",
+    "type": "chapter",
+    "title": "1. 개요",
+    "url": "/accounting/일반/내부회계관리제도-실무-가이드북/1-개요",
+    "category": "accounting"
+  },
+  "1. 개요": {
+    "id": "accounting/일반/내부회계관리제도-실무-가이드북/1-개요",
+    "type": "chapter",
+    "title": "1. 개요",
+    "url": "/accounting/일반/내부회계관리제도-실무-가이드북/1-개요",
+    "category": "accounting"
+  },
+  "ai/ai도구/클로드-코워크claude-cowork-실무-가이드/시작하며": {
+    "id": "ai/AI도구/클로드-코워크Claude-Cowork-실무-가이드/시작하며",
+    "type": "chapter",
+    "title": "시작하며",
+    "url": "/ai/AI도구/클로드-코워크Claude-Cowork-실무-가이드/시작하며",
+    "category": "ai"
+  },
+  "시작하며": {
+    "id": "ai/AI도구/클로드-코워크Claude-Cowork-실무-가이드/시작하며",
+    "type": "chapter",
+    "title": "시작하며",
+    "url": "/ai/AI도구/클로드-코워크Claude-Cowork-실무-가이드/시작하며",
+    "category": "ai"
+  },
   "dev/일반/getting-started/01-intro": {
     "id": "dev/일반/getting-started/01-intro",
     "type": "chapter",
@@ -520,62 +534,6 @@
     "description": "PROCPA 시작하기 시리즈가 다루는 범위와 읽는 방법.",
     "url": "/dev/일반/getting-started/01-intro",
     "category": "dev"
-  },
-  "ai/ai도구/클로드-코워크claude-cowork-실무-가이드/시작하며": {
-    "id": "ai/AI도구/클로드-코워크Claude-Cowork-실무-가이드/시작하며",
-    "type": "chapter",
-    "title": "시작하며",
-    "url": "/ai/AI도구/클로드-코워크Claude-Cowork-실무-가이드/시작하며",
-    "category": "ai"
-  },
-  "시작하며": {
-    "id": "ai/AI도구/클로드-코워크Claude-Cowork-실무-가이드/시작하며",
-    "type": "chapter",
-    "title": "시작하며",
-    "url": "/ai/AI도구/클로드-코워크Claude-Cowork-실무-가이드/시작하며",
-    "category": "ai"
-  },
-  "ai/ai도구/비개발자를-위한-antigravity-가이드/7-mcp/71-mcp-설치-및-사용방법": {
-    "id": "ai/AI도구/비개발자를-위한-Antigravity-가이드/7-MCP/71-MCP-설치-및-사용방법",
-    "type": "chapter",
-    "title": "7.1. MCP 설치 및 사용방법",
-    "url": "/ai/AI도구/비개발자를-위한-Antigravity-가이드/7-MCP/71-MCP-설치-및-사용방법",
-    "category": "ai"
-  },
-  "71-mcp-설치-및-사용방법": {
-    "id": "ai/AI도구/비개발자를-위한-Antigravity-가이드/7-MCP/71-MCP-설치-및-사용방법",
-    "type": "chapter",
-    "title": "7.1. MCP 설치 및 사용방법",
-    "url": "/ai/AI도구/비개발자를-위한-Antigravity-가이드/7-MCP/71-MCP-설치-및-사용방법",
-    "category": "ai"
-  },
-  "7.1. mcp 설치 및 사용방법": {
-    "id": "ai/AI도구/비개발자를-위한-Antigravity-가이드/7-MCP/71-MCP-설치-및-사용방법",
-    "type": "chapter",
-    "title": "7.1. MCP 설치 및 사용방법",
-    "url": "/ai/AI도구/비개발자를-위한-Antigravity-가이드/7-MCP/71-MCP-설치-및-사용방법",
-    "category": "ai"
-  },
-  "ai/ai도구/비개발자를-위한-antigravity-가이드/7-mcp/72-notebooklm-mcp": {
-    "id": "ai/AI도구/비개발자를-위한-Antigravity-가이드/7-MCP/72-NotebookLM-MCP",
-    "type": "chapter",
-    "title": "7.2. NotebookLM MCP",
-    "url": "/ai/AI도구/비개발자를-위한-Antigravity-가이드/7-MCP/72-NotebookLM-MCP",
-    "category": "ai"
-  },
-  "72-notebooklm-mcp": {
-    "id": "ai/AI도구/비개발자를-위한-Antigravity-가이드/7-MCP/72-NotebookLM-MCP",
-    "type": "chapter",
-    "title": "7.2. NotebookLM MCP",
-    "url": "/ai/AI도구/비개발자를-위한-Antigravity-가이드/7-MCP/72-NotebookLM-MCP",
-    "category": "ai"
-  },
-  "7.2. notebooklm mcp": {
-    "id": "ai/AI도구/비개발자를-위한-Antigravity-가이드/7-MCP/72-NotebookLM-MCP",
-    "type": "chapter",
-    "title": "7.2. NotebookLM MCP",
-    "url": "/ai/AI도구/비개발자를-위한-Antigravity-가이드/7-MCP/72-NotebookLM-MCP",
-    "category": "ai"
   },
   "ai/ai도구/비개발자를-위한-antigravity-가이드/6-스킬skills/61-스킬skills의-개념-및-구조": {
     "id": "ai/AI도구/비개발자를-위한-Antigravity-가이드/6-스킬Skills/61-스킬Skills의-개념-및-구조",
@@ -661,6 +619,48 @@
     "url": "/ai/AI도구/비개발자를-위한-Antigravity-가이드/6-스킬Skills/64-나만의-커스텀-스킬-제작Feat-skill-creator",
     "category": "ai"
   },
+  "ai/ai도구/비개발자를-위한-antigravity-가이드/7-mcp/71-mcp-설치-및-사용방법": {
+    "id": "ai/AI도구/비개발자를-위한-Antigravity-가이드/7-MCP/71-MCP-설치-및-사용방법",
+    "type": "chapter",
+    "title": "7.1. MCP 설치 및 사용방법",
+    "url": "/ai/AI도구/비개발자를-위한-Antigravity-가이드/7-MCP/71-MCP-설치-및-사용방법",
+    "category": "ai"
+  },
+  "71-mcp-설치-및-사용방법": {
+    "id": "ai/AI도구/비개발자를-위한-Antigravity-가이드/7-MCP/71-MCP-설치-및-사용방법",
+    "type": "chapter",
+    "title": "7.1. MCP 설치 및 사용방법",
+    "url": "/ai/AI도구/비개발자를-위한-Antigravity-가이드/7-MCP/71-MCP-설치-및-사용방법",
+    "category": "ai"
+  },
+  "7.1. mcp 설치 및 사용방법": {
+    "id": "ai/AI도구/비개발자를-위한-Antigravity-가이드/7-MCP/71-MCP-설치-및-사용방법",
+    "type": "chapter",
+    "title": "7.1. MCP 설치 및 사용방법",
+    "url": "/ai/AI도구/비개발자를-위한-Antigravity-가이드/7-MCP/71-MCP-설치-및-사용방법",
+    "category": "ai"
+  },
+  "ai/ai도구/비개발자를-위한-antigravity-가이드/7-mcp/72-notebooklm-mcp": {
+    "id": "ai/AI도구/비개발자를-위한-Antigravity-가이드/7-MCP/72-NotebookLM-MCP",
+    "type": "chapter",
+    "title": "7.2. NotebookLM MCP",
+    "url": "/ai/AI도구/비개발자를-위한-Antigravity-가이드/7-MCP/72-NotebookLM-MCP",
+    "category": "ai"
+  },
+  "72-notebooklm-mcp": {
+    "id": "ai/AI도구/비개발자를-위한-Antigravity-가이드/7-MCP/72-NotebookLM-MCP",
+    "type": "chapter",
+    "title": "7.2. NotebookLM MCP",
+    "url": "/ai/AI도구/비개발자를-위한-Antigravity-가이드/7-MCP/72-NotebookLM-MCP",
+    "category": "ai"
+  },
+  "7.2. notebooklm mcp": {
+    "id": "ai/AI도구/비개발자를-위한-Antigravity-가이드/7-MCP/72-NotebookLM-MCP",
+    "type": "chapter",
+    "title": "7.2. NotebookLM MCP",
+    "url": "/ai/AI도구/비개발자를-위한-Antigravity-가이드/7-MCP/72-NotebookLM-MCP",
+    "category": "ai"
+  },
   "ai/ai도구/클로드-엑셀claude-for-excel-가이드/7-커넥터mcp-활용법/71-커넥터mcp란": {
     "id": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/71-커넥터MCP란",
     "type": "chapter",
@@ -701,6 +701,69 @@
     "type": "chapter",
     "title": "7.2. 커스텀 커넥터 활용 - 전자공시시스템(Open DART)",
     "url": "/ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/72-커스텀-커넥터-활용-전자공시시스템Open-DART",
+    "category": "ai"
+  },
+  "ai/ai도구/클로드-엑셀claude-for-excel-가이드/6-스킬skills-활용법/61-스킬skills이란": {
+    "id": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/6-스킬Skills-활용법/61-스킬Skills이란",
+    "type": "chapter",
+    "title": "6.1. 스킬(Skills)이란",
+    "url": "/ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/6-스킬Skills-활용법/61-스킬Skills이란",
+    "category": "ai"
+  },
+  "61-스킬skills이란": {
+    "id": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/6-스킬Skills-활용법/61-스킬Skills이란",
+    "type": "chapter",
+    "title": "6.1. 스킬(Skills)이란",
+    "url": "/ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/6-스킬Skills-활용법/61-스킬Skills이란",
+    "category": "ai"
+  },
+  "6.1. 스킬(skills)이란": {
+    "id": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/6-스킬Skills-활용법/61-스킬Skills이란",
+    "type": "chapter",
+    "title": "6.1. 스킬(Skills)이란",
+    "url": "/ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/6-스킬Skills-활용법/61-스킬Skills이란",
+    "category": "ai"
+  },
+  "ai/ai도구/클로드-엑셀claude-for-excel-가이드/6-스킬skills-활용법/62-스타터-스킬skills-맛보기": {
+    "id": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/6-스킬Skills-활용법/62-스타터-스킬Skills-맛보기",
+    "type": "chapter",
+    "title": "6.2. 스타터 스킬(Skills) 맛보기",
+    "url": "/ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/6-스킬Skills-활용법/62-스타터-스킬Skills-맛보기",
+    "category": "ai"
+  },
+  "62-스타터-스킬skills-맛보기": {
+    "id": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/6-스킬Skills-활용법/62-스타터-스킬Skills-맛보기",
+    "type": "chapter",
+    "title": "6.2. 스타터 스킬(Skills) 맛보기",
+    "url": "/ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/6-스킬Skills-활용법/62-스타터-스킬Skills-맛보기",
+    "category": "ai"
+  },
+  "6.2. 스타터 스킬(skills) 맛보기": {
+    "id": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/6-스킬Skills-활용법/62-스타터-스킬Skills-맛보기",
+    "type": "chapter",
+    "title": "6.2. 스타터 스킬(Skills) 맛보기",
+    "url": "/ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/6-스킬Skills-활용법/62-스타터-스킬Skills-맛보기",
+    "category": "ai"
+  },
+  "ai/ai도구/클로드-엑셀claude-for-excel-가이드/6-스킬skills-활용법/63-나만의-스킬skills-만들고-등록하기": {
+    "id": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/6-스킬Skills-활용법/63-나만의-스킬Skills-만들고-등록하기",
+    "type": "chapter",
+    "title": "6.3. 나만의 스킬(Skills) 만들고 등록하기",
+    "url": "/ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/6-스킬Skills-활용법/63-나만의-스킬Skills-만들고-등록하기",
+    "category": "ai"
+  },
+  "63-나만의-스킬skills-만들고-등록하기": {
+    "id": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/6-스킬Skills-활용법/63-나만의-스킬Skills-만들고-등록하기",
+    "type": "chapter",
+    "title": "6.3. 나만의 스킬(Skills) 만들고 등록하기",
+    "url": "/ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/6-스킬Skills-활용법/63-나만의-스킬Skills-만들고-등록하기",
+    "category": "ai"
+  },
+  "6.3. 나만의 스킬(skills) 만들고 등록하기": {
+    "id": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/6-스킬Skills-활용법/63-나만의-스킬Skills-만들고-등록하기",
+    "type": "chapter",
+    "title": "6.3. 나만의 스킬(Skills) 만들고 등록하기",
+    "url": "/ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/6-스킬Skills-활용법/63-나만의-스킬Skills-만들고-등록하기",
     "category": "ai"
   },
   "accounting/일반/내부회계관리제도-실무-가이드북/1-개요/11-내부회계관리제도의-도입-배경": {
@@ -820,69 +883,6 @@
     "type": "chapter",
     "title": "8.3. Step 2. 기초 데이터 수집",
     "url": "/ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/8-실무-사례-1-DCF-평가/83-Step-2-기초-데이터-수집",
-    "category": "ai"
-  },
-  "ai/ai도구/클로드-엑셀claude-for-excel-가이드/6-스킬skills-활용법/61-스킬skills이란": {
-    "id": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/6-스킬Skills-활용법/61-스킬Skills이란",
-    "type": "chapter",
-    "title": "6.1. 스킬(Skills)이란",
-    "url": "/ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/6-스킬Skills-활용법/61-스킬Skills이란",
-    "category": "ai"
-  },
-  "61-스킬skills이란": {
-    "id": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/6-스킬Skills-활용법/61-스킬Skills이란",
-    "type": "chapter",
-    "title": "6.1. 스킬(Skills)이란",
-    "url": "/ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/6-스킬Skills-활용법/61-스킬Skills이란",
-    "category": "ai"
-  },
-  "6.1. 스킬(skills)이란": {
-    "id": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/6-스킬Skills-활용법/61-스킬Skills이란",
-    "type": "chapter",
-    "title": "6.1. 스킬(Skills)이란",
-    "url": "/ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/6-스킬Skills-활용법/61-스킬Skills이란",
-    "category": "ai"
-  },
-  "ai/ai도구/클로드-엑셀claude-for-excel-가이드/6-스킬skills-활용법/62-스타터-스킬skills-맛보기": {
-    "id": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/6-스킬Skills-활용법/62-스타터-스킬Skills-맛보기",
-    "type": "chapter",
-    "title": "6.2. 스타터 스킬(Skills) 맛보기",
-    "url": "/ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/6-스킬Skills-활용법/62-스타터-스킬Skills-맛보기",
-    "category": "ai"
-  },
-  "62-스타터-스킬skills-맛보기": {
-    "id": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/6-스킬Skills-활용법/62-스타터-스킬Skills-맛보기",
-    "type": "chapter",
-    "title": "6.2. 스타터 스킬(Skills) 맛보기",
-    "url": "/ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/6-스킬Skills-활용법/62-스타터-스킬Skills-맛보기",
-    "category": "ai"
-  },
-  "6.2. 스타터 스킬(skills) 맛보기": {
-    "id": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/6-스킬Skills-활용법/62-스타터-스킬Skills-맛보기",
-    "type": "chapter",
-    "title": "6.2. 스타터 스킬(Skills) 맛보기",
-    "url": "/ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/6-스킬Skills-활용법/62-스타터-스킬Skills-맛보기",
-    "category": "ai"
-  },
-  "ai/ai도구/클로드-엑셀claude-for-excel-가이드/6-스킬skills-활용법/63-나만의-스킬skills-만들고-등록하기": {
-    "id": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/6-스킬Skills-활용법/63-나만의-스킬Skills-만들고-등록하기",
-    "type": "chapter",
-    "title": "6.3. 나만의 스킬(Skills) 만들고 등록하기",
-    "url": "/ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/6-스킬Skills-활용법/63-나만의-스킬Skills-만들고-등록하기",
-    "category": "ai"
-  },
-  "63-나만의-스킬skills-만들고-등록하기": {
-    "id": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/6-스킬Skills-활용법/63-나만의-스킬Skills-만들고-등록하기",
-    "type": "chapter",
-    "title": "6.3. 나만의 스킬(Skills) 만들고 등록하기",
-    "url": "/ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/6-스킬Skills-활용법/63-나만의-스킬Skills-만들고-등록하기",
-    "category": "ai"
-  },
-  "6.3. 나만의 스킬(skills) 만들고 등록하기": {
-    "id": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/6-스킬Skills-활용법/63-나만의-스킬Skills-만들고-등록하기",
-    "type": "chapter",
-    "title": "6.3. 나만의 스킬(Skills) 만들고 등록하기",
-    "url": "/ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/6-스킬Skills-활용법/63-나만의-스킬Skills-만들고-등록하기",
     "category": "ai"
   }
 }

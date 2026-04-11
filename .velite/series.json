@@ -1,5 +1,41 @@
 [
   {
+    "slug": "ai/AI도구/비개발자를 위한 Antigravity 가이드",
+    "title": "비개발자를 위한 Antigravity 가이드",
+    "description": "Antigravity의 실무 활용법을 비개발자 관점에서 정리한 가이드북.",
+    "date": "2026-02-01T00:00:00.000Z",
+    "tags": [],
+    "order": 0,
+    "draft": false,
+    "category": "ai",
+    "subcategory": "AI도구",
+    "slugAsParams": "ai/AI도구/비개발자를-위한-Antigravity-가이드"
+  },
+  {
+    "slug": "ai/AI도구/클로드 코워크(Claude Cowork) 실무 가이드",
+    "title": "클로드 코워크(Claude Cowork) 실무 가이드",
+    "description": "Claude Cowork의 실무 활용법을 비개발자 관점에서 정리한 가이드북.",
+    "date": "2026-02-01T00:00:00.000Z",
+    "tags": [],
+    "order": 0,
+    "draft": false,
+    "category": "ai",
+    "subcategory": "AI도구",
+    "slugAsParams": "ai/AI도구/클로드-코워크Claude-Cowork-실무-가이드"
+  },
+  {
+    "slug": "ai/AI도구/클로드 엑셀(Claude for Excel) 가이드",
+    "title": "클로드 엑셀(Claude for Excel) 가이드",
+    "description": "Claude for Excel의 실무 활용법을 회계,세무 실무자 관점에서 정리한 가이드북.",
+    "date": "2026-02-01T00:00:00.000Z",
+    "tags": [],
+    "order": 0,
+    "draft": false,
+    "category": "ai",
+    "subcategory": "AI도구",
+    "slugAsParams": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드"
+  },
+  {
     "slug": "accounting/일반/내부회계관리제도 실무 가이드북",
     "title": "내부회계관리제도 실무 가이드북",
     "description": "내부회계관리제도 실무자들을 위한 실무 가이드북.",
@@ -24,41 +60,5 @@
     "category": "dev",
     "subcategory": "일반",
     "slugAsParams": "dev/일반/getting-started"
-  },
-  {
-    "slug": "ai/AI도구/클로드 엑셀(Claude for Excel) 가이드",
-    "title": "클로드 엑셀(Claude for Excel) 가이드",
-    "description": "Claude for Excel의 실무 활용법을 회계,세무 실무자 관점에서 정리한 가이드북.",
-    "date": "2026-02-01T00:00:00.000Z",
-    "tags": [],
-    "order": 0,
-    "draft": false,
-    "category": "ai",
-    "subcategory": "AI도구",
-    "slugAsParams": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드"
-  },
-  {
-    "slug": "ai/AI도구/클로드 코워크(Claude Cowork) 실무 가이드",
-    "title": "클로드 코워크(Claude Cowork) 실무 가이드",
-    "description": "Claude Cowork의 실무 활용법을 비개발자 관점에서 정리한 가이드북.",
-    "date": "2026-02-01T00:00:00.000Z",
-    "tags": [],
-    "order": 0,
-    "draft": false,
-    "category": "ai",
-    "subcategory": "AI도구",
-    "slugAsParams": "ai/AI도구/클로드-코워크Claude-Cowork-실무-가이드"
-  },
-  {
-    "slug": "ai/AI도구/비개발자를 위한 Antigravity 가이드",
-    "title": "비개발자를 위한 Antigravity 가이드",
-    "description": "Antigravity의 실무 활용법을 비개발자 관점에서 정리한 가이드북.",
-    "date": "2026-02-01T00:00:00.000Z",
-    "tags": [],
-    "order": 0,
-    "draft": false,
-    "category": "ai",
-    "subcategory": "AI도구",
-    "slugAsParams": "ai/AI도구/비개발자를-위한-Antigravity-가이드"
   }
 ]

@@ -13,7 +13,6 @@ import { BacklinksPanel } from '@/components/backlinks-panel'
 import { LocalGraph } from '@/components/graph/local-graph'
 import { JsonLd, articleJsonLd, breadcrumbJsonLd } from '@/components/json-ld'
 import { VaultSidebar, type VaultData } from '@/components/vault/vault-sidebar'
-import { VaultDrawer } from '@/components/vault/vault-drawer'
 import { ScrollArea } from '@/components/ui/scroll-area'
 import { buildVaultTree } from '@/lib/vault-tree'
 
@@ -48,11 +47,6 @@ function VaultLayout({ children }: { children: React.ReactNode }) {
         </aside>
         <section className="col-span-12 min-w-0 lg:col-span-9">
           <div className="py-8 sm:py-10 lg:px-12 lg:py-8">
-            <div className="mb-8 flex items-center gap-3 border-b border-border/60 pb-4 lg:hidden">
-              <VaultDrawer>
-                <VaultSidebar data={vaultData} />
-              </VaultDrawer>
-            </div>
             {children}
           </div>
         </section>
@@ -303,10 +297,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (!r) return {}
 
   if (r.type === 'category') {
-    return { title: r.label, description: `${r.label} 카테고리의 모든 글` }
+    return { title: r.label, description: `${r.label} 카테고리의 모든 글`, alternates: { canonical: `/${path}` } }
   }
   if (r.type === 'subcategory') {
-    return { title: `${r.subcategory} · ${r.categoryLabel}`, description: `${r.categoryLabel} > ${r.subcategory}의 모든 글` }
+    return { title: `${r.subcategory} · ${r.categoryLabel}`, description: `${r.categoryLabel} > ${r.subcategory}의 모든 글`, alternates: { canonical: `/${path}` } }
   }
 
   if (r.type === 'post') {
@@ -317,6 +311,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     return {
       title: post.title,
       description: post.description,
+      alternates: { canonical: `/${post.slugAsParams}` },
       openGraph: { title: post.title, description: post.description, type: 'article', publishedTime: post.date, images: [{ url: ogUrl, width: 1200, height: 630 }] },
       twitter: { card: 'summary_large_image', title: post.title, description: post.description, images: [ogUrl] },
     }
@@ -330,6 +325,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     return {
       title: s.title,
       description: s.description,
+      alternates: { canonical: `/${s.slugAsParams}` },
       openGraph: { title: s.title, description: s.description, type: 'article', images: [{ url: ogUrl, width: 1200, height: 630 }] },
       twitter: { card: 'summary_large_image', title: s.title, description: s.description, images: [ogUrl] },
     }
@@ -344,6 +340,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return {
     title,
     description,
+    alternates: { canonical: `/${r.chapter.slugAsParams}` },
     openGraph: { title, description, type: 'article', images: [{ url: ogUrl, width: 1200, height: 630 }] },
     twitter: { card: 'summary_large_image', title, description, images: [ogUrl] },
   }

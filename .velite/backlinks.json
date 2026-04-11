@@ -1,20 +1,20 @@
 {
   "dev/일반/hello-world": [
     {
-      "sourceId": "dev/일반/wiki-test-2",
-      "sourceTitle": "Wiki Link Test 2 — AI 노트",
-      "sourceUrl": "/dev/일반/wiki-test-2",
-      "sourceType": "post",
-      "category": "ai",
-      "context": "이 글은 [[hello-world]]와 [[ai-productivity-intro|AI 생산성 가이드]]를 모두 참조합니다. 또한 [[wiki-test|첫 번째 위키 테스트]]와도 연결되어 있습니다. 깨진 링크 예시: [[ghost-page]]."
-    },
-    {
       "sourceId": "dev/일반/wiki-test-3",
       "sourceTitle": "Wiki Link Test 3 — 허브 노트",
       "sourceUrl": "/dev/일반/wiki-test-3",
       "sourceType": "post",
       "category": "dev",
       "context": "## 관련 글 모음 - [[hello-world]] — 블로그 시작 - [[ai-productivity-intro|AI로 생산성 높이기]] - [[wiki-test]] — 첫 위키 테스트 - [[wiki-test-2|두 번째 테스트]] - [[getting-star…"
+    },
+    {
+      "sourceId": "dev/일반/wiki-test-2",
+      "sourceTitle": "Wiki Link Test 2 — AI 노트",
+      "sourceUrl": "/dev/일반/wiki-test-2",
+      "sourceType": "post",
+      "category": "ai",
+      "context": "이 글은 [[hello-world]]와 [[ai-productivity-intro|AI 생산성 가이드]]를 모두 참조합니다. 또한 [[wiki-test|첫 번째 위키 테스트]]와도 연결되어 있습니다. 깨진 링크 예시: [[ghost-page]]."
     },
     {
       "sourceId": "dev/일반/wiki-test",
@@ -27,15 +27,6 @@
   ],
   "ai/일반/ai-productivity-intro": [
     {
-      "sourceId": "dev/일반/wiki-test-2",
-      "sourceTitle": "Wiki Link Test 2 — AI 노트",
-      "sourceUrl": "/dev/일반/wiki-test-2",
-      "sourceType": "post",
-      "category": "ai",
-      "context": "이 글은 [[hello-world]]와 [[ai-productivity-intro|AI 생산성 가이드]]를 모두 참조합니다. 또한 [[wiki-test|첫 번째 위키 테스트]]와도 연결되어 있습니다. 깨진 링크 예시: [[ghost-page]].",
-      "alias": "AI 생산성 가이드"
-    },
-    {
       "sourceId": "dev/일반/wiki-test-3",
       "sourceTitle": "Wiki Link Test 3 — 허브 노트",
       "sourceUrl": "/dev/일반/wiki-test-3",
@@ -43,9 +34,26 @@
       "category": "dev",
       "context": "## 관련 글 모음 - [[hello-world]] — 블로그 시작 - [[ai-productivity-intro|AI로 생산성 높이기]] - [[wiki-test]] — 첫 위키 테스트 - [[wiki-test-2|두 번째 테스트]] - [[getting-started/01-intro|시리즈 1장]] 이 노트는 허브로 동작해서 그래프에서 가장 높은…",
       "alias": "AI로 생산성 높이기"
+    },
+    {
+      "sourceId": "dev/일반/wiki-test-2",
+      "sourceTitle": "Wiki Link Test 2 — AI 노트",
+      "sourceUrl": "/dev/일반/wiki-test-2",
+      "sourceType": "post",
+      "category": "ai",
+      "context": "이 글은 [[hello-world]]와 [[ai-productivity-intro|AI 생산성 가이드]]를 모두 참조합니다. 또한 [[wiki-test|첫 번째 위키 테스트]]와도 연결되어 있습니다. 깨진 링크 예시: [[ghost-page]].",
+      "alias": "AI 생산성 가이드"
     }
   ],
   "dev/일반/wiki-test": [
+    {
+      "sourceId": "dev/일반/wiki-test-3",
+      "sourceTitle": "Wiki Link Test 3 — 허브 노트",
+      "sourceUrl": "/dev/일반/wiki-test-3",
+      "sourceType": "post",
+      "category": "dev",
+      "context": "## 관련 글 모음 - [[hello-world]] — 블로그 시작 - [[ai-productivity-intro|AI로 생산성 높이기]] - [[wiki-test]] — 첫 위키 테스트 - [[wiki-test-2|두 번째 테스트]] - [[getting-started/01-intro|시리즈 1장]] 이 노트는 허브로 동작해서 그래프에서 가장 높은 차수를 가져야 합니다."
+    },
     {
       "sourceId": "dev/일반/wiki-test-2",
       "sourceTitle": "Wiki Link Test 2 — AI 노트",
@@ -54,14 +62,6 @@
       "category": "ai",
       "context": "이 글은 [[hello-world]]와 [[ai-productivity-intro|AI 생산성 가이드]]를 모두 참조합니다. 또한 [[wiki-test|첫 번째 위키 테스트]]와도 연결되어 있습니다. 깨진 링크 예시: [[ghost-page]].",
       "alias": "첫 번째 위키 테스트"
-    },
-    {
-      "sourceId": "dev/일반/wiki-test-3",
-      "sourceTitle": "Wiki Link Test 3 — 허브 노트",
-      "sourceUrl": "/dev/일반/wiki-test-3",
-      "sourceType": "post",
-      "category": "dev",
-      "context": "## 관련 글 모음 - [[hello-world]] — 블로그 시작 - [[ai-productivity-intro|AI로 생산성 높이기]] - [[wiki-test]] — 첫 위키 테스트 - [[wiki-test-2|두 번째 테스트]] - [[getting-started/01-intro|시리즈 1장]] 이 노트는 허브로 동작해서 그래프에서 가장 높은 차수를 가져야 합니다."
     }
   ],
   "dev/일반/wiki-test-2": [

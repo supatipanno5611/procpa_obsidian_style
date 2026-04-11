@@ -40,6 +40,35 @@ export function articleJsonLd(opts: {
   }
 }
 
+export function websiteJsonLd() {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'PROCPA',
+    url: SITE,
+    description: '회계사의 기록 — 회계·재무 전문성에 AI의 생산성을 더하다.',
+    inLanguage: 'ko-KR',
+    publisher: {
+      '@type': 'Person',
+      name: '이재현',
+      url: `${SITE}/about`,
+    },
+  }
+}
+
+export function personJsonLd(opts: {
+  sameAs?: string[]
+}) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    name: '이재현',
+    url: `${SITE}/about`,
+    jobTitle: '한국공인회계사',
+    sameAs: opts.sameAs ?? [],
+  }
+}
+
 export function breadcrumbJsonLd(items: { name: string; url: string }[]) {
   return {
     '@context': 'https://schema.org',

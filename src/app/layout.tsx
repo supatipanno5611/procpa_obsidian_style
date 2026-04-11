@@ -25,7 +25,22 @@ export const metadata: Metadata = {
     url: 'https://procpa.co.kr',
     siteName: 'PROCPA',
   },
+  alternates: { canonical: '/' },
+  manifest: '/manifest.json',
   twitter: { card: 'summary_large_image' },
+  other: {
+    'color-scheme': 'dark light',
+    'theme-color': '#000000',
+  },
+  icons: {
+    icon: [
+      { url: '/favicon.ico?v=2' },
+      { url: '/icon.png?v=2', type: 'image/png' },
+    ],
+    apple: [
+      { url: '/apple-touch-icon.png?v=2' },
+    ],
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -39,6 +54,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link
           rel="preconnect"
           href="https://cdn.jsdelivr.net"
+          crossOrigin="anonymous"
+        />
+        <link
+          rel="preload"
+          href="https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/variable/PretendardVariable.subset.woff2"
+          as="font"
+          type="font/woff2"
           crossOrigin="anonymous"
         />
         <link

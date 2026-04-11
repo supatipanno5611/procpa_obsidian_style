@@ -13,9 +13,15 @@ function escape(s: string) {
 }
 
 export function GET() {
-  const items = posts
+  const sorted = posts
     .filter((p) => !p.draft)
     .sort((a, b) => +new Date(b.date) - +new Date(a.date))
+
+  const lastBuildDate = sorted.length
+    ? new Date(sorted[0].date).toUTCString()
+    : new Date().toUTCString()
+
+  const items = sorted
     .slice(0, 50)
     .map(
       (p) => `
@@ -35,7 +41,13 @@ export function GET() {
     <title>PROCPA</title>
     <link>${SITE}</link>
     <description>회계사의 기록</description>
-    <language>ko</language>${items}
+    <language>ko</language>
+    <lastBuildDate>${lastBuildDate}</lastBuildDate>
+    <image>
+      <url>${SITE}/icon.png</url>
+      <title>PROCPA</title>
+      <link>${SITE}</link>
+    </image>${items}
   </channel>
 </rss>`
 

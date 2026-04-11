@@ -2,10 +2,10 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import { posts, series, chapters } from '#site/content'
 import { VaultSidebar, type VaultData } from '@/components/vault/vault-sidebar'
-import { VaultDrawer } from '@/components/vault/vault-drawer'
 import { ScrollArea } from '@/components/ui/scroll-area'
 import { buildVaultTree } from '@/lib/vault-tree'
 import { NoteCarousel } from '@/components/note-carousel'
+import { JsonLd, websiteJsonLd } from '@/components/json-ld'
 
 export const metadata: Metadata = {
   title: 'PROCPA',
@@ -42,13 +42,15 @@ export default function HomePage() {
   }
 
   return (
+    <>
+    <JsonLd data={websiteJsonLd()} />
     <div className="border-t border-border/60">
       <div className="mx-auto grid min-h-[calc(100vh-3.5rem)] max-w-5xl grid-cols-12 gap-0 px-6 lg:px-0">
         {/* ───────── Left · Vault sidebar (desktop only) ───────── */}
         <aside className="hidden border-border/60 lg:col-span-3 lg:block lg:border-r">
           <div className="group/sidebar sticky top-14 h-[calc(100vh-3.5rem)]">
             <ScrollArea className="h-full [&_[data-slot=scroll-area-scrollbar]]:opacity-0 [&_[data-slot=scroll-area-scrollbar]]:transition-opacity group-hover/sidebar:[&_[data-slot=scroll-area-scrollbar]]:opacity-100">
-              <div className="px-6 py-8">
+              <div className="px-6 pt-14 pb-8">
                 <VaultSidebar data={vaultData} />
               </div>
             </ScrollArea>
@@ -57,15 +59,8 @@ export default function HomePage() {
 
         {/* ───────── Center · Note view ───────── */}
         <section className="col-span-12 min-w-0 lg:col-span-9">
-          <div className="py-8 sm:py-10 lg:px-12 lg:py-8">
-            {/* Mobile toolbar */}
-            <div className="mb-4 flex items-center gap-3 border-b border-border/60 pb-4 lg:hidden">
-              <VaultDrawer>
-                <VaultSidebar data={vaultData} />
-              </VaultDrawer>
-            </div>
-
-            {/* Breadcrumb (both mobile & desktop) */}
+          <div className="pt-14 pb-8 sm:pb-10 lg:px-12">
+            {/* Breadcrumb */}
             <div className="font-mono text-[11px] uppercase tracking-widest text-muted-foreground">
               HOME
             </div>
@@ -83,46 +78,46 @@ export default function HomePage() {
               <br />
               실무에 즉시 활용 가능한 회계·재무 지식과 AI 생산성 인사이트를 공유합니다.
             </p>
-
-            <div className="mt-6 flex flex-wrap items-center gap-2 font-mono text-[11px] text-muted-foreground">
-              <span className="rounded border border-border/60 px-2 py-0.5">#KICPA</span>
-              <span className="rounded border border-border/60 px-2 py-0.5">#Professional</span>
-              <span className="rounded border border-border/60 px-2 py-0.5">#Productivity</span>
+            <div className="mt-6">
+              <Link
+                href="/about"
+                className="inline-flex items-center gap-1.5 rounded-md border border-border/60 px-4 py-2 font-mono text-[11px] text-muted-foreground transition-colors hover:border-foreground/40 hover:text-foreground"
+              >
+                About Me →
+              </Link>
             </div>
 
             {/* ── Site Guide ── */}
             <div className="mt-14 border-t border-border/60 pt-14 lg:mt-16 lg:pt-16">
               <h2 className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground">
-                Navigation Guide
+                Site Guide
               </h2>
               <p className="mt-3 text-sm text-muted-foreground">
                 이 사이트는 옵시디언 스타일의 지식 관리 시스템으로 구성되어 있습니다.
               </p>
-              <div className="mt-5 grid gap-3 sm:grid-cols-3">
-                <div className="group rounded-md border border-border/60 px-4 py-4 transition-all hover:translate-y-[-2px] hover:border-foreground/40 hover:shadow-sm">
-                  <div className="text-[13px] font-medium">
-                    사이드바 탐색
-                  </div>
-                  <p className="mt-1 text-[12px] leading-relaxed text-muted-foreground">
-                    좌측 사이드 패널에 폴더 구조로 노트를 탐색할 수 있습니다.
-                  </p>
-                </div>
-                <div className="group rounded-md border border-border/60 px-4 py-4 transition-all hover:translate-y-[-2px] hover:border-foreground/40 hover:shadow-sm">
-                  <div className="text-[13px] font-medium">
+              <div className="mt-5 grid gap-3 sm:grid-cols-2">
+                <Link
+                  href="/explore"
+                  className="group rounded-md border border-border/60 px-4 py-4 transition-all hover:translate-y-[-2px] hover:border-foreground/40 hover:shadow-sm"
+                >
+                  <div className="text-[13px] font-medium group-hover:text-primary">
                     메타데이터 탐색
                   </div>
                   <p className="mt-1 text-[12px] leading-relaxed text-muted-foreground">
                     카테고리, 태그, 연도 등 메타데이터를 이용해서 노트를 탐색할 수 있습니다.
                   </p>
-                </div>
-                <div className="group rounded-md border border-border/60 px-4 py-4 transition-all hover:translate-y-[-2px] hover:border-foreground/40 hover:shadow-sm">
-                  <div className="text-[13px] font-medium">
+                </Link>
+                <Link
+                  href="/graph"
+                  className="group rounded-md border border-border/60 px-4 py-4 transition-all hover:translate-y-[-2px] hover:border-foreground/40 hover:shadow-sm"
+                >
+                  <div className="text-[13px] font-medium group-hover:text-primary">
                     지식 그래프
                   </div>
                   <p className="mt-1 text-[12px] leading-relaxed text-muted-foreground">
                     노트 간 연결 관계를 시각적으로 탐색할 수 있습니다.
                   </p>
-                </div>
+                </Link>
               </div>
             </div>
 
@@ -135,7 +130,7 @@ export default function HomePage() {
               <div className="mt-5 grid gap-8 sm:grid-cols-2">
                 {accountingSeries.length > 0 && (
                   <div>
-                    <h3 className="font-mono text-[10px] text-muted-foreground/70">
+                    <h3 className="font-mono text-[10px] text-muted-foreground">
                       회계실무
                     </h3>
                     <div className="mt-3 grid gap-3">
@@ -162,7 +157,7 @@ export default function HomePage() {
 
                 {aiSeries.length > 0 && (
                   <div>
-                    <h3 className="font-mono text-[10px] text-muted-foreground/70">
+                    <h3 className="font-mono text-[10px] text-muted-foreground">
                       AI
                     </h3>
                     <div className="mt-3 grid gap-3">
@@ -225,5 +220,6 @@ export default function HomePage() {
         </section>
       </div>
     </div>
+    </>
   )
 }

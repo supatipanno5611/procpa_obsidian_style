@@ -11,6 +11,7 @@ export const metadata: Metadata = {
   title: 'Explore',
   description: '카테고리·태그·연도 등 메타데이터로 모든 글을 교차 탐색합니다.',
   robots: { index: false, follow: true },
+  alternates: { canonical: '/explore' },
 }
 
 interface PageProps {
