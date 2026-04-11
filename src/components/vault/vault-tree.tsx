@@ -26,7 +26,7 @@ function collectAncestors(nodes: TreeNode[], pathname: string, acc: Set<string>)
   return hit
 }
 
-export function VaultTree({ nodes }: { nodes: TreeNode[] }) {
+export function VaultTree({ nodes, onNavigate }: { nodes: TreeNode[]; onNavigate?: () => void }) {
   const pathname = usePathname()
   const [expanded, setExpanded] = React.useState<Set<string>>(() => new Set())
   const [hydrated, setHydrated] = React.useState(false)
@@ -82,6 +82,7 @@ export function VaultTree({ nodes }: { nodes: TreeNode[] }) {
           hydrated={hydrated}
           pathname={pathname}
           onToggle={toggle}
+          onNavigate={onNavigate}
         />
       ))}
     </ul>
@@ -102,6 +103,7 @@ function TreeItem({
   hydrated,
   pathname,
   onToggle,
+  onNavigate,
 }: {
   node: TreeNode
   depth: number
@@ -109,6 +111,7 @@ function TreeItem({
   hydrated: boolean
   pathname: string
   onToggle: (key: string) => void
+  onNavigate?: () => void
 }) {
   if (node.kind === 'file') {
     const fileIndent = { paddingLeft: `${depth * 12 - 4}px` }
@@ -117,6 +120,7 @@ function TreeItem({
       <li>
         <Link
           href={node.href}
+          onClick={onNavigate}
           style={fileIndent}
           className={cn(
             'group flex items-center gap-1.5 rounded-sm py-1 pr-2 text-[13px] transition-colors',
@@ -162,7 +166,7 @@ function TreeItem({
           <Folder className="h-3.5 w-3.5 shrink-0 opacity-70" />
         )}
         {node.href ? (
-          <Link href={node.href} className="flex-1 truncate hover:underline">
+          <Link href={node.href} onClick={onNavigate} className="flex-1 truncate hover:underline">
             {node.label}
           </Link>
         ) : (
@@ -192,6 +196,7 @@ function TreeItem({
               hydrated={hydrated}
               pathname={pathname}
               onToggle={onToggle}
+              onNavigate={onNavigate}
             />
           ))}
         </ul>

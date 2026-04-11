@@ -1,5 +1,87 @@
 [
   {
+    "slug": "ai/AI도구/클로드 코워크(Claude Cowork) 실무 가이드/시작하며",
+    "subject": "시작하며",
+    "draft": false,
+    "id": -1,
+    "parent_id": -1,
+    "book_id": 19141,
+    "open_yn": "Y",
+    "last_synced": "",
+    "metadata": {
+      "readingTime": 1,
+      "wordCount": 123
+    },
+    "body": "const{Fragment:n,jsx:e,jsxs:r}=arguments[0];function _createMdxContent(l){const t={a:\"a\",blockquote:\"blockquote\",h2:\"h2\",h3:\"h3\",li:\"li\",ol:\"ol\",p:\"p\",section:\"section\",strong:\"strong\",sup:\"sup\",table:\"table\",tbody:\"tbody\",td:\"td\",th:\"th\",thead:\"thead\",tr:\"tr\",ul:\"ul\",...l.components};return r(n,{children:[r(t.p,{children:['저는 평소 \"게임체인저(Game Changer)\"라거나 \"이제 OO은 끝났다\"와 같은 자극적인 수식어를 그리 좋아하지 않습니다. 솔직히 이제는 좀 식상하게 느껴지기도 하고, 놀라운 것도 그때뿐이지 실제 저의 일상을 바꿔놓을만한 변화가 있었던 것은 손에 꼽기 때문입니다. 하지만 이번에 다룰 ',e(t.strong,{children:\"'클로드 코워크(Claude Cowork)'\"}),\" 만큼은 다르게 평가하고 싶습니다.\"]}),\"\\n\",r(t.p,{children:[\"최근 미국 증시에서 주목할 만한 사건이 있었습니다. 불과 며칠 전인 2026년 2월 초, 미국의 주요 서비스형 소프트웨어(SaaS) 기업들의 주가가 대폭락했는데, 그중에서도 LegalZoom, Thomson Reuters, RELX와 같은 \",e(t.strong,{children:\"법률 서비스를 제공하는 리걸테크(Legal-tech) 기업들의 낙폭이 유독 컸다는 점\"}),\"은 우리에게 시사하는 바가 큽니다.\"]}),\"\\n\",r(t.p,{children:[\"왜 하필 법률 서비스였을까요? 이는 AI가 개발과 디자인의 영역을 넘어, \",e(t.strong,{children:\"전통적인 문과의 고유 업무\"}),\"까지 실질적으로 대체하기 시작했다는 강력한 신호탄입니다. AI를 실무에 활용하고 있는 현직 회계사의 시각에서, 클로드 코워크가 불러올 변화의 본질과 그 의미를 알아보겠습니다.\"]}),\"\\n\",e(t.h2,{id:\"1-ai의-발전-과정\",children:e(t.a,{href:\"#1-ai의-발전-과정\",children:\"1. AI의 발전 과정\"})}),\"\\n\",e(t.p,{children:\"클로드 코워크에 대해 본격적으로 알아보기 전에, 지금까지 우리가 AI를 대하는 방식이 어떻게 변해왔는지 잠시 짚어보겠습니다.\"}),\"\\n\",e(t.h3,{id:\"11-1세대-챗봇과-프롬프트-엔지니어링\",children:e(t.a,{href:\"#11-1세대-챗봇과-프롬프트-엔지니어링\",children:\"1.1. 1세대: 챗봇과 프롬프트 엔지니어링\"})}),\"\\n\",r(t.p,{children:[\"ChatGPT가 처음 등장했을 때, 우리는 주로 \",e(t.strong,{children:\"챗봇\"}),\" 형태로 AI를 사용했습니다. 궁금한 점을 물어보면 멋진 문장으로 답변해 주는 것만으로도 모두가 놀라워하던 시절이었습니다. 이때는 AI의 답변 품질을 높이기 위한 \",e(t.strong,{children:\"프롬프트 엔지니어링(Prompt Engineering)\"}),e(t.sup,{children:e(t.a,{href:\"#user-content-fn-1\",id:\"user-content-fnref-1\",\"data-footnote-ref\":!0,\"aria-describedby\":\"footnote-label\",children:\"1\"})}),\" 이 유행했고, 이를 통해 더 정확하고 의미 있는 결과를 얻고자 노력했습니다.\"]}),\"\\n\",e(t.p,{children:\"하지만 곧 명확한 한계가 드러났습니다.\"}),\"\\n\",r(t.ul,{children:[\"\\n\",r(t.li,{children:[e(t.strong,{children:\"데이터의 한계\"}),\": 학습 시점 이후의 데이터는 알지 못해 최신 정보를 제공할 수 없었습니다.\"]}),\"\\n\",r(t.li,{children:[e(t.strong,{children:\"할루시네이션(Hallucination)\"}),e(t.sup,{children:e(t.a,{href:\"#user-content-fn-2\",id:\"user-content-fnref-2\",\"data-footnote-ref\":!0,\"aria-describedby\":\"footnote-label\",children:\"2\"})}),\": 모르는 내용도 아는 체하며 거짓 정보를 그럴듯하게 섞어 답변했습니다.\"]}),\"\\n\"]}),\"\\n\",e(t.p,{children:\"이후 웹 검색 기능이 탑재되면서 최신 정보 문제는 어느 정도 해결되었지만, 여전히 AI는 학습되지 않은 전문 지식에 대해서는 엉뚱한 답변을 내놓는 문제를 완전히 해결하지 못했습니다.\"}),\"\\n\",e(t.h3,{id:\"12-2세대-나만의-데이터와-rag\",children:e(t.a,{href:\"#12-2세대-나만의-데이터와-rag\",children:\"1.2. 2세대: 나만의 데이터와 RAG\"})}),\"\\n\",r(t.p,{children:[\"할루시네이션을 극복하기 위해 사람들은 이제 AI가 일반적인 지식이 아니라, \",e(t.strong,{children:\"내가 제공하는 문서\"}),\"를 읽고 그에 기반하여 답변하기를 원했습니다. 이를 위해 \",e(t.strong,{children:\"RAG(검색 증강 생성)\"}),e(t.sup,{children:e(t.a,{href:\"#user-content-fn-3\",id:\"user-content-fnref-3\",\"data-footnote-ref\":!0,\"aria-describedby\":\"footnote-label\",children:\"3\"})}),' 기술이 주목받았습니다. 핵심은 \"관련 자료를 줄 테니 이 안에서만 찾아서 대답해\"라고 지시하는 것입니다.']}),\"\\n\",e(t.p,{children:\"하지만 이 역시 한계가 있었습니다. AI가 한 번에 읽을 수 있는 양(토큰 수)에 제한이 있어 페이지 수가 많은 문서일수록 정확도가 떨어졌고, 매번 파일을 업로드해야 하는 번거로움이 존재했습니다.\"}),\"\\n\",e(t.h3,{id:\"13-3세대-로컬-작업과-ai-에이전트-cursor-claude-code-antigravity\",children:e(t.a,{href:\"#13-3세대-로컬-작업과-ai-에이전트-cursor-claude-code-antigravity\",children:\"1.3. 3세대: 로컬 작업과 AI 에이전트 (Cursor, Claude Code, Antigravity)\"})}),\"\\n\",r(t.p,{children:[\"여기서 한 단계 더 나아가 등장한 것이 \",e(t.strong,{children:\"Antigravity\"}),\"나 \",e(t.strong,{children:\"Cursor\"}),\", \",e(t.strong,{children:\"Claude Code\"}),\"와 같은 \",e(t.strong,{children:\"AI 에이전트\"}),\" 도구들입니다. 이들은 내 컴퓨터(로컬 환경)에 있는 파일들을 직접 읽고, 수정하고, 새로운 파일을 생성합니다. 필요할 때만 특정 파일을 찾아 읽으면 되므로, 사실상 내 컴퓨터의 모든 파일이 AI의 지식(Context)이 되었습니다.\"]}),\"\\n\",r(t.p,{children:[\"개발자들에게 이는 엄청난 혁신이었지만, \",e(t.strong,{children:\"비개발자/사무직\"}),'에게는 여전히 \"남의 이야기\"였습니다.']}),\"\\n\",r(t.ol,{children:[\"\\n\",r(t.li,{children:[e(t.strong,{children:\"활용 범위의 한계\"}),\": 주 타겟이 개발자이다 보니 코드 작성이나 텍스트 문서 작업에는 유용했지만, 사무직의 주 업무인 엑셀, 파워포인트 등에는 활용이 제한적이었습니다. (파이썬 코드를 짜서 엑셀을 다루는 건 일반 직장인에게 현실적이지 않으니까요.)\"]}),\"\\n\",r(t.li,{children:[e(t.strong,{children:\"연동의 한계\"}),\": 사무직들이 매일 사용하는 사내 메신저나 이메일, ERP 등과 직접적으로 연동하기 어려웠습니다.\"]}),\"\\n\",r(t.li,{children:[e(t.strong,{children:\"산출물의 일관성 문제\"}),\": AI 특유의 무작위성 때문에 매번 똑같은 양식의 보고서를 만들어내는 것이 어려웠습니다.\"]}),\"\\n\"]}),\"\\n\",e(t.h3,{id:\"14-4세대-mcp와-스킬skills의-등장\",children:e(t.a,{href:\"#14-4세대-mcp와-스킬skills의-등장\",children:\"1.4. 4세대: MCP와 스킬(Skills)의 등장\"})}),\"\\n\",r(t.p,{children:[\"이후 AI 업계에서는 \",e(t.strong,{children:\"MCP(Model Context Protocol)\"}),\" 와 \",e(t.strong,{children:\"클로드 스킬(Claude Skills)\"}),\" 라는 기능이 등장하며 한 단계 더 발전했습니다.\"]}),\"\\n\",r(t.ul,{children:[\"\\n\",r(t.li,{children:[e(t.strong,{children:\"MCP\"}),\"는 우리가 사용하는 다양한 SaaS 서비스(구글 드라이브, 슬랙 등)와 AI 에이전트를 연동하여 작업할 수 있게 만들었습니다.\"]}),\"\\n\",r(t.li,{children:[e(t.strong,{children:\"스킬(Skills)\"}),\" 은 AI 에이전트에게 특정 분야의 전문 지식과 도구 활용 기술을 학습시켜, 매번 복잡한 지시를 반복하지 않아도 에이전트가 마치 \",e(t.strong,{children:\"해당 분야의 숙련된 전문가\"}),\"처럼 업무를 일관되게 수행할 수 있도록 만들었습니다.\"]}),\"\\n\"]}),\"\\n\",r(t.p,{children:[\"특히 앤트로픽에서 오픈 표준으로 공개한 \",e(t.strong,{children:\"xlsx(엑셀)\"}),\", \",e(t.strong,{children:\"pptx(파워포인트)\"}),\", \",e(t.strong,{children:\"docx(워드)\"}),\" 와 같은 문서 편집 스킬의 등장은 의미가 컸습니다. 이는 일반 사무직이 AI를 실무에 본격적으로 활용할 수 있는 시대가 열렸음을 알리는 강력한 신호탄이었으며, 실제로 앤트로픽은 이를 바탕으로 엑셀과 파워포인트 내에서 직접 구동되는 \",e(t.strong,{children:\"Claude Add-in\"}),\"을 선보였습니다.\"]}),\"\\n\",e(t.h3,{id:\"15-진입장벽을-낮추는-방향으로-발전하는-llm\",children:e(t.a,{href:\"#15-진입장벽을-낮추는-방향으로-발전하는-llm\",children:\"1.5. 진입장벽을 낮추는 방향으로 발전하는 LLM\"})}),\"\\n\",r(t.p,{children:[\"그동안의 발전 과정을 살펴보면 모든 LLM(대규모 언어 모델)은 궁극적으로 \",e(t.strong,{children:\"진입장벽을 낮추는 방향\"}),\"으로 발전하고 있습니다.\"]}),\"\\n\",r(t.p,{children:['처음 ChatGPT가 나왔을 때도 적극적으로 사용하는 사람은 많지 않았습니다. 그러다가 \"이 사진을 지브리 스타일로 바꿔줘\" 하니까 뚝딱 만들어 내는 것을 보고, 비로소 많은 사람들이 쓰기 시작했습니다. 이처럼 사람들은 ',e(t.strong,{children:\"정말 편하지 않으면\"}),\" 굳이 공부해 가면서까지 새로운 도구를 쓰지 않습니다.\"]}),\"\\n\",e(t.p,{children:\"Antigravity, 클로드코드와 같은 개발자들의 도구에서도 MCP와 스킬을 사용해서 엑셀작업이나 ppt 작업이 가능해졌지만, IT에 친숙하지 않은 비개발자/사무직들에게 여전히 터미널 환경과 IDE 환경의 진입장벽이 높다는 것은 부정할 수 없는 사실이었습니다.\"}),\"\\n\",e(t.h2,{id:\"2-클로드-코워크claude-cowork의-등장\",children:e(t.a,{href:\"#2-클로드-코워크claude-cowork의-등장\",children:\"2. 클로드 코워크(Claude Cowork)의 등장\"})}),\"\\n\",r(t.p,{children:[\"이러한 맥락에서 앤트로픽(Anthropic)이 발표한 \",e(t.strong,{children:\"클로드 코워크(Claude Cowork)\"}),\" 는 한마디로 \",e(t.strong,{children:'\"사무직을 위한 AI에이전트\"'}),\" 입니다.\"]}),\"\\n\",e(t.h3,{id:\"21-사무직을-위한-ai-에이전트\",children:e(t.a,{href:\"#21-사무직을-위한-ai-에이전트\",children:\"2.1. 사무직을 위한 AI 에이전트\"})}),\"\\n\",e(t.p,{children:\"클로드 코워크는 지금까지 비개발자들이 AI 에이전트를 활용하지 못하게 막았던 장벽들을 모두 허물었습니다.\"}),\"\\n\",r(t.ol,{children:[\"\\n\",r(t.li,{children:[e(t.strong,{children:\"로컬 파일 직접 접근\"}),\": 일일이 업로드할 필요 없이, 내 컴퓨터의 폴더와 파일을 통째로 읽고 사용할 수 있습니다.\"]}),\"\\n\",r(t.li,{children:[e(t.strong,{children:\"오피스 문서 완벽 지원\"}),\": 엑셀, PPT, 워드 파일을 직접 읽고, 수정하고, 새로 만듭니다.\"]}),\"\\n\",r(t.li,{children:[e(t.strong,{children:\"친숙한 사용 환경\"}),\": 어려운 코딩 창 대신, 우리가 익숙한 채팅형 인터페이스를 제공합니다.\"]}),\"\\n\",r(t.li,{children:[e(t.strong,{children:\"일관된 업무 수행\"}),\": 우리 회사 양식과 업무 매뉴얼을 학습시켜 늘 똑같은 품질의 산출물을 만들어냅니다.\"]}),\"\\n\"]}),\"\\n\",e(t.p,{children:'즉, 이제 과장 없이 \"이 엑셀 데이터를 가공해서 기존 보고서 양식에 맞게 PPT로 만들어줘\"라고 말하면, 실제 파일을 만들어내는 시대가 열린 것입니다.'}),\"\\n\",r(t.p,{children:[e(t.a,{href:\"wiki:TIP(%22%EC%9C%88%EB%8F%84%EC%9A%B0%20%EC%A7%80%EC%9B%90%20%EC%8B%9C%EC%9E%91%22)\",\"data-wiki-link\":\"true\",\"data-wiki-target\":'TIP(\"윈도우 지원 시작\")',children:'TIP(\"윈도우 지원 시작\")'}),\"\\n기존에 Mac 환경에서만 이용이 가능했던 클로드 코워크가 \",e(t.strong,{children:\"2026년 2월 11일부터 윈도우(Windows)\"}),\" 에서도 사용 가능해졌습니다.\\n\",e(t.a,{href:\"wiki:/TIP\",\"data-wiki-link\":\"true\",\"data-wiki-target\":\"/TIP\",children:\"/TIP\"})]}),\"\\n\",e(t.h3,{id:\"22-핵심은-플러그인plugins\",children:e(t.a,{href:\"#22-핵심은-플러그인plugins\",children:\"2.2. 핵심은 '플러그인(Plugins)'\"})}),\"\\n\",e(t.p,{children:\"만약 클로드 코워크가 단순히 파일을 읽고 문서를 잘 만드는 수준이었다면, 앞서 말한 리걸테크 기업들의 주가가 그렇게 폭락하진 않았을 겁니다. 기존 클로드 코드도 터미널이라는 진입장벽만 제외하면 이정도는 가능했기 때문입니다.\"}),\"\\n\",r(t.blockquote,{children:[\"\\n\",e(t.p,{children:\"진짜 핵심은 클로드 코워크의 '플러그인(Plugins)'에 있습니다.\"}),\"\\n\"]}),\"\\n\",r(t.p,{children:[\"클로드 코워크의 플러그인은 기존의 \",e(t.strong,{children:\"스킬(Skills)\"}),\", \",e(t.strong,{children:\"MCP\"}),\" 등을 하나로 통합한 개념입니다. 단순히 개인의 비서를 넘어, \",e(t.strong,{children:\"'영업팀', '재무팀', '법률팀'\"}),\" 같은 하나의 \",e(t.strong,{children:\"부서\"}),\"를 구성해 버린 것입니다.\"]}),\"\\n\",e(t.p,{children:\"예를 들어, 우리 회계팀이 숙지해야 할 회계 정책서, 연간 결산 매뉴얼, 과거 재무 데이터, 보고 양식 등을 플러그인으로 AI에게 건네주면, 이제 정말로 그 업무의 대부분을(엑셀, PPT 작업은 물론 메일 작성, 보고까지) AI가 직접 수행할 수 있다는 의미입니다.\"}),\"\\n\",e(t.p,{children:\"법률 서비스 업체의 주가가 폭락한 이유도 바로 여기에 있습니다. 고도의 전문성이 필요했던 법률 업무들을 AI가 팀 단위로 자동화 해버릴 수 있다는 공포가 시장을 흔든 것입니다.\"}),\"\\n\",e(t.p,{children:e(t.strong,{children:\"[기존 도구들과의 비교]\"})}),\"\\n\",r(t.table,{children:[e(t.thead,{children:r(t.tr,{children:[e(t.th,{style:{textAlign:\"left\"},children:\"구분\"}),r(t.th,{style:{textAlign:\"left\"},children:[e(t.strong,{children:\"일반 챗봇\"}),\" (ChatGPT, Gemini, Claude 등)\"]}),r(t.th,{style:{textAlign:\"left\"},children:[e(t.strong,{children:\"코드 기반 도구\"}),\" (Claude Code, Antigravity 등)\"]}),r(t.th,{style:{textAlign:\"left\"},children:[e(t.strong,{children:\"클로드 코워크\"}),\" (Claude Cowork)\"]})]})}),r(t.tbody,{children:[r(t.tr,{children:[e(t.td,{style:{textAlign:\"left\"},children:e(t.strong,{children:\"파일 접근\"})}),e(t.td,{style:{textAlign:\"left\"},children:\"❌ 직접 업로드 필요\"}),e(t.td,{style:{textAlign:\"left\"},children:\"✅ 로컬 파일 직접 접근\"}),e(t.td,{style:{textAlign:\"left\"},children:\"✅ 로컬 파일 직접 접근\"})]}),r(t.tr,{children:[e(t.td,{style:{textAlign:\"left\"},children:e(t.strong,{children:\"문서 생성\"})}),e(t.td,{style:{textAlign:\"left\"},children:\"텍스트 답변 위주\"}),e(t.td,{style:{textAlign:\"left\"},children:\"코드, 텍스트 문서 위주\"}),e(t.td,{style:{textAlign:\"left\"},children:e(t.strong,{children:\"엑셀, PPT, 워드 직접 생성\"})})]}),r(t.tr,{children:[e(t.td,{style:{textAlign:\"left\"},children:e(t.strong,{children:\"전문성\"})}),e(t.td,{style:{textAlign:\"left\"},children:\"일반적인 지식\"}),e(t.td,{style:{textAlign:\"left\"},children:\"코딩/개발 전문\"}),e(t.td,{style:{textAlign:\"left\"},children:e(t.strong,{children:\"다양한 분야의 전문성(플러그인)\"})})]}),r(t.tr,{children:[e(t.td,{style:{textAlign:\"left\"},children:e(t.strong,{children:\"진입장벽\"})}),e(t.td,{style:{textAlign:\"left\"},children:\"낮음\"}),e(t.td,{style:{textAlign:\"left\"},children:\"높음 (터미널 환경)\"}),e(t.td,{style:{textAlign:\"left\"},children:e(t.strong,{children:\"낮음\"})})]}),r(t.tr,{children:[e(t.td,{style:{textAlign:\"left\"},children:e(t.strong,{children:\"주 사용자\"})}),e(t.td,{style:{textAlign:\"left\"},children:\"일반 사용자\"}),e(t.td,{style:{textAlign:\"left\"},children:\"개발자\"}),e(t.td,{style:{textAlign:\"left\"},children:e(t.strong,{children:\"모든 사무직\"})})]})]})]}),\"\\n\",e(t.h2,{id:\"3-클로드-코워크-등장-이후-우리에게-필요한-능력\",children:e(t.a,{href:\"#3-클로드-코워크-등장-이후-우리에게-필요한-능력\",children:\"3. 클로드 코워크 등장 이후 우리에게 필요한 능력\"})}),\"\\n\",r(t.p,{children:[\"AI 초기에는 \",e(t.strong,{children:\"프롬프트 엔지니어링\"}),\"이 중요했고, 그다음은 \",e(t.strong,{children:\"기획 능력\"}),\"이 중요했습니다. 물론 여전히 유효한 기술들입니다. 하지만 클로드 코워크 시대에 가장 중요한 핵심 역량은 바로 \",e(t.strong,{children:\"'암묵지(Tacit Knowledge)의 매뉴얼화'\"}),\" 가 될 것입니다.\"]}),\"\\n\",e(t.p,{children:'AI에게 일을 시키는 것은 팀원에게 업무를 지시하는 것과 똑같습니다. 단순히 \"알아서 잘해봐\"라는 식의 막연한 지시가 아니라, 내가 업무를 완벽하게 파악하고 명확하게 지시해야 합니다.'}),\"\\n\",r(t.ul,{children:[\"\\n\",r(t.li,{children:[e(t.strong,{children:\"업무 프로세스의 구조화\"}),\": 내가 그 일을 처리하는 논리적 단계를 완벽하게 파악하고 있어야 합니다.\"]}),\"\\n\",r(t.li,{children:[e(t.strong,{children:\"명확한 가이드라인 제공\"}),\": 참고해야 할 데이터의 범위, 반드시 지켜야 할 제약 사항, 최종 결과물의 양식을 구체적으로 정의해야 합니다.\"]}),\"\\n\",r(t.li,{children:[e(t.strong,{children:\"피드백을 통한 고도화\"}),\": 결과물을 검토하고 부족한 부분을 보완하여, 이를 다시 매뉴얼(플러그인)에 반영하는 선순환 구조를 만들어야 합니다.\"]}),\"\\n\"]}),\"\\n\",r(t.p,{children:[\"이를 위해서는 내 머릿속에만 있는 직관, 경험, 노하우인 \",e(t.strong,{children:\"암묵지\"}),\"를 끄집어내어, AI가 이해할 수 있는 \",e(t.strong,{children:\"구체적인 매뉴얼(형식지)\"}),\" 로 만드는 능력이 필요합니다. 이것이 앞으로 \",e(t.strong,{children:\"'일 잘하는 사람'\"}),\" 을 가르는 기준이 될 것이라고 생각합니다.\"]}),\"\\n\",e(t.h2,{id:\"4-마치며\",children:e(t.a,{href:\"#4-마치며\",children:\"4. 마치며\"})}),\"\\n\",e(t.p,{children:'클로드 코워크는 그동안 \"남의 잔치\" 같았던 AI 혁명을 사무직의 책상 위로 가져온 진정한 혁신입니다.'}),\"\\n\",e(t.p,{children:\"개인적으로 최근 Claude Excel과 Claude PPT 기능을 활용해 회사의 가치평가 모델링 템플릿을 만들고 보고서 초안까지 작성해 보았습니다. 마치 지휘자가 된 것처럼 여러 도구를 조율하며 업무를 완성해가는 경험은 실로 놀라웠습니다.\"}),\"\\n\",r(t.p,{children:[\"앞으로도 무궁무진한 활용이 가능할 것으로 기대하고 있으며, \",e(t.strong,{children:\"클로드 코워크의 사용 가이드\"}),\"와 함께, 실제 업무에 이를 어떻게 적용하는지 \",e(t.strong,{children:\"구체적인 사례\"}),\"를 가지고 찾아와 보겠습니다.\"]}),\"\\n\",e(t.p,{children:\"감사합니다.\"}),\"\\n\",r(t.section,{\"data-footnotes\":!0,className:\"footnotes\",children:[e(t.h2,{className:\"sr-only\",id:\"footnote-label\",children:e(t.a,{href:\"#footnote-label\",children:\"Footnotes\"})}),\"\\n\",r(t.ol,{children:[\"\\n\",r(t.li,{id:\"user-content-fn-1\",children:[\"\\n\",r(t.p,{children:[e(t.strong,{children:\"프롬프트 엔지니어링 (Prompt Engineering)\"}),\": AI 모델(LLM)에게 더 정확하고 유용한 답변을 얻어내기 위해 질문(프롬프트)을 최적화하고 설계하는 기술을 의미합니다. 질문을 어떻게 하느냐에 따라 AI의 답변 퀄리티가 천차만별이던 시절에 특히 강조되었던 역량입니다. \",e(t.a,{href:\"#user-content-fnref-1\",\"data-footnote-backref\":\"\",\"aria-label\":\"Back to reference 1\",className:\"data-footnote-backref\",children:\"↩\"})]}),\"\\n\"]}),\"\\n\",r(t.li,{id:\"user-content-fn-2\",children:[\"\\n\",r(t.p,{children:[e(t.strong,{children:\"할루시네이션 (Hallucination)\"}),\": AI가 답변을 생성하는 과정에서 잘못된 데이터를 바탕으로, 사실이 아닌 정보를 마치 진실인 것처럼 그럴듯하게 지어내는 '환각 현상'을 의미합니다. \",e(t.a,{href:\"#user-content-fnref-2\",\"data-footnote-backref\":\"\",\"aria-label\":\"Back to reference 2\",className:\"data-footnote-backref\",children:\"↩\"})]}),\"\\n\"]}),\"\\n\",r(t.li,{id:\"user-content-fn-3\",children:[\"\\n\",r(t.p,{children:[e(t.strong,{children:\"RAG (Retrieval-Augmented Generation, 검색 증강 생성)\"}),': AI가 답변을 생성하기 전에 관련 문서를 먼저 검색한 뒤, 해당 정보를 바탕으로 답변을 만드는 방식입니다. \"이 자료 안에서만 대답해\"라는 지시의 기술적 구현이라고 이해하시면 됩니다. ',e(t.a,{href:\"#user-content-fnref-3\",\"data-footnote-backref\":\"\",\"aria-label\":\"Back to reference 3\",className:\"data-footnote-backref\",children:\"↩\"})]}),\"\\n\"]}),\"\\n\"]}),\"\\n\"]})]})}return{default:function(n={}){const{wrapper:r}=n.components||{};return r?e(r,{...n,children:e(_createMdxContent,{...n})}):_createMdxContent(n)}};",
+    "toc": [
+      {
+        "title": "1. AI의 발전 과정",
+        "url": "#1-ai의-발전-과정",
+        "items": [
+          {
+            "title": "1.1. 1세대: 챗봇과 프롬프트 엔지니어링",
+            "url": "#11-1세대-챗봇과-프롬프트-엔지니어링",
+            "items": []
+          },
+          {
+            "title": "1.2. 2세대: 나만의 데이터와 RAG",
+            "url": "#12-2세대-나만의-데이터와-rag",
+            "items": []
+          },
+          {
+            "title": "1.3. 3세대: 로컬 작업과 AI 에이전트 (Cursor, Claude Code, Antigravity)",
+            "url": "#13-3세대-로컬-작업과-ai-에이전트-cursor-claude-code-antigravity",
+            "items": []
+          },
+          {
+            "title": "1.4. 4세대: MCP와 스킬(Skills)의 등장",
+            "url": "#14-4세대-mcp와-스킬skills의-등장",
+            "items": []
+          },
+          {
+            "title": "1.5. 진입장벽을 낮추는 방향으로 발전하는 LLM",
+            "url": "#15-진입장벽을-낮추는-방향으로-발전하는-llm",
+            "items": []
+          }
+        ]
+      },
+      {
+        "title": "2. 클로드 코워크(Claude Cowork)의 등장",
+        "url": "#2-클로드-코워크claude-cowork의-등장",
+        "items": [
+          {
+            "title": "2.1. 사무직을 위한 AI 에이전트",
+            "url": "#21-사무직을-위한-ai-에이전트",
+            "items": []
+          },
+          {
+            "title": "2.2. 핵심은 '플러그인(Plugins)'",
+            "url": "#22-핵심은-플러그인plugins",
+            "items": []
+          }
+        ]
+      },
+      {
+        "title": "3. 클로드 코워크 등장 이후 우리에게 필요한 능력",
+        "url": "#3-클로드-코워크-등장-이후-우리에게-필요한-능력",
+        "items": []
+      },
+      {
+        "title": "4. 마치며",
+        "url": "#4-마치며",
+        "items": []
+      }
+    ],
+    "title": "시작하며",
+    "series": "ai/AI도구/클로드-코워크Claude-Cowork-실무-가이드",
+    "category": "ai",
+    "subcategory": "AI도구",
+    "order": 0,
+    "depth": 0,
+    "parentPath": null,
+    "slugAsParams": "ai/AI도구/클로드-코워크Claude-Cowork-실무-가이드/시작하며"
+  },
+  {
     "slug": "ai/AI도구/비개발자를 위한 Antigravity 가이드/1. 설치, 기본설정, 확장 및 단축키",
     "subject": "1. 설치, 기본설정, 확장 및 단축키",
     "draft": false,
@@ -1098,88 +1180,6 @@
     "slugAsParams": "accounting/일반/내부회계관리제도-실무-가이드북/1-개요"
   },
   {
-    "slug": "ai/AI도구/클로드 코워크(Claude Cowork) 실무 가이드/시작하며",
-    "subject": "시작하며",
-    "draft": false,
-    "id": -1,
-    "parent_id": -1,
-    "book_id": 19141,
-    "open_yn": "Y",
-    "last_synced": "",
-    "metadata": {
-      "readingTime": 1,
-      "wordCount": 123
-    },
-    "body": "const{Fragment:n,jsx:e,jsxs:r}=arguments[0];function _createMdxContent(l){const t={a:\"a\",blockquote:\"blockquote\",h2:\"h2\",h3:\"h3\",li:\"li\",ol:\"ol\",p:\"p\",section:\"section\",strong:\"strong\",sup:\"sup\",table:\"table\",tbody:\"tbody\",td:\"td\",th:\"th\",thead:\"thead\",tr:\"tr\",ul:\"ul\",...l.components};return r(n,{children:[r(t.p,{children:['저는 평소 \"게임체인저(Game Changer)\"라거나 \"이제 OO은 끝났다\"와 같은 자극적인 수식어를 그리 좋아하지 않습니다. 솔직히 이제는 좀 식상하게 느껴지기도 하고, 놀라운 것도 그때뿐이지 실제 저의 일상을 바꿔놓을만한 변화가 있었던 것은 손에 꼽기 때문입니다. 하지만 이번에 다룰 ',e(t.strong,{children:\"'클로드 코워크(Claude Cowork)'\"}),\" 만큼은 다르게 평가하고 싶습니다.\"]}),\"\\n\",r(t.p,{children:[\"최근 미국 증시에서 주목할 만한 사건이 있었습니다. 불과 며칠 전인 2026년 2월 초, 미국의 주요 서비스형 소프트웨어(SaaS) 기업들의 주가가 대폭락했는데, 그중에서도 LegalZoom, Thomson Reuters, RELX와 같은 \",e(t.strong,{children:\"법률 서비스를 제공하는 리걸테크(Legal-tech) 기업들의 낙폭이 유독 컸다는 점\"}),\"은 우리에게 시사하는 바가 큽니다.\"]}),\"\\n\",r(t.p,{children:[\"왜 하필 법률 서비스였을까요? 이는 AI가 개발과 디자인의 영역을 넘어, \",e(t.strong,{children:\"전통적인 문과의 고유 업무\"}),\"까지 실질적으로 대체하기 시작했다는 강력한 신호탄입니다. AI를 실무에 활용하고 있는 현직 회계사의 시각에서, 클로드 코워크가 불러올 변화의 본질과 그 의미를 알아보겠습니다.\"]}),\"\\n\",e(t.h2,{id:\"1-ai의-발전-과정\",children:e(t.a,{href:\"#1-ai의-발전-과정\",children:\"1. AI의 발전 과정\"})}),\"\\n\",e(t.p,{children:\"클로드 코워크에 대해 본격적으로 알아보기 전에, 지금까지 우리가 AI를 대하는 방식이 어떻게 변해왔는지 잠시 짚어보겠습니다.\"}),\"\\n\",e(t.h3,{id:\"11-1세대-챗봇과-프롬프트-엔지니어링\",children:e(t.a,{href:\"#11-1세대-챗봇과-프롬프트-엔지니어링\",children:\"1.1. 1세대: 챗봇과 프롬프트 엔지니어링\"})}),\"\\n\",r(t.p,{children:[\"ChatGPT가 처음 등장했을 때, 우리는 주로 \",e(t.strong,{children:\"챗봇\"}),\" 형태로 AI를 사용했습니다. 궁금한 점을 물어보면 멋진 문장으로 답변해 주는 것만으로도 모두가 놀라워하던 시절이었습니다. 이때는 AI의 답변 품질을 높이기 위한 \",e(t.strong,{children:\"프롬프트 엔지니어링(Prompt Engineering)\"}),e(t.sup,{children:e(t.a,{href:\"#user-content-fn-1\",id:\"user-content-fnref-1\",\"data-footnote-ref\":!0,\"aria-describedby\":\"footnote-label\",children:\"1\"})}),\" 이 유행했고, 이를 통해 더 정확하고 의미 있는 결과를 얻고자 노력했습니다.\"]}),\"\\n\",e(t.p,{children:\"하지만 곧 명확한 한계가 드러났습니다.\"}),\"\\n\",r(t.ul,{children:[\"\\n\",r(t.li,{children:[e(t.strong,{children:\"데이터의 한계\"}),\": 학습 시점 이후의 데이터는 알지 못해 최신 정보를 제공할 수 없었습니다.\"]}),\"\\n\",r(t.li,{children:[e(t.strong,{children:\"할루시네이션(Hallucination)\"}),e(t.sup,{children:e(t.a,{href:\"#user-content-fn-2\",id:\"user-content-fnref-2\",\"data-footnote-ref\":!0,\"aria-describedby\":\"footnote-label\",children:\"2\"})}),\": 모르는 내용도 아는 체하며 거짓 정보를 그럴듯하게 섞어 답변했습니다.\"]}),\"\\n\"]}),\"\\n\",e(t.p,{children:\"이후 웹 검색 기능이 탑재되면서 최신 정보 문제는 어느 정도 해결되었지만, 여전히 AI는 학습되지 않은 전문 지식에 대해서는 엉뚱한 답변을 내놓는 문제를 완전히 해결하지 못했습니다.\"}),\"\\n\",e(t.h3,{id:\"12-2세대-나만의-데이터와-rag\",children:e(t.a,{href:\"#12-2세대-나만의-데이터와-rag\",children:\"1.2. 2세대: 나만의 데이터와 RAG\"})}),\"\\n\",r(t.p,{children:[\"할루시네이션을 극복하기 위해 사람들은 이제 AI가 일반적인 지식이 아니라, \",e(t.strong,{children:\"내가 제공하는 문서\"}),\"를 읽고 그에 기반하여 답변하기를 원했습니다. 이를 위해 \",e(t.strong,{children:\"RAG(검색 증강 생성)\"}),e(t.sup,{children:e(t.a,{href:\"#user-content-fn-3\",id:\"user-content-fnref-3\",\"data-footnote-ref\":!0,\"aria-describedby\":\"footnote-label\",children:\"3\"})}),' 기술이 주목받았습니다. 핵심은 \"관련 자료를 줄 테니 이 안에서만 찾아서 대답해\"라고 지시하는 것입니다.']}),\"\\n\",e(t.p,{children:\"하지만 이 역시 한계가 있었습니다. AI가 한 번에 읽을 수 있는 양(토큰 수)에 제한이 있어 페이지 수가 많은 문서일수록 정확도가 떨어졌고, 매번 파일을 업로드해야 하는 번거로움이 존재했습니다.\"}),\"\\n\",e(t.h3,{id:\"13-3세대-로컬-작업과-ai-에이전트-cursor-claude-code-antigravity\",children:e(t.a,{href:\"#13-3세대-로컬-작업과-ai-에이전트-cursor-claude-code-antigravity\",children:\"1.3. 3세대: 로컬 작업과 AI 에이전트 (Cursor, Claude Code, Antigravity)\"})}),\"\\n\",r(t.p,{children:[\"여기서 한 단계 더 나아가 등장한 것이 \",e(t.strong,{children:\"Antigravity\"}),\"나 \",e(t.strong,{children:\"Cursor\"}),\", \",e(t.strong,{children:\"Claude Code\"}),\"와 같은 \",e(t.strong,{children:\"AI 에이전트\"}),\" 도구들입니다. 이들은 내 컴퓨터(로컬 환경)에 있는 파일들을 직접 읽고, 수정하고, 새로운 파일을 생성합니다. 필요할 때만 특정 파일을 찾아 읽으면 되므로, 사실상 내 컴퓨터의 모든 파일이 AI의 지식(Context)이 되었습니다.\"]}),\"\\n\",r(t.p,{children:[\"개발자들에게 이는 엄청난 혁신이었지만, \",e(t.strong,{children:\"비개발자/사무직\"}),'에게는 여전히 \"남의 이야기\"였습니다.']}),\"\\n\",r(t.ol,{children:[\"\\n\",r(t.li,{children:[e(t.strong,{children:\"활용 범위의 한계\"}),\": 주 타겟이 개발자이다 보니 코드 작성이나 텍스트 문서 작업에는 유용했지만, 사무직의 주 업무인 엑셀, 파워포인트 등에는 활용이 제한적이었습니다. (파이썬 코드를 짜서 엑셀을 다루는 건 일반 직장인에게 현실적이지 않으니까요.)\"]}),\"\\n\",r(t.li,{children:[e(t.strong,{children:\"연동의 한계\"}),\": 사무직들이 매일 사용하는 사내 메신저나 이메일, ERP 등과 직접적으로 연동하기 어려웠습니다.\"]}),\"\\n\",r(t.li,{children:[e(t.strong,{children:\"산출물의 일관성 문제\"}),\": AI 특유의 무작위성 때문에 매번 똑같은 양식의 보고서를 만들어내는 것이 어려웠습니다.\"]}),\"\\n\"]}),\"\\n\",e(t.h3,{id:\"14-4세대-mcp와-스킬skills의-등장\",children:e(t.a,{href:\"#14-4세대-mcp와-스킬skills의-등장\",children:\"1.4. 4세대: MCP와 스킬(Skills)의 등장\"})}),\"\\n\",r(t.p,{children:[\"이후 AI 업계에서는 \",e(t.strong,{children:\"MCP(Model Context Protocol)\"}),\" 와 \",e(t.strong,{children:\"클로드 스킬(Claude Skills)\"}),\" 라는 기능이 등장하며 한 단계 더 발전했습니다.\"]}),\"\\n\",r(t.ul,{children:[\"\\n\",r(t.li,{children:[e(t.strong,{children:\"MCP\"}),\"는 우리가 사용하는 다양한 SaaS 서비스(구글 드라이브, 슬랙 등)와 AI 에이전트를 연동하여 작업할 수 있게 만들었습니다.\"]}),\"\\n\",r(t.li,{children:[e(t.strong,{children:\"스킬(Skills)\"}),\" 은 AI 에이전트에게 특정 분야의 전문 지식과 도구 활용 기술을 학습시켜, 매번 복잡한 지시를 반복하지 않아도 에이전트가 마치 \",e(t.strong,{children:\"해당 분야의 숙련된 전문가\"}),\"처럼 업무를 일관되게 수행할 수 있도록 만들었습니다.\"]}),\"\\n\"]}),\"\\n\",r(t.p,{children:[\"특히 앤트로픽에서 오픈 표준으로 공개한 \",e(t.strong,{children:\"xlsx(엑셀)\"}),\", \",e(t.strong,{children:\"pptx(파워포인트)\"}),\", \",e(t.strong,{children:\"docx(워드)\"}),\" 와 같은 문서 편집 스킬의 등장은 의미가 컸습니다. 이는 일반 사무직이 AI를 실무에 본격적으로 활용할 수 있는 시대가 열렸음을 알리는 강력한 신호탄이었으며, 실제로 앤트로픽은 이를 바탕으로 엑셀과 파워포인트 내에서 직접 구동되는 \",e(t.strong,{children:\"Claude Add-in\"}),\"을 선보였습니다.\"]}),\"\\n\",e(t.h3,{id:\"15-진입장벽을-낮추는-방향으로-발전하는-llm\",children:e(t.a,{href:\"#15-진입장벽을-낮추는-방향으로-발전하는-llm\",children:\"1.5. 진입장벽을 낮추는 방향으로 발전하는 LLM\"})}),\"\\n\",r(t.p,{children:[\"그동안의 발전 과정을 살펴보면 모든 LLM(대규모 언어 모델)은 궁극적으로 \",e(t.strong,{children:\"진입장벽을 낮추는 방향\"}),\"으로 발전하고 있습니다.\"]}),\"\\n\",r(t.p,{children:['처음 ChatGPT가 나왔을 때도 적극적으로 사용하는 사람은 많지 않았습니다. 그러다가 \"이 사진을 지브리 스타일로 바꿔줘\" 하니까 뚝딱 만들어 내는 것을 보고, 비로소 많은 사람들이 쓰기 시작했습니다. 이처럼 사람들은 ',e(t.strong,{children:\"정말 편하지 않으면\"}),\" 굳이 공부해 가면서까지 새로운 도구를 쓰지 않습니다.\"]}),\"\\n\",e(t.p,{children:\"Antigravity, 클로드코드와 같은 개발자들의 도구에서도 MCP와 스킬을 사용해서 엑셀작업이나 ppt 작업이 가능해졌지만, IT에 친숙하지 않은 비개발자/사무직들에게 여전히 터미널 환경과 IDE 환경의 진입장벽이 높다는 것은 부정할 수 없는 사실이었습니다.\"}),\"\\n\",e(t.h2,{id:\"2-클로드-코워크claude-cowork의-등장\",children:e(t.a,{href:\"#2-클로드-코워크claude-cowork의-등장\",children:\"2. 클로드 코워크(Claude Cowork)의 등장\"})}),\"\\n\",r(t.p,{children:[\"이러한 맥락에서 앤트로픽(Anthropic)이 발표한 \",e(t.strong,{children:\"클로드 코워크(Claude Cowork)\"}),\" 는 한마디로 \",e(t.strong,{children:'\"사무직을 위한 AI에이전트\"'}),\" 입니다.\"]}),\"\\n\",e(t.h3,{id:\"21-사무직을-위한-ai-에이전트\",children:e(t.a,{href:\"#21-사무직을-위한-ai-에이전트\",children:\"2.1. 사무직을 위한 AI 에이전트\"})}),\"\\n\",e(t.p,{children:\"클로드 코워크는 지금까지 비개발자들이 AI 에이전트를 활용하지 못하게 막았던 장벽들을 모두 허물었습니다.\"}),\"\\n\",r(t.ol,{children:[\"\\n\",r(t.li,{children:[e(t.strong,{children:\"로컬 파일 직접 접근\"}),\": 일일이 업로드할 필요 없이, 내 컴퓨터의 폴더와 파일을 통째로 읽고 사용할 수 있습니다.\"]}),\"\\n\",r(t.li,{children:[e(t.strong,{children:\"오피스 문서 완벽 지원\"}),\": 엑셀, PPT, 워드 파일을 직접 읽고, 수정하고, 새로 만듭니다.\"]}),\"\\n\",r(t.li,{children:[e(t.strong,{children:\"친숙한 사용 환경\"}),\": 어려운 코딩 창 대신, 우리가 익숙한 채팅형 인터페이스를 제공합니다.\"]}),\"\\n\",r(t.li,{children:[e(t.strong,{children:\"일관된 업무 수행\"}),\": 우리 회사 양식과 업무 매뉴얼을 학습시켜 늘 똑같은 품질의 산출물을 만들어냅니다.\"]}),\"\\n\"]}),\"\\n\",e(t.p,{children:'즉, 이제 과장 없이 \"이 엑셀 데이터를 가공해서 기존 보고서 양식에 맞게 PPT로 만들어줘\"라고 말하면, 실제 파일을 만들어내는 시대가 열린 것입니다.'}),\"\\n\",r(t.p,{children:[e(t.a,{href:\"wiki:TIP(%22%EC%9C%88%EB%8F%84%EC%9A%B0%20%EC%A7%80%EC%9B%90%20%EC%8B%9C%EC%9E%91%22)\",\"data-wiki-link\":\"true\",\"data-wiki-target\":'TIP(\"윈도우 지원 시작\")',children:'TIP(\"윈도우 지원 시작\")'}),\"\\n기존에 Mac 환경에서만 이용이 가능했던 클로드 코워크가 \",e(t.strong,{children:\"2026년 2월 11일부터 윈도우(Windows)\"}),\" 에서도 사용 가능해졌습니다.\\n\",e(t.a,{href:\"wiki:/TIP\",\"data-wiki-link\":\"true\",\"data-wiki-target\":\"/TIP\",children:\"/TIP\"})]}),\"\\n\",e(t.h3,{id:\"22-핵심은-플러그인plugins\",children:e(t.a,{href:\"#22-핵심은-플러그인plugins\",children:\"2.2. 핵심은 '플러그인(Plugins)'\"})}),\"\\n\",e(t.p,{children:\"만약 클로드 코워크가 단순히 파일을 읽고 문서를 잘 만드는 수준이었다면, 앞서 말한 리걸테크 기업들의 주가가 그렇게 폭락하진 않았을 겁니다. 기존 클로드 코드도 터미널이라는 진입장벽만 제외하면 이정도는 가능했기 때문입니다.\"}),\"\\n\",r(t.blockquote,{children:[\"\\n\",e(t.p,{children:\"진짜 핵심은 클로드 코워크의 '플러그인(Plugins)'에 있습니다.\"}),\"\\n\"]}),\"\\n\",r(t.p,{children:[\"클로드 코워크의 플러그인은 기존의 \",e(t.strong,{children:\"스킬(Skills)\"}),\", \",e(t.strong,{children:\"MCP\"}),\" 등을 하나로 통합한 개념입니다. 단순히 개인의 비서를 넘어, \",e(t.strong,{children:\"'영업팀', '재무팀', '법률팀'\"}),\" 같은 하나의 \",e(t.strong,{children:\"부서\"}),\"를 구성해 버린 것입니다.\"]}),\"\\n\",e(t.p,{children:\"예를 들어, 우리 회계팀이 숙지해야 할 회계 정책서, 연간 결산 매뉴얼, 과거 재무 데이터, 보고 양식 등을 플러그인으로 AI에게 건네주면, 이제 정말로 그 업무의 대부분을(엑셀, PPT 작업은 물론 메일 작성, 보고까지) AI가 직접 수행할 수 있다는 의미입니다.\"}),\"\\n\",e(t.p,{children:\"법률 서비스 업체의 주가가 폭락한 이유도 바로 여기에 있습니다. 고도의 전문성이 필요했던 법률 업무들을 AI가 팀 단위로 자동화 해버릴 수 있다는 공포가 시장을 흔든 것입니다.\"}),\"\\n\",e(t.p,{children:e(t.strong,{children:\"[기존 도구들과의 비교]\"})}),\"\\n\",r(t.table,{children:[e(t.thead,{children:r(t.tr,{children:[e(t.th,{style:{textAlign:\"left\"},children:\"구분\"}),r(t.th,{style:{textAlign:\"left\"},children:[e(t.strong,{children:\"일반 챗봇\"}),\" (ChatGPT, Gemini, Claude 등)\"]}),r(t.th,{style:{textAlign:\"left\"},children:[e(t.strong,{children:\"코드 기반 도구\"}),\" (Claude Code, Antigravity 등)\"]}),r(t.th,{style:{textAlign:\"left\"},children:[e(t.strong,{children:\"클로드 코워크\"}),\" (Claude Cowork)\"]})]})}),r(t.tbody,{children:[r(t.tr,{children:[e(t.td,{style:{textAlign:\"left\"},children:e(t.strong,{children:\"파일 접근\"})}),e(t.td,{style:{textAlign:\"left\"},children:\"❌ 직접 업로드 필요\"}),e(t.td,{style:{textAlign:\"left\"},children:\"✅ 로컬 파일 직접 접근\"}),e(t.td,{style:{textAlign:\"left\"},children:\"✅ 로컬 파일 직접 접근\"})]}),r(t.tr,{children:[e(t.td,{style:{textAlign:\"left\"},children:e(t.strong,{children:\"문서 생성\"})}),e(t.td,{style:{textAlign:\"left\"},children:\"텍스트 답변 위주\"}),e(t.td,{style:{textAlign:\"left\"},children:\"코드, 텍스트 문서 위주\"}),e(t.td,{style:{textAlign:\"left\"},children:e(t.strong,{children:\"엑셀, PPT, 워드 직접 생성\"})})]}),r(t.tr,{children:[e(t.td,{style:{textAlign:\"left\"},children:e(t.strong,{children:\"전문성\"})}),e(t.td,{style:{textAlign:\"left\"},children:\"일반적인 지식\"}),e(t.td,{style:{textAlign:\"left\"},children:\"코딩/개발 전문\"}),e(t.td,{style:{textAlign:\"left\"},children:e(t.strong,{children:\"다양한 분야의 전문성(플러그인)\"})})]}),r(t.tr,{children:[e(t.td,{style:{textAlign:\"left\"},children:e(t.strong,{children:\"진입장벽\"})}),e(t.td,{style:{textAlign:\"left\"},children:\"낮음\"}),e(t.td,{style:{textAlign:\"left\"},children:\"높음 (터미널 환경)\"}),e(t.td,{style:{textAlign:\"left\"},children:e(t.strong,{children:\"낮음\"})})]}),r(t.tr,{children:[e(t.td,{style:{textAlign:\"left\"},children:e(t.strong,{children:\"주 사용자\"})}),e(t.td,{style:{textAlign:\"left\"},children:\"일반 사용자\"}),e(t.td,{style:{textAlign:\"left\"},children:\"개발자\"}),e(t.td,{style:{textAlign:\"left\"},children:e(t.strong,{children:\"모든 사무직\"})})]})]})]}),\"\\n\",e(t.h2,{id:\"3-클로드-코워크-등장-이후-우리에게-필요한-능력\",children:e(t.a,{href:\"#3-클로드-코워크-등장-이후-우리에게-필요한-능력\",children:\"3. 클로드 코워크 등장 이후 우리에게 필요한 능력\"})}),\"\\n\",r(t.p,{children:[\"AI 초기에는 \",e(t.strong,{children:\"프롬프트 엔지니어링\"}),\"이 중요했고, 그다음은 \",e(t.strong,{children:\"기획 능력\"}),\"이 중요했습니다. 물론 여전히 유효한 기술들입니다. 하지만 클로드 코워크 시대에 가장 중요한 핵심 역량은 바로 \",e(t.strong,{children:\"'암묵지(Tacit Knowledge)의 매뉴얼화'\"}),\" 가 될 것입니다.\"]}),\"\\n\",e(t.p,{children:'AI에게 일을 시키는 것은 팀원에게 업무를 지시하는 것과 똑같습니다. 단순히 \"알아서 잘해봐\"라는 식의 막연한 지시가 아니라, 내가 업무를 완벽하게 파악하고 명확하게 지시해야 합니다.'}),\"\\n\",r(t.ul,{children:[\"\\n\",r(t.li,{children:[e(t.strong,{children:\"업무 프로세스의 구조화\"}),\": 내가 그 일을 처리하는 논리적 단계를 완벽하게 파악하고 있어야 합니다.\"]}),\"\\n\",r(t.li,{children:[e(t.strong,{children:\"명확한 가이드라인 제공\"}),\": 참고해야 할 데이터의 범위, 반드시 지켜야 할 제약 사항, 최종 결과물의 양식을 구체적으로 정의해야 합니다.\"]}),\"\\n\",r(t.li,{children:[e(t.strong,{children:\"피드백을 통한 고도화\"}),\": 결과물을 검토하고 부족한 부분을 보완하여, 이를 다시 매뉴얼(플러그인)에 반영하는 선순환 구조를 만들어야 합니다.\"]}),\"\\n\"]}),\"\\n\",r(t.p,{children:[\"이를 위해서는 내 머릿속에만 있는 직관, 경험, 노하우인 \",e(t.strong,{children:\"암묵지\"}),\"를 끄집어내어, AI가 이해할 수 있는 \",e(t.strong,{children:\"구체적인 매뉴얼(형식지)\"}),\" 로 만드는 능력이 필요합니다. 이것이 앞으로 \",e(t.strong,{children:\"'일 잘하는 사람'\"}),\" 을 가르는 기준이 될 것이라고 생각합니다.\"]}),\"\\n\",e(t.h2,{id:\"4-마치며\",children:e(t.a,{href:\"#4-마치며\",children:\"4. 마치며\"})}),\"\\n\",e(t.p,{children:'클로드 코워크는 그동안 \"남의 잔치\" 같았던 AI 혁명을 사무직의 책상 위로 가져온 진정한 혁신입니다.'}),\"\\n\",e(t.p,{children:\"개인적으로 최근 Claude Excel과 Claude PPT 기능을 활용해 회사의 가치평가 모델링 템플릿을 만들고 보고서 초안까지 작성해 보았습니다. 마치 지휘자가 된 것처럼 여러 도구를 조율하며 업무를 완성해가는 경험은 실로 놀라웠습니다.\"}),\"\\n\",r(t.p,{children:[\"앞으로도 무궁무진한 활용이 가능할 것으로 기대하고 있으며, \",e(t.strong,{children:\"클로드 코워크의 사용 가이드\"}),\"와 함께, 실제 업무에 이를 어떻게 적용하는지 \",e(t.strong,{children:\"구체적인 사례\"}),\"를 가지고 찾아와 보겠습니다.\"]}),\"\\n\",e(t.p,{children:\"감사합니다.\"}),\"\\n\",r(t.section,{\"data-footnotes\":!0,className:\"footnotes\",children:[e(t.h2,{className:\"sr-only\",id:\"footnote-label\",children:e(t.a,{href:\"#footnote-label\",children:\"Footnotes\"})}),\"\\n\",r(t.ol,{children:[\"\\n\",r(t.li,{id:\"user-content-fn-1\",children:[\"\\n\",r(t.p,{children:[e(t.strong,{children:\"프롬프트 엔지니어링 (Prompt Engineering)\"}),\": AI 모델(LLM)에게 더 정확하고 유용한 답변을 얻어내기 위해 질문(프롬프트)을 최적화하고 설계하는 기술을 의미합니다. 질문을 어떻게 하느냐에 따라 AI의 답변 퀄리티가 천차만별이던 시절에 특히 강조되었던 역량입니다. \",e(t.a,{href:\"#user-content-fnref-1\",\"data-footnote-backref\":\"\",\"aria-label\":\"Back to reference 1\",className:\"data-footnote-backref\",children:\"↩\"})]}),\"\\n\"]}),\"\\n\",r(t.li,{id:\"user-content-fn-2\",children:[\"\\n\",r(t.p,{children:[e(t.strong,{children:\"할루시네이션 (Hallucination)\"}),\": AI가 답변을 생성하는 과정에서 잘못된 데이터를 바탕으로, 사실이 아닌 정보를 마치 진실인 것처럼 그럴듯하게 지어내는 '환각 현상'을 의미합니다. \",e(t.a,{href:\"#user-content-fnref-2\",\"data-footnote-backref\":\"\",\"aria-label\":\"Back to reference 2\",className:\"data-footnote-backref\",children:\"↩\"})]}),\"\\n\"]}),\"\\n\",r(t.li,{id:\"user-content-fn-3\",children:[\"\\n\",r(t.p,{children:[e(t.strong,{children:\"RAG (Retrieval-Augmented Generation, 검색 증강 생성)\"}),': AI가 답변을 생성하기 전에 관련 문서를 먼저 검색한 뒤, 해당 정보를 바탕으로 답변을 만드는 방식입니다. \"이 자료 안에서만 대답해\"라는 지시의 기술적 구현이라고 이해하시면 됩니다. ',e(t.a,{href:\"#user-content-fnref-3\",\"data-footnote-backref\":\"\",\"aria-label\":\"Back to reference 3\",className:\"data-footnote-backref\",children:\"↩\"})]}),\"\\n\"]}),\"\\n\"]}),\"\\n\"]})]})}return{default:function(n={}){const{wrapper:r}=n.components||{};return r?e(r,{...n,children:e(_createMdxContent,{...n})}):_createMdxContent(n)}};",
-    "toc": [
-      {
-        "title": "1. AI의 발전 과정",
-        "url": "#1-ai의-발전-과정",
-        "items": [
-          {
-            "title": "1.1. 1세대: 챗봇과 프롬프트 엔지니어링",
-            "url": "#11-1세대-챗봇과-프롬프트-엔지니어링",
-            "items": []
-          },
-          {
-            "title": "1.2. 2세대: 나만의 데이터와 RAG",
-            "url": "#12-2세대-나만의-데이터와-rag",
-            "items": []
-          },
-          {
-            "title": "1.3. 3세대: 로컬 작업과 AI 에이전트 (Cursor, Claude Code, Antigravity)",
-            "url": "#13-3세대-로컬-작업과-ai-에이전트-cursor-claude-code-antigravity",
-            "items": []
-          },
-          {
-            "title": "1.4. 4세대: MCP와 스킬(Skills)의 등장",
-            "url": "#14-4세대-mcp와-스킬skills의-등장",
-            "items": []
-          },
-          {
-            "title": "1.5. 진입장벽을 낮추는 방향으로 발전하는 LLM",
-            "url": "#15-진입장벽을-낮추는-방향으로-발전하는-llm",
-            "items": []
-          }
-        ]
-      },
-      {
-        "title": "2. 클로드 코워크(Claude Cowork)의 등장",
-        "url": "#2-클로드-코워크claude-cowork의-등장",
-        "items": [
-          {
-            "title": "2.1. 사무직을 위한 AI 에이전트",
-            "url": "#21-사무직을-위한-ai-에이전트",
-            "items": []
-          },
-          {
-            "title": "2.2. 핵심은 '플러그인(Plugins)'",
-            "url": "#22-핵심은-플러그인plugins",
-            "items": []
-          }
-        ]
-      },
-      {
-        "title": "3. 클로드 코워크 등장 이후 우리에게 필요한 능력",
-        "url": "#3-클로드-코워크-등장-이후-우리에게-필요한-능력",
-        "items": []
-      },
-      {
-        "title": "4. 마치며",
-        "url": "#4-마치며",
-        "items": []
-      }
-    ],
-    "title": "시작하며",
-    "series": "ai/AI도구/클로드-코워크Claude-Cowork-실무-가이드",
-    "category": "ai",
-    "subcategory": "AI도구",
-    "order": 0,
-    "depth": 0,
-    "parentPath": null,
-    "slugAsParams": "ai/AI도구/클로드-코워크Claude-Cowork-실무-가이드/시작하며"
-  },
-  {
     "slug": "dev/일반/getting-started/01-intro",
     "title": "이 시리즈에 대하여",
     "description": "PROCPA 시작하기 시리즈가 다루는 범위와 읽는 방법.",
@@ -1208,6 +1208,177 @@
     "depth": 0,
     "parentPath": null,
     "slugAsParams": "dev/일반/getting-started/01-intro"
+  },
+  {
+    "slug": "ai/AI도구/비개발자를 위한 Antigravity 가이드/7. MCP/7.1. MCP 설치 및 사용방법",
+    "subject": "7.1. MCP 설치 및 사용방법",
+    "draft": false,
+    "id": 329269,
+    "parent_id": 329270,
+    "book_id": 18574,
+    "open_yn": "Y",
+    "last_synced": "",
+    "metadata": {
+      "readingTime": 1,
+      "wordCount": 137
+    },
+    "body": "const{Fragment:n,jsx:i,jsxs:e}=arguments[0];function _createMdxContent(l){const r={a:\"a\",code:\"code\",figure:\"figure\",h2:\"h2\",h3:\"h3\",li:\"li\",ol:\"ol\",p:\"p\",pre:\"pre\",section:\"section\",span:\"span\",strong:\"strong\",sup:\"sup\",ul:\"ul\",...l.components},{Callout:h}=r;return h||function(n,i){throw new Error(\"Expected \"+(i?\"component\":\"object\")+\" `\"+n+\"` to be defined: you likely forgot to import, pass, or provide it.\")}(\"Callout\",!0),e(n,{children:[i(r.h2,{id:\"1-mcp란\",children:i(r.a,{href:\"#1-mcp란\",children:\"1. MCP란?\"})}),\"\\n\",e(r.p,{children:[i(r.strong,{children:\"MCP(Model Context Protocol)\"}),i(r.sup,{children:i(r.a,{href:\"#user-content-fn-1\",id:\"user-content-fnref-1\",\"data-footnote-ref\":!0,\"aria-describedby\":\"footnote-label\",children:\"1\"})}),\"는 AI 모델이 외부 데이터나 도구와 상호작용할 수 있도록 해주는 \",i(r.strong,{children:\"개방형 표준 프로토콜\"}),\"입니다.\"]}),\"\\n\",e(r.p,{children:[\"언제부턴가 ChatGPT, Gemini, Claude 같은 AI 챗봇들이 내 이메일을 읽거나, 캘린더에 일정을 등록하는 등 다른 앱들과 자유롭게 연동되는 모습을 보셨을 겁니다. 과거에는 이런 기능을 구현하려면 각 서비스마다 별도의 '전용 플러그인'을 개발해야 했지만, MCP라는 \",i(r.strong,{children:\"표준화된 규격\"}),\" 하나로 이 모든 연결이 가능해졌습니다.\"]}),\"\\n\",e(r.p,{children:[\"초기에는 MCP가 AI에게 전문적인 능력을 부여하는 역할까지 수행했으나, '스킬(Skills)'이 등장하게 되면서 현재 MCP는 \",i(r.strong,{children:\"외부 데이터와의 '연결'\"}),\" 이라는 본연의 기능 위주로 사용하게 되었습니다.\"]}),\"\\n\",i(r.h3,{id:\"11-외부-도구와의-연결\",children:i(r.a,{href:\"#11-외부-도구와의-연결\",children:\"1.1. 외부 도구와의 연결\"})}),\"\\n\",i(r.p,{children:\"과거에는 AI에게 내 구글 캘린더 일정을 알려주려면 일일이 복사해서 붙여넣거나, 복잡한 전용 앱을 개발해야 했습니다. 하지만 MCP가 등장하면서 상황이 바뀌었습니다.\"}),\"\\n\",e(r.ul,{children:[\"\\n\",e(r.li,{children:[i(r.strong,{children:\"과거\"}),': \"오늘 내 일정 알려줘\" -> (AI: 저에게는 권한이 없습니다.)']}),\"\\n\",e(r.li,{children:[i(r.strong,{children:\"MCP 연결 후\"}),': \"오늘 내 일정 알려줘\" -> (AI: 구글 캘린더를 확인해보니 오후 2시에 미팅이 있네요.)']}),\"\\n\"]}),\"\\n\",i(r.h3,{id:\"12-스킬skills과의-차이점\",children:i(r.a,{href:\"#12-스킬skills과의-차이점\",children:\"1.2. 스킬(Skills)과의 차이점\"})}),\"\\n\",e(r.p,{children:[\"지난 시간까지 알려드린 '스킬'과 헷갈리실 수 있습니다. 가장 큰 차이는 \",i(r.strong,{children:\"'초점'\"}),\" 에 있습니다.\"]}),\"\\n\",e(r.ul,{children:[\"\\n\",e(r.li,{children:[i(r.strong,{children:\"스킬(Skills)\"}),\": AI가 \",i(r.strong,{children:\"'내부적으로'\"}),\" 특정 작업을 수행하는 능력을 키우는 데 집중합니다. (예: 블로그 글쓰기 규칙대로 글 작성하기, 특정 양식의 썸네일 만들기)\"]}),\"\\n\",e(r.li,{children:[i(r.strong,{children:\"MCP\"}),\": AI를 \",i(r.strong,{children:\"'외부 소프트웨어'\"}),\" 와 연동하는 데 집중합니다. (예: Notion 페이지 읽어오기, Google Calendar 일정 확인하기)\"]}),\"\\n\"]}),\"\\n\",i(r.h2,{id:\"2-mcp-서버-설치-방법\",children:i(r.a,{href:\"#2-mcp-서버-설치-방법\",children:\"2. MCP 서버 설치 방법\"})}),\"\\n\",e(r.p,{children:[\"MCP를 사용하려면 Antigravity와 외부 앱을 연결해 주는 \",i(r.strong,{children:\"'MCP 서버'\"}),\" 를 설치해야 합니다. 크게 두 가지 방법이 있습니다.\"]}),\"\\n\",i(r.h3,{id:\"21-mcp-store에서-설치\",children:i(r.a,{href:\"#21-mcp-store에서-설치\",children:\"2.1. MCP Store에서 설치\"})}),\"\\n\",i(r.p,{children:\"Antigravity 내장 스토어를 이용하는 가장 간단한 방법입니다.\"}),\"\\n\",e(r.ol,{children:[\"\\n\",e(r.li,{children:[\"Antigravity 우측 상단 \",i(r.code,{children:\"...\"}),\" 메뉴 > \",i(r.code,{children:\"MCP Servers\"}),\" 클릭\"]}),\"\\n\",e(r.li,{children:[i(r.strong,{children:'\"Discover\"'}),\" 탭에서 원하는 서비스(예: \",i(r.strong,{children:\"Notion\"}),\") 찾기\"]}),\"\\n\",e(r.li,{children:[i(r.code,{children:\"Install\"}),\" 버튼 클릭\"]}),\"\\n\",i(r.li,{children:\"화면의 안내에 따라 계정 로그인 및 API 키 입력\"}),\"\\n\"]}),\"\\n\",i(h,{type:\"info\",title:\"Info\",children:i(r.p,{children:\"현재(2026년 초 기준) MCP Store에 등록된 서비스는 아직 많지 않습니다. 하지만 Notion이나 GitHub 같은 주요 서비스는 아주 쉽게 연결할 수 있습니다.\"})}),\"\\n\",i(r.h3,{id:\"22-config-파일-수정해서-수동으로-설치\",children:i(r.a,{href:\"#22-config-파일-수정해서-수동으로-설치\",children:\"2.2. Config 파일 수정해서 수동으로 설치\"})}),\"\\n\",i(r.p,{children:\"Store에 없는 서비스(예: NotebookLM 등)를 연결하려면 설정 파일을 직접 수정해야 합니다. 처음에는 낯설 수 있지만, 차근차근 따라 하면 어렵지 않습니다.\"}),\"\\n\",e(r.ol,{children:[\"\\n\",e(r.li,{children:[\"Antigravity 우측 상단 \",i(r.code,{children:\"...\"}),\" 메뉴 > \",i(r.code,{children:\"MCP Servers\"}),\" > \",i(r.code,{children:\"Manage MCP Servers\"}),\" > \",i(r.code,{children:\"View raw config\"}),\" 클릭\"]}),\"\\n\",e(r.li,{children:[i(r.code,{children:\"mcpServers\"}),\" 항목에 아래와 같은 형식으로 코드를 추가합니다.(예시 : 구글캘린더)\"]}),\"\\n\"]}),\"\\n\",i(r.figure,{\"data-rehype-pretty-code-figure\":\"\",children:i(r.pre,{style:{\"--shiki-dark\":\"#e1e4e8\",\"--shiki-light\":\"#24292e\",\"--shiki-dark-bg\":\"#24292e\",\"--shiki-light-bg\":\"#fff\"},tabIndex:\"0\",\"data-language\":\"json\",\"data-theme\":\"github-dark github-light\",children:e(r.code,{\"data-language\":\"json\",\"data-theme\":\"github-dark github-light\",style:{display:\"grid\"},children:[e(r.span,{\"data-line\":\"\",children:[i(r.span,{style:{\"--shiki-dark\":\"#9ECBFF\",\"--shiki-light\":\"#032F62\"},children:'\"google-calendar\"'}),i(r.span,{style:{\"--shiki-dark\":\"#E1E4E8\",\"--shiki-light\":\"#24292E\"},children:\": {\"})]}),\"\\n\",e(r.span,{\"data-line\":\"\",children:[i(r.span,{style:{\"--shiki-dark\":\"#79B8FF\",\"--shiki-light\":\"#005CC5\"},children:'    \"command\"'}),i(r.span,{style:{\"--shiki-dark\":\"#E1E4E8\",\"--shiki-light\":\"#24292E\"},children:\": \"}),i(r.span,{style:{\"--shiki-dark\":\"#9ECBFF\",\"--shiki-light\":\"#032F62\"},children:'\"npx\"'}),i(r.span,{style:{\"--shiki-dark\":\"#E1E4E8\",\"--shiki-light\":\"#24292E\"},children:\",\"})]}),\"\\n\",e(r.span,{\"data-line\":\"\",children:[i(r.span,{style:{\"--shiki-dark\":\"#79B8FF\",\"--shiki-light\":\"#005CC5\"},children:'    \"args\"'}),i(r.span,{style:{\"--shiki-dark\":\"#E1E4E8\",\"--shiki-light\":\"#24292E\"},children:\": [\"})]}),\"\\n\",e(r.span,{\"data-line\":\"\",children:[i(r.span,{style:{\"--shiki-dark\":\"#9ECBFF\",\"--shiki-light\":\"#032F62\"},children:'    \"-y\"'}),i(r.span,{style:{\"--shiki-dark\":\"#E1E4E8\",\"--shiki-light\":\"#24292E\"},children:\",\"})]}),\"\\n\",i(r.span,{\"data-line\":\"\",children:i(r.span,{style:{\"--shiki-dark\":\"#9ECBFF\",\"--shiki-light\":\"#032F62\"},children:'    \"@modelcontextprotocol/server-google-calendar\"'})}),\"\\n\",i(r.span,{\"data-line\":\"\",children:i(r.span,{style:{\"--shiki-dark\":\"#E1E4E8\",\"--shiki-light\":\"#24292E\"},children:\"    ],\"})}),\"\\n\",e(r.span,{\"data-line\":\"\",children:[i(r.span,{style:{\"--shiki-dark\":\"#79B8FF\",\"--shiki-light\":\"#005CC5\"},children:'    \"env\"'}),i(r.span,{style:{\"--shiki-dark\":\"#E1E4E8\",\"--shiki-light\":\"#24292E\"},children:\": {\"})]}),\"\\n\",e(r.span,{\"data-line\":\"\",children:[i(r.span,{style:{\"--shiki-dark\":\"#79B8FF\",\"--shiki-light\":\"#005CC5\"},children:'    \"GOOGLE_CLIENT_ID\"'}),i(r.span,{style:{\"--shiki-dark\":\"#E1E4E8\",\"--shiki-light\":\"#24292E\"},children:\": \"}),i(r.span,{style:{\"--shiki-dark\":\"#9ECBFF\",\"--shiki-light\":\"#032F62\"},children:'\"ID\"'}),i(r.span,{style:{\"--shiki-dark\":\"#E1E4E8\",\"--shiki-light\":\"#24292E\"},children:\",\"})]}),\"\\n\",e(r.span,{\"data-line\":\"\",children:[i(r.span,{style:{\"--shiki-dark\":\"#79B8FF\",\"--shiki-light\":\"#005CC5\"},children:'    \"GOOGLE_CLIENT_SECRET\"'}),i(r.span,{style:{\"--shiki-dark\":\"#E1E4E8\",\"--shiki-light\":\"#24292E\"},children:\": \"}),i(r.span,{style:{\"--shiki-dark\":\"#9ECBFF\",\"--shiki-light\":\"#032F62\"},children:'\"SECRET\"'})]}),\"\\n\",i(r.span,{\"data-line\":\"\",children:i(r.span,{style:{\"--shiki-dark\":\"#E1E4E8\",\"--shiki-light\":\"#24292E\"},children:\"    }\"})}),\"\\n\",i(r.span,{\"data-line\":\"\",children:i(r.span,{style:{\"--shiki-dark\":\"#E1E4E8\",\"--shiki-light\":\"#24292E\"},children:\"}\"})})]})})}),\"\\n\",i(h,{type:\"tip\",title:\"Tip\",children:e(r.p,{children:[\"이 과정이 어렵게 느껴진다면 늘 강조했듯 \",i(r.strong,{children:\"AI에게 시키세요.\"}),'\\n\"나 구글캘린더 MCP 설치하고 싶은데 ',i(r.code,{children:\"config\"}),' 파일 어떻게 수정하면 돼?\"라고 물어보고, 발급받은 API 키만 알려주면 AI가 알아서 코드를 작성해 줍니다.']})}),\"\\n\",i(r.h2,{id:\"3-mcp-서버-사용법\",children:i(r.a,{href:\"#3-mcp-서버-사용법\",children:\"3. MCP 서버 사용법\"})}),\"\\n\",e(r.p,{children:[\"MCP 서버 설치가 완료되었다면, 사용 방법은 매우 간단합니다. \",i(r.strong,{children:\"평소처럼 대화하면 됩니다.\"})]}),\"\\n\",i(r.h3,{id:\"31-자연어로-명령\",children:i(r.a,{href:\"#31-자연어로-명령\",children:\"3.1. 자연어로 명령\"})}),\"\\n\",i(r.p,{children:\"별도의 복잡한 명령어 없이, AI에게 하고 싶은 말을 자연스럽게 하세요.\"}),\"\\n\",e(r.ul,{children:[\"\\n\",i(r.li,{children:'\"내 구글 캘린더에서 내일 일정에 추가해줘.\"'}),\"\\n\",i(r.li,{children:'\"방금 작성한 내용 노션에 정리해줘.\"'}),\"\\n\"]}),\"\\n\",i(r.p,{children:\"AI는 여러분의 말을 이해하고, 필요한 MCP 도구를 스스로 판단하여 실행합니다.\"}),\"\\n\",i(r.h3,{id:\"32-권한-허용\",children:i(r.a,{href:\"#32-권한-허용\",children:\"3.2. 권한 허용\"})}),\"\\n\",e(r.p,{children:[\"처음 MCP 도구를 사용할 때, Antigravity는 보안을 위해 \",i(r.strong,{children:'\"이 도구를 실행해도 될까요?\"'}),\" 라고 묻는 팝업을 띄웁니다.\"]}),\"\\n\",e(r.p,{children:[\"이때 \",i(r.strong,{children:\"[Allow Always]\"}),\" 를 선택하면, 이후에는 묻지 않고 편리하게 사용할 수 있습니다.\"]}),\"\\n\",i(r.h2,{id:\"4-추천-mcp-서버\",children:i(r.a,{href:\"#4-추천-mcp-서버\",children:\"4. 추천 MCP 서버\"})}),\"\\n\",e(r.p,{children:[\"MCP 생태계는 매우 방대하지만, 비개발자(실무자)에게 가장 필요한 것은 \",i(r.strong,{children:\"'내 업무 도구와의 연결'\"}),\" 입니다. 복잡한 개발 도구보다는, 매일 사용하는 생산성 앱을 연결했을 때 그 진가를 발휘합니다.\"]}),\"\\n\",e(r.p,{children:[\"따라서, \",i(r.strong,{children:\"내 업무 환경에서 사용하는 앱의 MCP 서버\"}),\"를 연결하는 것이 가장 중요합니다.\"]}),\"\\n\",e(r.p,{children:[\"다음은 공통적으로 가장 추천하는 \",i(r.strong,{children:\"3가지 MCP 서버\"}),\"입니다.\"]}),\"\\n\",i(r.h3,{id:\"41-notion-노션-mcp\",children:i(r.a,{href:\"#41-notion-노션-mcp\",children:\"4.1. Notion (노션) MCP\"})}),\"\\n\",i(r.p,{children:\"많은 분들이 업무 정리나 개인 메모용으로 Notion을 사용합니다. MCP를 연결하면 Antigravity가 Notion에 있는 방대한 자료를 직접 읽고, 수정하고, 정리해 줄 수 있습니다.\"}),\"\\n\",e(r.ul,{children:[\"\\n\",e(r.li,{children:[i(r.strong,{children:\"추천 대상\"}),\": Notion을 주력 노트 앱으로 사용하는 분\"]}),\"\\n\",e(r.li,{children:[i(r.strong,{children:\"활용 예시\"}),\":\",\"\\n\",e(r.ul,{children:[\"\\n\",i(r.li,{children:\"\\\"내 '독서 리스트' 데이터베이스에서 아직 안 읽은 책 목록 뽑아줘.\\\"\"}),\"\\n\",i(r.li,{children:\"\\\"방금 이야기한 회의 내용, 내 '업무 일지' 페이지에 요약해서 추가해줘.\\\"\"}),\"\\n\",i(r.li,{children:\"\\\"노션에 있는 '프로젝트 가이드라인' 페이지 읽고, 그 규칙대로 기획안 초안 써줘.\\\"\"}),\"\\n\"]}),\"\\n\"]}),\"\\n\"]}),\"\\n\",i(r.h3,{id:\"42-google-drive-구글-드라이브-mcp\",children:i(r.a,{href:\"#42-google-drive-구글-드라이브-mcp\",children:\"4.2. Google Drive (구글 드라이브) MCP\"})}),\"\\n\",i(r.p,{children:\"MCP를 연결하면 내 구글드라이브에 있는 수많은 문서(PDF, Google Docs 등)를 AI가 직접 검색하고 내용을 읽어올 수 있습니다.\"}),\"\\n\",e(r.ul,{children:[\"\\n\",e(r.li,{children:[i(r.strong,{children:\"추천 대상\"}),\": 구글 드라이브를 메인 클라우드로 사용하는 분\"]}),\"\\n\",e(r.li,{children:[i(r.strong,{children:\"활용 예시\"}),\":\",\"\\n\",e(r.ul,{children:[\"\\n\",i(r.li,{children:\"\\\"내 드라이브에서 '2025 사업계획서' PDF 찾아서 요약해줘.\\\"\"}),\"\\n\",i(r.li,{children:\"\\\"'프로젝트' 폴더에 있는 파일 리스트 보여줘.\\\"\"}),\"\\n\",i(r.li,{children:\"\\\"'회의록' 구글 docs 읽고, 주요 안건만 뽑아서 정리해줘.\\\"\"}),\"\\n\"]}),\"\\n\"]}),\"\\n\"]}),\"\\n\",i(r.h3,{id:\"43-notebooklm---나만의-지식-엔진-강력-추천\",children:i(r.a,{href:\"#43-notebooklm---나만의-지식-엔진-강력-추천\",children:'4.3. NotebookLM - \"나만의 지식 엔진\" (강력 추천)'})}),\"\\n\",e(r.p,{children:[\"구글의 NotebookLM은 내가 가진 자료(PDF, 웹사이트 등)를 학습시켜 대화할 수 있는 도구입니다. 이를 MCP로 연결하면, \",i(r.strong,{children:\"내가 가진 문서들을 근거로 정확하게 답변하는 AI\"}),\"를 만들 수 있습니다. 가장 활용도가 높아 별도 챕터로 상세히 다루겠습니다.\"]}),\"\\n\",i(h,{type:\"important\",title:\"Important\",children:e(r.p,{children:[i(r.strong,{children:\"MCP 서버 관리 팁\"}),\"\\n스킬과 달리 MCP는 한꺼번에 너무 많은 도구를 설치하면 안정성 문제가 생기므로 \",i(r.strong,{children:\"자주 쓰는 핵심 도구 3~4개\"}),\"만 유지하는 것이 안정성 측면에서 좋습니다.\"]})}),\"\\n\",e(h,{type:\"info\",title:\"Info\",children:[e(r.p,{children:[i(r.strong,{children:'MCP Market (MCP 마켓) - \"더 많은 도구 찾기\"'}),\"\\n내가 사용하는 서비스가 MCP를 지원하는지, 혹은 어떤 유용한 도구들이 있는지 궁금하다면 \",i(r.strong,{children:\"MCP Market\"}),\" 사이트를 방문해 보시기 바랍니다.\"]}),e(r.ul,{children:[\"\\n\",e(r.li,{children:[i(r.strong,{children:\"사이트 주소\"}),\": \",i(r.a,{href:\"https://mcpmarket.com/ko\",children:\"https://mcpmarket.com/ko\"})]}),\"\\n\",e(r.li,{children:[i(r.strong,{children:\"특징\"}),\": 전 세계 개발자들이 만든 다양한 MCP 서버를 한눈에 볼 수 있으며, 인기 순위나 카테고리별로 검색이 가능합니다.\"]}),\"\\n\",e(r.li,{children:[i(r.strong,{children:\"활용\"}),\": 새로운 업무 자동화 아이디어가 필요할 때 '인기(Popular)' 탭을 확인해 보는 것만으로도 큰 도움이 됩니다.\"]}),\"\\n\"]})]}),\"\\n\",e(r.section,{\"data-footnotes\":!0,className:\"footnotes\",children:[i(r.h2,{className:\"sr-only\",id:\"footnote-label\",children:i(r.a,{href:\"#footnote-label\",children:\"Footnotes\"})}),\"\\n\",e(r.ol,{children:[\"\\n\",e(r.li,{id:\"user-content-fn-1\",children:[\"\\n\",e(r.p,{children:[\"AI가 내 파일이나 외부 서비스(노션, 구글 등)를 자유롭게 드나들 수 있도록 만든 '공통의 규약'입니다. \",i(r.a,{href:\"#user-content-fnref-1\",\"data-footnote-backref\":\"\",\"aria-label\":\"Back to reference 1\",className:\"data-footnote-backref\",children:\"↩\"})]}),\"\\n\"]}),\"\\n\"]}),\"\\n\"]})]})}return{default:function(n={}){const{wrapper:e}=n.components||{};return e?i(e,{...n,children:i(_createMdxContent,{...n})}):_createMdxContent(n)}};",
+    "toc": [
+      {
+        "title": "1. MCP란?",
+        "url": "#1-mcp란",
+        "items": [
+          {
+            "title": "1.1. 외부 도구와의 연결",
+            "url": "#11-외부-도구와의-연결",
+            "items": []
+          },
+          {
+            "title": "1.2. 스킬(Skills)과의 차이점",
+            "url": "#12-스킬skills과의-차이점",
+            "items": []
+          }
+        ]
+      },
+      {
+        "title": "2. MCP 서버 설치 방법",
+        "url": "#2-mcp-서버-설치-방법",
+        "items": [
+          {
+            "title": "2.1. MCP Store에서 설치",
+            "url": "#21-mcp-store에서-설치",
+            "items": []
+          },
+          {
+            "title": "2.2. Config 파일 수정해서 수동으로 설치",
+            "url": "#22-config-파일-수정해서-수동으로-설치",
+            "items": []
+          }
+        ]
+      },
+      {
+        "title": "3. MCP 서버 사용법",
+        "url": "#3-mcp-서버-사용법",
+        "items": [
+          {
+            "title": "3.1. 자연어로 명령",
+            "url": "#31-자연어로-명령",
+            "items": []
+          },
+          {
+            "title": "3.2. 권한 허용",
+            "url": "#32-권한-허용",
+            "items": []
+          }
+        ]
+      },
+      {
+        "title": "4. 추천 MCP 서버",
+        "url": "#4-추천-mcp-서버",
+        "items": [
+          {
+            "title": "4.1. Notion (노션) MCP",
+            "url": "#41-notion-노션-mcp",
+            "items": []
+          },
+          {
+            "title": "4.2. Google Drive (구글 드라이브) MCP",
+            "url": "#42-google-drive-구글-드라이브-mcp",
+            "items": []
+          },
+          {
+            "title": "4.3. NotebookLM - \"나만의 지식 엔진\" (강력 추천)",
+            "url": "#43-notebooklm---나만의-지식-엔진-강력-추천",
+            "items": []
+          }
+        ]
+      }
+    ],
+    "title": "7.1. MCP 설치 및 사용방법",
+    "series": "ai/AI도구/비개발자를-위한-Antigravity-가이드",
+    "category": "ai",
+    "subcategory": "AI도구",
+    "order": 7,
+    "depth": 1,
+    "parentPath": "7-MCP",
+    "slugAsParams": "ai/AI도구/비개발자를-위한-Antigravity-가이드/7-MCP/71-MCP-설치-및-사용방법"
+  },
+  {
+    "slug": "ai/AI도구/비개발자를 위한 Antigravity 가이드/7. MCP/7.2. NotebookLM MCP",
+    "subject": "7.2. NotebookLM MCP",
+    "draft": false,
+    "id": 329268,
+    "parent_id": 329270,
+    "book_id": 18574,
+    "open_yn": "Y",
+    "last_synced": "",
+    "metadata": {
+      "readingTime": 1,
+      "wordCount": 131
+    },
+    "body": "const{Fragment:n,jsx:i,jsxs:e}=arguments[0];function _createMdxContent(r){const l={a:\"a\",code:\"code\",figure:\"figure\",h2:\"h2\",h3:\"h3\",img:\"img\",li:\"li\",ol:\"ol\",p:\"p\",pre:\"pre\",span:\"span\",strong:\"strong\",ul:\"ul\",...r.components},{Callout:h}=l;return h||function(n,i){throw new Error(\"Expected \"+(i?\"component\":\"object\")+\" `\"+n+\"` to be defined: you likely forgot to import, pass, or provide it.\")}(\"Callout\",!0),e(n,{children:[i(l.h2,{id:\"1-notebooklm이란\",children:i(l.a,{href:\"#1-notebooklm이란\",children:\"1. NotebookLM이란?\"})}),\"\\n\",e(l.p,{children:[\"이제는 많은 분들이 사용하고 계실 NotebookLM은 구글에서 제공하는 \",i(l.strong,{children:\"RAG(검색 증강 생성) 서비스\"}),\"입니다. 사용자가 직접 업로드한 PDF, 웹 링크, 텍스트 등의 자료를 기반으로 답변을 생성하는 서비스로, \",i(l.strong,{children:\"내가 가진 데이터 안에서\"}),\"만 정보를 찾아주기 때문에 정확한 답변 생성이 가능합니다.\"]}),\"\\n\",i(l.p,{children:\"또한 답변 시 참고한 원문의 위치를 각주 로 명확히 표시해 주기 때문에 신뢰도가 높습니다.\"}),\"\\n\",e(l.p,{children:[\"최근에는 \",i(l.strong,{children:\"Nanobanana와\"}),\" 결합하여 자료를 팟캐스트나 인포그래픽, 심지어는 PPT로 변환해 주는 \",i(l.strong,{children:\"시각화 기능\"}),\"까지 추가되며 활용도가 더욱 높아졌습니다.\"]}),\"\\n\",i(h,{type:\"warning\",title:\"Warning\",children:e(l.p,{children:[i(l.strong,{children:\"환각(Hallucination)이 완전히 사라진 것은 아닙니다\"}),\"\\nNotebookLM이 환각 문제를 획기적으로 개선한 것은 사실이지만, 100% 완벽한 것은 아닙니다. 확률 기반 모델이라는 \",i(l.strong,{children:\"고유한계\"}),\"로 인해 AI가 제공된 자료 내에서도 정보를 잘못 연결하거나 문맥을 오해할 가능성은 여전히 존재합니다.\"]})}),\"\\n\",e(h,{type:\"info\",title:\"Info\",children:[e(l.p,{children:[i(l.strong,{children:\"RAG(검색 증강 생성)란?\"}),\"\\nRAG(Retrieval-Augmented Generation)는 AI가 답변을 생성하기 전, 데이터베이스에서 관련 정보를 먼저 찾아보고 이를 참고하여 답변하는 기술입니다. 이를 통해 답변의 정확도를 높이고 환각 현상을 줄일 수 있습니다.\"]}),e(l.ul,{children:[\"\\n\",i(l.li,{children:\"일반적으로 RAG 기반 챗봇을 구현하기 위해서는 Langchain이나 LlamaIndex 같은 복잡한 프레임워크를 사용해야만 하며, 이는 비개발자에게는 쉽지 않은 일입니다.\"}),\"\\n\",e(l.li,{children:[\"하지만 \",i(l.strong,{children:\"NotebookLM\"}),\"을 활용하면 이러한 기술적 장벽 없이 \",i(l.strong,{children:\"누구나 손쉽게 고성능 RAG 시스템\"}),\"을 구현할 수 있습니다.\"]}),\"\\n\"]})]}),\"\\n\",i(l.h2,{id:\"2-notebooklm과-antigravity의-연결\",children:i(l.a,{href:\"#2-notebooklm과-antigravity의-연결\",children:\"2. NotebookLM과 Antigravity의 연결\"})}),\"\\n\",e(l.p,{children:[\"NotebookLM은 그 자체로도 훌륭한 도구이지만, Antigravity와 연동했을 때 더욱 시너지가 발휘됩니다. 구글의 강력한 RAG 기술을 편집기 안으로 가져와 나의 일상적인 업무 흐름(Workflow) 속에 자연스럽게 녹여낼 수 있기 때문입니다. 바로 \",i(l.strong,{children:\"NotebookLM MCP\"}),\"가 이를 위한 가장 적합한 도구입니다.\"]}),\"\\n\",e(h,{type:\"info\",title:\"Info\",children:[e(l.p,{children:[i(l.strong,{children:\"로컬 파일 참조 vs NotebookLM MCP의 차이\"}),\"\\n이미 Antigravity에서 내 컴퓨터에 있는 파일을 읽을 수 있는데, 왜 굳이 NotebookLM을 써야 할까요? 그 이유는 크게 세 가지입니다.\"]}),e(l.ol,{children:[\"\\n\",e(l.li,{children:[i(l.strong,{children:\"자동 반복 연구\"}),\": 일반 파일을 참조할 때는 단순히 텍스트를 읽어오는 수준입니다. 하지만 NotebookLM MCP는 에이전트(AI)가 자료를 분석하며 스스로 부족한 점을 느끼면 \",i(l.strong,{children:\"여러 번 후속 질문을 던져 깊이 있게 조사\"}),\"합니다. 모르는 내용이 나올 때까지 파고드는 '능동적인 연구원'을 곁에 두는 것과 같습니다.\"]}),\"\\n\",e(l.li,{children:[i(l.strong,{children:\"대규모 지식의 효율적 처리\"}),\": 내 컴퓨터에 수백 개의 PDF나 긴 문서가 있을 때 이를 일일이 에디터에 올리면 맥락(Context)이 넘쳐나서 AI가 느려지거나 헷갈려 할 수 있습니다. NotebookLM은 수십만 단어의 자료를 구글의 고성능 서버에서 미리 처리해 두기 때문에, 방대한 자료 중에서도 \",i(l.strong,{children:\"필요한 정보만 핀포인트로\"}),\" 가져올 수 있습니다.\"]}),\"\\n\",e(l.li,{children:[i(l.strong,{children:\"지식의 구조화와 전환\"}),\": 프로젝트별로 노트북을 나누어 관리(\",i(l.code,{children:\"@노트북이름\"}),\")할 수 있습니다. \\\"이 작업은 '회계 기준서' 노트북을 참고해 줘\\\", \\\"저 작업은 '시스템 가이드' 노트북을 써줘\\\"와 같이 상황에 맞춰 지식의 맥락을 즉시 교체하며 작업 흐름을 유지할 수 있습니다.\"]}),\"\\n\"]})]}),\"\\n\",i(l.h2,{id:\"2-notebooklm-mcp-설치-방법-및-기능\",children:i(l.a,{href:\"#2-notebooklm-mcp-설치-방법-및-기능\",children:\"2. NotebookLM MCP 설치 방법 및 기능\"})}),\"\\n\",i(l.h3,{id:\"21-설치-및-설정-방법\",children:i(l.a,{href:\"#21-설치-및-설정-방법\",children:\"2.1. 설치 및 설정 방법\"})}),\"\\n\",i(l.p,{children:\"현재 NotebookLM MCP는 공식 마켓플레이스에 등록되어 있지 않으므로, 아래의 4단계를 통해 직접 연결해야 합니다.\"}),\"\\n\",e(l.p,{children:[i(l.strong,{children:\"GitHub 저장소:\"}),\" \",i(l.a,{href:\"https://github.com/jacob-bd/notebooklm-mcp-cli\",children:\"jacob-bd/notebooklm-mcp-cli\"}),\"\\n\",i(l.img,{src:\"https://cdn.jsdelivr.net/gh/procpalee/my_obsidian_images/img/20260220014210429.png\",alt:\"image.png\"})]}),\"\\n\",i(l.p,{children:i(l.strong,{children:\"1단계: 프로그램 설치\"})}),\"\\n\",i(l.p,{children:\"터미널(PowerShell 또는 CMD)을 열고 아래 명령어를 입력하여 서버 프로그램을 설치합니다.(단, Python이 설치되어 있어야 합니다.)\"}),\"\\n\",i(l.figure,{\"data-rehype-pretty-code-figure\":\"\",children:i(l.pre,{style:{\"--shiki-dark\":\"#e1e4e8\",\"--shiki-light\":\"#24292e\",\"--shiki-dark-bg\":\"#24292e\",\"--shiki-light-bg\":\"#fff\"},tabIndex:\"0\",\"data-language\":\"bash\",\"data-theme\":\"github-dark github-light\",children:i(l.code,{\"data-language\":\"bash\",\"data-theme\":\"github-dark github-light\",style:{display:\"grid\"},children:e(l.span,{\"data-line\":\"\",children:[i(l.span,{style:{\"--shiki-dark\":\"#B392F0\",\"--shiki-light\":\"#6F42C1\"},children:\"pip\"}),i(l.span,{style:{\"--shiki-dark\":\"#9ECBFF\",\"--shiki-light\":\"#032F62\"},children:\" install\"}),i(l.span,{style:{\"--shiki-dark\":\"#9ECBFF\",\"--shiki-light\":\"#032F62\"},children:\" notebooklm-mcp-cli\"})]})})})}),\"\\n\",i(l.p,{children:i(l.strong,{children:\"2단계: 안티그래비티 설정 연결\"})}),\"\\n\",e(l.p,{children:[\"안티그래비티의 \",i(l.code,{children:\"mcp_config.json\"}),\" 파일을 열고, \",i(l.code,{children:\"mcpServers\"}),\" 항목 안에 아래 코드를 추가합니다.\"]}),\"\\n\",i(l.figure,{\"data-rehype-pretty-code-figure\":\"\",children:i(l.pre,{style:{\"--shiki-dark\":\"#e1e4e8\",\"--shiki-light\":\"#24292e\",\"--shiki-dark-bg\":\"#24292e\",\"--shiki-light-bg\":\"#fff\"},tabIndex:\"0\",\"data-language\":\"json\",\"data-theme\":\"github-dark github-light\",children:e(l.code,{\"data-language\":\"json\",\"data-theme\":\"github-dark github-light\",style:{display:\"grid\"},children:[e(l.span,{\"data-line\":\"\",children:[i(l.span,{style:{\"--shiki-dark\":\"#9ECBFF\",\"--shiki-light\":\"#032F62\"},children:'\"notebooklm-mcp\"'}),i(l.span,{style:{\"--shiki-dark\":\"#E1E4E8\",\"--shiki-light\":\"#24292E\"},children:\": {\"})]}),\"\\n\",e(l.span,{\"data-line\":\"\",children:[i(l.span,{style:{\"--shiki-dark\":\"#79B8FF\",\"--shiki-light\":\"#005CC5\"},children:'  \"command\"'}),i(l.span,{style:{\"--shiki-dark\":\"#E1E4E8\",\"--shiki-light\":\"#24292E\"},children:\": \"}),i(l.span,{style:{\"--shiki-dark\":\"#9ECBFF\",\"--shiki-light\":\"#032F62\"},children:'\"notebooklm-mcp\"'}),i(l.span,{style:{\"--shiki-dark\":\"#E1E4E8\",\"--shiki-light\":\"#24292E\"},children:\",\"})]}),\"\\n\",e(l.span,{\"data-line\":\"\",children:[i(l.span,{style:{\"--shiki-dark\":\"#79B8FF\",\"--shiki-light\":\"#005CC5\"},children:'  \"args\"'}),i(l.span,{style:{\"--shiki-dark\":\"#E1E4E8\",\"--shiki-light\":\"#24292E\"},children:\": []\"})]}),\"\\n\",i(l.span,{\"data-line\":\"\",children:i(l.span,{style:{\"--shiki-dark\":\"#E1E4E8\",\"--shiki-light\":\"#24292E\"},children:\"}\"})})]})})}),\"\\n\",i(l.p,{children:i(l.strong,{children:\"3단계: 계정 인증(로그인)\"})}),\"\\n\",i(l.p,{children:\"터미널에 아래 명령어를 입력하면 자동으로 브라우저 창이 뜹니다.\"}),\"\\n\",i(l.figure,{\"data-rehype-pretty-code-figure\":\"\",children:i(l.pre,{style:{\"--shiki-dark\":\"#e1e4e8\",\"--shiki-light\":\"#24292e\",\"--shiki-dark-bg\":\"#24292e\",\"--shiki-light-bg\":\"#fff\"},tabIndex:\"0\",\"data-language\":\"bash\",\"data-theme\":\"github-dark github-light\",children:i(l.code,{\"data-language\":\"bash\",\"data-theme\":\"github-dark github-light\",style:{display:\"grid\"},children:e(l.span,{\"data-line\":\"\",children:[i(l.span,{style:{\"--shiki-dark\":\"#B392F0\",\"--shiki-light\":\"#6F42C1\"},children:\"nlm\"}),i(l.span,{style:{\"--shiki-dark\":\"#9ECBFF\",\"--shiki-light\":\"#032F62\"},children:\" login\"})]})})})}),\"\\n\",i(l.p,{children:i(l.strong,{children:\"4단계: 로그인 완료\"})}),\"\\n\",i(l.p,{children:\"브라우저에서 평소 사용하는 구글 계정으로 로그인을 완료합니다.\"}),\"\\n\",e(l.ul,{children:[\"\\n\",e(l.li,{children:[i(l.strong,{children:\"관리 팁:\"}),\" 작동이 멈추거나 인증 오류가 발생할 경우, 터미널에 다시 \",i(l.code,{children:\"nlm login\"}),\"을 입력하여 세션을 갱신하면 해결됩니다.\"]}),\"\\n\"]}),\"\\n\",i(h,{type:\"tip\",title:\"Tip\",children:e(l.p,{children:[i(l.strong,{children:\"설치 과정이 어렵게 느껴진다면?\"}),'\\n직접 설치하는 과정이 복잡하게 느껴진다면, 위 GitHub 저장소 주소를 Antigravity 에이전트에게 전달하며 \"이 MCP 서버를 설치해줘\"라고 요청해 보세요. AI가 설치 과정을 대신 진행하거나 상세히 안내해 줄 것입니다.']})}),\"\\n\",i(l.h3,{id:\"22-notebooklm-mcp에서-지원하는-기능\",children:i(l.a,{href:\"#22-notebooklm-mcp에서-지원하는-기능\",children:\"2.2. NotebookLM MCP에서 지원하는 기능\"})}),\"\\n\",i(l.p,{children:\"NotebookLM MCP는 웹 서비스의 거의 모든 핵심 기능을 안티그래비티 안으로 가져왔습니다. 이제 브라우저를 켜지 않고도 다음과 같은 작업을 수행할 수 있습니다.\"}),\"\\n\",e(l.ul,{children:[\"\\n\",e(l.li,{children:[i(l.strong,{children:\"노트북 관리\"}),\": 새로운 노트북 생성(\",i(l.code,{children:\"notebook_create\"}),\"), 목록 조회, 삭제 및 이름 변경이 가능합니다.\"]}),\"\\n\",e(l.li,{children:[e(l.strong,{children:[\"지식 소스 추가 (\",i(l.code,{children:\"source_add\"}),\")\"]}),\": 웹사이트 URL, 유튜브 링크, 로컬 파일(PDF, 텍스트), 구글 드라이브 문서를 실시간으로 노트북에 추가할 수 있습니다.\"]}),\"\\n\",e(l.li,{children:[i(l.strong,{children:\"지식 조회 및 연구\"}),\": 특정 노트북을 지정한 정교한 질의응답(\",i(l.code,{children:\"notebook_query\"}),\")은 물론, 에이전트가 스스로 여러 번 질문하며 파고드는 '자동 반복 연구'를 지원합니다.\"]}),\"\\n\",e(l.li,{children:[e(l.strong,{children:[\"스튜디오 콘텐츠 생성 (\",i(l.code,{children:\"studio_create\"}),\")\"]}),\": NotebookLM의 꽃인 오디오 오버뷰(팟캐스트), 비디오 개요, 인포그래픽, 퀴즈 등을 대화만으로 생성할 수 있습니다.\"]}),\"\\n\",e(l.li,{children:[e(l.strong,{children:[\"아티팩트 다운로드 (\",i(l.code,{children:\"download_artifact\"}),\")\"]}),\": 생성된 오디오나 비디오 파일을 내 컴퓨터로 직접 다운로드할 수 있습니다.\"]}),\"\\n\"]}),\"\\n\",i(l.h2,{id:\"3-notebooklm-mcp-사용방법\",children:i(l.a,{href:\"#3-notebooklm-mcp-사용방법\",children:\"3. NotebookLM MCP 사용방법\"})}),\"\\n\",e(l.p,{children:[\"설치가 완료되었다면, 이제 NotebookLM을 나만의 \",i(l.strong,{children:\"'지식 외장하드'\"}),\" 로 활용할 차례입니다. 복잡한 설정 없이 대화만으로 지식을 구축하고 활용하는 3단계 워크플로우를 소개합니다.\"]}),\"\\n\",i(l.h3,{id:\"31-1단계-지식-베이스-구축\",children:i(l.a,{href:\"#31-1단계-지식-베이스-구축\",children:\"3.1. 1단계: 지식 베이스 구축\"})}),\"\\n\",e(l.p,{children:[i(l.strong,{children:\"1. 기능\"}),\": 내 컴퓨터의 파일(PDF, MD 등)을 소스로 노트북을 생성하는 것은 물론, \",i(l.strong,{children:\"딥 리서치\"}),\" 도구를 사용하여 웹에서 새로운 소스를 찾아 지식 베이스를 확장할 수 있습니다.\"]}),\"\\n\",e(l.p,{children:[i(l.strong,{children:\"2. 프롬프트 예시\"}),\":\"]}),\"\\n\",e(l.ul,{children:[\"\\n\",i(l.li,{children:\"\\\"기준서 폴더에 있는 모든 파일을 소스로 해서 'K-IFRS 회계기준' 노트북을 새로 만들어줘.\\\"\"}),\"\\n\",i(l.li,{children:\"\\\"웹에서 '2025년 글로벌 ESG 공시 지침'에 대해 Deep Research를 수행하고, 찾은 자료들을 'ESG 연구' 노트북에 추가해줘.\\\"\"}),\"\\n\"]}),\"\\n\",i(l.p,{children:i(l.strong,{children:\"3. 간단 사례\"})}),\"\\n\",e(l.p,{children:[i(l.img,{src:\"https://cdn.jsdelivr.net/gh/procpalee/my_obsidian_images/img/20260220014939328.png\",alt:\"image.png\"}),\"\\n\",i(l.img,{src:\"https://cdn.jsdelivr.net/gh/procpalee/my_obsidian_images/img/20260220014955342.png\",alt:\"image.png\"}),\"\\n\",i(l.img,{src:\"https://cdn.jsdelivr.net/gh/procpalee/my_obsidian_images/img/20260220015016176.png\",alt:\"image.png\"})]}),\"\\n\",i(l.h3,{id:\"32-2단계-노트북을-context로-활용\",children:i(l.a,{href:\"#32-2단계-노트북을-context로-활용\",children:\"3.2. 2단계: 노트북을 Context로 활용\"})}),\"\\n\",e(l.p,{children:[i(l.strong,{children:\"1. 기능\"}),\": 구축된 노트북을 참조하여 질문을 던지면, AI가 해당 노트북의 내용을 파악하고 각주를 원문 위치와 함께 제시합니다. 또한, 기존 드라이브 소스의 내용이 변경되었다면 실시간으로 동기화하여 최신 정보를 유지할 수 있습니다.\"]}),\"\\n\",e(l.p,{children:[i(l.strong,{children:\"2. 프롬프트 예시\"}),\":\"]}),\"\\n\",e(l.ul,{children:[\"\\n\",i(l.li,{children:\"\\\"'K-IFRS 회계기준' 노트북에서 리스부채의 재측정 요건을 분석해줘.\\\"\"}),\"\\n\",i(l.li,{children:\"\\\"지금 작성한 보고서 초안을 'ESG 연구' 노트북과 대조해보고, 실무 지침과 어긋나는 부분이 있는지 교차 검증해줘.\\\"\"}),\"\\n\"]}),\"\\n\",e(l.p,{children:[i(l.strong,{children:\"3. 간단 사례\"}),\":\"]}),\"\\n\",e(l.p,{children:[i(l.img,{src:\"https://cdn.jsdelivr.net/gh/procpalee/my_obsidian_images/img/20260220014626508.png\",alt:\"image.png\"}),\"\\n\",i(l.img,{src:\"https://cdn.jsdelivr.net/gh/procpalee/my_obsidian_images/img/20260220014704277.png\",alt:\"image.png\"})]}),\"\\n\",i(l.h3,{id:\"33-3단계-지식의-재가공-studio-mode\",children:i(l.a,{href:\"#33-3단계-지식의-재가공-studio-mode\",children:\"3.3. 3단계: 지식의 재가공 (Studio Mode)\"})}),\"\\n\",e(l.p,{children:[i(l.strong,{children:\"1. 기능\"}),\": 수집한 전문 지식을 \",i(l.strong,{children:\"스튜디오(Studio)\"}),\" 기능을 통해 다양한 형태의 결과물로 변환합니다. 대화형 팟캐스트(Audio Overview), 발표용 슬라이드(Slide), 시각적 마인드맵(Mind Map), 구조화된 데이터 테이블 등을 생성할 수 있습니다.\"]}),\"\\n\",e(l.p,{children:[i(l.strong,{children:\"2. 프롬프트 예시\"}),\":\"]}),\"\\n\",e(l.ul,{children:[\"\\n\",e(l.li,{children:['\" 분석 결과를 토대로 내용을 요약한 ',i(l.strong,{children:\"인포그래픽\"}),\"과 \",i(l.strong,{children:\"슬라이드(PPT)\"}),' 초안을 생성 후 다운받아줘\"']}),\"\\n\",e(l.li,{children:['\"보고서 내용을 바탕으로 이해도 확인을 위한 ',i(l.strong,{children:\"퀴즈\"}),' 5문항을 만들어줘.\"']}),\"\\n\"]}),\"\\n\",e(l.p,{children:[i(l.strong,{children:\"3. 간단 사례\"}),\":\"]}),\"\\n\",e(l.p,{children:[i(l.img,{src:\"https://cdn.jsdelivr.net/gh/procpalee/my_obsidian_images/img/20260220014329235.png\",alt:\"image.png\"}),\"\\n\",i(l.img,{src:\"https://cdn.jsdelivr.net/gh/procpalee/my_obsidian_images/img/20260220014302768.png\",alt:\"image.png\"}),\"\\n\",i(l.img,{src:\"https://cdn.jsdelivr.net/gh/procpalee/my_obsidian_images/img/20260220014830242.png\",alt:\"image.png\"}),\"\\n\",i(l.img,{src:\"https://cdn.jsdelivr.net/gh/procpalee/my_obsidian_images/img/20260220015224057.png\",alt:\"image.png\"})]}),\"\\n\",e(h,{type:\"info\",title:\"Info\",children:[i(l.p,{children:i(l.strong,{children:\"고급 활용 팁\"})}),e(l.ul,{children:[\"\\n\",e(l.li,{children:[i(l.strong,{children:\"다중 맥락 관리\"}),\": 프로젝트마다 전용 노트북을 지정해두면, \",i(l.code,{children:\"@노트북이름\"}),\"만으로 손쉽게 전문 지식의 맥락을 교체하며 작업할 수 있습니다.\"]}),\"\\n\",e(l.li,{children:[i(l.strong,{children:\"아티팩트 내보내기\"}),\": 생성된 보고서는 구글 문서(Google Docs)로, 데이터 테이블은 구글 스프레드시트(Sheets)로 즉시 내보내어 추가 편집이 가능합니다.\"]}),\"\\n\"]})]}),\"\\n\",i(l.h2,{id:\"4-마치며\",children:i(l.a,{href:\"#4-마치며\",children:\"4. 마치며\"})}),\"\\n\",e(l.p,{children:[\"대부분의 MCP 서버가 개발자 중심의 도구인 것과 달리, NotebookLM은 \",i(l.strong,{children:\"비개발자도 즉시 업무에 활용할 수 있는\"}),\" 가장 실용적인 MCP라고 생각해서 소개해봤습니다. 설치 과정이 다소 까다롭지만 사용 방법은 간단하니 꼭 한번 활용해보시길 권합니다.\"]}),\"\\n\",e(l.p,{children:[\"다음 글에서는 웹 브라우저를 직접 제어하며 복잡한 온라인 업무를 자동화해 주는 \",i(l.strong,{children:\"브라우저 에이전트(Browser Agent)\"}),\" 활용법에 대해 알아보겠습니다.\"]})]})}return{default:function(n={}){const{wrapper:e}=n.components||{};return e?i(e,{...n,children:i(_createMdxContent,{...n})}):_createMdxContent(n)}};",
+    "toc": [
+      {
+        "title": "1. NotebookLM이란?",
+        "url": "#1-notebooklm이란",
+        "items": []
+      },
+      {
+        "title": "2. NotebookLM과 Antigravity의 연결",
+        "url": "#2-notebooklm과-antigravity의-연결",
+        "items": []
+      },
+      {
+        "title": "2. NotebookLM MCP 설치 방법 및 기능",
+        "url": "#2-notebooklm-mcp-설치-방법-및-기능",
+        "items": [
+          {
+            "title": "2.1. 설치 및 설정 방법",
+            "url": "#21-설치-및-설정-방법",
+            "items": []
+          },
+          {
+            "title": "2.2. NotebookLM MCP에서 지원하는 기능",
+            "url": "#22-notebooklm-mcp에서-지원하는-기능",
+            "items": []
+          }
+        ]
+      },
+      {
+        "title": "3. NotebookLM MCP 사용방법",
+        "url": "#3-notebooklm-mcp-사용방법",
+        "items": [
+          {
+            "title": "3.1. 1단계: 지식 베이스 구축",
+            "url": "#31-1단계-지식-베이스-구축",
+            "items": []
+          },
+          {
+            "title": "3.2. 2단계: 노트북을 Context로 활용",
+            "url": "#32-2단계-노트북을-context로-활용",
+            "items": []
+          },
+          {
+            "title": "3.3. 3단계: 지식의 재가공 (Studio Mode)",
+            "url": "#33-3단계-지식의-재가공-studio-mode",
+            "items": []
+          }
+        ]
+      },
+      {
+        "title": "4. 마치며",
+        "url": "#4-마치며",
+        "items": []
+      }
+    ],
+    "title": "7.2. NotebookLM MCP",
+    "series": "ai/AI도구/비개발자를-위한-Antigravity-가이드",
+    "category": "ai",
+    "subcategory": "AI도구",
+    "order": 7,
+    "depth": 1,
+    "parentPath": "7-MCP",
+    "slugAsParams": "ai/AI도구/비개발자를-위한-Antigravity-가이드/7-MCP/72-NotebookLM-MCP"
   },
   {
     "slug": "ai/AI도구/비개발자를 위한 Antigravity 가이드/6. 스킬(Skills)/6.1. 스킬(Skills)의 개념 및 구조",
@@ -1532,306 +1703,6 @@
     "slugAsParams": "ai/AI도구/비개발자를-위한-Antigravity-가이드/6-스킬Skills/64-나만의-커스텀-스킬-제작Feat-skill-creator"
   },
   {
-    "slug": "ai/AI도구/비개발자를 위한 Antigravity 가이드/7. MCP/7.1. MCP 설치 및 사용방법",
-    "subject": "7.1. MCP 설치 및 사용방법",
-    "draft": false,
-    "id": 329269,
-    "parent_id": 329270,
-    "book_id": 18574,
-    "open_yn": "Y",
-    "last_synced": "",
-    "metadata": {
-      "readingTime": 1,
-      "wordCount": 137
-    },
-    "body": "const{Fragment:n,jsx:i,jsxs:e}=arguments[0];function _createMdxContent(l){const r={a:\"a\",code:\"code\",figure:\"figure\",h2:\"h2\",h3:\"h3\",li:\"li\",ol:\"ol\",p:\"p\",pre:\"pre\",section:\"section\",span:\"span\",strong:\"strong\",sup:\"sup\",ul:\"ul\",...l.components},{Callout:h}=r;return h||function(n,i){throw new Error(\"Expected \"+(i?\"component\":\"object\")+\" `\"+n+\"` to be defined: you likely forgot to import, pass, or provide it.\")}(\"Callout\",!0),e(n,{children:[i(r.h2,{id:\"1-mcp란\",children:i(r.a,{href:\"#1-mcp란\",children:\"1. MCP란?\"})}),\"\\n\",e(r.p,{children:[i(r.strong,{children:\"MCP(Model Context Protocol)\"}),i(r.sup,{children:i(r.a,{href:\"#user-content-fn-1\",id:\"user-content-fnref-1\",\"data-footnote-ref\":!0,\"aria-describedby\":\"footnote-label\",children:\"1\"})}),\"는 AI 모델이 외부 데이터나 도구와 상호작용할 수 있도록 해주는 \",i(r.strong,{children:\"개방형 표준 프로토콜\"}),\"입니다.\"]}),\"\\n\",e(r.p,{children:[\"언제부턴가 ChatGPT, Gemini, Claude 같은 AI 챗봇들이 내 이메일을 읽거나, 캘린더에 일정을 등록하는 등 다른 앱들과 자유롭게 연동되는 모습을 보셨을 겁니다. 과거에는 이런 기능을 구현하려면 각 서비스마다 별도의 '전용 플러그인'을 개발해야 했지만, MCP라는 \",i(r.strong,{children:\"표준화된 규격\"}),\" 하나로 이 모든 연결이 가능해졌습니다.\"]}),\"\\n\",e(r.p,{children:[\"초기에는 MCP가 AI에게 전문적인 능력을 부여하는 역할까지 수행했으나, '스킬(Skills)'이 등장하게 되면서 현재 MCP는 \",i(r.strong,{children:\"외부 데이터와의 '연결'\"}),\" 이라는 본연의 기능 위주로 사용하게 되었습니다.\"]}),\"\\n\",i(r.h3,{id:\"11-외부-도구와의-연결\",children:i(r.a,{href:\"#11-외부-도구와의-연결\",children:\"1.1. 외부 도구와의 연결\"})}),\"\\n\",i(r.p,{children:\"과거에는 AI에게 내 구글 캘린더 일정을 알려주려면 일일이 복사해서 붙여넣거나, 복잡한 전용 앱을 개발해야 했습니다. 하지만 MCP가 등장하면서 상황이 바뀌었습니다.\"}),\"\\n\",e(r.ul,{children:[\"\\n\",e(r.li,{children:[i(r.strong,{children:\"과거\"}),': \"오늘 내 일정 알려줘\" -> (AI: 저에게는 권한이 없습니다.)']}),\"\\n\",e(r.li,{children:[i(r.strong,{children:\"MCP 연결 후\"}),': \"오늘 내 일정 알려줘\" -> (AI: 구글 캘린더를 확인해보니 오후 2시에 미팅이 있네요.)']}),\"\\n\"]}),\"\\n\",i(r.h3,{id:\"12-스킬skills과의-차이점\",children:i(r.a,{href:\"#12-스킬skills과의-차이점\",children:\"1.2. 스킬(Skills)과의 차이점\"})}),\"\\n\",e(r.p,{children:[\"지난 시간까지 알려드린 '스킬'과 헷갈리실 수 있습니다. 가장 큰 차이는 \",i(r.strong,{children:\"'초점'\"}),\" 에 있습니다.\"]}),\"\\n\",e(r.ul,{children:[\"\\n\",e(r.li,{children:[i(r.strong,{children:\"스킬(Skills)\"}),\": AI가 \",i(r.strong,{children:\"'내부적으로'\"}),\" 특정 작업을 수행하는 능력을 키우는 데 집중합니다. (예: 블로그 글쓰기 규칙대로 글 작성하기, 특정 양식의 썸네일 만들기)\"]}),\"\\n\",e(r.li,{children:[i(r.strong,{children:\"MCP\"}),\": AI를 \",i(r.strong,{children:\"'외부 소프트웨어'\"}),\" 와 연동하는 데 집중합니다. (예: Notion 페이지 읽어오기, Google Calendar 일정 확인하기)\"]}),\"\\n\"]}),\"\\n\",i(r.h2,{id:\"2-mcp-서버-설치-방법\",children:i(r.a,{href:\"#2-mcp-서버-설치-방법\",children:\"2. MCP 서버 설치 방법\"})}),\"\\n\",e(r.p,{children:[\"MCP를 사용하려면 Antigravity와 외부 앱을 연결해 주는 \",i(r.strong,{children:\"'MCP 서버'\"}),\" 를 설치해야 합니다. 크게 두 가지 방법이 있습니다.\"]}),\"\\n\",i(r.h3,{id:\"21-mcp-store에서-설치\",children:i(r.a,{href:\"#21-mcp-store에서-설치\",children:\"2.1. MCP Store에서 설치\"})}),\"\\n\",i(r.p,{children:\"Antigravity 내장 스토어를 이용하는 가장 간단한 방법입니다.\"}),\"\\n\",e(r.ol,{children:[\"\\n\",e(r.li,{children:[\"Antigravity 우측 상단 \",i(r.code,{children:\"...\"}),\" 메뉴 > \",i(r.code,{children:\"MCP Servers\"}),\" 클릭\"]}),\"\\n\",e(r.li,{children:[i(r.strong,{children:'\"Discover\"'}),\" 탭에서 원하는 서비스(예: \",i(r.strong,{children:\"Notion\"}),\") 찾기\"]}),\"\\n\",e(r.li,{children:[i(r.code,{children:\"Install\"}),\" 버튼 클릭\"]}),\"\\n\",i(r.li,{children:\"화면의 안내에 따라 계정 로그인 및 API 키 입력\"}),\"\\n\"]}),\"\\n\",i(h,{type:\"info\",title:\"Info\",children:i(r.p,{children:\"현재(2026년 초 기준) MCP Store에 등록된 서비스는 아직 많지 않습니다. 하지만 Notion이나 GitHub 같은 주요 서비스는 아주 쉽게 연결할 수 있습니다.\"})}),\"\\n\",i(r.h3,{id:\"22-config-파일-수정해서-수동으로-설치\",children:i(r.a,{href:\"#22-config-파일-수정해서-수동으로-설치\",children:\"2.2. Config 파일 수정해서 수동으로 설치\"})}),\"\\n\",i(r.p,{children:\"Store에 없는 서비스(예: NotebookLM 등)를 연결하려면 설정 파일을 직접 수정해야 합니다. 처음에는 낯설 수 있지만, 차근차근 따라 하면 어렵지 않습니다.\"}),\"\\n\",e(r.ol,{children:[\"\\n\",e(r.li,{children:[\"Antigravity 우측 상단 \",i(r.code,{children:\"...\"}),\" 메뉴 > \",i(r.code,{children:\"MCP Servers\"}),\" > \",i(r.code,{children:\"Manage MCP Servers\"}),\" > \",i(r.code,{children:\"View raw config\"}),\" 클릭\"]}),\"\\n\",e(r.li,{children:[i(r.code,{children:\"mcpServers\"}),\" 항목에 아래와 같은 형식으로 코드를 추가합니다.(예시 : 구글캘린더)\"]}),\"\\n\"]}),\"\\n\",i(r.figure,{\"data-rehype-pretty-code-figure\":\"\",children:i(r.pre,{style:{\"--shiki-dark\":\"#e1e4e8\",\"--shiki-light\":\"#24292e\",\"--shiki-dark-bg\":\"#24292e\",\"--shiki-light-bg\":\"#fff\"},tabIndex:\"0\",\"data-language\":\"json\",\"data-theme\":\"github-dark github-light\",children:e(r.code,{\"data-language\":\"json\",\"data-theme\":\"github-dark github-light\",style:{display:\"grid\"},children:[e(r.span,{\"data-line\":\"\",children:[i(r.span,{style:{\"--shiki-dark\":\"#9ECBFF\",\"--shiki-light\":\"#032F62\"},children:'\"google-calendar\"'}),i(r.span,{style:{\"--shiki-dark\":\"#E1E4E8\",\"--shiki-light\":\"#24292E\"},children:\": {\"})]}),\"\\n\",e(r.span,{\"data-line\":\"\",children:[i(r.span,{style:{\"--shiki-dark\":\"#79B8FF\",\"--shiki-light\":\"#005CC5\"},children:'    \"command\"'}),i(r.span,{style:{\"--shiki-dark\":\"#E1E4E8\",\"--shiki-light\":\"#24292E\"},children:\": \"}),i(r.span,{style:{\"--shiki-dark\":\"#9ECBFF\",\"--shiki-light\":\"#032F62\"},children:'\"npx\"'}),i(r.span,{style:{\"--shiki-dark\":\"#E1E4E8\",\"--shiki-light\":\"#24292E\"},children:\",\"})]}),\"\\n\",e(r.span,{\"data-line\":\"\",children:[i(r.span,{style:{\"--shiki-dark\":\"#79B8FF\",\"--shiki-light\":\"#005CC5\"},children:'    \"args\"'}),i(r.span,{style:{\"--shiki-dark\":\"#E1E4E8\",\"--shiki-light\":\"#24292E\"},children:\": [\"})]}),\"\\n\",e(r.span,{\"data-line\":\"\",children:[i(r.span,{style:{\"--shiki-dark\":\"#9ECBFF\",\"--shiki-light\":\"#032F62\"},children:'    \"-y\"'}),i(r.span,{style:{\"--shiki-dark\":\"#E1E4E8\",\"--shiki-light\":\"#24292E\"},children:\",\"})]}),\"\\n\",i(r.span,{\"data-line\":\"\",children:i(r.span,{style:{\"--shiki-dark\":\"#9ECBFF\",\"--shiki-light\":\"#032F62\"},children:'    \"@modelcontextprotocol/server-google-calendar\"'})}),\"\\n\",i(r.span,{\"data-line\":\"\",children:i(r.span,{style:{\"--shiki-dark\":\"#E1E4E8\",\"--shiki-light\":\"#24292E\"},children:\"    ],\"})}),\"\\n\",e(r.span,{\"data-line\":\"\",children:[i(r.span,{style:{\"--shiki-dark\":\"#79B8FF\",\"--shiki-light\":\"#005CC5\"},children:'    \"env\"'}),i(r.span,{style:{\"--shiki-dark\":\"#E1E4E8\",\"--shiki-light\":\"#24292E\"},children:\": {\"})]}),\"\\n\",e(r.span,{\"data-line\":\"\",children:[i(r.span,{style:{\"--shiki-dark\":\"#79B8FF\",\"--shiki-light\":\"#005CC5\"},children:'    \"GOOGLE_CLIENT_ID\"'}),i(r.span,{style:{\"--shiki-dark\":\"#E1E4E8\",\"--shiki-light\":\"#24292E\"},children:\": \"}),i(r.span,{style:{\"--shiki-dark\":\"#9ECBFF\",\"--shiki-light\":\"#032F62\"},children:'\"ID\"'}),i(r.span,{style:{\"--shiki-dark\":\"#E1E4E8\",\"--shiki-light\":\"#24292E\"},children:\",\"})]}),\"\\n\",e(r.span,{\"data-line\":\"\",children:[i(r.span,{style:{\"--shiki-dark\":\"#79B8FF\",\"--shiki-light\":\"#005CC5\"},children:'    \"GOOGLE_CLIENT_SECRET\"'}),i(r.span,{style:{\"--shiki-dark\":\"#E1E4E8\",\"--shiki-light\":\"#24292E\"},children:\": \"}),i(r.span,{style:{\"--shiki-dark\":\"#9ECBFF\",\"--shiki-light\":\"#032F62\"},children:'\"SECRET\"'})]}),\"\\n\",i(r.span,{\"data-line\":\"\",children:i(r.span,{style:{\"--shiki-dark\":\"#E1E4E8\",\"--shiki-light\":\"#24292E\"},children:\"    }\"})}),\"\\n\",i(r.span,{\"data-line\":\"\",children:i(r.span,{style:{\"--shiki-dark\":\"#E1E4E8\",\"--shiki-light\":\"#24292E\"},children:\"}\"})})]})})}),\"\\n\",i(h,{type:\"tip\",title:\"Tip\",children:e(r.p,{children:[\"이 과정이 어렵게 느껴진다면 늘 강조했듯 \",i(r.strong,{children:\"AI에게 시키세요.\"}),'\\n\"나 구글캘린더 MCP 설치하고 싶은데 ',i(r.code,{children:\"config\"}),' 파일 어떻게 수정하면 돼?\"라고 물어보고, 발급받은 API 키만 알려주면 AI가 알아서 코드를 작성해 줍니다.']})}),\"\\n\",i(r.h2,{id:\"3-mcp-서버-사용법\",children:i(r.a,{href:\"#3-mcp-서버-사용법\",children:\"3. MCP 서버 사용법\"})}),\"\\n\",e(r.p,{children:[\"MCP 서버 설치가 완료되었다면, 사용 방법은 매우 간단합니다. \",i(r.strong,{children:\"평소처럼 대화하면 됩니다.\"})]}),\"\\n\",i(r.h3,{id:\"31-자연어로-명령\",children:i(r.a,{href:\"#31-자연어로-명령\",children:\"3.1. 자연어로 명령\"})}),\"\\n\",i(r.p,{children:\"별도의 복잡한 명령어 없이, AI에게 하고 싶은 말을 자연스럽게 하세요.\"}),\"\\n\",e(r.ul,{children:[\"\\n\",i(r.li,{children:'\"내 구글 캘린더에서 내일 일정에 추가해줘.\"'}),\"\\n\",i(r.li,{children:'\"방금 작성한 내용 노션에 정리해줘.\"'}),\"\\n\"]}),\"\\n\",i(r.p,{children:\"AI는 여러분의 말을 이해하고, 필요한 MCP 도구를 스스로 판단하여 실행합니다.\"}),\"\\n\",i(r.h3,{id:\"32-권한-허용\",children:i(r.a,{href:\"#32-권한-허용\",children:\"3.2. 권한 허용\"})}),\"\\n\",e(r.p,{children:[\"처음 MCP 도구를 사용할 때, Antigravity는 보안을 위해 \",i(r.strong,{children:'\"이 도구를 실행해도 될까요?\"'}),\" 라고 묻는 팝업을 띄웁니다.\"]}),\"\\n\",e(r.p,{children:[\"이때 \",i(r.strong,{children:\"[Allow Always]\"}),\" 를 선택하면, 이후에는 묻지 않고 편리하게 사용할 수 있습니다.\"]}),\"\\n\",i(r.h2,{id:\"4-추천-mcp-서버\",children:i(r.a,{href:\"#4-추천-mcp-서버\",children:\"4. 추천 MCP 서버\"})}),\"\\n\",e(r.p,{children:[\"MCP 생태계는 매우 방대하지만, 비개발자(실무자)에게 가장 필요한 것은 \",i(r.strong,{children:\"'내 업무 도구와의 연결'\"}),\" 입니다. 복잡한 개발 도구보다는, 매일 사용하는 생산성 앱을 연결했을 때 그 진가를 발휘합니다.\"]}),\"\\n\",e(r.p,{children:[\"따라서, \",i(r.strong,{children:\"내 업무 환경에서 사용하는 앱의 MCP 서버\"}),\"를 연결하는 것이 가장 중요합니다.\"]}),\"\\n\",e(r.p,{children:[\"다음은 공통적으로 가장 추천하는 \",i(r.strong,{children:\"3가지 MCP 서버\"}),\"입니다.\"]}),\"\\n\",i(r.h3,{id:\"41-notion-노션-mcp\",children:i(r.a,{href:\"#41-notion-노션-mcp\",children:\"4.1. Notion (노션) MCP\"})}),\"\\n\",i(r.p,{children:\"많은 분들이 업무 정리나 개인 메모용으로 Notion을 사용합니다. MCP를 연결하면 Antigravity가 Notion에 있는 방대한 자료를 직접 읽고, 수정하고, 정리해 줄 수 있습니다.\"}),\"\\n\",e(r.ul,{children:[\"\\n\",e(r.li,{children:[i(r.strong,{children:\"추천 대상\"}),\": Notion을 주력 노트 앱으로 사용하는 분\"]}),\"\\n\",e(r.li,{children:[i(r.strong,{children:\"활용 예시\"}),\":\",\"\\n\",e(r.ul,{children:[\"\\n\",i(r.li,{children:\"\\\"내 '독서 리스트' 데이터베이스에서 아직 안 읽은 책 목록 뽑아줘.\\\"\"}),\"\\n\",i(r.li,{children:\"\\\"방금 이야기한 회의 내용, 내 '업무 일지' 페이지에 요약해서 추가해줘.\\\"\"}),\"\\n\",i(r.li,{children:\"\\\"노션에 있는 '프로젝트 가이드라인' 페이지 읽고, 그 규칙대로 기획안 초안 써줘.\\\"\"}),\"\\n\"]}),\"\\n\"]}),\"\\n\"]}),\"\\n\",i(r.h3,{id:\"42-google-drive-구글-드라이브-mcp\",children:i(r.a,{href:\"#42-google-drive-구글-드라이브-mcp\",children:\"4.2. Google Drive (구글 드라이브) MCP\"})}),\"\\n\",i(r.p,{children:\"MCP를 연결하면 내 구글드라이브에 있는 수많은 문서(PDF, Google Docs 등)를 AI가 직접 검색하고 내용을 읽어올 수 있습니다.\"}),\"\\n\",e(r.ul,{children:[\"\\n\",e(r.li,{children:[i(r.strong,{children:\"추천 대상\"}),\": 구글 드라이브를 메인 클라우드로 사용하는 분\"]}),\"\\n\",e(r.li,{children:[i(r.strong,{children:\"활용 예시\"}),\":\",\"\\n\",e(r.ul,{children:[\"\\n\",i(r.li,{children:\"\\\"내 드라이브에서 '2025 사업계획서' PDF 찾아서 요약해줘.\\\"\"}),\"\\n\",i(r.li,{children:\"\\\"'프로젝트' 폴더에 있는 파일 리스트 보여줘.\\\"\"}),\"\\n\",i(r.li,{children:\"\\\"'회의록' 구글 docs 읽고, 주요 안건만 뽑아서 정리해줘.\\\"\"}),\"\\n\"]}),\"\\n\"]}),\"\\n\"]}),\"\\n\",i(r.h3,{id:\"43-notebooklm---나만의-지식-엔진-강력-추천\",children:i(r.a,{href:\"#43-notebooklm---나만의-지식-엔진-강력-추천\",children:'4.3. NotebookLM - \"나만의 지식 엔진\" (강력 추천)'})}),\"\\n\",e(r.p,{children:[\"구글의 NotebookLM은 내가 가진 자료(PDF, 웹사이트 등)를 학습시켜 대화할 수 있는 도구입니다. 이를 MCP로 연결하면, \",i(r.strong,{children:\"내가 가진 문서들을 근거로 정확하게 답변하는 AI\"}),\"를 만들 수 있습니다. 가장 활용도가 높아 별도 챕터로 상세히 다루겠습니다.\"]}),\"\\n\",i(h,{type:\"important\",title:\"Important\",children:e(r.p,{children:[i(r.strong,{children:\"MCP 서버 관리 팁\"}),\"\\n스킬과 달리 MCP는 한꺼번에 너무 많은 도구를 설치하면 안정성 문제가 생기므로 \",i(r.strong,{children:\"자주 쓰는 핵심 도구 3~4개\"}),\"만 유지하는 것이 안정성 측면에서 좋습니다.\"]})}),\"\\n\",e(h,{type:\"info\",title:\"Info\",children:[e(r.p,{children:[i(r.strong,{children:'MCP Market (MCP 마켓) - \"더 많은 도구 찾기\"'}),\"\\n내가 사용하는 서비스가 MCP를 지원하는지, 혹은 어떤 유용한 도구들이 있는지 궁금하다면 \",i(r.strong,{children:\"MCP Market\"}),\" 사이트를 방문해 보시기 바랍니다.\"]}),e(r.ul,{children:[\"\\n\",e(r.li,{children:[i(r.strong,{children:\"사이트 주소\"}),\": \",i(r.a,{href:\"https://mcpmarket.com/ko\",children:\"https://mcpmarket.com/ko\"})]}),\"\\n\",e(r.li,{children:[i(r.strong,{children:\"특징\"}),\": 전 세계 개발자들이 만든 다양한 MCP 서버를 한눈에 볼 수 있으며, 인기 순위나 카테고리별로 검색이 가능합니다.\"]}),\"\\n\",e(r.li,{children:[i(r.strong,{children:\"활용\"}),\": 새로운 업무 자동화 아이디어가 필요할 때 '인기(Popular)' 탭을 확인해 보는 것만으로도 큰 도움이 됩니다.\"]}),\"\\n\"]})]}),\"\\n\",e(r.section,{\"data-footnotes\":!0,className:\"footnotes\",children:[i(r.h2,{className:\"sr-only\",id:\"footnote-label\",children:i(r.a,{href:\"#footnote-label\",children:\"Footnotes\"})}),\"\\n\",e(r.ol,{children:[\"\\n\",e(r.li,{id:\"user-content-fn-1\",children:[\"\\n\",e(r.p,{children:[\"AI가 내 파일이나 외부 서비스(노션, 구글 등)를 자유롭게 드나들 수 있도록 만든 '공통의 규약'입니다. \",i(r.a,{href:\"#user-content-fnref-1\",\"data-footnote-backref\":\"\",\"aria-label\":\"Back to reference 1\",className:\"data-footnote-backref\",children:\"↩\"})]}),\"\\n\"]}),\"\\n\"]}),\"\\n\"]})]})}return{default:function(n={}){const{wrapper:e}=n.components||{};return e?i(e,{...n,children:i(_createMdxContent,{...n})}):_createMdxContent(n)}};",
-    "toc": [
-      {
-        "title": "1. MCP란?",
-        "url": "#1-mcp란",
-        "items": [
-          {
-            "title": "1.1. 외부 도구와의 연결",
-            "url": "#11-외부-도구와의-연결",
-            "items": []
-          },
-          {
-            "title": "1.2. 스킬(Skills)과의 차이점",
-            "url": "#12-스킬skills과의-차이점",
-            "items": []
-          }
-        ]
-      },
-      {
-        "title": "2. MCP 서버 설치 방법",
-        "url": "#2-mcp-서버-설치-방법",
-        "items": [
-          {
-            "title": "2.1. MCP Store에서 설치",
-            "url": "#21-mcp-store에서-설치",
-            "items": []
-          },
-          {
-            "title": "2.2. Config 파일 수정해서 수동으로 설치",
-            "url": "#22-config-파일-수정해서-수동으로-설치",
-            "items": []
-          }
-        ]
-      },
-      {
-        "title": "3. MCP 서버 사용법",
-        "url": "#3-mcp-서버-사용법",
-        "items": [
-          {
-            "title": "3.1. 자연어로 명령",
-            "url": "#31-자연어로-명령",
-            "items": []
-          },
-          {
-            "title": "3.2. 권한 허용",
-            "url": "#32-권한-허용",
-            "items": []
-          }
-        ]
-      },
-      {
-        "title": "4. 추천 MCP 서버",
-        "url": "#4-추천-mcp-서버",
-        "items": [
-          {
-            "title": "4.1. Notion (노션) MCP",
-            "url": "#41-notion-노션-mcp",
-            "items": []
-          },
-          {
-            "title": "4.2. Google Drive (구글 드라이브) MCP",
-            "url": "#42-google-drive-구글-드라이브-mcp",
-            "items": []
-          },
-          {
-            "title": "4.3. NotebookLM - \"나만의 지식 엔진\" (강력 추천)",
-            "url": "#43-notebooklm---나만의-지식-엔진-강력-추천",
-            "items": []
-          }
-        ]
-      }
-    ],
-    "title": "7.1. MCP 설치 및 사용방법",
-    "series": "ai/AI도구/비개발자를-위한-Antigravity-가이드",
-    "category": "ai",
-    "subcategory": "AI도구",
-    "order": 7,
-    "depth": 1,
-    "parentPath": "7-MCP",
-    "slugAsParams": "ai/AI도구/비개발자를-위한-Antigravity-가이드/7-MCP/71-MCP-설치-및-사용방법"
-  },
-  {
-    "slug": "ai/AI도구/비개발자를 위한 Antigravity 가이드/7. MCP/7.2. NotebookLM MCP",
-    "subject": "7.2. NotebookLM MCP",
-    "draft": false,
-    "id": 329268,
-    "parent_id": 329270,
-    "book_id": 18574,
-    "open_yn": "Y",
-    "last_synced": "",
-    "metadata": {
-      "readingTime": 1,
-      "wordCount": 131
-    },
-    "body": "const{Fragment:n,jsx:i,jsxs:e}=arguments[0];function _createMdxContent(r){const l={a:\"a\",code:\"code\",figure:\"figure\",h2:\"h2\",h3:\"h3\",img:\"img\",li:\"li\",ol:\"ol\",p:\"p\",pre:\"pre\",span:\"span\",strong:\"strong\",ul:\"ul\",...r.components},{Callout:h}=l;return h||function(n,i){throw new Error(\"Expected \"+(i?\"component\":\"object\")+\" `\"+n+\"` to be defined: you likely forgot to import, pass, or provide it.\")}(\"Callout\",!0),e(n,{children:[i(l.h2,{id:\"1-notebooklm이란\",children:i(l.a,{href:\"#1-notebooklm이란\",children:\"1. NotebookLM이란?\"})}),\"\\n\",e(l.p,{children:[\"이제는 많은 분들이 사용하고 계실 NotebookLM은 구글에서 제공하는 \",i(l.strong,{children:\"RAG(검색 증강 생성) 서비스\"}),\"입니다. 사용자가 직접 업로드한 PDF, 웹 링크, 텍스트 등의 자료를 기반으로 답변을 생성하는 서비스로, \",i(l.strong,{children:\"내가 가진 데이터 안에서\"}),\"만 정보를 찾아주기 때문에 정확한 답변 생성이 가능합니다.\"]}),\"\\n\",i(l.p,{children:\"또한 답변 시 참고한 원문의 위치를 각주 로 명확히 표시해 주기 때문에 신뢰도가 높습니다.\"}),\"\\n\",e(l.p,{children:[\"최근에는 \",i(l.strong,{children:\"Nanobanana와\"}),\" 결합하여 자료를 팟캐스트나 인포그래픽, 심지어는 PPT로 변환해 주는 \",i(l.strong,{children:\"시각화 기능\"}),\"까지 추가되며 활용도가 더욱 높아졌습니다.\"]}),\"\\n\",i(h,{type:\"warning\",title:\"Warning\",children:e(l.p,{children:[i(l.strong,{children:\"환각(Hallucination)이 완전히 사라진 것은 아닙니다\"}),\"\\nNotebookLM이 환각 문제를 획기적으로 개선한 것은 사실이지만, 100% 완벽한 것은 아닙니다. 확률 기반 모델이라는 \",i(l.strong,{children:\"고유한계\"}),\"로 인해 AI가 제공된 자료 내에서도 정보를 잘못 연결하거나 문맥을 오해할 가능성은 여전히 존재합니다.\"]})}),\"\\n\",e(h,{type:\"info\",title:\"Info\",children:[e(l.p,{children:[i(l.strong,{children:\"RAG(검색 증강 생성)란?\"}),\"\\nRAG(Retrieval-Augmented Generation)는 AI가 답변을 생성하기 전, 데이터베이스에서 관련 정보를 먼저 찾아보고 이를 참고하여 답변하는 기술입니다. 이를 통해 답변의 정확도를 높이고 환각 현상을 줄일 수 있습니다.\"]}),e(l.ul,{children:[\"\\n\",i(l.li,{children:\"일반적으로 RAG 기반 챗봇을 구현하기 위해서는 Langchain이나 LlamaIndex 같은 복잡한 프레임워크를 사용해야만 하며, 이는 비개발자에게는 쉽지 않은 일입니다.\"}),\"\\n\",e(l.li,{children:[\"하지만 \",i(l.strong,{children:\"NotebookLM\"}),\"을 활용하면 이러한 기술적 장벽 없이 \",i(l.strong,{children:\"누구나 손쉽게 고성능 RAG 시스템\"}),\"을 구현할 수 있습니다.\"]}),\"\\n\"]})]}),\"\\n\",i(l.h2,{id:\"2-notebooklm과-antigravity의-연결\",children:i(l.a,{href:\"#2-notebooklm과-antigravity의-연결\",children:\"2. NotebookLM과 Antigravity의 연결\"})}),\"\\n\",e(l.p,{children:[\"NotebookLM은 그 자체로도 훌륭한 도구이지만, Antigravity와 연동했을 때 더욱 시너지가 발휘됩니다. 구글의 강력한 RAG 기술을 편집기 안으로 가져와 나의 일상적인 업무 흐름(Workflow) 속에 자연스럽게 녹여낼 수 있기 때문입니다. 바로 \",i(l.strong,{children:\"NotebookLM MCP\"}),\"가 이를 위한 가장 적합한 도구입니다.\"]}),\"\\n\",e(h,{type:\"info\",title:\"Info\",children:[e(l.p,{children:[i(l.strong,{children:\"로컬 파일 참조 vs NotebookLM MCP의 차이\"}),\"\\n이미 Antigravity에서 내 컴퓨터에 있는 파일을 읽을 수 있는데, 왜 굳이 NotebookLM을 써야 할까요? 그 이유는 크게 세 가지입니다.\"]}),e(l.ol,{children:[\"\\n\",e(l.li,{children:[i(l.strong,{children:\"자동 반복 연구\"}),\": 일반 파일을 참조할 때는 단순히 텍스트를 읽어오는 수준입니다. 하지만 NotebookLM MCP는 에이전트(AI)가 자료를 분석하며 스스로 부족한 점을 느끼면 \",i(l.strong,{children:\"여러 번 후속 질문을 던져 깊이 있게 조사\"}),\"합니다. 모르는 내용이 나올 때까지 파고드는 '능동적인 연구원'을 곁에 두는 것과 같습니다.\"]}),\"\\n\",e(l.li,{children:[i(l.strong,{children:\"대규모 지식의 효율적 처리\"}),\": 내 컴퓨터에 수백 개의 PDF나 긴 문서가 있을 때 이를 일일이 에디터에 올리면 맥락(Context)이 넘쳐나서 AI가 느려지거나 헷갈려 할 수 있습니다. NotebookLM은 수십만 단어의 자료를 구글의 고성능 서버에서 미리 처리해 두기 때문에, 방대한 자료 중에서도 \",i(l.strong,{children:\"필요한 정보만 핀포인트로\"}),\" 가져올 수 있습니다.\"]}),\"\\n\",e(l.li,{children:[i(l.strong,{children:\"지식의 구조화와 전환\"}),\": 프로젝트별로 노트북을 나누어 관리(\",i(l.code,{children:\"@노트북이름\"}),\")할 수 있습니다. \\\"이 작업은 '회계 기준서' 노트북을 참고해 줘\\\", \\\"저 작업은 '시스템 가이드' 노트북을 써줘\\\"와 같이 상황에 맞춰 지식의 맥락을 즉시 교체하며 작업 흐름을 유지할 수 있습니다.\"]}),\"\\n\"]})]}),\"\\n\",i(l.h2,{id:\"2-notebooklm-mcp-설치-방법-및-기능\",children:i(l.a,{href:\"#2-notebooklm-mcp-설치-방법-및-기능\",children:\"2. NotebookLM MCP 설치 방법 및 기능\"})}),\"\\n\",i(l.h3,{id:\"21-설치-및-설정-방법\",children:i(l.a,{href:\"#21-설치-및-설정-방법\",children:\"2.1. 설치 및 설정 방법\"})}),\"\\n\",i(l.p,{children:\"현재 NotebookLM MCP는 공식 마켓플레이스에 등록되어 있지 않으므로, 아래의 4단계를 통해 직접 연결해야 합니다.\"}),\"\\n\",e(l.p,{children:[i(l.strong,{children:\"GitHub 저장소:\"}),\" \",i(l.a,{href:\"https://github.com/jacob-bd/notebooklm-mcp-cli\",children:\"jacob-bd/notebooklm-mcp-cli\"}),\"\\n\",i(l.img,{src:\"https://cdn.jsdelivr.net/gh/procpalee/my_obsidian_images/img/20260220014210429.png\",alt:\"image.png\"})]}),\"\\n\",i(l.p,{children:i(l.strong,{children:\"1단계: 프로그램 설치\"})}),\"\\n\",i(l.p,{children:\"터미널(PowerShell 또는 CMD)을 열고 아래 명령어를 입력하여 서버 프로그램을 설치합니다.(단, Python이 설치되어 있어야 합니다.)\"}),\"\\n\",i(l.figure,{\"data-rehype-pretty-code-figure\":\"\",children:i(l.pre,{style:{\"--shiki-dark\":\"#e1e4e8\",\"--shiki-light\":\"#24292e\",\"--shiki-dark-bg\":\"#24292e\",\"--shiki-light-bg\":\"#fff\"},tabIndex:\"0\",\"data-language\":\"bash\",\"data-theme\":\"github-dark github-light\",children:i(l.code,{\"data-language\":\"bash\",\"data-theme\":\"github-dark github-light\",style:{display:\"grid\"},children:e(l.span,{\"data-line\":\"\",children:[i(l.span,{style:{\"--shiki-dark\":\"#B392F0\",\"--shiki-light\":\"#6F42C1\"},children:\"pip\"}),i(l.span,{style:{\"--shiki-dark\":\"#9ECBFF\",\"--shiki-light\":\"#032F62\"},children:\" install\"}),i(l.span,{style:{\"--shiki-dark\":\"#9ECBFF\",\"--shiki-light\":\"#032F62\"},children:\" notebooklm-mcp-cli\"})]})})})}),\"\\n\",i(l.p,{children:i(l.strong,{children:\"2단계: 안티그래비티 설정 연결\"})}),\"\\n\",e(l.p,{children:[\"안티그래비티의 \",i(l.code,{children:\"mcp_config.json\"}),\" 파일을 열고, \",i(l.code,{children:\"mcpServers\"}),\" 항목 안에 아래 코드를 추가합니다.\"]}),\"\\n\",i(l.figure,{\"data-rehype-pretty-code-figure\":\"\",children:i(l.pre,{style:{\"--shiki-dark\":\"#e1e4e8\",\"--shiki-light\":\"#24292e\",\"--shiki-dark-bg\":\"#24292e\",\"--shiki-light-bg\":\"#fff\"},tabIndex:\"0\",\"data-language\":\"json\",\"data-theme\":\"github-dark github-light\",children:e(l.code,{\"data-language\":\"json\",\"data-theme\":\"github-dark github-light\",style:{display:\"grid\"},children:[e(l.span,{\"data-line\":\"\",children:[i(l.span,{style:{\"--shiki-dark\":\"#9ECBFF\",\"--shiki-light\":\"#032F62\"},children:'\"notebooklm-mcp\"'}),i(l.span,{style:{\"--shiki-dark\":\"#E1E4E8\",\"--shiki-light\":\"#24292E\"},children:\": {\"})]}),\"\\n\",e(l.span,{\"data-line\":\"\",children:[i(l.span,{style:{\"--shiki-dark\":\"#79B8FF\",\"--shiki-light\":\"#005CC5\"},children:'  \"command\"'}),i(l.span,{style:{\"--shiki-dark\":\"#E1E4E8\",\"--shiki-light\":\"#24292E\"},children:\": \"}),i(l.span,{style:{\"--shiki-dark\":\"#9ECBFF\",\"--shiki-light\":\"#032F62\"},children:'\"notebooklm-mcp\"'}),i(l.span,{style:{\"--shiki-dark\":\"#E1E4E8\",\"--shiki-light\":\"#24292E\"},children:\",\"})]}),\"\\n\",e(l.span,{\"data-line\":\"\",children:[i(l.span,{style:{\"--shiki-dark\":\"#79B8FF\",\"--shiki-light\":\"#005CC5\"},children:'  \"args\"'}),i(l.span,{style:{\"--shiki-dark\":\"#E1E4E8\",\"--shiki-light\":\"#24292E\"},children:\": []\"})]}),\"\\n\",i(l.span,{\"data-line\":\"\",children:i(l.span,{style:{\"--shiki-dark\":\"#E1E4E8\",\"--shiki-light\":\"#24292E\"},children:\"}\"})})]})})}),\"\\n\",i(l.p,{children:i(l.strong,{children:\"3단계: 계정 인증(로그인)\"})}),\"\\n\",i(l.p,{children:\"터미널에 아래 명령어를 입력하면 자동으로 브라우저 창이 뜹니다.\"}),\"\\n\",i(l.figure,{\"data-rehype-pretty-code-figure\":\"\",children:i(l.pre,{style:{\"--shiki-dark\":\"#e1e4e8\",\"--shiki-light\":\"#24292e\",\"--shiki-dark-bg\":\"#24292e\",\"--shiki-light-bg\":\"#fff\"},tabIndex:\"0\",\"data-language\":\"bash\",\"data-theme\":\"github-dark github-light\",children:i(l.code,{\"data-language\":\"bash\",\"data-theme\":\"github-dark github-light\",style:{display:\"grid\"},children:e(l.span,{\"data-line\":\"\",children:[i(l.span,{style:{\"--shiki-dark\":\"#B392F0\",\"--shiki-light\":\"#6F42C1\"},children:\"nlm\"}),i(l.span,{style:{\"--shiki-dark\":\"#9ECBFF\",\"--shiki-light\":\"#032F62\"},children:\" login\"})]})})})}),\"\\n\",i(l.p,{children:i(l.strong,{children:\"4단계: 로그인 완료\"})}),\"\\n\",i(l.p,{children:\"브라우저에서 평소 사용하는 구글 계정으로 로그인을 완료합니다.\"}),\"\\n\",e(l.ul,{children:[\"\\n\",e(l.li,{children:[i(l.strong,{children:\"관리 팁:\"}),\" 작동이 멈추거나 인증 오류가 발생할 경우, 터미널에 다시 \",i(l.code,{children:\"nlm login\"}),\"을 입력하여 세션을 갱신하면 해결됩니다.\"]}),\"\\n\"]}),\"\\n\",i(h,{type:\"tip\",title:\"Tip\",children:e(l.p,{children:[i(l.strong,{children:\"설치 과정이 어렵게 느껴진다면?\"}),'\\n직접 설치하는 과정이 복잡하게 느껴진다면, 위 GitHub 저장소 주소를 Antigravity 에이전트에게 전달하며 \"이 MCP 서버를 설치해줘\"라고 요청해 보세요. AI가 설치 과정을 대신 진행하거나 상세히 안내해 줄 것입니다.']})}),\"\\n\",i(l.h3,{id:\"22-notebooklm-mcp에서-지원하는-기능\",children:i(l.a,{href:\"#22-notebooklm-mcp에서-지원하는-기능\",children:\"2.2. NotebookLM MCP에서 지원하는 기능\"})}),\"\\n\",i(l.p,{children:\"NotebookLM MCP는 웹 서비스의 거의 모든 핵심 기능을 안티그래비티 안으로 가져왔습니다. 이제 브라우저를 켜지 않고도 다음과 같은 작업을 수행할 수 있습니다.\"}),\"\\n\",e(l.ul,{children:[\"\\n\",e(l.li,{children:[i(l.strong,{children:\"노트북 관리\"}),\": 새로운 노트북 생성(\",i(l.code,{children:\"notebook_create\"}),\"), 목록 조회, 삭제 및 이름 변경이 가능합니다.\"]}),\"\\n\",e(l.li,{children:[e(l.strong,{children:[\"지식 소스 추가 (\",i(l.code,{children:\"source_add\"}),\")\"]}),\": 웹사이트 URL, 유튜브 링크, 로컬 파일(PDF, 텍스트), 구글 드라이브 문서를 실시간으로 노트북에 추가할 수 있습니다.\"]}),\"\\n\",e(l.li,{children:[i(l.strong,{children:\"지식 조회 및 연구\"}),\": 특정 노트북을 지정한 정교한 질의응답(\",i(l.code,{children:\"notebook_query\"}),\")은 물론, 에이전트가 스스로 여러 번 질문하며 파고드는 '자동 반복 연구'를 지원합니다.\"]}),\"\\n\",e(l.li,{children:[e(l.strong,{children:[\"스튜디오 콘텐츠 생성 (\",i(l.code,{children:\"studio_create\"}),\")\"]}),\": NotebookLM의 꽃인 오디오 오버뷰(팟캐스트), 비디오 개요, 인포그래픽, 퀴즈 등을 대화만으로 생성할 수 있습니다.\"]}),\"\\n\",e(l.li,{children:[e(l.strong,{children:[\"아티팩트 다운로드 (\",i(l.code,{children:\"download_artifact\"}),\")\"]}),\": 생성된 오디오나 비디오 파일을 내 컴퓨터로 직접 다운로드할 수 있습니다.\"]}),\"\\n\"]}),\"\\n\",i(l.h2,{id:\"3-notebooklm-mcp-사용방법\",children:i(l.a,{href:\"#3-notebooklm-mcp-사용방법\",children:\"3. NotebookLM MCP 사용방법\"})}),\"\\n\",e(l.p,{children:[\"설치가 완료되었다면, 이제 NotebookLM을 나만의 \",i(l.strong,{children:\"'지식 외장하드'\"}),\" 로 활용할 차례입니다. 복잡한 설정 없이 대화만으로 지식을 구축하고 활용하는 3단계 워크플로우를 소개합니다.\"]}),\"\\n\",i(l.h3,{id:\"31-1단계-지식-베이스-구축\",children:i(l.a,{href:\"#31-1단계-지식-베이스-구축\",children:\"3.1. 1단계: 지식 베이스 구축\"})}),\"\\n\",e(l.p,{children:[i(l.strong,{children:\"1. 기능\"}),\": 내 컴퓨터의 파일(PDF, MD 등)을 소스로 노트북을 생성하는 것은 물론, \",i(l.strong,{children:\"딥 리서치\"}),\" 도구를 사용하여 웹에서 새로운 소스를 찾아 지식 베이스를 확장할 수 있습니다.\"]}),\"\\n\",e(l.p,{children:[i(l.strong,{children:\"2. 프롬프트 예시\"}),\":\"]}),\"\\n\",e(l.ul,{children:[\"\\n\",i(l.li,{children:\"\\\"기준서 폴더에 있는 모든 파일을 소스로 해서 'K-IFRS 회계기준' 노트북을 새로 만들어줘.\\\"\"}),\"\\n\",i(l.li,{children:\"\\\"웹에서 '2025년 글로벌 ESG 공시 지침'에 대해 Deep Research를 수행하고, 찾은 자료들을 'ESG 연구' 노트북에 추가해줘.\\\"\"}),\"\\n\"]}),\"\\n\",i(l.p,{children:i(l.strong,{children:\"3. 간단 사례\"})}),\"\\n\",e(l.p,{children:[i(l.img,{src:\"https://cdn.jsdelivr.net/gh/procpalee/my_obsidian_images/img/20260220014939328.png\",alt:\"image.png\"}),\"\\n\",i(l.img,{src:\"https://cdn.jsdelivr.net/gh/procpalee/my_obsidian_images/img/20260220014955342.png\",alt:\"image.png\"}),\"\\n\",i(l.img,{src:\"https://cdn.jsdelivr.net/gh/procpalee/my_obsidian_images/img/20260220015016176.png\",alt:\"image.png\"})]}),\"\\n\",i(l.h3,{id:\"32-2단계-노트북을-context로-활용\",children:i(l.a,{href:\"#32-2단계-노트북을-context로-활용\",children:\"3.2. 2단계: 노트북을 Context로 활용\"})}),\"\\n\",e(l.p,{children:[i(l.strong,{children:\"1. 기능\"}),\": 구축된 노트북을 참조하여 질문을 던지면, AI가 해당 노트북의 내용을 파악하고 각주를 원문 위치와 함께 제시합니다. 또한, 기존 드라이브 소스의 내용이 변경되었다면 실시간으로 동기화하여 최신 정보를 유지할 수 있습니다.\"]}),\"\\n\",e(l.p,{children:[i(l.strong,{children:\"2. 프롬프트 예시\"}),\":\"]}),\"\\n\",e(l.ul,{children:[\"\\n\",i(l.li,{children:\"\\\"'K-IFRS 회계기준' 노트북에서 리스부채의 재측정 요건을 분석해줘.\\\"\"}),\"\\n\",i(l.li,{children:\"\\\"지금 작성한 보고서 초안을 'ESG 연구' 노트북과 대조해보고, 실무 지침과 어긋나는 부분이 있는지 교차 검증해줘.\\\"\"}),\"\\n\"]}),\"\\n\",e(l.p,{children:[i(l.strong,{children:\"3. 간단 사례\"}),\":\"]}),\"\\n\",e(l.p,{children:[i(l.img,{src:\"https://cdn.jsdelivr.net/gh/procpalee/my_obsidian_images/img/20260220014626508.png\",alt:\"image.png\"}),\"\\n\",i(l.img,{src:\"https://cdn.jsdelivr.net/gh/procpalee/my_obsidian_images/img/20260220014704277.png\",alt:\"image.png\"})]}),\"\\n\",i(l.h3,{id:\"33-3단계-지식의-재가공-studio-mode\",children:i(l.a,{href:\"#33-3단계-지식의-재가공-studio-mode\",children:\"3.3. 3단계: 지식의 재가공 (Studio Mode)\"})}),\"\\n\",e(l.p,{children:[i(l.strong,{children:\"1. 기능\"}),\": 수집한 전문 지식을 \",i(l.strong,{children:\"스튜디오(Studio)\"}),\" 기능을 통해 다양한 형태의 결과물로 변환합니다. 대화형 팟캐스트(Audio Overview), 발표용 슬라이드(Slide), 시각적 마인드맵(Mind Map), 구조화된 데이터 테이블 등을 생성할 수 있습니다.\"]}),\"\\n\",e(l.p,{children:[i(l.strong,{children:\"2. 프롬프트 예시\"}),\":\"]}),\"\\n\",e(l.ul,{children:[\"\\n\",e(l.li,{children:['\" 분석 결과를 토대로 내용을 요약한 ',i(l.strong,{children:\"인포그래픽\"}),\"과 \",i(l.strong,{children:\"슬라이드(PPT)\"}),' 초안을 생성 후 다운받아줘\"']}),\"\\n\",e(l.li,{children:['\"보고서 내용을 바탕으로 이해도 확인을 위한 ',i(l.strong,{children:\"퀴즈\"}),' 5문항을 만들어줘.\"']}),\"\\n\"]}),\"\\n\",e(l.p,{children:[i(l.strong,{children:\"3. 간단 사례\"}),\":\"]}),\"\\n\",e(l.p,{children:[i(l.img,{src:\"https://cdn.jsdelivr.net/gh/procpalee/my_obsidian_images/img/20260220014329235.png\",alt:\"image.png\"}),\"\\n\",i(l.img,{src:\"https://cdn.jsdelivr.net/gh/procpalee/my_obsidian_images/img/20260220014302768.png\",alt:\"image.png\"}),\"\\n\",i(l.img,{src:\"https://cdn.jsdelivr.net/gh/procpalee/my_obsidian_images/img/20260220014830242.png\",alt:\"image.png\"}),\"\\n\",i(l.img,{src:\"https://cdn.jsdelivr.net/gh/procpalee/my_obsidian_images/img/20260220015224057.png\",alt:\"image.png\"})]}),\"\\n\",e(h,{type:\"info\",title:\"Info\",children:[i(l.p,{children:i(l.strong,{children:\"고급 활용 팁\"})}),e(l.ul,{children:[\"\\n\",e(l.li,{children:[i(l.strong,{children:\"다중 맥락 관리\"}),\": 프로젝트마다 전용 노트북을 지정해두면, \",i(l.code,{children:\"@노트북이름\"}),\"만으로 손쉽게 전문 지식의 맥락을 교체하며 작업할 수 있습니다.\"]}),\"\\n\",e(l.li,{children:[i(l.strong,{children:\"아티팩트 내보내기\"}),\": 생성된 보고서는 구글 문서(Google Docs)로, 데이터 테이블은 구글 스프레드시트(Sheets)로 즉시 내보내어 추가 편집이 가능합니다.\"]}),\"\\n\"]})]}),\"\\n\",i(l.h2,{id:\"4-마치며\",children:i(l.a,{href:\"#4-마치며\",children:\"4. 마치며\"})}),\"\\n\",e(l.p,{children:[\"대부분의 MCP 서버가 개발자 중심의 도구인 것과 달리, NotebookLM은 \",i(l.strong,{children:\"비개발자도 즉시 업무에 활용할 수 있는\"}),\" 가장 실용적인 MCP라고 생각해서 소개해봤습니다. 설치 과정이 다소 까다롭지만 사용 방법은 간단하니 꼭 한번 활용해보시길 권합니다.\"]}),\"\\n\",e(l.p,{children:[\"다음 글에서는 웹 브라우저를 직접 제어하며 복잡한 온라인 업무를 자동화해 주는 \",i(l.strong,{children:\"브라우저 에이전트(Browser Agent)\"}),\" 활용법에 대해 알아보겠습니다.\"]})]})}return{default:function(n={}){const{wrapper:e}=n.components||{};return e?i(e,{...n,children:i(_createMdxContent,{...n})}):_createMdxContent(n)}};",
-    "toc": [
-      {
-        "title": "1. NotebookLM이란?",
-        "url": "#1-notebooklm이란",
-        "items": []
-      },
-      {
-        "title": "2. NotebookLM과 Antigravity의 연결",
-        "url": "#2-notebooklm과-antigravity의-연결",
-        "items": []
-      },
-      {
-        "title": "2. NotebookLM MCP 설치 방법 및 기능",
-        "url": "#2-notebooklm-mcp-설치-방법-및-기능",
-        "items": [
-          {
-            "title": "2.1. 설치 및 설정 방법",
-            "url": "#21-설치-및-설정-방법",
-            "items": []
-          },
-          {
-            "title": "2.2. NotebookLM MCP에서 지원하는 기능",
-            "url": "#22-notebooklm-mcp에서-지원하는-기능",
-            "items": []
-          }
-        ]
-      },
-      {
-        "title": "3. NotebookLM MCP 사용방법",
-        "url": "#3-notebooklm-mcp-사용방법",
-        "items": [
-          {
-            "title": "3.1. 1단계: 지식 베이스 구축",
-            "url": "#31-1단계-지식-베이스-구축",
-            "items": []
-          },
-          {
-            "title": "3.2. 2단계: 노트북을 Context로 활용",
-            "url": "#32-2단계-노트북을-context로-활용",
-            "items": []
-          },
-          {
-            "title": "3.3. 3단계: 지식의 재가공 (Studio Mode)",
-            "url": "#33-3단계-지식의-재가공-studio-mode",
-            "items": []
-          }
-        ]
-      },
-      {
-        "title": "4. 마치며",
-        "url": "#4-마치며",
-        "items": []
-      }
-    ],
-    "title": "7.2. NotebookLM MCP",
-    "series": "ai/AI도구/비개발자를-위한-Antigravity-가이드",
-    "category": "ai",
-    "subcategory": "AI도구",
-    "order": 7,
-    "depth": 1,
-    "parentPath": "7-MCP",
-    "slugAsParams": "ai/AI도구/비개발자를-위한-Antigravity-가이드/7-MCP/72-NotebookLM-MCP"
-  },
-  {
-    "slug": "ai/AI도구/클로드 엑셀(Claude for Excel) 가이드/7. 커넥터(MCP) 활용법/7.1. 커넥터(MCP)란",
-    "subject": "7.1. 커넥터(MCP)란",
-    "draft": false,
-    "id": 336068,
-    "parent_id": 336045,
-    "book_id": 19374,
-    "open_yn": "Y",
-    "last_synced": "2026-04-09T15:49:26.208Z",
-    "metadata": {
-      "readingTime": 1,
-      "wordCount": 79
-    },
-    "body": "const{Fragment:n,jsx:e,jsxs:r}=arguments[0];function _createMdxContent(i){const c={a:\"a\",code:\"code\",h2:\"h2\",h3:\"h3\",h4:\"h4\",img:\"img\",li:\"li\",ol:\"ol\",p:\"p\",section:\"section\",strong:\"strong\",sup:\"sup\",ul:\"ul\",...i.components},{Callout:o}=c;return o||function(n,e){throw new Error(\"Expected \"+(e?\"component\":\"object\")+\" `\"+n+\"` to be defined: you likely forgot to import, pass, or provide it.\")}(\"Callout\",!0),r(n,{children:[e(c.h2,{id:\"1-커넥터mcp의-개념\",children:e(c.a,{href:\"#1-커넥터mcp의-개념\",children:\"1. 커넥터(MCP)의 개념\"})}),\"\\n\",r(c.p,{children:[e(c.strong,{children:\"MCP(Model Context Protocol)\"}),\" 는 AI 모델이 외부의 다양한 소프트웨어 및 서비스와 상호작용할 수 있도록 통신 규격을 하나로 통일한 '개방형 표준 프로토콜'입니다. 쉽게 말해, AI가 외부 서비스를 다룰 수 있도록 하는 공용 언어라고 할 수 있습니다.\"]}),\"\\n\",r(c.p,{children:[\"우리가 업무에서 사용하는 수많은 서비스(예: Microsoft 365, Google Drive, Slack, Notion 등)는 데이터를 주고받기 위한 고유의 \",e(c.strong,{children:\"API(Application Programming Interface)\"}),e(c.sup,{children:e(c.a,{href:\"#user-content-fn-1\",id:\"user-content-fnref-1\",\"data-footnote-ref\":!0,\"aria-describedby\":\"footnote-label\",children:\"1\"})}),\"라는 통로를 가지고 있습니다. 문제는 이 API들의 규격이나 통신 방식이 각 서비스마다 제각각이라는 점입니다. 과거에는 AI가 10개의 서비스와 연동하려면 개발자들이 10개의 서로 다른 API 규격을 개별적으로 연결하는 코드를 짜야만 했습니다.\"]}),\"\\n\",r(c.p,{children:[\"이러한 비효율을 해결하기 위해 앤트로픽(Anthropic)이 제안한 범용 표준이 바로 \",e(c.strong,{children:\"MCP\"}),\"입니다. 비유하자면, 형태가 제각각인 각국의 전기 콘센트 규격에 '여행용 멀티 어댑터(MCP)'를 꽂아, 플러그 모양과 상관없이 전 세계 어디서든 똑같이 전기를 쓸 수 있게 만든 것과 같습니다. 각 서비스 앞에 MCP 규격만 씌워두면, AI가 어떤 서비스의 API를 쓰든지 똑같은 언어로 범용적으로 통신할 수 있게 됩니다.\"]}),\"\\n\",e(c.p,{children:\"언제부터인가 ChatGPT나 Gemini 같은 AI 챗봇들이 구글 드라이브의 문서를 스스로 읽어오거나, 지메일(Gmail) 내용을 직접 검색하는 등 외부 서비스와 연동되는 모습을 보셨을 것입니다. 이러한 AI의 기능 확장을 가능하게 한 핵심 기술이 바로 MCP라 할 수 있습니다.\"}),\"\\n\",r(c.p,{children:[\"클로드에서는 사용자들이 이 복잡한 기술 용어 대신 더욱 친숙하게 기능을 사용할 수 있도록, MCP를 \",e(c.strong,{children:\"'커넥터(Connectors)'\"}),\" 라는 직관적인 이름으로 부르며 제공하고 있습니다.\"]}),\"\\n\",e(c.h2,{id:\"2-커넥터의-종류-및-연결방법\",children:e(c.a,{href:\"#2-커넥터의-종류-및-연결방법\",children:\"2. 커넥터의 종류 및 연결방법\"})}),\"\\n\",e(c.h3,{id:\"21-커넥터의-종류와-동기화-범위\",children:e(c.a,{href:\"#21-커넥터의-종류와-동기화-범위\",children:\"2.1. 커넥터의 종류와 동기화 범위\"})}),\"\\n\",r(c.p,{children:[\"모든 커넥터는 \",e(c.strong,{children:\"MCP\"}),\" 위에서 동작합니다. 그러나 데이터를 처리하는 위치가 웹(클라우드)인지 내 컴퓨터(로컬) 내부에 국한되는지 등에 따라 크게 3가지로 분류됩니다.\"]}),\"\\n\",r(c.ul,{children:[\"\\n\",r(c.li,{children:[\"\\n\",r(c.p,{children:[e(c.strong,{children:\"웹 커넥터 (Web Connectors)\"}),\"\\n외부 원격 클라우드 서버에서 실행되는 가장 기본적인 커넥터입니다. Gmail, Google Calendar, Notion, Slack 등 앤트로픽이 안전성을 검증한 서비스들이 이에 속합니다. '커넥터 디렉토리'를 통해 로그인(OAuth) 한 번으로 간편하게 연결할 수 있으며, 계정에 한 번만 연결해 두면 데스크톱 앱, 모바일 앱, 그리고 \",e(c.strong,{children:\"클로드 엑셀에서도 사용할 수 있습니다.\"})]}),\"\\n\"]}),\"\\n\",r(c.li,{children:[\"\\n\",r(c.p,{children:[e(c.strong,{children:\"커스텀 커넥터 (Custom Connectors)\"}),\"\\n앤트로픽의 공식 인증 커넥터 목록에는 등록되지 않았지만, 사용자가 직접 개발하거나 외부에서 만들어진 MCP 서버 URL 주소를 입력하여 확장하는 연결 방식입니다. 예를 들어 DART(한국 전자공시시스템) 데이터를 호출하는 개인 서버를 맞춤형으로 붙여 쓸 수 있습니다. 방식 자체는 웹 커넥터와 동일하게 외부 원격 서버(인터넷 연결)를 통하므로, 이 역시 계정에 동기화되어 \",e(c.strong,{children:\"클로드 엑셀에서 사용할 수 있습니다.\"})]}),\"\\n\"]}),\"\\n\",r(c.li,{children:[\"\\n\",r(c.p,{children:[e(c.strong,{children:\"데스크톱 확장 (Desktop Extensions)\"}),\"\\n데이터가 외부 서버나 인터넷으로 나가지 않고, 오직 내 컴퓨터 안의 '클로드 데스크톱 앱'을 통해서만 돌아가는 로컬(Local) 서버 기반의 커넥터 방식입니다. 로컬(내 컴퓨터) 파일을 다루는 데 최적화되어 있지만, 외부 동기화가 차단되는 구조적 한계 때문에 \",e(c.strong,{children:\"클로드 엑셀에서는 사용할 수 없습니다.\"})]}),\"\\n\"]}),\"\\n\"]}),\"\\n\",e(o,{type:\"note\",title:\"결론: 클로드 엑셀에서 사용 가능한 커넥터의 범위\",children:r(c.p,{children:[\"클로드 엑셀은 웹 기반으로 동작하기 때문에 리모트(Remote) 기반인 **'웹 커넥터'**와 \",e(c.strong,{children:\"'커스텀 커넥터'\"}),\" 두가지만 직접 연결하여 사용할 수 있습니다.\"]})}),\"\\n\",e(c.h3,{id:\"22-커넥터-연결-방법\",children:e(c.a,{href:\"#22-커넥터-연결-방법\",children:\"2.2. 커넥터 연결 방법\"})}),\"\\n\",e(c.p,{children:\"클로드 엑셀에서 커넥터를 연결하는 방법은 간단합니다. 복잡한 설치 과정 없이, 클로드 계정의 설정 패널에서 클릭 몇 번만으로 외부 서비스를 연결할 수 있습니다.\"}),\"\\n\",e(c.h4,{id:\"221-웹-커넥터-연결하기\",children:e(c.a,{href:\"#221-웹-커넥터-연결하기\",children:\"2.2.1. 웹 커넥터 연결하기\"})}),\"\\n\",e(c.p,{children:\"가장 기본적인 공식 웹 커넥터를 연결하는 순서입니다.\"}),\"\\n\",r(c.ol,{children:[\"\\n\",r(c.li,{children:[\"\\n\",r(c.p,{children:[\"브라우저에서 \",e(c.code,{children:\"Claude.ai\"}),\"에 접속하거나 클로드 데스크톱 앱을 열어, 프로필 메뉴를 클릭합니다. \",e(c.code,{children:\"사용자 지정\"}),\" ➔ \",e(c.code,{children:\"커넥터\"}),\" 메뉴로 진입한 후, 우측 상단의 \",e(c.code,{children:\"+\"}),\" 버튼을 눌러 \",e(c.code,{children:\"커넥터 둘러보기\"}),\"를 클릭합니다.\\n\",e(c.img,{src:\"https://raw.githubusercontent.com/procpalee/my_obsidian_images/master/20260324233944478.png\",alt:\"웹 커넥터 둘러보기 화면\"})]}),\"\\n\"]}),\"\\n\",r(c.li,{children:[\"\\n\",r(c.p,{children:[\"연동을 원하는 외부 서비스(예: Google Calendar, Notion 등)를 찾아 우측의 \",e(c.code,{children:\"+\"}),\" 버튼을 클릭합니다. 팝업 안내를 따라 외부 서비스의 계정에 로그인하거나, 인증키(API Key)를 입력하면 즉시 연동이 완료됩니다.\\n\",e(c.img,{src:\"https://raw.githubusercontent.com/procpalee/my_obsidian_images/master/20260324233821021.png\",alt:\"원하는 커넥터 선택 및 연결\"})]}),\"\\n\"]}),\"\\n\"]}),\"\\n\",e(c.h4,{id:\"222-커스텀-커넥터-연결하기\",children:e(c.a,{href:\"#222-커스텀-커넥터-연결하기\",children:\"2.2.2. 커스텀 커넥터 연결하기\"})}),\"\\n\",e(c.p,{children:\"공식 인증을 받지 않은 외부 리모트 MCP 서버를 수동으로 등록하는 방법입니다.\"}),\"\\n\",r(c.ol,{children:[\"\\n\",r(c.li,{children:[\"\\n\",r(c.p,{children:[\"동일하게 \",e(c.code,{children:\"사용자 지정\"}),\" ➔ \",e(c.code,{children:\"커넥터\"}),\" 메뉴에서 우측 상단의 \",e(c.code,{children:\"+\"}),\" 버튼을 누르고, 이번에는 드롭다운 메뉴 아래의 \",e(c.code,{children:\"커스텀 커넥터 등록\"}),\"을 클릭합니다.\\n\",e(c.img,{src:\"https://raw.githubusercontent.com/procpalee/my_obsidian_images/master/20260325002537603.png\",alt:\"커스텀 커넥터 등록 메뉴\"})]}),\"\\n\"]}),\"\\n\",r(c.li,{children:[\"\\n\",r(c.p,{children:[\"연결하려는 외부 서버에서 제공받은 커넥터 고유의 이름(Name)과 접속 URL을 지정 칸에 각각 입력한 후, 하단의 \",e(c.code,{children:\"추가\"}),\" 버튼을 누르면 나만의 커넥터가 즉시 활성화됩니다.\\n\",e(c.img,{src:\"https://raw.githubusercontent.com/procpalee/my_obsidian_images/master/20260325002704558.png\",alt:\"커넥터 이름과 서버 URL 입력창\"})]}),\"\\n\"]}),\"\\n\"]}),\"\\n\",e(o,{type:\"tip\",title:\"커스텀 커넥터 실전 활용\",children:e(c.p,{children:\"커스텀 커넥터를 엑셀과 연결하여 실무에서 본격 활용하는 구체적인 전략에 대해서는, 이어지는 다음 장의 전자공시시스템(Open DART) 활용 사례에서 상세하게 다루도록 하겠습니다!\"})}),\"\\n\",e(c.h2,{id:\"3-커넥터-사용법\",children:e(c.a,{href:\"#3-커넥터-사용법\",children:\"3. 커넥터 사용법\"})}),\"\\n\",e(c.p,{children:\"원하는 커넥터를 성공적으로 연결했다면, 이제 클로드 엑셀 대화창에서 평소처럼 자연어로 외부 서비스 활용을 지시하기만 하면 됩니다.\"}),\"\\n\",e(o,{type:\"important\",title:\"커넥터 도구 사용 권한 체크\",children:r(c.p,{children:[\"클로드 엑셀에서 커넥터를 문제없이 구동하려면, 최초 연결을 진행했던 클로드 창(웹/앱) 설정에서 해당 커넥터의 \",e(c.strong,{children:\"도구 구동 권한\"}),\"을 \",e(c.code,{children:\"항상 허용(Always allow)\"}),\" 또는 \",e(c.code,{children:\"승인 필요(Ask before running)\"}),\" 상태로 유지해 두어야 합니다.\"]})}),\"\\n\",r(c.p,{children:[\"예를 들어 구글 캘린더(Google Calendar) 커넥터를 연동해 두었다면, 클로드 엑셀 채팅창에 \",e(c.strong,{children:'\"구글 캘린더에서 내 3월달 개인일정과 업무일정 찾아서 시트에 정리해\"'}),\" 고 요청해 봅니다.\"]}),\"\\n\",e(c.p,{children:e(c.img,{src:\"https://raw.githubusercontent.com/procpalee/my_obsidian_images/master/20260325010820299.png\",alt:\"image.png\"})}),\"\\n\",e(c.p,{children:\"요청 즉시 클로드가 외부 캘린더의 일정을 스스로 읽어온 다음, 다음과 같이 엑셀 시트 위에 표 형태로 깔끔하게 정리해 주는 것을 확인할 수 있습니다.\"}),\"\\n\",e(c.p,{children:e(c.img,{src:\"https://raw.githubusercontent.com/procpalee/my_obsidian_images/master/20260325011023309.png\",alt:\"image.png\"})}),\"\\n\",r(c.section,{\"data-footnotes\":!0,className:\"footnotes\",children:[e(c.h2,{className:\"sr-only\",id:\"footnote-label\",children:e(c.a,{href:\"#footnote-label\",children:\"Footnotes\"})}),\"\\n\",r(c.ol,{children:[\"\\n\",r(c.li,{id:\"user-content-fn-1\",children:[\"\\n\",r(c.p,{children:[e(c.strong,{children:\"API(Application Programming Interface)\"}),\" : 서로 다른 소프트웨어가 데이터를 주고받거나 기능을 사용할 수 있도록 연결해 주는 통신 매개체입니다. API를 활용하면 상대방 프로그램의 내부 구조를 몰라도 정해진 규칙에 맞게 요청하기만 하면 원하는 데이터나 결과물을 쉽게 얻어올 수 있습니다. 우리가 웹사이트에서 흔히 쓰는 '카카오/네이버 간편 로그인'의 경우가 해당 서비스 제공자(카카오/네이버)의 API를 활용한 대표적인 사례입니다. \",e(c.a,{href:\"#user-content-fnref-1\",\"data-footnote-backref\":\"\",\"aria-label\":\"Back to reference 1\",className:\"data-footnote-backref\",children:\"↩\"})]}),\"\\n\"]}),\"\\n\"]}),\"\\n\"]})]})}return{default:function(n={}){const{wrapper:r}=n.components||{};return r?e(r,{...n,children:e(_createMdxContent,{...n})}):_createMdxContent(n)}};",
-    "toc": [
-      {
-        "title": "1. 커넥터(MCP)의 개념",
-        "url": "#1-커넥터mcp의-개념",
-        "items": []
-      },
-      {
-        "title": "2. 커넥터의 종류 및 연결방법",
-        "url": "#2-커넥터의-종류-및-연결방법",
-        "items": [
-          {
-            "title": "2.1. 커넥터의 종류와 동기화 범위",
-            "url": "#21-커넥터의-종류와-동기화-범위",
-            "items": []
-          },
-          {
-            "title": "2.2. 커넥터 연결 방법",
-            "url": "#22-커넥터-연결-방법",
-            "items": [
-              {
-                "title": "2.2.1. 웹 커넥터 연결하기",
-                "url": "#221-웹-커넥터-연결하기",
-                "items": []
-              },
-              {
-                "title": "2.2.2. 커스텀 커넥터 연결하기",
-                "url": "#222-커스텀-커넥터-연결하기",
-                "items": []
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "3. 커넥터 사용법",
-        "url": "#3-커넥터-사용법",
-        "items": []
-      }
-    ],
-    "title": "7.1. 커넥터(MCP)란",
-    "series": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드",
-    "category": "ai",
-    "subcategory": "AI도구",
-    "order": 7,
-    "depth": 1,
-    "parentPath": "7-커넥터MCP-활용법",
-    "slugAsParams": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/71-커넥터MCP란"
-  },
-  {
-    "slug": "ai/AI도구/클로드 엑셀(Claude for Excel) 가이드/7. 커넥터(MCP) 활용법/7.2. 커스텀 커넥터 활용 - 전자공시시스템(Open DART)",
-    "subject": "7.2. 커스텀 커넥터 활용 - 전자공시시스템(Open DART)",
-    "draft": false,
-    "id": 336171,
-    "parent_id": 336045,
-    "book_id": 19374,
-    "open_yn": "Y",
-    "last_synced": "2026-04-09T15:49:26.227Z",
-    "metadata": {
-      "readingTime": 1,
-      "wordCount": 80
-    },
-    "body": "const{Fragment:n,jsx:e,jsxs:r}=arguments[0];function _createMdxContent(i){const c={a:\"a\",blockquote:\"blockquote\",code:\"code\",h2:\"h2\",h3:\"h3\",img:\"img\",li:\"li\",ol:\"ol\",p:\"p\",strong:\"strong\",ul:\"ul\",...i.components},{Callout:l}=c;return l||function(n,e){throw new Error(\"Expected \"+(e?\"component\":\"object\")+\" `\"+n+\"` to be defined: you likely forgot to import, pass, or provide it.\")}(\"Callout\",!0),r(n,{children:[e(c.h2,{id:\"1-opendart란\",children:e(c.a,{href:\"#1-opendart란\",children:\"1. OpenDART란?\"})}),\"\\n\",e(c.p,{children:\"회계, 재무 실무를 하다 보면 전자공시시스템(DART)에서 특정 기업의 재무제표나 공시 자료를 일일이 검색해서 찾아야 하는 일이 매우 잦습니다.\"}),\"\\n\",r(c.p,{children:[\"금융감독원에서는 이러한 번거로움을 덜기 위해 \",e(c.strong,{children:\"OpenDART\"}),\"라는 공식 API를 개방하여, 프로그래밍을 통해 공시 자료를 불러올 수 있도록 지원하고 있습니다.\"]}),\"\\n\",r(c.p,{children:[\"현재 OpenDART는 \",e(c.strong,{children:\"총 83개\"}),\"에 달하는 API 기능을 세분화하여 제공하고 있습니다. 대표적으로 단일/다중 회사의 \",e(c.strong,{children:\"주요 재무제표\"}),\"(재무상태표, 손익계산서 등) 조회부터, \",e(c.strong,{children:\"지분 공시\"}),\"(최대주주 변동, 대량보유 상황), \",e(c.strong,{children:\"주요 사항 보고서\"}),\"(유상증자, 전환사채 등), 그리고 사업보고서 원문 검색까지 기업 분석에 필요한 핵심 데이터를 프로그래밍으로 불러올 수 있습니다.\"]}),\"\\n\",r(l,{type:\"info\",title:\"XBRL과 OpenDART\",children:[r(c.p,{children:[e(c.strong,{children:\"XBRL(eXtensible Business Reporting Language)\"}),\" 은 기업이 재무제표를 작성할 때 각종 재무 데이터 항목에 표준화된 꼬리표(태그)를 달아 기계가 쉽게 읽고 활용할 수 있도록 만든 국제 표준 전산 언어입니다.\"]}),r(c.p,{children:[\"한국에서도 최근 상장사들의 \",e(c.strong,{children:\"XBRL 공시가 단계적으로 전면 의무화\"}),\"되었습니다. 즉, 과거에는 사람이 눈으로 읽어야 했던 PDF나 단순 표 형식의 재무제표들이 이제는 컴퓨터가 인식할 수 있는 규격화된 코드로 통일된 것입니다. XBRL의 도입 덕분에, 금융감독원(Open DART)은 각 기업의 방대한 재무 정보를 \",e(c.strong,{children:\"API 형태의 데이터로 제공\"}),\"할 수 있게 되었고, 클로드와 같은 AI가 이 데이터를 읽어내어 분석 및 요약할 수 있게 된 것입니다.\"]})]}),\"\\n\",e(c.h2,{id:\"2-opendart-mcp-서버-소개\",children:e(c.a,{href:\"#2-opendart-mcp-서버-소개\",children:\"2. OpenDART MCP 서버 소개\"})}),\"\\n\",r(c.p,{children:[\"여기서 한 걸음 더 나아가, Open DART를 \",e(c.strong,{children:\"'클로드의 MCP 서버(커스텀 커넥터)'\"}),\" 로 연동해 보면 어떨까요? 엑셀 밖을 벗어날 필요 없이, 클로드 엑셀 채팅창에 자연어로 지시하기만 하면 언제든 원하는 기업의 공시 데이터를 엑셀 시트로 불러오고 분석할 수 있게 됩니다.\"]}),\"\\n\",e(c.p,{children:\"공식 MCP 서버는 없지만, 제가 개발한 OpenDART MCP 서버를 연결하면 클로드 엑셀에서 손쉽게 공시 데이터를 다룰 수 있습니다.\"}),\"\\n\",r(c.blockquote,{children:[\"\\n\",r(c.p,{children:[\"GitHub 저장소: \",e(c.a,{href:\"https://github.com/procpalee/OpenDART-MCP-Server\",children:\"procpalee/OpenDART-MCP-Server\"})]}),\"\\n\"]}),\"\\n\",e(c.p,{children:\"이 커스텀 커넥터를 통해 엑셀 안에서 활용할 수 있는 주요 기능은 다음과 같습니다.\"}),\"\\n\",r(c.ul,{children:[\"\\n\",r(c.li,{children:[e(c.strong,{children:\"주요 재무제표 추출 및 분석:\"}),\"\\n상장기업의 재무상태표, 손익계산서 등 핵심 재무 데이터를 즉시 엑셀 표 형태로 불러와 수익성이나 안정성 지표 등을 분석할 수 있습니다.\"]}),\"\\n\",r(c.li,{children:[e(c.strong,{children:\"지분 변동 및 지배구조 현황 추적:\"}),\"\\n특정 기업의 최대주주 변경 내역이나 주요 임원진의 주식 대량 보유 상황, 지분 변동 공시를 빠르게 원격으로 추적할 수 있습니다.\"]}),\"\\n\",r(c.li,{children:[e(c.strong,{children:\"주요 사항 보고서 조회:\"}),\"\\n유상증자, 주식 배당 결정, 전환사채 발행 등 기업에 큰 영향을 미치는 경영 사항과 관련된 공시 정보들을 조건별로 검색하여 즉각 파악할 수 있습니다.\"]}),\"\\n\",r(c.li,{children:[e(c.strong,{children:\"스마트 기업명 매칭 (자동 고유번호 변환):\"}),\"\\n원래 공시를 조회하려면 복잡한 8자리 '기업 고유번호(Corp Code)'가 필수적이지만, 본 서버는 9만여 개의 데이터베이스를 자체 내장하고 있어 \\\"삼성전자\\\" 등 일반 회사 이름만 텍스트로 적어도 알아서 데이터를 매칭해 찾아옵니다.\"]}),\"\\n\"]}),\"\\n\",e(c.h2,{id:\"2-커스텀-커넥터-연결하기\",children:e(c.a,{href:\"#2-커스텀-커넥터-연결하기\",children:\"2. 커스텀 커넥터 연결하기\"})}),\"\\n\",e(c.h3,{id:\"21-opendart-api-키-발급받기\",children:e(c.a,{href:\"#21-opendart-api-키-발급받기\",children:\"2.1. OpenDART API 키 발급받기\"})}),\"\\n\",e(c.p,{children:\"MCP 서버를 사용하기 위해서는 다음의 순서에 따라 OpenDART API 키를 발급받아야 합니다.\"}),\"\\n\",r(c.ol,{children:[\"\\n\",r(c.li,{children:[e(c.a,{href:\"https://opendart.fss.or.kr/\",children:\"Open DART 홈페이지(opendart.fss.or.kr)\"}),\"에 접속합니다.\"]}),\"\\n\",r(c.li,{children:[\"상단 메뉴에서 \",e(c.code,{children:\"인증키 신청/관리\"}),\" - \",e(c.code,{children:\"인증키 신청\"}),\" 메뉴로 들어가서 회원가입 후 API 인증키 발급을 완료합니다.\"]}),\"\\n\",r(c.li,{children:[\"발급 후 \",e(c.code,{children:\"인증키 신청/관리\"}),\" - \",e(c.code,{children:\"Open API 이용현황\"}),\"에 들어가면 영문과 숫자로 조합된 긴 인증키가 나타나는데, 이 키를 미리 복사(Ctrl+C)해 둡니다.\"]}),\"\\n\"]}),\"\\n\",e(c.h3,{id:\"22-클로드에-커스텀-커넥터-추가하기\",children:e(c.a,{href:\"#22-클로드에-커스텀-커넥터-추가하기\",children:\"2.2. 클로드에 커스텀 커넥터 추가하기\"})}),\"\\n\",e(c.p,{children:\"발급 받은 API키를 활용해서 클로드에 커스텀 커넥터를 추가합니다.\"}),\"\\n\",r(c.ol,{children:[\"\\n\",r(c.li,{children:[\"브라우저에서 \",e(c.code,{children:\"Claude.ai\"}),\"에 접속하거나 클로드 데스크톱 앱을 열고, \",e(c.code,{children:\"사용자 지정\"}),\" ➔ \",e(c.code,{children:\"커넥터\"}),\" ➔ \",e(c.code,{children:\"+\"}),\" ➔ \",e(c.code,{children:\"커스텀 커넥터 추가\"}),\" 로 이동합니다.\"]}),\"\\n\",r(c.li,{children:[e(c.strong,{children:\"이름\"}),\"은 'OpenDART' 등 알아보기 편하게 적습니다.\"]}),\"\\n\",r(c.li,{children:[e(c.strong,{children:\"URL\"}),\" 입력란에 아래 주소를 복사하여 붙여넣고, 끝부분 \",e(c.code,{children:\"YOUR_API_KEY\"}),\" 글자를 지운 뒤 앞서 2.1에서 발급받은 본인의 API 키 번호로 바꿔서 적어줍니다.\\n\",e(c.code,{children:\"https://open-dart-mcp-server.vercel.app/api/mcp?opendart_key=YOUR_API_KEY\"})]}),\"\\n\",r(c.li,{children:[e(c.strong,{children:\"추가\"}),\" 버튼을 누르면 연동이 완료됩니다.\"]}),\"\\n\"]}),\"\\n\",e(c.h2,{id:\"3-실무-활용-사례-테스트\",children:e(c.a,{href:\"#3-실무-활용-사례-테스트\",children:\"3. 실무 활용 사례 테스트\"})}),\"\\n\",e(c.p,{children:\"이제 준비가 끝났다면 다음의 사례와 같이 테스트를 진행해 볼 수 있습니다.\"}),\"\\n\",e(c.h3,{id:\"사례-1-특정-기업의-최근-공시사항-일괄-조회\",children:e(c.a,{href:\"#사례-1-특정-기업의-최근-공시사항-일괄-조회\",children:\"사례 1. 특정 기업의 최근 공시사항 일괄 조회\"})}),\"\\n\",e(c.p,{children:'먼저, **\"현대자동차의 최근 공시사항 20개를 엑셀 시트에 정리해 줘.\"**라고 단순하게 요청해 보겠습니다.'}),\"\\n\",e(c.p,{children:\"클로드 에이전트가 지시를 파악한 즉시 알아서 OpenDART MCP 도구를 호출해 데이터를 조회하는 것을 확인할 수 있습니다. 특히 클로드가 먼저 '현대자동차'의 8자리 고유 코드를 찾아낸 뒤 곧바로 해당 기업의 공시 목록을 원격으로 불러오는 과정을 보여줍니다.\"}),\"\\n\",e(c.p,{children:e(c.img,{src:\"https://raw.githubusercontent.com/procpalee/my_obsidian_images/master/20260327105748475.png\",alt:\"클로드의 DART API 호출 화면\"})}),\"\\n\",e(c.p,{children:\"데이터 수집이 끝난 뒤, 클로드가 공시일자, 보고서 제목, 공시유형 등을 정리한 결과입니다.\"}),\"\\n\",e(c.p,{children:e(c.img,{src:\"https://raw.githubusercontent.com/procpalee/my_obsidian_images/master/20260327105233963.png\",alt:\"공시사항 결과물 시트\"})}),\"\\n\",e(c.h3,{id:\"사례-2-기업-최신-재무-데이터-원격-추출\",children:e(c.a,{href:\"#사례-2-기업-최신-재무-데이터-원격-추출\",children:\"사례 2. 기업 최신 재무 데이터 원격 추출\"})}),\"\\n\",e(c.p,{children:'이번에는 실무에서 가장 많이 쓰이는 재무 지표 조회를 위해 **\"삼성전자의 최신 사업보고서에서 주요 계정과목의 금액을 표로 정리해 줘.\"**라고 요청해 보겠습니다.'}),\"\\n\",e(c.p,{children:e(c.img,{src:\"https://raw.githubusercontent.com/procpalee/my_obsidian_images/master/20260327111141099.png\",alt:\"재무제표 API 호출 과정\"})}),\"\\n\",e(c.p,{children:\"마찬가지로 클로드가 DART 데이터베이스에 직접 접속하여 재무상태표의 핵심 단위 금액들을 엑셀 시트로 즉시 가져옵니다.\"}),\"\\n\",e(c.p,{children:e(c.img,{src:\"https://raw.githubusercontent.com/procpalee/my_obsidian_images/master/20260327111158653.png\",alt:\"재무제표 자동 작성 결과\"})}),\"\\n\",r(c.p,{children:[\"이러한 MCP 커넥터는 단독으로 사용하기보다는 앞서 우리가 배운 \",e(c.strong,{children:\"스킬(Skills)\"}),\" 기능과 결합했을 때 진정한 확장성을 가집니다. 스킬에 전체 프로세스를 정의하고, 외부에서 필요한 데이터가 있다면 이를 커넥터를 통해 가져올 수 있기 때문입니다.\"]}),\"\\n\",r(c.p,{children:[\"다음 챕터부터는 지금까지 배운 기능들을 토대로 \",e(c.strong,{children:\"실제 현업의 복잡한 실무 작업들을 클로드 엑셀로 어떻게 자동화할 수 있는지\"}),\" 구체적 사례들을 본격적으로 다뤄보겠습니다.\"]})]})}return{default:function(n={}){const{wrapper:r}=n.components||{};return r?e(r,{...n,children:e(_createMdxContent,{...n})}):_createMdxContent(n)}};",
-    "toc": [
-      {
-        "title": "1. OpenDART란?",
-        "url": "#1-opendart란",
-        "items": []
-      },
-      {
-        "title": "2. OpenDART MCP 서버 소개",
-        "url": "#2-opendart-mcp-서버-소개",
-        "items": []
-      },
-      {
-        "title": "2. 커스텀 커넥터 연결하기",
-        "url": "#2-커스텀-커넥터-연결하기",
-        "items": [
-          {
-            "title": "2.1. OpenDART API 키 발급받기",
-            "url": "#21-opendart-api-키-발급받기",
-            "items": []
-          },
-          {
-            "title": "2.2. 클로드에 커스텀 커넥터 추가하기",
-            "url": "#22-클로드에-커스텀-커넥터-추가하기",
-            "items": []
-          }
-        ]
-      },
-      {
-        "title": "3. 실무 활용 사례 테스트",
-        "url": "#3-실무-활용-사례-테스트",
-        "items": [
-          {
-            "title": "사례 1. 특정 기업의 최근 공시사항 일괄 조회",
-            "url": "#사례-1-특정-기업의-최근-공시사항-일괄-조회",
-            "items": []
-          },
-          {
-            "title": "사례 2. 기업 최신 재무 데이터 원격 추출",
-            "url": "#사례-2-기업-최신-재무-데이터-원격-추출",
-            "items": []
-          }
-        ]
-      }
-    ],
-    "title": "7.2. 커스텀 커넥터 활용 - 전자공시시스템(Open DART)",
-    "series": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드",
-    "category": "ai",
-    "subcategory": "AI도구",
-    "order": 7,
-    "depth": 1,
-    "parentPath": "7-커넥터MCP-활용법",
-    "slugAsParams": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/72-커스텀-커넥터-활용-전자공시시스템Open-DART"
-  },
-  {
     "slug": "ai/AI도구/클로드 엑셀(Claude for Excel) 가이드/6. 스킬(Skills) 활용법/6.1. 스킬(Skills)이란",
     "subject": "6.1. 스킬(Skills)이란",
     "draft": false,
@@ -2034,6 +1905,135 @@
     "slugAsParams": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/6-스킬Skills-활용법/63-나만의-스킬Skills-만들고-등록하기"
   },
   {
+    "slug": "ai/AI도구/클로드 엑셀(Claude for Excel) 가이드/7. 커넥터(MCP) 활용법/7.1. 커넥터(MCP)란",
+    "subject": "7.1. 커넥터(MCP)란",
+    "draft": false,
+    "id": 336068,
+    "parent_id": 336045,
+    "book_id": 19374,
+    "open_yn": "Y",
+    "last_synced": "2026-04-09T15:49:26.208Z",
+    "metadata": {
+      "readingTime": 1,
+      "wordCount": 79
+    },
+    "body": "const{Fragment:n,jsx:e,jsxs:r}=arguments[0];function _createMdxContent(i){const c={a:\"a\",code:\"code\",h2:\"h2\",h3:\"h3\",h4:\"h4\",img:\"img\",li:\"li\",ol:\"ol\",p:\"p\",section:\"section\",strong:\"strong\",sup:\"sup\",ul:\"ul\",...i.components},{Callout:o}=c;return o||function(n,e){throw new Error(\"Expected \"+(e?\"component\":\"object\")+\" `\"+n+\"` to be defined: you likely forgot to import, pass, or provide it.\")}(\"Callout\",!0),r(n,{children:[e(c.h2,{id:\"1-커넥터mcp의-개념\",children:e(c.a,{href:\"#1-커넥터mcp의-개념\",children:\"1. 커넥터(MCP)의 개념\"})}),\"\\n\",r(c.p,{children:[e(c.strong,{children:\"MCP(Model Context Protocol)\"}),\" 는 AI 모델이 외부의 다양한 소프트웨어 및 서비스와 상호작용할 수 있도록 통신 규격을 하나로 통일한 '개방형 표준 프로토콜'입니다. 쉽게 말해, AI가 외부 서비스를 다룰 수 있도록 하는 공용 언어라고 할 수 있습니다.\"]}),\"\\n\",r(c.p,{children:[\"우리가 업무에서 사용하는 수많은 서비스(예: Microsoft 365, Google Drive, Slack, Notion 등)는 데이터를 주고받기 위한 고유의 \",e(c.strong,{children:\"API(Application Programming Interface)\"}),e(c.sup,{children:e(c.a,{href:\"#user-content-fn-1\",id:\"user-content-fnref-1\",\"data-footnote-ref\":!0,\"aria-describedby\":\"footnote-label\",children:\"1\"})}),\"라는 통로를 가지고 있습니다. 문제는 이 API들의 규격이나 통신 방식이 각 서비스마다 제각각이라는 점입니다. 과거에는 AI가 10개의 서비스와 연동하려면 개발자들이 10개의 서로 다른 API 규격을 개별적으로 연결하는 코드를 짜야만 했습니다.\"]}),\"\\n\",r(c.p,{children:[\"이러한 비효율을 해결하기 위해 앤트로픽(Anthropic)이 제안한 범용 표준이 바로 \",e(c.strong,{children:\"MCP\"}),\"입니다. 비유하자면, 형태가 제각각인 각국의 전기 콘센트 규격에 '여행용 멀티 어댑터(MCP)'를 꽂아, 플러그 모양과 상관없이 전 세계 어디서든 똑같이 전기를 쓸 수 있게 만든 것과 같습니다. 각 서비스 앞에 MCP 규격만 씌워두면, AI가 어떤 서비스의 API를 쓰든지 똑같은 언어로 범용적으로 통신할 수 있게 됩니다.\"]}),\"\\n\",e(c.p,{children:\"언제부터인가 ChatGPT나 Gemini 같은 AI 챗봇들이 구글 드라이브의 문서를 스스로 읽어오거나, 지메일(Gmail) 내용을 직접 검색하는 등 외부 서비스와 연동되는 모습을 보셨을 것입니다. 이러한 AI의 기능 확장을 가능하게 한 핵심 기술이 바로 MCP라 할 수 있습니다.\"}),\"\\n\",r(c.p,{children:[\"클로드에서는 사용자들이 이 복잡한 기술 용어 대신 더욱 친숙하게 기능을 사용할 수 있도록, MCP를 \",e(c.strong,{children:\"'커넥터(Connectors)'\"}),\" 라는 직관적인 이름으로 부르며 제공하고 있습니다.\"]}),\"\\n\",e(c.h2,{id:\"2-커넥터의-종류-및-연결방법\",children:e(c.a,{href:\"#2-커넥터의-종류-및-연결방법\",children:\"2. 커넥터의 종류 및 연결방법\"})}),\"\\n\",e(c.h3,{id:\"21-커넥터의-종류와-동기화-범위\",children:e(c.a,{href:\"#21-커넥터의-종류와-동기화-범위\",children:\"2.1. 커넥터의 종류와 동기화 범위\"})}),\"\\n\",r(c.p,{children:[\"모든 커넥터는 \",e(c.strong,{children:\"MCP\"}),\" 위에서 동작합니다. 그러나 데이터를 처리하는 위치가 웹(클라우드)인지 내 컴퓨터(로컬) 내부에 국한되는지 등에 따라 크게 3가지로 분류됩니다.\"]}),\"\\n\",r(c.ul,{children:[\"\\n\",r(c.li,{children:[\"\\n\",r(c.p,{children:[e(c.strong,{children:\"웹 커넥터 (Web Connectors)\"}),\"\\n외부 원격 클라우드 서버에서 실행되는 가장 기본적인 커넥터입니다. Gmail, Google Calendar, Notion, Slack 등 앤트로픽이 안전성을 검증한 서비스들이 이에 속합니다. '커넥터 디렉토리'를 통해 로그인(OAuth) 한 번으로 간편하게 연결할 수 있으며, 계정에 한 번만 연결해 두면 데스크톱 앱, 모바일 앱, 그리고 \",e(c.strong,{children:\"클로드 엑셀에서도 사용할 수 있습니다.\"})]}),\"\\n\"]}),\"\\n\",r(c.li,{children:[\"\\n\",r(c.p,{children:[e(c.strong,{children:\"커스텀 커넥터 (Custom Connectors)\"}),\"\\n앤트로픽의 공식 인증 커넥터 목록에는 등록되지 않았지만, 사용자가 직접 개발하거나 외부에서 만들어진 MCP 서버 URL 주소를 입력하여 확장하는 연결 방식입니다. 예를 들어 DART(한국 전자공시시스템) 데이터를 호출하는 개인 서버를 맞춤형으로 붙여 쓸 수 있습니다. 방식 자체는 웹 커넥터와 동일하게 외부 원격 서버(인터넷 연결)를 통하므로, 이 역시 계정에 동기화되어 \",e(c.strong,{children:\"클로드 엑셀에서 사용할 수 있습니다.\"})]}),\"\\n\"]}),\"\\n\",r(c.li,{children:[\"\\n\",r(c.p,{children:[e(c.strong,{children:\"데스크톱 확장 (Desktop Extensions)\"}),\"\\n데이터가 외부 서버나 인터넷으로 나가지 않고, 오직 내 컴퓨터 안의 '클로드 데스크톱 앱'을 통해서만 돌아가는 로컬(Local) 서버 기반의 커넥터 방식입니다. 로컬(내 컴퓨터) 파일을 다루는 데 최적화되어 있지만, 외부 동기화가 차단되는 구조적 한계 때문에 \",e(c.strong,{children:\"클로드 엑셀에서는 사용할 수 없습니다.\"})]}),\"\\n\"]}),\"\\n\"]}),\"\\n\",e(o,{type:\"note\",title:\"결론: 클로드 엑셀에서 사용 가능한 커넥터의 범위\",children:r(c.p,{children:[\"클로드 엑셀은 웹 기반으로 동작하기 때문에 리모트(Remote) 기반인 **'웹 커넥터'**와 \",e(c.strong,{children:\"'커스텀 커넥터'\"}),\" 두가지만 직접 연결하여 사용할 수 있습니다.\"]})}),\"\\n\",e(c.h3,{id:\"22-커넥터-연결-방법\",children:e(c.a,{href:\"#22-커넥터-연결-방법\",children:\"2.2. 커넥터 연결 방법\"})}),\"\\n\",e(c.p,{children:\"클로드 엑셀에서 커넥터를 연결하는 방법은 간단합니다. 복잡한 설치 과정 없이, 클로드 계정의 설정 패널에서 클릭 몇 번만으로 외부 서비스를 연결할 수 있습니다.\"}),\"\\n\",e(c.h4,{id:\"221-웹-커넥터-연결하기\",children:e(c.a,{href:\"#221-웹-커넥터-연결하기\",children:\"2.2.1. 웹 커넥터 연결하기\"})}),\"\\n\",e(c.p,{children:\"가장 기본적인 공식 웹 커넥터를 연결하는 순서입니다.\"}),\"\\n\",r(c.ol,{children:[\"\\n\",r(c.li,{children:[\"\\n\",r(c.p,{children:[\"브라우저에서 \",e(c.code,{children:\"Claude.ai\"}),\"에 접속하거나 클로드 데스크톱 앱을 열어, 프로필 메뉴를 클릭합니다. \",e(c.code,{children:\"사용자 지정\"}),\" ➔ \",e(c.code,{children:\"커넥터\"}),\" 메뉴로 진입한 후, 우측 상단의 \",e(c.code,{children:\"+\"}),\" 버튼을 눌러 \",e(c.code,{children:\"커넥터 둘러보기\"}),\"를 클릭합니다.\\n\",e(c.img,{src:\"https://raw.githubusercontent.com/procpalee/my_obsidian_images/master/20260324233944478.png\",alt:\"웹 커넥터 둘러보기 화면\"})]}),\"\\n\"]}),\"\\n\",r(c.li,{children:[\"\\n\",r(c.p,{children:[\"연동을 원하는 외부 서비스(예: Google Calendar, Notion 등)를 찾아 우측의 \",e(c.code,{children:\"+\"}),\" 버튼을 클릭합니다. 팝업 안내를 따라 외부 서비스의 계정에 로그인하거나, 인증키(API Key)를 입력하면 즉시 연동이 완료됩니다.\\n\",e(c.img,{src:\"https://raw.githubusercontent.com/procpalee/my_obsidian_images/master/20260324233821021.png\",alt:\"원하는 커넥터 선택 및 연결\"})]}),\"\\n\"]}),\"\\n\"]}),\"\\n\",e(c.h4,{id:\"222-커스텀-커넥터-연결하기\",children:e(c.a,{href:\"#222-커스텀-커넥터-연결하기\",children:\"2.2.2. 커스텀 커넥터 연결하기\"})}),\"\\n\",e(c.p,{children:\"공식 인증을 받지 않은 외부 리모트 MCP 서버를 수동으로 등록하는 방법입니다.\"}),\"\\n\",r(c.ol,{children:[\"\\n\",r(c.li,{children:[\"\\n\",r(c.p,{children:[\"동일하게 \",e(c.code,{children:\"사용자 지정\"}),\" ➔ \",e(c.code,{children:\"커넥터\"}),\" 메뉴에서 우측 상단의 \",e(c.code,{children:\"+\"}),\" 버튼을 누르고, 이번에는 드롭다운 메뉴 아래의 \",e(c.code,{children:\"커스텀 커넥터 등록\"}),\"을 클릭합니다.\\n\",e(c.img,{src:\"https://raw.githubusercontent.com/procpalee/my_obsidian_images/master/20260325002537603.png\",alt:\"커스텀 커넥터 등록 메뉴\"})]}),\"\\n\"]}),\"\\n\",r(c.li,{children:[\"\\n\",r(c.p,{children:[\"연결하려는 외부 서버에서 제공받은 커넥터 고유의 이름(Name)과 접속 URL을 지정 칸에 각각 입력한 후, 하단의 \",e(c.code,{children:\"추가\"}),\" 버튼을 누르면 나만의 커넥터가 즉시 활성화됩니다.\\n\",e(c.img,{src:\"https://raw.githubusercontent.com/procpalee/my_obsidian_images/master/20260325002704558.png\",alt:\"커넥터 이름과 서버 URL 입력창\"})]}),\"\\n\"]}),\"\\n\"]}),\"\\n\",e(o,{type:\"tip\",title:\"커스텀 커넥터 실전 활용\",children:e(c.p,{children:\"커스텀 커넥터를 엑셀과 연결하여 실무에서 본격 활용하는 구체적인 전략에 대해서는, 이어지는 다음 장의 전자공시시스템(Open DART) 활용 사례에서 상세하게 다루도록 하겠습니다!\"})}),\"\\n\",e(c.h2,{id:\"3-커넥터-사용법\",children:e(c.a,{href:\"#3-커넥터-사용법\",children:\"3. 커넥터 사용법\"})}),\"\\n\",e(c.p,{children:\"원하는 커넥터를 성공적으로 연결했다면, 이제 클로드 엑셀 대화창에서 평소처럼 자연어로 외부 서비스 활용을 지시하기만 하면 됩니다.\"}),\"\\n\",e(o,{type:\"important\",title:\"커넥터 도구 사용 권한 체크\",children:r(c.p,{children:[\"클로드 엑셀에서 커넥터를 문제없이 구동하려면, 최초 연결을 진행했던 클로드 창(웹/앱) 설정에서 해당 커넥터의 \",e(c.strong,{children:\"도구 구동 권한\"}),\"을 \",e(c.code,{children:\"항상 허용(Always allow)\"}),\" 또는 \",e(c.code,{children:\"승인 필요(Ask before running)\"}),\" 상태로 유지해 두어야 합니다.\"]})}),\"\\n\",r(c.p,{children:[\"예를 들어 구글 캘린더(Google Calendar) 커넥터를 연동해 두었다면, 클로드 엑셀 채팅창에 \",e(c.strong,{children:'\"구글 캘린더에서 내 3월달 개인일정과 업무일정 찾아서 시트에 정리해\"'}),\" 고 요청해 봅니다.\"]}),\"\\n\",e(c.p,{children:e(c.img,{src:\"https://raw.githubusercontent.com/procpalee/my_obsidian_images/master/20260325010820299.png\",alt:\"image.png\"})}),\"\\n\",e(c.p,{children:\"요청 즉시 클로드가 외부 캘린더의 일정을 스스로 읽어온 다음, 다음과 같이 엑셀 시트 위에 표 형태로 깔끔하게 정리해 주는 것을 확인할 수 있습니다.\"}),\"\\n\",e(c.p,{children:e(c.img,{src:\"https://raw.githubusercontent.com/procpalee/my_obsidian_images/master/20260325011023309.png\",alt:\"image.png\"})}),\"\\n\",r(c.section,{\"data-footnotes\":!0,className:\"footnotes\",children:[e(c.h2,{className:\"sr-only\",id:\"footnote-label\",children:e(c.a,{href:\"#footnote-label\",children:\"Footnotes\"})}),\"\\n\",r(c.ol,{children:[\"\\n\",r(c.li,{id:\"user-content-fn-1\",children:[\"\\n\",r(c.p,{children:[e(c.strong,{children:\"API(Application Programming Interface)\"}),\" : 서로 다른 소프트웨어가 데이터를 주고받거나 기능을 사용할 수 있도록 연결해 주는 통신 매개체입니다. API를 활용하면 상대방 프로그램의 내부 구조를 몰라도 정해진 규칙에 맞게 요청하기만 하면 원하는 데이터나 결과물을 쉽게 얻어올 수 있습니다. 우리가 웹사이트에서 흔히 쓰는 '카카오/네이버 간편 로그인'의 경우가 해당 서비스 제공자(카카오/네이버)의 API를 활용한 대표적인 사례입니다. \",e(c.a,{href:\"#user-content-fnref-1\",\"data-footnote-backref\":\"\",\"aria-label\":\"Back to reference 1\",className:\"data-footnote-backref\",children:\"↩\"})]}),\"\\n\"]}),\"\\n\"]}),\"\\n\"]})]})}return{default:function(n={}){const{wrapper:r}=n.components||{};return r?e(r,{...n,children:e(_createMdxContent,{...n})}):_createMdxContent(n)}};",
+    "toc": [
+      {
+        "title": "1. 커넥터(MCP)의 개념",
+        "url": "#1-커넥터mcp의-개념",
+        "items": []
+      },
+      {
+        "title": "2. 커넥터의 종류 및 연결방법",
+        "url": "#2-커넥터의-종류-및-연결방법",
+        "items": [
+          {
+            "title": "2.1. 커넥터의 종류와 동기화 범위",
+            "url": "#21-커넥터의-종류와-동기화-범위",
+            "items": []
+          },
+          {
+            "title": "2.2. 커넥터 연결 방법",
+            "url": "#22-커넥터-연결-방법",
+            "items": [
+              {
+                "title": "2.2.1. 웹 커넥터 연결하기",
+                "url": "#221-웹-커넥터-연결하기",
+                "items": []
+              },
+              {
+                "title": "2.2.2. 커스텀 커넥터 연결하기",
+                "url": "#222-커스텀-커넥터-연결하기",
+                "items": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "3. 커넥터 사용법",
+        "url": "#3-커넥터-사용법",
+        "items": []
+      }
+    ],
+    "title": "7.1. 커넥터(MCP)란",
+    "series": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드",
+    "category": "ai",
+    "subcategory": "AI도구",
+    "order": 7,
+    "depth": 1,
+    "parentPath": "7-커넥터MCP-활용법",
+    "slugAsParams": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/71-커넥터MCP란"
+  },
+  {
+    "slug": "ai/AI도구/클로드 엑셀(Claude for Excel) 가이드/7. 커넥터(MCP) 활용법/7.2. 커스텀 커넥터 활용 - 전자공시시스템(Open DART)",
+    "subject": "7.2. 커스텀 커넥터 활용 - 전자공시시스템(Open DART)",
+    "draft": false,
+    "id": 336171,
+    "parent_id": 336045,
+    "book_id": 19374,
+    "open_yn": "Y",
+    "last_synced": "2026-04-09T15:49:26.227Z",
+    "metadata": {
+      "readingTime": 1,
+      "wordCount": 80
+    },
+    "body": "const{Fragment:n,jsx:e,jsxs:r}=arguments[0];function _createMdxContent(i){const c={a:\"a\",blockquote:\"blockquote\",code:\"code\",h2:\"h2\",h3:\"h3\",img:\"img\",li:\"li\",ol:\"ol\",p:\"p\",strong:\"strong\",ul:\"ul\",...i.components},{Callout:l}=c;return l||function(n,e){throw new Error(\"Expected \"+(e?\"component\":\"object\")+\" `\"+n+\"` to be defined: you likely forgot to import, pass, or provide it.\")}(\"Callout\",!0),r(n,{children:[e(c.h2,{id:\"1-opendart란\",children:e(c.a,{href:\"#1-opendart란\",children:\"1. OpenDART란?\"})}),\"\\n\",e(c.p,{children:\"회계, 재무 실무를 하다 보면 전자공시시스템(DART)에서 특정 기업의 재무제표나 공시 자료를 일일이 검색해서 찾아야 하는 일이 매우 잦습니다.\"}),\"\\n\",r(c.p,{children:[\"금융감독원에서는 이러한 번거로움을 덜기 위해 \",e(c.strong,{children:\"OpenDART\"}),\"라는 공식 API를 개방하여, 프로그래밍을 통해 공시 자료를 불러올 수 있도록 지원하고 있습니다.\"]}),\"\\n\",r(c.p,{children:[\"현재 OpenDART는 \",e(c.strong,{children:\"총 83개\"}),\"에 달하는 API 기능을 세분화하여 제공하고 있습니다. 대표적으로 단일/다중 회사의 \",e(c.strong,{children:\"주요 재무제표\"}),\"(재무상태표, 손익계산서 등) 조회부터, \",e(c.strong,{children:\"지분 공시\"}),\"(최대주주 변동, 대량보유 상황), \",e(c.strong,{children:\"주요 사항 보고서\"}),\"(유상증자, 전환사채 등), 그리고 사업보고서 원문 검색까지 기업 분석에 필요한 핵심 데이터를 프로그래밍으로 불러올 수 있습니다.\"]}),\"\\n\",r(l,{type:\"info\",title:\"XBRL과 OpenDART\",children:[r(c.p,{children:[e(c.strong,{children:\"XBRL(eXtensible Business Reporting Language)\"}),\" 은 기업이 재무제표를 작성할 때 각종 재무 데이터 항목에 표준화된 꼬리표(태그)를 달아 기계가 쉽게 읽고 활용할 수 있도록 만든 국제 표준 전산 언어입니다.\"]}),r(c.p,{children:[\"한국에서도 최근 상장사들의 \",e(c.strong,{children:\"XBRL 공시가 단계적으로 전면 의무화\"}),\"되었습니다. 즉, 과거에는 사람이 눈으로 읽어야 했던 PDF나 단순 표 형식의 재무제표들이 이제는 컴퓨터가 인식할 수 있는 규격화된 코드로 통일된 것입니다. XBRL의 도입 덕분에, 금융감독원(Open DART)은 각 기업의 방대한 재무 정보를 \",e(c.strong,{children:\"API 형태의 데이터로 제공\"}),\"할 수 있게 되었고, 클로드와 같은 AI가 이 데이터를 읽어내어 분석 및 요약할 수 있게 된 것입니다.\"]})]}),\"\\n\",e(c.h2,{id:\"2-opendart-mcp-서버-소개\",children:e(c.a,{href:\"#2-opendart-mcp-서버-소개\",children:\"2. OpenDART MCP 서버 소개\"})}),\"\\n\",r(c.p,{children:[\"여기서 한 걸음 더 나아가, Open DART를 \",e(c.strong,{children:\"'클로드의 MCP 서버(커스텀 커넥터)'\"}),\" 로 연동해 보면 어떨까요? 엑셀 밖을 벗어날 필요 없이, 클로드 엑셀 채팅창에 자연어로 지시하기만 하면 언제든 원하는 기업의 공시 데이터를 엑셀 시트로 불러오고 분석할 수 있게 됩니다.\"]}),\"\\n\",e(c.p,{children:\"공식 MCP 서버는 없지만, 제가 개발한 OpenDART MCP 서버를 연결하면 클로드 엑셀에서 손쉽게 공시 데이터를 다룰 수 있습니다.\"}),\"\\n\",r(c.blockquote,{children:[\"\\n\",r(c.p,{children:[\"GitHub 저장소: \",e(c.a,{href:\"https://github.com/procpalee/OpenDART-MCP-Server\",children:\"procpalee/OpenDART-MCP-Server\"})]}),\"\\n\"]}),\"\\n\",e(c.p,{children:\"이 커스텀 커넥터를 통해 엑셀 안에서 활용할 수 있는 주요 기능은 다음과 같습니다.\"}),\"\\n\",r(c.ul,{children:[\"\\n\",r(c.li,{children:[e(c.strong,{children:\"주요 재무제표 추출 및 분석:\"}),\"\\n상장기업의 재무상태표, 손익계산서 등 핵심 재무 데이터를 즉시 엑셀 표 형태로 불러와 수익성이나 안정성 지표 등을 분석할 수 있습니다.\"]}),\"\\n\",r(c.li,{children:[e(c.strong,{children:\"지분 변동 및 지배구조 현황 추적:\"}),\"\\n특정 기업의 최대주주 변경 내역이나 주요 임원진의 주식 대량 보유 상황, 지분 변동 공시를 빠르게 원격으로 추적할 수 있습니다.\"]}),\"\\n\",r(c.li,{children:[e(c.strong,{children:\"주요 사항 보고서 조회:\"}),\"\\n유상증자, 주식 배당 결정, 전환사채 발행 등 기업에 큰 영향을 미치는 경영 사항과 관련된 공시 정보들을 조건별로 검색하여 즉각 파악할 수 있습니다.\"]}),\"\\n\",r(c.li,{children:[e(c.strong,{children:\"스마트 기업명 매칭 (자동 고유번호 변환):\"}),\"\\n원래 공시를 조회하려면 복잡한 8자리 '기업 고유번호(Corp Code)'가 필수적이지만, 본 서버는 9만여 개의 데이터베이스를 자체 내장하고 있어 \\\"삼성전자\\\" 등 일반 회사 이름만 텍스트로 적어도 알아서 데이터를 매칭해 찾아옵니다.\"]}),\"\\n\"]}),\"\\n\",e(c.h2,{id:\"2-커스텀-커넥터-연결하기\",children:e(c.a,{href:\"#2-커스텀-커넥터-연결하기\",children:\"2. 커스텀 커넥터 연결하기\"})}),\"\\n\",e(c.h3,{id:\"21-opendart-api-키-발급받기\",children:e(c.a,{href:\"#21-opendart-api-키-발급받기\",children:\"2.1. OpenDART API 키 발급받기\"})}),\"\\n\",e(c.p,{children:\"MCP 서버를 사용하기 위해서는 다음의 순서에 따라 OpenDART API 키를 발급받아야 합니다.\"}),\"\\n\",r(c.ol,{children:[\"\\n\",r(c.li,{children:[e(c.a,{href:\"https://opendart.fss.or.kr/\",children:\"Open DART 홈페이지(opendart.fss.or.kr)\"}),\"에 접속합니다.\"]}),\"\\n\",r(c.li,{children:[\"상단 메뉴에서 \",e(c.code,{children:\"인증키 신청/관리\"}),\" - \",e(c.code,{children:\"인증키 신청\"}),\" 메뉴로 들어가서 회원가입 후 API 인증키 발급을 완료합니다.\"]}),\"\\n\",r(c.li,{children:[\"발급 후 \",e(c.code,{children:\"인증키 신청/관리\"}),\" - \",e(c.code,{children:\"Open API 이용현황\"}),\"에 들어가면 영문과 숫자로 조합된 긴 인증키가 나타나는데, 이 키를 미리 복사(Ctrl+C)해 둡니다.\"]}),\"\\n\"]}),\"\\n\",e(c.h3,{id:\"22-클로드에-커스텀-커넥터-추가하기\",children:e(c.a,{href:\"#22-클로드에-커스텀-커넥터-추가하기\",children:\"2.2. 클로드에 커스텀 커넥터 추가하기\"})}),\"\\n\",e(c.p,{children:\"발급 받은 API키를 활용해서 클로드에 커스텀 커넥터를 추가합니다.\"}),\"\\n\",r(c.ol,{children:[\"\\n\",r(c.li,{children:[\"브라우저에서 \",e(c.code,{children:\"Claude.ai\"}),\"에 접속하거나 클로드 데스크톱 앱을 열고, \",e(c.code,{children:\"사용자 지정\"}),\" ➔ \",e(c.code,{children:\"커넥터\"}),\" ➔ \",e(c.code,{children:\"+\"}),\" ➔ \",e(c.code,{children:\"커스텀 커넥터 추가\"}),\" 로 이동합니다.\"]}),\"\\n\",r(c.li,{children:[e(c.strong,{children:\"이름\"}),\"은 'OpenDART' 등 알아보기 편하게 적습니다.\"]}),\"\\n\",r(c.li,{children:[e(c.strong,{children:\"URL\"}),\" 입력란에 아래 주소를 복사하여 붙여넣고, 끝부분 \",e(c.code,{children:\"YOUR_API_KEY\"}),\" 글자를 지운 뒤 앞서 2.1에서 발급받은 본인의 API 키 번호로 바꿔서 적어줍니다.\\n\",e(c.code,{children:\"https://open-dart-mcp-server.vercel.app/api/mcp?opendart_key=YOUR_API_KEY\"})]}),\"\\n\",r(c.li,{children:[e(c.strong,{children:\"추가\"}),\" 버튼을 누르면 연동이 완료됩니다.\"]}),\"\\n\"]}),\"\\n\",e(c.h2,{id:\"3-실무-활용-사례-테스트\",children:e(c.a,{href:\"#3-실무-활용-사례-테스트\",children:\"3. 실무 활용 사례 테스트\"})}),\"\\n\",e(c.p,{children:\"이제 준비가 끝났다면 다음의 사례와 같이 테스트를 진행해 볼 수 있습니다.\"}),\"\\n\",e(c.h3,{id:\"사례-1-특정-기업의-최근-공시사항-일괄-조회\",children:e(c.a,{href:\"#사례-1-특정-기업의-최근-공시사항-일괄-조회\",children:\"사례 1. 특정 기업의 최근 공시사항 일괄 조회\"})}),\"\\n\",e(c.p,{children:'먼저, **\"현대자동차의 최근 공시사항 20개를 엑셀 시트에 정리해 줘.\"**라고 단순하게 요청해 보겠습니다.'}),\"\\n\",e(c.p,{children:\"클로드 에이전트가 지시를 파악한 즉시 알아서 OpenDART MCP 도구를 호출해 데이터를 조회하는 것을 확인할 수 있습니다. 특히 클로드가 먼저 '현대자동차'의 8자리 고유 코드를 찾아낸 뒤 곧바로 해당 기업의 공시 목록을 원격으로 불러오는 과정을 보여줍니다.\"}),\"\\n\",e(c.p,{children:e(c.img,{src:\"https://raw.githubusercontent.com/procpalee/my_obsidian_images/master/20260327105748475.png\",alt:\"클로드의 DART API 호출 화면\"})}),\"\\n\",e(c.p,{children:\"데이터 수집이 끝난 뒤, 클로드가 공시일자, 보고서 제목, 공시유형 등을 정리한 결과입니다.\"}),\"\\n\",e(c.p,{children:e(c.img,{src:\"https://raw.githubusercontent.com/procpalee/my_obsidian_images/master/20260327105233963.png\",alt:\"공시사항 결과물 시트\"})}),\"\\n\",e(c.h3,{id:\"사례-2-기업-최신-재무-데이터-원격-추출\",children:e(c.a,{href:\"#사례-2-기업-최신-재무-데이터-원격-추출\",children:\"사례 2. 기업 최신 재무 데이터 원격 추출\"})}),\"\\n\",e(c.p,{children:'이번에는 실무에서 가장 많이 쓰이는 재무 지표 조회를 위해 **\"삼성전자의 최신 사업보고서에서 주요 계정과목의 금액을 표로 정리해 줘.\"**라고 요청해 보겠습니다.'}),\"\\n\",e(c.p,{children:e(c.img,{src:\"https://raw.githubusercontent.com/procpalee/my_obsidian_images/master/20260327111141099.png\",alt:\"재무제표 API 호출 과정\"})}),\"\\n\",e(c.p,{children:\"마찬가지로 클로드가 DART 데이터베이스에 직접 접속하여 재무상태표의 핵심 단위 금액들을 엑셀 시트로 즉시 가져옵니다.\"}),\"\\n\",e(c.p,{children:e(c.img,{src:\"https://raw.githubusercontent.com/procpalee/my_obsidian_images/master/20260327111158653.png\",alt:\"재무제표 자동 작성 결과\"})}),\"\\n\",r(c.p,{children:[\"이러한 MCP 커넥터는 단독으로 사용하기보다는 앞서 우리가 배운 \",e(c.strong,{children:\"스킬(Skills)\"}),\" 기능과 결합했을 때 진정한 확장성을 가집니다. 스킬에 전체 프로세스를 정의하고, 외부에서 필요한 데이터가 있다면 이를 커넥터를 통해 가져올 수 있기 때문입니다.\"]}),\"\\n\",r(c.p,{children:[\"다음 챕터부터는 지금까지 배운 기능들을 토대로 \",e(c.strong,{children:\"실제 현업의 복잡한 실무 작업들을 클로드 엑셀로 어떻게 자동화할 수 있는지\"}),\" 구체적 사례들을 본격적으로 다뤄보겠습니다.\"]})]})}return{default:function(n={}){const{wrapper:r}=n.components||{};return r?e(r,{...n,children:e(_createMdxContent,{...n})}):_createMdxContent(n)}};",
+    "toc": [
+      {
+        "title": "1. OpenDART란?",
+        "url": "#1-opendart란",
+        "items": []
+      },
+      {
+        "title": "2. OpenDART MCP 서버 소개",
+        "url": "#2-opendart-mcp-서버-소개",
+        "items": []
+      },
+      {
+        "title": "2. 커스텀 커넥터 연결하기",
+        "url": "#2-커스텀-커넥터-연결하기",
+        "items": [
+          {
+            "title": "2.1. OpenDART API 키 발급받기",
+            "url": "#21-opendart-api-키-발급받기",
+            "items": []
+          },
+          {
+            "title": "2.2. 클로드에 커스텀 커넥터 추가하기",
+            "url": "#22-클로드에-커스텀-커넥터-추가하기",
+            "items": []
+          }
+        ]
+      },
+      {
+        "title": "3. 실무 활용 사례 테스트",
+        "url": "#3-실무-활용-사례-테스트",
+        "items": [
+          {
+            "title": "사례 1. 특정 기업의 최근 공시사항 일괄 조회",
+            "url": "#사례-1-특정-기업의-최근-공시사항-일괄-조회",
+            "items": []
+          },
+          {
+            "title": "사례 2. 기업 최신 재무 데이터 원격 추출",
+            "url": "#사례-2-기업-최신-재무-데이터-원격-추출",
+            "items": []
+          }
+        ]
+      }
+    ],
+    "title": "7.2. 커스텀 커넥터 활용 - 전자공시시스템(Open DART)",
+    "series": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드",
+    "category": "ai",
+    "subcategory": "AI도구",
+    "order": 7,
+    "depth": 1,
+    "parentPath": "7-커넥터MCP-활용법",
+    "slugAsParams": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/72-커스텀-커넥터-활용-전자공시시스템Open-DART"
+  },
+  {
     "slug": "accounting/일반/내부회계관리제도 실무 가이드북/1. 개요/1.1. 내부회계관리제도의 도입 배경",
     "subject": "1.1. 내부회계관리제도의 도입 배경",
     "draft": false,
@@ -2215,9 +2215,9 @@
     "last_synced": "2026-04-09T15:49:26.343Z",
     "metadata": {
       "readingTime": 1,
-      "wordCount": 23
+      "wordCount": 25
     },
-    "body": "const{Fragment:e,jsx:n,jsxs:i}=arguments[0];function _createMdxContent(r){const l={a:\"a\",code:\"code\",h2:\"h2\",h3:\"h3\",img:\"img\",li:\"li\",p:\"p\",strong:\"strong\",ul:\"ul\",...r.components},{Callout:d}=l;return d||function(e,n){throw new Error(\"Expected \"+(n?\"component\":\"object\")+\" `\"+e+\"` to be defined: you likely forgot to import, pass, or provide it.\")}(\"Callout\",!0),i(e,{children:[n(l.h2,{id:\"1-평가-템플릿template의-필요성\",children:n(l.a,{href:\"#1-평가-템플릿template의-필요성\",children:\"1. 평가 템플릿(Template)의 필요성\"})}),\"\\n\",i(l.p,{children:[\"클로드 엑셀은 자체적으로 \",n(l.code,{children:\"/dcf-model\"}),\"이라는 스타터 스킬(Starter Skill)을 제공하여 기본적인 모델링을 빠르게 수행해줍니다. 하지만 이 스킬을 실무에 그대로 적용하기에는 크게 세 가지 한계가 있습니다.\"]}),\"\\n\",i(l.ul,{children:[\"\\n\",i(l.li,{children:[n(l.strong,{children:\"단순한 로직\"}),\": 모델링 구조가 지나치게 단순하여 실무의 구체적인 로직을 반영하기 부족합니다.\"]}),\"\\n\",i(l.li,{children:[n(l.strong,{children:\"투박한 디자인\"}),\": 디자인 요소가 고려되지 않아 실무 보고서에서 사용하기에는 다소 아쉬운 결과물이 나옵니다.\"]}),\"\\n\",i(l.li,{children:[n(l.strong,{children:\"일관성 부족\"}),\": 가장 중요한 한계점으로, 작업을 요청할 때마다 \",n(l.strong,{children:\"산출되는 결과물의 형태와 구조가 달라져\"}),\" 반복 사용에 적합하지 않습니다.\"]}),\"\\n\"]}),\"\\n\",i(l.p,{children:[\"스킬을 정교하게 작성하여 활용할 수도 있지만 생성향 AI의 특성상 결과물의 양식이 매번 조금씩 달라질 수 밖에 없습니다. 따라서 전체 작업을 부분으로 나눠서 완성도 높은 \",n(l.strong,{children:\"템플릿(Template)\"}),\" 을 우선 만들고, 스킬을 통해 해당 템플릿을 완성해 나가는 방법을 추천합니다.\"]}),\"\\n\",i(l.p,{children:[\"특히 엑셀에서 완성한 평가 모델을 파워포인트(PPT) 보고서에 그대로 복사하여 붙여넣는 경우가 많습니다. 따라서 처음부터 \",n(l.strong,{children:\"최종 보고서에 사용할 디자인 가이드라인을 엑셀 템플릿에 동일하게 적용\"}),\"해 두면, 서식 편집에 낭비되는 시간을 줄이고 업무 효율을 크게 높일 수 있습니다.\"]}),\"\\n\",n(l.h2,{id:\"2-템플릿-리디자인re-design\",children:n(l.a,{href:\"#2-템플릿-리디자인re-design\",children:\"2. 템플릿 '리디자인'(Re-design)\"})}),\"\\n\",n(l.p,{children:\"실무에서 평가 템플릿을 백지상태에서 새로 만드는 경우보다는 기존의 양식을 상황에 맞게 변형하여 사용하는 것이 일반적입니다. 물론 DCF 평가에 대한 전문지식을 보유하고 있는 상태에서 클로드 엑셀까지 활용한다면 새롭게 템플릿을 만드는 것도 가능합니다. 하지만 실제로 Big4 회계법인이나 평가기관에서 사용할 수 있는 수준의 템플릿을 만들기 위해서는 상당한 노력과 시간이 소요되므로 본 사례 역시 기존 템플릿이 존재한다는 가정 하에 작업을 진행합니다.\"}),\"\\n\",i(l.p,{children:[\"단, 기존의 템플릿을 그대로 쓰지 않고 \",n(l.strong,{children:\"스타일 가이드를 적용하여 브랜드 컬러와 일관된 포맷팅을 적용\"}),\"하는 과정을 소개하겠습니다.\"]}),\"\\n\",n(d,{type:\"note\",title:\"템플릿 고도화 시 클로드 엑셀의 강점\",children:n(l.p,{children:\"클로드 엑셀은 글로벌 투자은행(IB)들의 방대한 재무 모델 디자인과 모범 사례를 학습하고 있습니다. 이를 적극적으로 활용하면 프롬프트만으로 시각적 완성도가 높은 모델을 쉽게 구축할 수 있습니다.\"})}),\"\\n\",n(l.h3,{id:\"21-before\",children:n(l.a,{href:\"#21-before\",children:\"2.1. Before\"})}),\"\\n\",n(l.p,{children:\"다음의 시트는 과거 실무에서 수행했던 프로젝트에 사용한 템플릿의 구조만 복사하여 요약한 것입니다. 디자인 요소가 적용되기 전의 가장 기본적인 형태입니다.\"}),\"\\n\",n(l.p,{children:n(l.img,{src:\"https://cdn.jsdelivr.net/gh/procpalee/my_obsidian_images/img/20260404235722553.png\",alt:\"image.png\"})}),\"\\n\",n(l.p,{children:n(l.img,{src:\"https://cdn.jsdelivr.net/gh/procpalee/my_obsidian_images/img/20260404235757959.png\",alt:\"image.png\"})}),\"\\n\",n(l.p,{children:n(l.img,{src:\"https://cdn.jsdelivr.net/gh/procpalee/my_obsidian_images/img/20260404235809865.png\",alt:\"image.png\"})}),\"\\n\",n(l.h3,{id:\"22-processing\",children:n(l.a,{href:\"#22-processing\",children:\"2.2. Processing\"})}),\"\\n\",n(l.p,{children:\"클로드 엑셀에게 DCF 평가 모델링에 적합한 템플릿 디자인을 몇 가지 추천해달라고 프롬프트를 통해 요청해 보겠습니다.\"}),\"\\n\",n(d,{type:\"example\",title:\"디자인 추천 프롬프트 예시\",children:n(l.p,{children:'\"현재 작성된 템플릿 시트에 적용할 수 있는 깔끔하고 전문적인 디자인 테마를 4가지 정도 제안해 줘.\"'})}),\"\\n\",n(l.p,{children:\"만약 자사 브랜드 컬러 등 선호하는 색상이 명확하다면, 해당 색상을 지정하여 디자인을 요청할 수 있습니다. 또한, 참고할 만한 레퍼런스 디자인이 있다면 스크린샷을 프롬프트 입력창에 업로드해 보세요. 클로드 엑셀이 이미지를 분석하여 유사한 스타일로 템플릿을 구성해 줍니다.\"}),\"\\n\",n(l.p,{children:n(l.img,{src:\"https://cdn.jsdelivr.net/gh/procpalee/my_obsidian_images/img/20260406165410930.png\",alt:\"image.png\"})}),\"\\n\",n(l.p,{children:\"추천받은 디자인 중에서 가독성이 좋고 신뢰감을 주는 'Ocean Blue' 컬러 테마를 선택하여, 전체 템플릿의 디자인을 변경해달라고 재차 요청하겠습니다.\"}),\"\\n\",n(l.h3,{id:\"23-after\",children:n(l.a,{href:\"#23-after\",children:\"2.3. After\"})}),\"\\n\",n(l.p,{children:\"클로드 엑셀을 통해 최종적으로 디자인 서식이 반영된 템플릿의 모습입니다.\"}),\"\\n\",n(l.p,{children:n(l.img,{src:\"https://cdn.jsdelivr.net/gh/procpalee/my_obsidian_images/img/20260404235824646.png\",alt:\"image.png\"})}),\"\\n\",n(l.p,{children:n(l.img,{src:\"https://cdn.jsdelivr.net/gh/procpalee/my_obsidian_images/img/20260404235918219.png\",alt:\"image.png\"})}),\"\\n\",n(l.p,{children:n(l.img,{src:\"https://cdn.jsdelivr.net/gh/procpalee/my_obsidian_images/img/20260404235954962.png\",alt:\"image.png\"})}),\"\\n\",n(l.h2,{id:\"3-스타일-가이드-생성\",children:n(l.a,{href:\"#3-스타일-가이드-생성\",children:\"3. 스타일 가이드 생성\"})}),\"\\n\",n(l.p,{children:\"기본적인 템플릿을 완성했지만, 실무에서는 템플릿에 포함된 표 외에도 새로운 구조의 표나 데이터를 추가로 작성해야 하는 경우가 흔하게 발생합니다.\"}),\"\\n\",i(l.p,{children:[\"이러한 상황을 대비하여 \",n(l.strong,{children:\"스타일 가이드(Style Guide)\"}),\" 를 만들어 두는 것을 추천합니다. 서식 규칙을 문서화해 두면, 향후 에이전트가 모델을 수정하거나 확장할 때에도 항상 이 가이드를 참조하여 일관성 있는 디자인을 적용할 수 있습니다.\"]}),\"\\n\",n(l.p,{children:\"스타일 가이드 역시 직접 작성할 필요가 없습니다. 클로드 엑셀에게 방금 완성한 템플릿의 서식을 바탕으로 스타일 가이드를 정리해달라고 요청하고, 결과물에서 필요한 부분만 수정하여 보관하면 됩니다.\"}),\"\\n\",n(l.p,{children:n(l.img,{src:\"https://cdn.jsdelivr.net/gh/procpalee/my_obsidian_images/img/20260405000144040.png\",alt:\"image.png\"})})]})}return{default:function(e={}){const{wrapper:i}=e.components||{};return i?n(i,{...e,children:n(_createMdxContent,{...e})}):_createMdxContent(e)}};",
+    "body": "const{Fragment:e,jsx:n,jsxs:i}=arguments[0];function _createMdxContent(r){const l={a:\"a\",code:\"code\",h2:\"h2\",h3:\"h3\",img:\"img\",li:\"li\",p:\"p\",strong:\"strong\",ul:\"ul\",...r.components},{Callout:d}=l;return d||function(e,n){throw new Error(\"Expected \"+(n?\"component\":\"object\")+\" `\"+e+\"` to be defined: you likely forgot to import, pass, or provide it.\")}(\"Callout\",!0),i(e,{children:[n(l.h2,{id:\"1-평가-템플릿template의-필요성\",children:n(l.a,{href:\"#1-평가-템플릿template의-필요성\",children:\"1. 평가 템플릿(Template)의 필요성\"})}),\"\\n\",i(l.p,{children:[\"클로드 엑셀은 자체적으로 \",n(l.code,{children:\"/dcf-model\"}),\"이라는 스타터 스킬(Starter Skill)을 제공하여 기본적인 모델링을 빠르게 수행해줍니다. 하지만 이 스킬을 실무에 그대로 적용하기에는 크게 세 가지 한계가 있습니다.\"]}),\"\\n\",i(l.ul,{children:[\"\\n\",i(l.li,{children:[n(l.strong,{children:\"단순한 로직\"}),\": 모델링 구조가 지나치게 단순하여 실무의 구체적인 로직을 반영하기 부족합니다.\"]}),\"\\n\",i(l.li,{children:[n(l.strong,{children:\"투박한 디자인\"}),\": 디자인 요소가 고려되지 않아 실무 보고서에서 사용하기에는 다소 아쉬운 결과물이 나옵니다.\"]}),\"\\n\",i(l.li,{children:[n(l.strong,{children:\"일관성 부족\"}),\": 가장 중요한 한계점으로, 작업을 요청할 때마다 \",n(l.strong,{children:\"산출되는 결과물의 형태와 구조가 달라져\"}),\" 반복 사용에 적합하지 않습니다.\"]}),\"\\n\"]}),\"\\n\",i(l.p,{children:[\"스킬을 정교하게 작성하여 활용할 수도 있지만 생성향 AI의 특성상 결과물의 양식이 매번 조금씩 달라질 수 밖에 없습니다. 따라서 전체 작업을 부분으로 나눠서 완성도 높은 \",n(l.strong,{children:\"템플릿(Template)\"}),\" 을 우선 만들고, 스킬을 통해 해당 템플릿을 완성해 나가는 방법을 추천합니다.\"]}),\"\\n\",i(l.p,{children:[\"특히 엑셀에서 완성한 평가 모델을 파워포인트(PPT) 보고서에 그대로 복사하여 붙여넣는 경우가 많습니다. 따라서 처음부터 \",n(l.strong,{children:\"최종 보고서에 사용할 디자인 가이드라인을 엑셀 템플릿에 동일하게 적용\"}),\"해 두면, 서식 편집에 낭비되는 시간을 줄이고 업무 효율을 크게 높일 수 있습니다.\"]}),\"\\n\",n(l.h2,{id:\"2-템플릿-리디자인re-design\",children:n(l.a,{href:\"#2-템플릿-리디자인re-design\",children:\"2. 템플릿 '리디자인'(Re-design)\"})}),\"\\n\",n(l.p,{children:\"실무에서 평가 템플릿을 백지상태에서 새로 만드는 경우보다는 기존의 양식을 상황에 맞게 변형하여 사용하는 것이 일반적입니다. 물론 DCF 평가에 대한 전문지식을 보유하고 있는 상태에서 클로드 엑셀까지 활용한다면 새롭게 템플릿을 만드는 것도 가능합니다. 하지만 실제로 Big4 회계법인이나 평가기관에서 사용할 수 있는 수준의 템플릿을 만들기 위해서는 상당한 노력과 시간이 소요되므로 본 사례 역시 기존 템플릿이 존재한다는 가정 하에 작업을 진행합니다.\"}),\"\\n\",i(l.p,{children:[\"단, 기존의 템플릿을 그대로 쓰지 않고 \",n(l.strong,{children:\"스타일 가이드를 적용하여 브랜드 컬러와 일관된 포맷팅을 적용\"}),\"하는 과정을 소개하겠습니다.\"]}),\"\\n\",n(d,{type:\"note\",title:\"템플릿 고도화 시 클로드 엑셀의 강점\",children:n(l.p,{children:\"클로드 엑셀은 글로벌 투자은행(IB)들의 방대한 재무 모델 디자인과 모범 사례를 학습하고 있습니다. 이를 적극적으로 활용하면 프롬프트만으로 시각적 완성도가 높은 모델을 쉽게 구축할 수 있습니다.\"})}),\"\\n\",n(l.h3,{id:\"21-before\",children:n(l.a,{href:\"#21-before\",children:\"2.1. Before\"})}),\"\\n\",n(l.p,{children:\"다음의 시트는 과거 실무에서 수행했던 프로젝트에 사용한 템플릿의 구조만 복사하여 요약한 것입니다. 디자인 요소가 적용되기 전의 가장 기본적인 형태입니다.\"}),\"\\n\",n(l.p,{children:n(l.img,{src:\"https://cdn.jsdelivr.net/gh/procpalee/my_obsidian_images/img/20260404235722553.png\",alt:\"image.png\"})}),\"\\n\",n(l.p,{children:n(l.img,{src:\"https://cdn.jsdelivr.net/gh/procpalee/my_obsidian_images/img/20260404235757959.png\",alt:\"image.png\"})}),\"\\n\",n(l.p,{children:n(l.img,{src:\"https://cdn.jsdelivr.net/gh/procpalee/my_obsidian_images/img/20260404235809865.png\",alt:\"image.png\"})}),\"\\n\",n(l.h3,{id:\"22-processing\",children:n(l.a,{href:\"#22-processing\",children:\"2.2. Processing\"})}),\"\\n\",n(l.p,{children:\"클로드 엑셀에게 DCF 평가 모델링에 적합한 템플릿 디자인을 몇 가지 추천해달라고 프롬프트를 통해 요청해 보겠습니다.\"}),\"\\n\",n(d,{type:\"example\",title:\"디자인 추천 프롬프트 예시\",children:n(l.p,{children:'\"현재 작성된 템플릿 시트에 적용할 수 있는 깔끔하고 전문적인 디자인 테마를 4가지 정도 제안해 줘.\"'})}),\"\\n\",n(l.p,{children:\"만약 자사 브랜드 컬러 등 선호하는 색상이 명확하다면, 해당 색상을 지정하여 디자인을 요청할 수 있습니다. 또한, 참고할 만한 레퍼런스 디자인이 있다면 스크린샷을 프롬프트 입력창에 업로드해 보세요. 클로드 엑셀이 이미지를 분석하여 유사한 스타일로 템플릿을 구성해 줍니다.\"}),\"\\n\",n(l.p,{children:n(l.img,{src:\"https://cdn.jsdelivr.net/gh/procpalee/my_obsidian_images/img/20260406165410930.png\",alt:\"image.png\"})}),\"\\n\",n(l.p,{children:\"추천받은 디자인 중에서 가독성이 좋고 신뢰감을 주는 'Ocean Blue' 컬러 테마를 선택하여, 전체 템플릿의 디자인을 변경해달라고 재차 요청하겠습니다.\"}),\"\\n\",n(l.h3,{id:\"23-after\",children:n(l.a,{href:\"#23-after\",children:\"2.3. After\"})}),\"\\n\",n(l.p,{children:\"클로드 엑셀을 통해 최종적으로 디자인 서식이 반영된 템플릿의 모습입니다.\"}),\"\\n\",n(l.p,{children:n(l.img,{src:\"https://cdn.jsdelivr.net/gh/procpalee/my_obsidian_images/img/20260404235824646.png\",alt:\"image.png\"})}),\"\\n\",n(l.p,{children:n(l.img,{src:\"https://cdn.jsdelivr.net/gh/procpalee/my_obsidian_images/img/20260404235918219.png\",alt:\"image.png\"})}),\"\\n\",n(l.p,{children:n(l.img,{src:\"https://cdn.jsdelivr.net/gh/procpalee/my_obsidian_images/img/20260404235954962.png\",alt:\"image.png\"})}),\"\\n\",n(l.h2,{id:\"3-스타일-가이드-생성\",children:n(l.a,{href:\"#3-스타일-가이드-생성\",children:\"3. 스타일 가이드 생성\"})}),\"\\n\",n(l.p,{children:\"기본적인 템플릿을 완성했지만, 실무에서는 템플릿에 포함된 표 외에도 새로운 구조의 표나 데이터를 추가로 작성해야 하는 경우가 흔하게 발생합니다.\"}),\"\\n\",i(l.p,{children:[\"이러한 상황을 대비하여 \",n(l.strong,{children:\"스타일 가이드(Style Guide)\"}),\" 를 만들어 두는 것을 추천합니다. 서식 규칙을 문서화해 두면, 향후 에이전트가 모델을 수정하거나 확장할 때에도 항상 이 가이드를 참조하여 일관성 있는 디자인을 적용할 수 있습니다.\"]}),\"\\n\",n(l.p,{children:\"스타일 가이드 역시 직접 작성할 필요가 없습니다. 클로드 엑셀에게 방금 완성한 템플릿의 서식을 바탕으로 스타일 가이드를 정리해달라고 요청하고, 결과물에서 필요한 부분만 수정하여 보관하면 됩니다.\"}),\"\\n\",n(l.p,{children:n(l.img,{src:\"https://cdn.jsdelivr.net/gh/procpalee/my_obsidian_images/img/20260405000144040.png\",alt:\"image.png\"})}),\"\\n\",n(l.h2,{id:\"첨부파일\",children:n(l.a,{href:\"#첨부파일\",children:\"첨부파일\"})}),\"\\n\",n(l.p,{children:\"이 챕터에서 사용된 DCF 평가 템플릿을 아래에서 다운로드할 수 있습니다.\"}),\"\\n\",n(l.p,{children:n(l.a,{href:\"/files/dcf_test_v2.xlsx\",children:\"DCF 평가 템플릿\"})})]})}return{default:function(e={}){const{wrapper:i}=e.components||{};return i?n(i,{...e,children:n(_createMdxContent,{...e})}):_createMdxContent(e)}};",
     "toc": [
       {
         "title": "1. 평가 템플릿(Template)의 필요성",
@@ -2248,6 +2248,11 @@
       {
         "title": "3. 스타일 가이드 생성",
         "url": "#3-스타일-가이드-생성",
+        "items": []
+      },
+      {
+        "title": "첨부파일",
+        "url": "#첨부파일",
         "items": []
       }
     ],

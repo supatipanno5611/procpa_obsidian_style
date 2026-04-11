@@ -9,20 +9,20 @@
       "context": "## 관련 글 모음 - [[hello-world]] — 블로그 시작 - [[ai-productivity-intro|AI로 생산성 높이기]] - [[wiki-test]] — 첫 위키 테스트 - [[wiki-test-2|두 번째 테스트]] - [[getting-star…"
     },
     {
-      "sourceId": "dev/일반/wiki-test-2",
-      "sourceTitle": "Wiki Link Test 2 — AI 노트",
-      "sourceUrl": "/dev/일반/wiki-test-2",
-      "sourceType": "post",
-      "category": "ai",
-      "context": "이 글은 [[hello-world]]와 [[ai-productivity-intro|AI 생산성 가이드]]를 모두 참조합니다. 또한 [[wiki-test|첫 번째 위키 테스트]]와도 연결되어 있습니다. 깨진 링크 예시: [[ghost-page]]."
-    },
-    {
       "sourceId": "dev/일반/wiki-test",
       "sourceTitle": "Wiki Link Test",
       "sourceUrl": "/dev/일반/wiki-test",
       "sourceType": "post",
       "category": "dev",
       "context": "이 문서는 [[hello-world]]를 참조하고, 별칭도 [[hello-world|첫 글]] 사용합니다. 헤딩 앵커 [[hello-world#앞으로]] 및 [[missing-target|깨진 링크]]도 테스트."
+    },
+    {
+      "sourceId": "dev/일반/wiki-test-2",
+      "sourceTitle": "Wiki Link Test 2 — AI 노트",
+      "sourceUrl": "/dev/일반/wiki-test-2",
+      "sourceType": "post",
+      "category": "ai",
+      "context": "이 글은 [[hello-world]]와 [[ai-productivity-intro|AI 생산성 가이드]]를 모두 참조합니다. 또한 [[wiki-test|첫 번째 위키 테스트]]와도 연결되어 있습니다. 깨진 링크 예시: [[ghost-page]]."
     }
   ],
   "ai/일반/ai-productivity-intro": [

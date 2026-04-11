@@ -22,5 +22,5 @@ export function MobileVaultSidebar({ onNavigate }: { onNavigate?: () => void }) 
     tags: tagList,
   }
 
-  return <VaultSidebar data={vaultData} />
+  return <VaultSidebar data={vaultData} onNavigate={onNavigate} />
 }

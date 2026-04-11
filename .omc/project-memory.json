@@ -184,8 +184,8 @@
   "hotPaths": [
     {
       "path": "src\\app\\[...slug]\\page.tsx",
-      "accessCount": 69,
-      "lastAccessed": 1775916689356,
+      "accessCount": 70,
+      "lastAccessed": 1775917829985,
       "type": "file"
     },
     {
@@ -201,21 +201,21 @@
       "type": "file"
     },
     {
-      "path": "src\\components\\site-header.tsx",
-      "accessCount": 24,
-      "lastAccessed": 1775914393741,
+      "path": "src\\components\\vault\\vault-tree.tsx",
+      "accessCount": 28,
+      "lastAccessed": 1775918785183,
       "type": "file"
     },
     {
-      "path": "src\\components\\vault\\vault-tree.tsx",
-      "accessCount": 21,
-      "lastAccessed": 1775894978122,
+      "path": "src\\components\\site-header.tsx",
+      "accessCount": 27,
+      "lastAccessed": 1775918726932,
       "type": "file"
     },
     {
       "path": "velite.config.ts",
-      "accessCount": 21,
-      "lastAccessed": 1775916863367,
+      "accessCount": 24,
+      "lastAccessed": 1775918708441,
       "type": "file"
     },
     {
@@ -267,6 +267,12 @@
       "type": "file"
     },
     {
+      "path": "src\\components\\vault\\vault-sidebar.tsx",
+      "accessCount": 9,
+      "lastAccessed": 1775918753541,
+      "type": "file"
+    },
+    {
       "path": "src\\app\\posts\\[...slug]\\page.tsx",
       "accessCount": 7,
       "lastAccessed": 1775886418050,
@@ -276,6 +282,12 @@
       "path": "src\\app\\rss.xml\\route.ts",
       "accessCount": 7,
       "lastAccessed": 1775916824802,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\mdx-content.tsx",
+      "accessCount": 7,
+      "lastAccessed": 1775918067128,
       "type": "file"
     },
     {
@@ -297,9 +309,9 @@
       "type": "file"
     },
     {
-      "path": "src\\components\\mdx-content.tsx",
-      "accessCount": 4,
-      "lastAccessed": 1775892136225,
+      "path": "src\\components\\wiki-link.tsx",
+      "accessCount": 5,
+      "lastAccessed": 1775918863625,
       "type": "file"
     },
     {
@@ -315,12 +327,6 @@
       "type": "file"
     },
     {
-      "path": "src\\components\\vault\\vault-sidebar.tsx",
-      "accessCount": 4,
-      "lastAccessed": 1775912502442,
-      "type": "file"
-    },
-    {
       "path": "src\\components\\json-ld.tsx",
       "accessCount": 4,
       "lastAccessed": 1775916861070,
@@ -330,6 +336,12 @@
       "path": "src\\components\\explore\\result-list.tsx",
       "accessCount": 4,
       "lastAccessed": 1775916952005,
+      "type": "file"
+    },
+    {
+      "path": "src\\lib\\velite\\remark-wiki-link.ts",
+      "accessCount": 4,
+      "lastAccessed": 1775917824725,
       "type": "file"
     },
     {
@@ -357,12 +369,6 @@
       "type": "file"
     },
     {
-      "path": "src\\lib\\velite\\remark-wiki-link.ts",
-      "accessCount": 3,
-      "lastAccessed": 1775892167123,
-      "type": "file"
-    },
-    {
       "path": "src\\components\\command-palette.tsx",
       "accessCount": 3,
       "lastAccessed": 1775911738979,
@@ -372,6 +378,24 @@
       "path": "src\\app\\api\\og\\route.tsx",
       "accessCount": 3,
       "lastAccessed": 1775916214719,
+      "type": "file"
+    },
+    {
+      "path": "next.config.ts",
+      "accessCount": 3,
+      "lastAccessed": 1775917793450,
+      "type": "file"
+    },
+    {
+      "path": "package.json",
+      "accessCount": 3,
+      "lastAccessed": 1775917812841,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\vault\\vault-drawer.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1775918247042,
       "type": "file"
     },
     {
@@ -390,24 +414,6 @@
       "path": "src\\lib\\topics.ts",
       "accessCount": 2,
       "lastAccessed": 1775893882415,
-      "type": "file"
-    },
-    {
-      "path": "package.json",
-      "accessCount": 2,
-      "lastAccessed": 1775906942837,
-      "type": "file"
-    },
-    {
-      "path": "src\\components\\vault\\vault-drawer.tsx",
-      "accessCount": 2,
-      "lastAccessed": 1775912451319,
-      "type": "file"
-    },
-    {
-      "path": "next.config.ts",
-      "accessCount": 2,
-      "lastAccessed": 1775916106209,
       "type": "file"
     },
     {
@@ -444,12 +450,6 @@
       "path": "src\\app\\series\\[series]\\opengraph-image.tsx",
       "accessCount": 1,
       "lastAccessed": 1775885837666,
-      "type": "file"
-    },
-    {
-      "path": "src\\components\\wiki-link.tsx",
-      "accessCount": 1,
-      "lastAccessed": 1775891286019,
       "type": "file"
     },
     {

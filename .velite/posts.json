@@ -1,36 +1,5 @@
 [
   {
-    "slug": "ai/일반/ai-productivity-intro",
-    "title": "AI로 회계 실무 생산성 끌어올리기",
-    "description": "회계·재무 실무자가 LLM과 자동화 도구를 일에 결합하는 첫 단계.",
-    "date": "2026-04-07T00:00:00.000Z",
-    "tags": [
-      "LLM",
-      "생산성"
-    ],
-    "category": "ai",
-    "draft": false,
-    "metadata": {
-      "readingTime": 1,
-      "wordCount": 2
-    },
-    "body": "const{Fragment:n,jsx:e,jsxs:r}=arguments[0];function _createMdxContent(c){const t={a:\"a\",h2:\"h2\",li:\"li\",p:\"p\",ul:\"ul\",...c.components};return r(n,{children:[e(t.h2,{id:\"시작하기\",children:e(t.a,{href:\"#시작하기\",children:\"시작하기\"})}),\"\\n\",e(t.p,{children:\"AI는 단순한 챗봇이 아니라 실무 워크플로의 일부가 되어야 합니다.\"}),\"\\n\",r(t.ul,{children:[\"\\n\",e(t.li,{children:\"반복 작업의 자동화\"}),\"\\n\",e(t.li,{children:\"문서 요약과 검토\"}),\"\\n\",e(t.li,{children:\"데이터 정리와 변환\"}),\"\\n\"]}),\"\\n\",e(t.h2,{id:\"다음-단계\",children:e(t.a,{href:\"#다음-단계\",children:\"다음 단계\"})}),\"\\n\",e(t.p,{children:\"이 시리즈에서는 회계·재무 실무자가 일상에서 바로 적용할 수 있는 AI 활용법을 다룰 예정입니다.\"})]})}return{default:function(n={}){const{wrapper:r}=n.components||{};return r?e(r,{...n,children:e(_createMdxContent,{...n})}):_createMdxContent(n)}};",
-    "toc": [
-      {
-        "title": "시작하기",
-        "url": "#시작하기",
-        "items": []
-      },
-      {
-        "title": "다음 단계",
-        "url": "#다음-단계",
-        "items": []
-      }
-    ],
-    "subcategory": "일반",
-    "slugAsParams": "ai/일반/ai-productivity-intro"
-  },
-  {
     "slug": "dev/일반/hello-world",
     "title": "새로운 PROCPA 블로그를 시작하며",
     "description": "옵시디언 기반 콘텐츠 파이프라인으로 새롭게 리빌드한 PROCPA 블로그의 첫 글.",
@@ -125,5 +94,36 @@
     "category": "dev",
     "subcategory": "일반",
     "slugAsParams": "dev/일반/wiki-test"
+  },
+  {
+    "slug": "ai/일반/ai-productivity-intro",
+    "title": "AI로 회계 실무 생산성 끌어올리기",
+    "description": "회계·재무 실무자가 LLM과 자동화 도구를 일에 결합하는 첫 단계.",
+    "date": "2026-04-07T00:00:00.000Z",
+    "tags": [
+      "LLM",
+      "생산성"
+    ],
+    "category": "ai",
+    "draft": false,
+    "metadata": {
+      "readingTime": 1,
+      "wordCount": 2
+    },
+    "body": "const{Fragment:n,jsx:e,jsxs:r}=arguments[0];function _createMdxContent(c){const t={a:\"a\",h2:\"h2\",li:\"li\",p:\"p\",ul:\"ul\",...c.components};return r(n,{children:[e(t.h2,{id:\"시작하기\",children:e(t.a,{href:\"#시작하기\",children:\"시작하기\"})}),\"\\n\",e(t.p,{children:\"AI는 단순한 챗봇이 아니라 실무 워크플로의 일부가 되어야 합니다.\"}),\"\\n\",r(t.ul,{children:[\"\\n\",e(t.li,{children:\"반복 작업의 자동화\"}),\"\\n\",e(t.li,{children:\"문서 요약과 검토\"}),\"\\n\",e(t.li,{children:\"데이터 정리와 변환\"}),\"\\n\"]}),\"\\n\",e(t.h2,{id:\"다음-단계\",children:e(t.a,{href:\"#다음-단계\",children:\"다음 단계\"})}),\"\\n\",e(t.p,{children:\"이 시리즈에서는 회계·재무 실무자가 일상에서 바로 적용할 수 있는 AI 활용법을 다룰 예정입니다.\"})]})}return{default:function(n={}){const{wrapper:r}=n.components||{};return r?e(r,{...n,children:e(_createMdxContent,{...n})}):_createMdxContent(n)}};",
+    "toc": [
+      {
+        "title": "시작하기",
+        "url": "#시작하기",
+        "items": []
+      },
+      {
+        "title": "다음 단계",
+        "url": "#다음-단계",
+        "items": []
+      }
+    ],
+    "subcategory": "일반",
+    "slugAsParams": "ai/일반/ai-productivity-intro"
   }
 ]

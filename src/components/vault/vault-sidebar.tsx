@@ -12,7 +12,7 @@ export interface VaultData {
   tags: [string, number][]
 }
 
-export function VaultSidebar({ data }: { data: VaultData }) {
+export function VaultSidebar({ data, onNavigate }: { data: VaultData; onNavigate?: () => void }) {
   const { tree, counts, tags } = data
 
   return (
@@ -22,7 +22,7 @@ export function VaultSidebar({ data }: { data: VaultData }) {
       </div>
 
       <div className="mt-5">
-        <VaultTree nodes={tree} />
+        <VaultTree nodes={tree} onNavigate={onNavigate} />
       </div>
 
       <div className="mt-10 font-mono text-[10px] uppercase tracking-widest text-muted-foreground">
@@ -36,6 +36,7 @@ export function VaultSidebar({ data }: { data: VaultData }) {
             <Link
               key={t}
               href={`/tags/${t}`}
+              onClick={onNavigate}
               className="inline-flex items-center gap-1 rounded border border-border/60 px-2 py-0.5 text-[11px] text-muted-foreground transition-colors hover:border-foreground/40 hover:text-foreground"
             >
               #{t}

@@ -8,12 +8,20 @@
     "target": "getting-started/01-intro"
   },
   {
+    "sourceId": "dev/일반/wiki-test",
+    "target": "missing-target"
+  },
+  {
     "sourceId": "dev/일반/wiki-test-2",
     "target": "ghost-page"
   },
   {
-    "sourceId": "dev/일반/wiki-test",
-    "target": "missing-target"
+    "sourceId": "ai/AI도구/클로드-코워크Claude-Cowork-실무-가이드/시작하며",
+    "target": "TIP(\"윈도우 지원 시작\")"
+  },
+  {
+    "sourceId": "ai/AI도구/클로드-코워크Claude-Cowork-실무-가이드/시작하며",
+    "target": "/TIP"
   },
   {
     "sourceId": "ai/AI도구/비개발자를-위한-Antigravity-가이드/1-설치-기본설정-확장-및-단축키",
@@ -29,14 +37,6 @@
   },
   {
     "sourceId": "ai/AI도구/비개발자를-위한-Antigravity-가이드/2-에디터Editor-기초-사용법",
-    "target": "/TIP"
-  },
-  {
-    "sourceId": "ai/AI도구/클로드-코워크Claude-Cowork-실무-가이드/시작하며",
-    "target": "TIP(\"윈도우 지원 시작\")"
-  },
-  {
-    "sourceId": "ai/AI도구/클로드-코워크Claude-Cowork-실무-가이드/시작하며",
     "target": "/TIP"
   }
 ]

@@ -62,10 +62,10 @@ export function SiteHeader() {
           <PalettePicker />
           <ThemeToggle />
           <Sheet open={open} onOpenChange={setOpen}>
-            <SheetTrigger className="inline-flex h-9 w-9 items-center justify-center rounded-md transition-colors hover:bg-accent hover:text-foreground">
+            <SheetTrigger className="-mr-2 inline-flex h-8 w-8 items-center justify-center rounded-md transition-colors hover:bg-accent hover:text-foreground">
               <Menu className="h-4 w-4" />
             </SheetTrigger>
-            <SheetContent side="left" className="w-[280px] overflow-y-auto p-0">
+            <SheetContent side="right" className="w-[280px] overflow-y-auto p-0">
               <SheetTitle className="sr-only">메뉴</SheetTitle>
               <div className="px-6 py-5">
                 <MobileVaultSidebar onNavigate={() => setOpen(false)} />

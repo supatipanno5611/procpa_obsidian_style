@@ -1,10 +1,12 @@
 import * as runtime from 'react/jsx-runtime'
 import { MdxAnchor } from './wiki-link'
 import { Callout } from './mdx/callout'
+import { FileDownload } from './mdx/file-download'
 
 const sharedComponents: Record<string, React.ComponentType<any>> = {
   a: MdxAnchor,
   Callout,
+  FileDownload,
 }
 
 function useMDXComponent(code: string) {

@@ -1,28 +1,4 @@
 {
-  "ai/일반/ai-productivity-intro": {
-    "id": "ai/일반/ai-productivity-intro",
-    "type": "post",
-    "title": "AI로 회계 실무 생산성 끌어올리기",
-    "description": "회계·재무 실무자가 LLM과 자동화 도구를 일에 결합하는 첫 단계.",
-    "url": "/ai/일반/ai-productivity-intro",
-    "category": "ai"
-  },
-  "ai-productivity-intro": {
-    "id": "ai/일반/ai-productivity-intro",
-    "type": "post",
-    "title": "AI로 회계 실무 생산성 끌어올리기",
-    "description": "회계·재무 실무자가 LLM과 자동화 도구를 일에 결합하는 첫 단계.",
-    "url": "/ai/일반/ai-productivity-intro",
-    "category": "ai"
-  },
-  "ai로 회계 실무 생산성 끌어올리기": {
-    "id": "ai/일반/ai-productivity-intro",
-    "type": "post",
-    "title": "AI로 회계 실무 생산성 끌어올리기",
-    "description": "회계·재무 실무자가 LLM과 자동화 도구를 일에 결합하는 첫 단계.",
-    "url": "/ai/일반/ai-productivity-intro",
-    "category": "ai"
-  },
   "dev/일반/hello-world": {
     "id": "dev/일반/hello-world",
     "type": "post",
@@ -118,6 +94,44 @@
     "description": "temp test for remark-wiki-link plugin",
     "url": "/dev/일반/wiki-test",
     "category": "dev"
+  },
+  "ai/일반/ai-productivity-intro": {
+    "id": "ai/일반/ai-productivity-intro",
+    "type": "post",
+    "title": "AI로 회계 실무 생산성 끌어올리기",
+    "description": "회계·재무 실무자가 LLM과 자동화 도구를 일에 결합하는 첫 단계.",
+    "url": "/ai/일반/ai-productivity-intro",
+    "category": "ai"
+  },
+  "ai-productivity-intro": {
+    "id": "ai/일반/ai-productivity-intro",
+    "type": "post",
+    "title": "AI로 회계 실무 생산성 끌어올리기",
+    "description": "회계·재무 실무자가 LLM과 자동화 도구를 일에 결합하는 첫 단계.",
+    "url": "/ai/일반/ai-productivity-intro",
+    "category": "ai"
+  },
+  "ai로 회계 실무 생산성 끌어올리기": {
+    "id": "ai/일반/ai-productivity-intro",
+    "type": "post",
+    "title": "AI로 회계 실무 생산성 끌어올리기",
+    "description": "회계·재무 실무자가 LLM과 자동화 도구를 일에 결합하는 첫 단계.",
+    "url": "/ai/일반/ai-productivity-intro",
+    "category": "ai"
+  },
+  "ai/ai도구/클로드-코워크claude-cowork-실무-가이드/시작하며": {
+    "id": "ai/AI도구/클로드-코워크Claude-Cowork-실무-가이드/시작하며",
+    "type": "chapter",
+    "title": "시작하며",
+    "url": "/ai/AI도구/클로드-코워크Claude-Cowork-실무-가이드/시작하며",
+    "category": "ai"
+  },
+  "시작하며": {
+    "id": "ai/AI도구/클로드-코워크Claude-Cowork-실무-가이드/시작하며",
+    "type": "chapter",
+    "title": "시작하며",
+    "url": "/ai/AI도구/클로드-코워크Claude-Cowork-실무-가이드/시작하며",
+    "category": "ai"
   },
   "ai/ai도구/비개발자를-위한-antigravity-가이드/1-설치-기본설정-확장-및-단축키": {
     "id": "ai/AI도구/비개발자를-위한-Antigravity-가이드/1-설치-기본설정-확장-및-단축키",
@@ -497,20 +511,6 @@
     "url": "/accounting/일반/내부회계관리제도-실무-가이드북/1-개요",
     "category": "accounting"
   },
-  "ai/ai도구/클로드-코워크claude-cowork-실무-가이드/시작하며": {
-    "id": "ai/AI도구/클로드-코워크Claude-Cowork-실무-가이드/시작하며",
-    "type": "chapter",
-    "title": "시작하며",
-    "url": "/ai/AI도구/클로드-코워크Claude-Cowork-실무-가이드/시작하며",
-    "category": "ai"
-  },
-  "시작하며": {
-    "id": "ai/AI도구/클로드-코워크Claude-Cowork-실무-가이드/시작하며",
-    "type": "chapter",
-    "title": "시작하며",
-    "url": "/ai/AI도구/클로드-코워크Claude-Cowork-실무-가이드/시작하며",
-    "category": "ai"
-  },
   "dev/일반/getting-started/01-intro": {
     "id": "dev/일반/getting-started/01-intro",
     "type": "chapter",
@@ -534,6 +534,48 @@
     "description": "PROCPA 시작하기 시리즈가 다루는 범위와 읽는 방법.",
     "url": "/dev/일반/getting-started/01-intro",
     "category": "dev"
+  },
+  "ai/ai도구/비개발자를-위한-antigravity-가이드/7-mcp/71-mcp-설치-및-사용방법": {
+    "id": "ai/AI도구/비개발자를-위한-Antigravity-가이드/7-MCP/71-MCP-설치-및-사용방법",
+    "type": "chapter",
+    "title": "7.1. MCP 설치 및 사용방법",
+    "url": "/ai/AI도구/비개발자를-위한-Antigravity-가이드/7-MCP/71-MCP-설치-및-사용방법",
+    "category": "ai"
+  },
+  "71-mcp-설치-및-사용방법": {
+    "id": "ai/AI도구/비개발자를-위한-Antigravity-가이드/7-MCP/71-MCP-설치-및-사용방법",
+    "type": "chapter",
+    "title": "7.1. MCP 설치 및 사용방법",
+    "url": "/ai/AI도구/비개발자를-위한-Antigravity-가이드/7-MCP/71-MCP-설치-및-사용방법",
+    "category": "ai"
+  },
+  "7.1. mcp 설치 및 사용방법": {
+    "id": "ai/AI도구/비개발자를-위한-Antigravity-가이드/7-MCP/71-MCP-설치-및-사용방법",
+    "type": "chapter",
+    "title": "7.1. MCP 설치 및 사용방법",
+    "url": "/ai/AI도구/비개발자를-위한-Antigravity-가이드/7-MCP/71-MCP-설치-및-사용방법",
+    "category": "ai"
+  },
+  "ai/ai도구/비개발자를-위한-antigravity-가이드/7-mcp/72-notebooklm-mcp": {
+    "id": "ai/AI도구/비개발자를-위한-Antigravity-가이드/7-MCP/72-NotebookLM-MCP",
+    "type": "chapter",
+    "title": "7.2. NotebookLM MCP",
+    "url": "/ai/AI도구/비개발자를-위한-Antigravity-가이드/7-MCP/72-NotebookLM-MCP",
+    "category": "ai"
+  },
+  "72-notebooklm-mcp": {
+    "id": "ai/AI도구/비개발자를-위한-Antigravity-가이드/7-MCP/72-NotebookLM-MCP",
+    "type": "chapter",
+    "title": "7.2. NotebookLM MCP",
+    "url": "/ai/AI도구/비개발자를-위한-Antigravity-가이드/7-MCP/72-NotebookLM-MCP",
+    "category": "ai"
+  },
+  "7.2. notebooklm mcp": {
+    "id": "ai/AI도구/비개발자를-위한-Antigravity-가이드/7-MCP/72-NotebookLM-MCP",
+    "type": "chapter",
+    "title": "7.2. NotebookLM MCP",
+    "url": "/ai/AI도구/비개발자를-위한-Antigravity-가이드/7-MCP/72-NotebookLM-MCP",
+    "category": "ai"
   },
   "ai/ai도구/비개발자를-위한-antigravity-가이드/6-스킬skills/61-스킬skills의-개념-및-구조": {
     "id": "ai/AI도구/비개발자를-위한-Antigravity-가이드/6-스킬Skills/61-스킬Skills의-개념-및-구조",
@@ -619,90 +661,6 @@
     "url": "/ai/AI도구/비개발자를-위한-Antigravity-가이드/6-스킬Skills/64-나만의-커스텀-스킬-제작Feat-skill-creator",
     "category": "ai"
   },
-  "ai/ai도구/비개발자를-위한-antigravity-가이드/7-mcp/71-mcp-설치-및-사용방법": {
-    "id": "ai/AI도구/비개발자를-위한-Antigravity-가이드/7-MCP/71-MCP-설치-및-사용방법",
-    "type": "chapter",
-    "title": "7.1. MCP 설치 및 사용방법",
-    "url": "/ai/AI도구/비개발자를-위한-Antigravity-가이드/7-MCP/71-MCP-설치-및-사용방법",
-    "category": "ai"
-  },
-  "71-mcp-설치-및-사용방법": {
-    "id": "ai/AI도구/비개발자를-위한-Antigravity-가이드/7-MCP/71-MCP-설치-및-사용방법",
-    "type": "chapter",
-    "title": "7.1. MCP 설치 및 사용방법",
-    "url": "/ai/AI도구/비개발자를-위한-Antigravity-가이드/7-MCP/71-MCP-설치-및-사용방법",
-    "category": "ai"
-  },
-  "7.1. mcp 설치 및 사용방법": {
-    "id": "ai/AI도구/비개발자를-위한-Antigravity-가이드/7-MCP/71-MCP-설치-및-사용방법",
-    "type": "chapter",
-    "title": "7.1. MCP 설치 및 사용방법",
-    "url": "/ai/AI도구/비개발자를-위한-Antigravity-가이드/7-MCP/71-MCP-설치-및-사용방법",
-    "category": "ai"
-  },
-  "ai/ai도구/비개발자를-위한-antigravity-가이드/7-mcp/72-notebooklm-mcp": {
-    "id": "ai/AI도구/비개발자를-위한-Antigravity-가이드/7-MCP/72-NotebookLM-MCP",
-    "type": "chapter",
-    "title": "7.2. NotebookLM MCP",
-    "url": "/ai/AI도구/비개발자를-위한-Antigravity-가이드/7-MCP/72-NotebookLM-MCP",
-    "category": "ai"
-  },
-  "72-notebooklm-mcp": {
-    "id": "ai/AI도구/비개발자를-위한-Antigravity-가이드/7-MCP/72-NotebookLM-MCP",
-    "type": "chapter",
-    "title": "7.2. NotebookLM MCP",
-    "url": "/ai/AI도구/비개발자를-위한-Antigravity-가이드/7-MCP/72-NotebookLM-MCP",
-    "category": "ai"
-  },
-  "7.2. notebooklm mcp": {
-    "id": "ai/AI도구/비개발자를-위한-Antigravity-가이드/7-MCP/72-NotebookLM-MCP",
-    "type": "chapter",
-    "title": "7.2. NotebookLM MCP",
-    "url": "/ai/AI도구/비개발자를-위한-Antigravity-가이드/7-MCP/72-NotebookLM-MCP",
-    "category": "ai"
-  },
-  "ai/ai도구/클로드-엑셀claude-for-excel-가이드/7-커넥터mcp-활용법/71-커넥터mcp란": {
-    "id": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/71-커넥터MCP란",
-    "type": "chapter",
-    "title": "7.1. 커넥터(MCP)란",
-    "url": "/ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/71-커넥터MCP란",
-    "category": "ai"
-  },
-  "71-커넥터mcp란": {
-    "id": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/71-커넥터MCP란",
-    "type": "chapter",
-    "title": "7.1. 커넥터(MCP)란",
-    "url": "/ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/71-커넥터MCP란",
-    "category": "ai"
-  },
-  "7.1. 커넥터(mcp)란": {
-    "id": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/71-커넥터MCP란",
-    "type": "chapter",
-    "title": "7.1. 커넥터(MCP)란",
-    "url": "/ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/71-커넥터MCP란",
-    "category": "ai"
-  },
-  "ai/ai도구/클로드-엑셀claude-for-excel-가이드/7-커넥터mcp-활용법/72-커스텀-커넥터-활용-전자공시시스템open-dart": {
-    "id": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/72-커스텀-커넥터-활용-전자공시시스템Open-DART",
-    "type": "chapter",
-    "title": "7.2. 커스텀 커넥터 활용 - 전자공시시스템(Open DART)",
-    "url": "/ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/72-커스텀-커넥터-활용-전자공시시스템Open-DART",
-    "category": "ai"
-  },
-  "72-커스텀-커넥터-활용-전자공시시스템open-dart": {
-    "id": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/72-커스텀-커넥터-활용-전자공시시스템Open-DART",
-    "type": "chapter",
-    "title": "7.2. 커스텀 커넥터 활용 - 전자공시시스템(Open DART)",
-    "url": "/ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/72-커스텀-커넥터-활용-전자공시시스템Open-DART",
-    "category": "ai"
-  },
-  "7.2. 커스텀 커넥터 활용 - 전자공시시스템(open dart)": {
-    "id": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/72-커스텀-커넥터-활용-전자공시시스템Open-DART",
-    "type": "chapter",
-    "title": "7.2. 커스텀 커넥터 활용 - 전자공시시스템(Open DART)",
-    "url": "/ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/72-커스텀-커넥터-활용-전자공시시스템Open-DART",
-    "category": "ai"
-  },
   "ai/ai도구/클로드-엑셀claude-for-excel-가이드/6-스킬skills-활용법/61-스킬skills이란": {
     "id": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/6-스킬Skills-활용법/61-스킬Skills이란",
     "type": "chapter",
@@ -764,6 +722,48 @@
     "type": "chapter",
     "title": "6.3. 나만의 스킬(Skills) 만들고 등록하기",
     "url": "/ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/6-스킬Skills-활용법/63-나만의-스킬Skills-만들고-등록하기",
+    "category": "ai"
+  },
+  "ai/ai도구/클로드-엑셀claude-for-excel-가이드/7-커넥터mcp-활용법/71-커넥터mcp란": {
+    "id": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/71-커넥터MCP란",
+    "type": "chapter",
+    "title": "7.1. 커넥터(MCP)란",
+    "url": "/ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/71-커넥터MCP란",
+    "category": "ai"
+  },
+  "71-커넥터mcp란": {
+    "id": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/71-커넥터MCP란",
+    "type": "chapter",
+    "title": "7.1. 커넥터(MCP)란",
+    "url": "/ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/71-커넥터MCP란",
+    "category": "ai"
+  },
+  "7.1. 커넥터(mcp)란": {
+    "id": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/71-커넥터MCP란",
+    "type": "chapter",
+    "title": "7.1. 커넥터(MCP)란",
+    "url": "/ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/71-커넥터MCP란",
+    "category": "ai"
+  },
+  "ai/ai도구/클로드-엑셀claude-for-excel-가이드/7-커넥터mcp-활용법/72-커스텀-커넥터-활용-전자공시시스템open-dart": {
+    "id": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/72-커스텀-커넥터-활용-전자공시시스템Open-DART",
+    "type": "chapter",
+    "title": "7.2. 커스텀 커넥터 활용 - 전자공시시스템(Open DART)",
+    "url": "/ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/72-커스텀-커넥터-활용-전자공시시스템Open-DART",
+    "category": "ai"
+  },
+  "72-커스텀-커넥터-활용-전자공시시스템open-dart": {
+    "id": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/72-커스텀-커넥터-활용-전자공시시스템Open-DART",
+    "type": "chapter",
+    "title": "7.2. 커스텀 커넥터 활용 - 전자공시시스템(Open DART)",
+    "url": "/ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/72-커스텀-커넥터-활용-전자공시시스템Open-DART",
+    "category": "ai"
+  },
+  "7.2. 커스텀 커넥터 활용 - 전자공시시스템(open dart)": {
+    "id": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/72-커스텀-커넥터-활용-전자공시시스템Open-DART",
+    "type": "chapter",
+    "title": "7.2. 커스텀 커넥터 활용 - 전자공시시스템(Open DART)",
+    "url": "/ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/72-커스텀-커넥터-활용-전자공시시스템Open-DART",
     "category": "ai"
   },
   "accounting/일반/내부회계관리제도-실무-가이드북/1-개요/11-내부회계관리제도의-도입-배경": {

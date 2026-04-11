@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import slugMap from '../../.velite/slug-map.json'
+import { FileDownload } from './mdx/file-download'
 
 type SlugEntry = {
   id: string
@@ -36,6 +37,11 @@ export function MdxAnchor({
     rest['data-wiki-link'] === 'true' || (typeof href === 'string' && href.startsWith('wiki:'))
 
   if (!isWiki || !href) {
+    // /files/ 링크는 다운로드 카드로 렌더
+    if (typeof href === 'string' && href.startsWith('/files/')) {
+      const label = typeof children === 'string' ? children : undefined
+      return <FileDownload href={href} name={label} />
+    }
     // 일반 링크는 기본 anchor 렌더 (외부 링크는 새 탭)
     const isExternal = typeof href === 'string' && /^https?:\/\//.test(href)
     return (
