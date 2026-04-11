@@ -181,7 +181,7 @@ function MiniSite() {
 
 export default function ThemePreviewPage() {
   return (
-    <div className="mx-auto max-w-6xl px-6 py-16">
+    <div className="mx-auto max-w-5xl px-6 py-16">
       <h1 className="mb-2 text-2xl font-semibold tracking-tight">Light Background Samples</h1>
       <p className="mb-2 text-sm text-muted-foreground">
         라이트 모드 배경색 후보 4종. 각 미니 사이트는 자체 CSS 변수로 격리되어 있으므로

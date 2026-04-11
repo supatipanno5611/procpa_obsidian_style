@@ -184,8 +184,20 @@
   "hotPaths": [
     {
       "path": "src\\app\\[...slug]\\page.tsx",
-      "accessCount": 58,
-      "lastAccessed": 1775894684013,
+      "accessCount": 60,
+      "lastAccessed": 1775907434961,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\page.tsx",
+      "accessCount": 31,
+      "lastAccessed": 1775910415789,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\globals.css",
+      "accessCount": 29,
+      "lastAccessed": 1775906986959,
       "type": "file"
     },
     {
@@ -196,26 +208,26 @@
     },
     {
       "path": "velite.config.ts",
-      "accessCount": 16,
-      "lastAccessed": 1775893969797,
+      "accessCount": 19,
+      "lastAccessed": 1775899862618,
       "type": "file"
     },
     {
-      "path": "src\\app\\globals.css",
+      "path": "src\\app\\explore\\page.tsx",
+      "accessCount": 14,
+      "lastAccessed": 1775907412417,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\site-header.tsx",
       "accessCount": 13,
-      "lastAccessed": 1775897982443,
-      "type": "file"
-    },
-    {
-      "path": "src\\app\\page.tsx",
-      "accessCount": 11,
-      "lastAccessed": 1775894610571,
+      "lastAccessed": 1775910405609,
       "type": "file"
     },
     {
       "path": "src\\app\\sitemap.ts",
-      "accessCount": 9,
-      "lastAccessed": 1775891993555,
+      "accessCount": 11,
+      "lastAccessed": 1775898551470,
       "type": "file"
     },
     {
@@ -223,6 +235,18 @@
       "accessCount": 9,
       "lastAccessed": 1775894101423,
       "type": "file"
+    },
+    {
+      "path": "",
+      "accessCount": 9,
+      "lastAccessed": 1775907608619,
+      "type": "directory"
+    },
+    {
+      "path": "src",
+      "accessCount": 8,
+      "lastAccessed": 1775907401211,
+      "type": "directory"
     },
     {
       "path": "src\\app\\posts\\[...slug]\\page.tsx",
@@ -237,27 +261,33 @@
       "type": "file"
     },
     {
-      "path": "src\\app\\explore\\page.tsx",
+      "path": "src\\app\\layout.tsx",
       "accessCount": 6,
-      "lastAccessed": 1775892691135,
+      "lastAccessed": 1775899834636,
       "type": "file"
     },
     {
-      "path": "src",
+      "path": "src\\app\\search\\page.tsx",
       "accessCount": 6,
-      "lastAccessed": 1775893900368,
-      "type": "directory"
+      "lastAccessed": 1775907432797,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\graph\\page.tsx",
+      "accessCount": 6,
+      "lastAccessed": 1775907433890,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\site-footer.tsx",
+      "accessCount": 6,
+      "lastAccessed": 1775910425823,
+      "type": "file"
     },
     {
       "path": "src\\app\\series\\[series]\\[...chapter]\\page.tsx",
       "accessCount": 5,
       "lastAccessed": 1775886419187,
-      "type": "file"
-    },
-    {
-      "path": "src\\components\\site-header.tsx",
-      "accessCount": 5,
-      "lastAccessed": 1775897875082,
       "type": "file"
     },
     {
@@ -271,18 +301,6 @@
       "accessCount": 4,
       "lastAccessed": 1775892276993,
       "type": "file"
-    },
-    {
-      "path": "src\\app\\search\\page.tsx",
-      "accessCount": 4,
-      "lastAccessed": 1775892718369,
-      "type": "file"
-    },
-    {
-      "path": "",
-      "accessCount": 4,
-      "lastAccessed": 1775893901699,
-      "type": "directory"
     },
     {
       "path": "src\\components\\graph\\local-graph.tsx",
@@ -321,12 +339,6 @@
       "type": "file"
     },
     {
-      "path": "src\\app\\graph\\page.tsx",
-      "accessCount": 3,
-      "lastAccessed": 1775892706140,
-      "type": "file"
-    },
-    {
       "path": "src\\app\\series\\page.tsx",
       "accessCount": 2,
       "lastAccessed": 1775885750244,
@@ -351,18 +363,6 @@
       "type": "file"
     },
     {
-      "path": "src\\components\\site-footer.tsx",
-      "accessCount": 2,
-      "lastAccessed": 1775891301790,
-      "type": "file"
-    },
-    {
-      "path": "src\\app\\layout.tsx",
-      "accessCount": 2,
-      "lastAccessed": 1775891305828,
-      "type": "file"
-    },
-    {
       "path": "src\\components\\command-palette.tsx",
       "accessCount": 2,
       "lastAccessed": 1775891306424,
@@ -372,6 +372,18 @@
       "path": "src\\lib\\topics.ts",
       "accessCount": 2,
       "lastAccessed": 1775893882415,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\explore\\result-list.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1775899043965,
+      "type": "file"
+    },
+    {
+      "path": "package.json",
+      "accessCount": 2,
+      "lastAccessed": 1775906942837,
       "type": "file"
     },
     {
@@ -447,12 +459,6 @@
       "type": "file"
     },
     {
-      "path": "package.json",
-      "accessCount": 1,
-      "lastAccessed": 1775891312620,
-      "type": "file"
-    },
-    {
       "path": "src\\components\\ui\\card.tsx",
       "accessCount": 1,
       "lastAccessed": 1775891318413,
@@ -462,12 +468,6 @@
       "path": "src\\components\\ui\\badge.tsx",
       "accessCount": 1,
       "lastAccessed": 1775891318827,
-      "type": "file"
-    },
-    {
-      "path": "src\\components\\explore\\result-list.tsx",
-      "accessCount": 1,
-      "lastAccessed": 1775891322978,
       "type": "file"
     },
     {

@@ -27,7 +27,7 @@ function Section({
 }) {
   return (
     <section className="border-t border-border/60">
-      <div className="mx-auto grid max-w-5xl grid-cols-12 gap-6 px-6 py-20 lg:px-12">
+      <div className="mx-auto grid max-w-5xl grid-cols-12 gap-6 px-6 py-20">
         <div className="col-span-12 lg:col-span-3">
           <div className="font-mono text-[11px] text-muted-foreground">
             {label}
@@ -122,14 +122,14 @@ export default function AboutPage() {
     <>
       {/* Hero */}
       <section>
-        <div className="mx-auto max-w-5xl px-6 pt-12 pb-14 sm:pt-16 sm:pb-16 lg:px-12">
-          <div className="font-mono text-[11px] text-muted-foreground">
-            About Me
-          </div>
+        <div className="mx-auto max-w-5xl px-6 py-12">
+          <p className="font-mono text-[11px] uppercase tracking-wider text-muted-foreground">
+            About
+          </p>
           <h1 className="mt-6 text-balance text-3xl font-semibold tracking-tight sm:text-4xl">
             한국공인회계사
             <br />
-            <span className="text-muted-foreground">
+            <span className="text-primary">
               이재현
             </span>
             입니다.
@@ -154,7 +154,7 @@ export default function AboutPage() {
       </section>
 
       <section className="border-t border-border/60">
-        <div className="mx-auto grid max-w-5xl grid-cols-12 gap-y-12 lg:gap-6 px-6 py-20 lg:px-12">
+        <div className="mx-auto grid max-w-5xl grid-cols-12 gap-y-12 lg:gap-6 px-6 py-20">
           <div className="col-span-12 lg:col-span-6">
             <div className="font-mono text-[11px] text-muted-foreground">
               Career

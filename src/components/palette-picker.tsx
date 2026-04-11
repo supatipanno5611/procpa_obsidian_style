@@ -12,9 +12,9 @@ const lightPalettes = [
 ] as const
 
 const darkPalettes = [
+  { id: 'd3', label: 'Slate', swatch: 'oklch(0.19 0.012 255)' },
   { id: 'd1', label: 'Pure Black', swatch: 'oklch(0 0 0)' },
   { id: 'd2', label: 'Charcoal', swatch: 'oklch(0.16 0.004 250)' },
-  { id: 'd3', label: 'Slate', swatch: 'oklch(0.19 0.012 255)' },
   { id: 'd4', label: 'Warm Ink', swatch: 'oklch(0.17 0.005 70)' },
 ] as const
 
@@ -24,7 +24,7 @@ type DarkId = (typeof darkPalettes)[number]['id']
 export function PalettePicker() {
   const [open, setOpen] = React.useState(false)
   const [light, setLight] = React.useState<LightId>('b')
-  const [dark, setDark] = React.useState<DarkId>('d2')
+  const [dark, setDark] = React.useState<DarkId>('d3')
   const [isDark, setIsDark] = React.useState<boolean | null>(null)
   const ref = React.useRef<HTMLDivElement>(null)
 

@@ -10,6 +10,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/graph',
     '/search',
     '/about',
+    '/terms',
+    '/disclaimer',
   ].map((p) => ({ url: `${SITE}${p}`, lastModified: new Date() }))
 
   const postUrls: MetadataRoute.Sitemap = posts

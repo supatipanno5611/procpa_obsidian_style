@@ -1,85 +1,5 @@
 [
   {
-    "slug": "accounting/일반/내부회계관리제도 실무 가이드북/0. 시작하며",
-    "subject": "0. 시작하며",
-    "draft": false,
-    "id": -1,
-    "parent_id": -1,
-    "book_id": 19244,
-    "open_yn": "Y",
-    "last_synced": null,
-    "metadata": {
-      "readingTime": 1,
-      "wordCount": 17
-    },
-    "body": "const{Fragment:n,jsx:e,jsxs:r}=arguments[0];function _createMdxContent(t){const o={a:\"a\",em:\"em\",h2:\"h2\",h3:\"h3\",li:\"li\",ol:\"ol\",p:\"p\",section:\"section\",strong:\"strong\",sup:\"sup\",ul:\"ul\",...t.components},{Callout:c}=o;return c||function(n,e){throw new Error(\"Expected \"+(e?\"component\":\"object\")+\" `\"+n+\"` to be defined: you likely forgot to import, pass, or provide it.\")}(\"Callout\",!0),r(n,{children:[r(o.p,{children:[\"이 실무 가이드는 \",e(o.strong,{children:\"내부회계관리제도\"}),\"를 처음 접하시거나 직접 구축·운영해야 하는 실무자분들을 위해 작성되었습니다. 본 장에서는 제가 왜 실무가이드를 작성하게 되었는지, 그리고 본서에서 어떤 내용들을 다루게 될지 전반적인 방향성을 소개하겠습니다.\"]}),\"\\n\",e(o.h2,{id:\"내부회계-실무-가이드-작성-동기\",children:e(o.a,{href:\"#내부회계-실무-가이드-작성-동기\",children:\"내부회계 실무 가이드 작성 동기\"})}),\"\\n\",r(o.p,{children:[\"저는 평소에도 \",e(o.strong,{children:\"업무 생산성\"}),\"에 대한 관심이 많았지만 그 관심이 증폭된 계기 중 하나는 \",e(o.strong,{children:\"내부회계관리제도 구축\"}),\" 용역의 인차지(In-charge)\",e(o.sup,{children:e(o.a,{href:\"#user-content-fn-1\",id:\"user-content-fnref-1\",\"data-footnote-ref\":!0,\"aria-describedby\":\"footnote-label\",children:\"1\"})}),\"를 맡게 되면서부터였습니다.\"]}),\"\\n\",r(o.p,{children:[\"제가 맡았던 회사 중 하나는 자산총액 1,000억 원을 조금 넘는 비교적 작은 규모의 상장사였습니다. 회사는 ERP 시스템이 오래되고 보안이 취약해 IT 환경에 의존할 수 없는 상황이었고, 이로 인해 거의 모든 내부통제를 \",e(o.strong,{children:\"수동으로 구축\"}),\"해야만 했습니다. 게다가 용역이 진행되는 동안 거의 모든 부서의 실무 담당자가 수차례 바뀌는 바람에, 매번 새로운 담당자와 인터뷰를 진행해야 하는 그야말로 최악의 상황이라고 할 만한 용역 업무였습니다.\"]}),\"\\n\",e(o.p,{children:\"그런 와중에 상대 감사인은 회사의 현실적인 여건으로는 감당하기 어려운 원론적인 통제만을 요구했습니다. 저희 팀은 회사의 입장에서 최대한 감사인을 설득하려 했었지만, Big4 회계법인이자 감사 마지막 해였던 그들은 요지부동이었습니다. 결국 제도의 실효성은 뒤로 한 채 마지막 분기에 어떻게든 증빙을 형식적으로 갖추는데만 급급하여 감사의견을 받아냈던  경험이 있습니다.\"}),\"\\n\",r(o.p,{children:[\"일반적으로 회계사들이 기피하는 내부회계관리제도 용역이라도, 저는 다양한 회사의 비즈니스 프로세스를 깊이 들여다볼 수 있다는 점이 좋아 흥미를 느끼던 편이었습니다. 하지만 그런 저조차도 너무 힘들었던 기억이었고, \",e(o.strong,{children:\"제도의 본질에 대해 깊은 회의감\"}),\"이 들기 시작했습니다.\"]}),\"\\n\",r(o.p,{children:[\"단순히 일이 힘들어서가 아니었습니다. 이미 과부하 상태인 현업 실무자분들의 입장에서 하던 대로 처리하면 될 업무에 대해 일일이 승인 절차를 거치고 증빙을 남기라고 강요해야 하는 상황 자체가 커다란 스트레스로 다가왔습니다. 누구보다 업무 생산성과 효율을 신봉하는 사람으로서, 오히려 제가 \",e(o.strong,{children:\"기업의 생산성을 저해\"}),\"하고 있다는 사실에 큰 자괴감이 들었고 회사 담당자분들께 죄송한 마음을 지울 수 없었습니다.\"]}),\"\\n\",r(o.p,{children:[\"하지만 그 때의 경험으로 저는 이후 내부회계관리제도에 대해 더욱 깊이 파고들었고 \",e(o.strong,{children:\"어떻게 하면 내부회계를 기업의 현실에 맞게 효율적으로 구축하면서도 효과성을 보장할 수 있을까?\"}),\" 를 끊임없이 고민해 왔습니다. 본서는 바로 그 고민의 결과물입니다.\"]}),\"\\n\",e(o.h2,{id:\"본서에서-다룰-내용\",children:e(o.a,{href:\"#본서에서-다룰-내용\",children:\"본서에서 다룰 내용\"})}),\"\\n\",e(o.p,{children:\"본서에서는 크게 세 가지 방향성에 중점을 두고 내용을 풀어나갈 예정입니다.\"}),\"\\n\",e(o.h3,{id:\"1-내부회계관리제도의-개념-및-용어-정리\",children:e(o.a,{href:\"#1-내부회계관리제도의-개념-및-용어-정리\",children:\"1. 내부회계관리제도의 개념 및 용어 정리\"})}),\"\\n\",r(o.p,{children:[\"처음 관련 업무를 맡으셨다면 '내부회계관리제도'라는 개념 자체가 매우 생소할 수밖에 없습니다. 외감법부터 시작해 설계 및 운영 개념체계, 모범규준, COSO 프레임워크\",e(o.sup,{children:e(o.a,{href:\"#user-content-fn-2\",id:\"user-content-fnref-2\",\"data-footnote-ref\":!0,\"aria-describedby\":\"footnote-label\",children:\"2\"})}),\"에 이르기까지, 회계사들조차 모호하고 어렵게 느낄 때가 많습니다.\\n본서에서는 지나치게 학문적인 접근은 피하고, 감사인이나 외부 용역사와 원활하게 \",e(o.strong,{children:\"소통할 수 있을 수준의 실무적인 핵심 지식\"}),\"을 최대한 알기 쉽게 풀어서 설명하겠습니다.\"]}),\"\\n\",e(o.h3,{id:\"2-내부회계관리제도-구축-및-운영-프로세스\",children:e(o.a,{href:\"#2-내부회계관리제도-구축-및-운영-프로세스\",children:\"2. 내부회계관리제도 구축 및 운영 프로세스\"})}),\"\\n\",r(o.p,{children:[\"제도를 처음 구축하고 운영하는 상황을 가정하여, 스코핑(Scoping)\",e(o.sup,{children:e(o.a,{href:\"#user-content-fn-3\",id:\"user-content-fnref-3\",\"data-footnote-ref\":!0,\"aria-describedby\":\"footnote-label\",children:\"3\"})}),\"부터 최종 보고에 이르기까지의 전 과정을 상세하게 다룹니다. 특히 실무에서 마주하는 주요 산출물에 대해서는 실제 예시를 곁들여 설명하며, 곧바로 \",e(o.strong,{children:\"실무에 활용할 수 있는 템플릿(Template)\"}),\" 도 함께 제공할 예정입니다.\"]}),\"\\n\",e(o.h3,{id:\"3-효율적인-내부통제-구축-방법론-제시\",children:e(o.a,{href:\"#3-효율적인-내부통제-구축-방법론-제시\",children:\"3. 효율적인 내부통제 구축 방법론 제시\"})}),\"\\n\",r(o.p,{children:[\"내부회계관리제도의 본질적 목표는 \",e(o.strong,{children:\"'재무보고의 신뢰성'\"}),\" 에 대한 \",e(o.strong,{children:\"'합리적 확신'\"}),\" 을 제공하는 것입니다. 모든 위험에 완벽하게 대응할 수 있는 통제를 설계하는 것은 풍부한 자원을 가진 극소수의 대기업에서나 가능한 일입니다. 대부분의 기업에게는 현실적으로 불가능에 가까울 뿐만 아니라, 설령 정교하게 설계하더라도 이를 운영하는 과정에서 제대로 이루어지지 않을 가능성이 높습니다. 만약 감사인이 회사에 과도하고 원론적인 수준의 통제만을 요구한다면, 이는 제도의 본질을 오해하고 있거나 실무적인 리스크를 회사에 일방적으로 전가하는 것에 가깝다고 생각합니다.\"]}),\"\\n\",r(o.p,{children:[\"본서의 가장 큰 목표는 각 회사가 처한 \",e(o.strong,{children:\"고유한 비즈니스 환경과 프로세스에 맞게 최적화\"}),\"하면서도, 제도의 본래 취지인 \",e(o.strong,{children:\"'효과성'을 잃지 않는\"}),\" 현실적이고 스마트한 내부통제 구축 방법을 제시하는 것입니다.\"]}),\"\\n\",e(c,{type:\"note\",title:\"내부회계관리제도 설계 및 운영 개념체계\",children:r(o.ul,{children:[\"\\n\",e(o.li,{children:r(o.em,{children:[\"문단 9 : 그러나 아무리 잘 설계된 내부통제제도라고 할지라도 제도를 운영하는 과정에서 발생하는 집행위험은 피할 수 없다. 즉, 최상의 자질과 경험을 지닌 사람도 부주의, 피로, 판단 착오 등에 노출될 수 있으며, 내부통제제도도 이러한 사람들에 의해 운영되므로 내부통제제도가 \",e(o.strong,{children:\"모든 위험을 완벽하게 통제할 수는 없다\"}),\".\"]})}),\"\\n\",e(o.li,{children:r(o.em,{children:['문단 10 : 효과적인 내부통제제도는 경영진과 이사회에 회사의 목적 달성에 관한 합리적 확신을 제공한다. \"절대적 확신\"이 아닌 \"합리적 확신\"이라는 개념은 모든 내부통제제도에 한계가 존재하고, 정확하게 예측할 수 없는 불확실성과 위험이 존재한다는 것을 인정하는 것이다. 이러한 한계로 인해 경영진과 이사회는 회사의 목적 달성에 대한 절대적인 확신을 갖지 못하게 된다. 즉, 내부통제제도는 ',e(o.strong,{children:\"합리적 확신을 제공하며, 절대적 확신을 제공하지 못한다\"}),\".\"]})}),\"\\n\"]})}),\"\\n\",e(o.h2,{id:\"마치며\",children:e(o.a,{href:\"#마치며\",children:\"마치며\"})}),\"\\n\",e(o.p,{children:\"내부회계는 회계 지식부터 회사의 비즈니스 프로세스 및 IT환경, ERP에 대한 이해까지 요구되는 난이도가 높은 업무입니다. 게다가 아무리 완벽하게 수행하더라도 현업 부서 입장에서는 자신들을 평가하고 업무를 가중시키는 존재로 비치기 쉽기에, 실무자분들이 마주하는 심리적 부담이 얼마나 클지 깊이 공감합니다.\"}),\"\\n\",r(o.p,{children:[\"부디 이 책이 막막한 실무 현장에서 고군분투하시는 분들에게 실질적인 도움이 되고, 더 나아가 \",e(o.strong,{children:\"건강하고 효율적인 통제 환경\"}),\"을 구축하는 길잡이가 되기를 간절히 바랍니다.\"]}),\"\\n\",r(o.section,{\"data-footnotes\":!0,className:\"footnotes\",children:[e(o.h2,{className:\"sr-only\",id:\"footnote-label\",children:e(o.a,{href:\"#footnote-label\",children:\"Footnotes\"})}),\"\\n\",r(o.ol,{children:[\"\\n\",r(o.li,{id:\"user-content-fn-1\",children:[\"\\n\",r(o.p,{children:[e(o.strong,{children:\"인차지(In-charge)\"}),\": 회계감사나 용역 프로젝트에서 업무를 총괄하고 책임지는 현장 책임자를 의미합니다. \",e(o.a,{href:\"#user-content-fnref-1\",\"data-footnote-backref\":\"\",\"aria-label\":\"Back to reference 1\",className:\"data-footnote-backref\",children:\"↩\"})]}),\"\\n\"]}),\"\\n\",r(o.li,{id:\"user-content-fn-2\",children:[\"\\n\",r(o.p,{children:[e(o.strong,{children:\"COSO 프레임워크(COSO Framework)\"}),\" : 미국의 여러 전문가 단체가 공동으로 만든 내부통제의 글로벌 표준 모델입니다. \",e(o.a,{href:\"#user-content-fnref-2\",\"data-footnote-backref\":\"\",\"aria-label\":\"Back to reference 2\",className:\"data-footnote-backref\",children:\"↩\"})]}),\"\\n\"]}),\"\\n\",r(o.li,{id:\"user-content-fn-3\",children:[\"\\n\",r(o.p,{children:[e(o.strong,{children:\"스코핑(Scoping)\"}),\": 내부회계관리제도 구축 전, 재무제표에 미칠 영향이 큰 유의적인 계정과목과 사업부문을 파악해 '평가 대상(범위)'을 선정하는 과정입니다. \",e(o.a,{href:\"#user-content-fnref-3\",\"data-footnote-backref\":\"\",\"aria-label\":\"Back to reference 3\",className:\"data-footnote-backref\",children:\"↩\"})]}),\"\\n\"]}),\"\\n\"]}),\"\\n\"]})]})}return{default:function(n={}){const{wrapper:r}=n.components||{};return r?e(r,{...n,children:e(_createMdxContent,{...n})}):_createMdxContent(n)}};",
-    "toc": [
-      {
-        "title": "내부회계 실무 가이드 작성 동기",
-        "url": "#내부회계-실무-가이드-작성-동기",
-        "items": []
-      },
-      {
-        "title": "본서에서 다룰 내용",
-        "url": "#본서에서-다룰-내용",
-        "items": [
-          {
-            "title": "1. 내부회계관리제도의 개념 및 용어 정리",
-            "url": "#1-내부회계관리제도의-개념-및-용어-정리",
-            "items": []
-          },
-          {
-            "title": "2. 내부회계관리제도 구축 및 운영 프로세스",
-            "url": "#2-내부회계관리제도-구축-및-운영-프로세스",
-            "items": []
-          },
-          {
-            "title": "3. 효율적인 내부통제 구축 방법론 제시",
-            "url": "#3-효율적인-내부통제-구축-방법론-제시",
-            "items": []
-          }
-        ]
-      },
-      {
-        "title": "마치며",
-        "url": "#마치며",
-        "items": []
-      }
-    ],
-    "title": "0. 시작하며",
-    "series": "accounting/일반/내부회계관리제도-실무-가이드북",
-    "category": "accounting",
-    "subcategory": "일반",
-    "order": 0,
-    "depth": 0,
-    "parentPath": null,
-    "slugAsParams": "accounting/일반/내부회계관리제도-실무-가이드북/0-시작하며"
-  },
-  {
-    "slug": "accounting/일반/내부회계관리제도 실무 가이드북/1. 개요",
-    "subject": "1. 개요",
-    "draft": false,
-    "id": -1,
-    "parent_id": -1,
-    "book_id": 19244,
-    "open_yn": "Y",
-    "last_synced": null,
-    "metadata": {
-      "readingTime": 0,
-      "wordCount": 0
-    },
-    "body": "",
-    "toc": [],
-    "title": "1. 개요",
-    "series": "accounting/일반/내부회계관리제도-실무-가이드북",
-    "category": "accounting",
-    "subcategory": "일반",
-    "order": 1,
-    "depth": 0,
-    "parentPath": null,
-    "slugAsParams": "accounting/일반/내부회계관리제도-실무-가이드북/1-개요"
-  },
-  {
     "slug": "ai/AI도구/비개발자를 위한 Antigravity 가이드/1. 설치, 기본설정, 확장 및 단축키",
     "subject": "1. 설치, 기본설정, 확장 및 단축키",
     "draft": false,
@@ -1098,36 +1018,6 @@
     "slugAsParams": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/8-실무-사례-1-DCF-평가"
   },
   {
-    "slug": "dev/일반/getting-started/01-intro",
-    "title": "이 시리즈에 대하여",
-    "description": "PROCPA 시작하기 시리즈가 다루는 범위와 읽는 방법.",
-    "series": "dev/일반/getting-started",
-    "order": 1,
-    "draft": false,
-    "metadata": {
-      "readingTime": 1,
-      "wordCount": 1
-    },
-    "body": "const{Fragment:n,jsx:e,jsxs:r}=arguments[0];function _createMdxContent(c){const t={a:\"a\",h2:\"h2\",li:\"li\",ol:\"ol\",p:\"p\",...c.components};return r(n,{children:[e(t.h2,{id:\"무엇을-다루는가\",children:e(t.a,{href:\"#무엇을-다루는가\",children:\"무엇을 다루는가\"})}),\"\\n\",e(t.p,{children:\"이 시리즈는 PROCPA 블로그를 처음 방문한 독자를 위해 만들어졌습니다.\"}),\"\\n\",r(t.ol,{children:[\"\\n\",e(t.li,{children:\"사이트 구조 이해하기\"}),\"\\n\",e(t.li,{children:\"시리즈와 포스트의 차이\"}),\"\\n\",e(t.li,{children:\"검색 기능 활용법\"}),\"\\n\"]}),\"\\n\",e(t.h2,{id:\"읽는-방법\",children:e(t.a,{href:\"#읽는-방법\",children:\"읽는 방법\"})}),\"\\n\",e(t.p,{children:\"좌측 사이드바의 순서대로 읽어나가시면 됩니다.\"})]})}return{default:function(n={}){const{wrapper:r}=n.components||{};return r?e(r,{...n,children:e(_createMdxContent,{...n})}):_createMdxContent(n)}};",
-    "toc": [
-      {
-        "title": "무엇을 다루는가",
-        "url": "#무엇을-다루는가",
-        "items": []
-      },
-      {
-        "title": "읽는 방법",
-        "url": "#읽는-방법",
-        "items": []
-      }
-    ],
-    "category": "dev",
-    "subcategory": "일반",
-    "depth": 0,
-    "parentPath": null,
-    "slugAsParams": "dev/일반/getting-started/01-intro"
-  },
-  {
     "slug": "ai/AI도구/클로드 코워크(Claude Cowork) 실무 가이드/시작하며",
     "subject": "시작하며",
     "draft": false,
@@ -1210,124 +1100,114 @@
     "slugAsParams": "ai/AI도구/클로드-코워크Claude-Cowork-실무-가이드/시작하며"
   },
   {
-    "slug": "accounting/일반/내부회계관리제도 실무 가이드북/1. 개요/1.1. 내부회계관리제도의 도입 배경",
-    "subject": "1.1. 내부회계관리제도의 도입 배경",
+    "slug": "dev/일반/getting-started/01-intro",
+    "title": "이 시리즈에 대하여",
+    "description": "PROCPA 시작하기 시리즈가 다루는 범위와 읽는 방법.",
+    "series": "dev/일반/getting-started",
+    "order": 1,
+    "draft": false,
+    "metadata": {
+      "readingTime": 1,
+      "wordCount": 1
+    },
+    "body": "const{Fragment:n,jsx:e,jsxs:r}=arguments[0];function _createMdxContent(c){const t={a:\"a\",h2:\"h2\",li:\"li\",ol:\"ol\",p:\"p\",...c.components};return r(n,{children:[e(t.h2,{id:\"무엇을-다루는가\",children:e(t.a,{href:\"#무엇을-다루는가\",children:\"무엇을 다루는가\"})}),\"\\n\",e(t.p,{children:\"이 시리즈는 PROCPA 블로그를 처음 방문한 독자를 위해 만들어졌습니다.\"}),\"\\n\",r(t.ol,{children:[\"\\n\",e(t.li,{children:\"사이트 구조 이해하기\"}),\"\\n\",e(t.li,{children:\"시리즈와 포스트의 차이\"}),\"\\n\",e(t.li,{children:\"검색 기능 활용법\"}),\"\\n\"]}),\"\\n\",e(t.h2,{id:\"읽는-방법\",children:e(t.a,{href:\"#읽는-방법\",children:\"읽는 방법\"})}),\"\\n\",e(t.p,{children:\"좌측 사이드바의 순서대로 읽어나가시면 됩니다.\"})]})}return{default:function(n={}){const{wrapper:r}=n.components||{};return r?e(r,{...n,children:e(_createMdxContent,{...n})}):_createMdxContent(n)}};",
+    "toc": [
+      {
+        "title": "무엇을 다루는가",
+        "url": "#무엇을-다루는가",
+        "items": []
+      },
+      {
+        "title": "읽는 방법",
+        "url": "#읽는-방법",
+        "items": []
+      }
+    ],
+    "category": "dev",
+    "subcategory": "일반",
+    "depth": 0,
+    "parentPath": null,
+    "slugAsParams": "dev/일반/getting-started/01-intro"
+  },
+  {
+    "slug": "accounting/일반/내부회계관리제도 실무 가이드북/0. 시작하며",
+    "subject": "0. 시작하며",
     "draft": false,
     "id": -1,
-    "parent_id": 333210,
+    "parent_id": -1,
     "book_id": 19244,
     "open_yn": "Y",
-    "last_synced": "",
+    "last_synced": null,
     "metadata": {
       "readingTime": 1,
-      "wordCount": 46.12
+      "wordCount": 17
     },
-    "body": "const{Fragment:n,jsx:e,jsxs:r}=arguments[0];function _createMdxContent(t){const l={a:\"a\",h2:\"h2\",h3:\"h3\",h4:\"h4\",li:\"li\",p:\"p\",strong:\"strong\",table:\"table\",tbody:\"tbody\",td:\"td\",th:\"th\",thead:\"thead\",tr:\"tr\",ul:\"ul\",...t.components},{Callout:i}=l;return i||function(n,e){throw new Error(\"Expected \"+(e?\"component\":\"object\")+\" `\"+n+\"` to be defined: you likely forgot to import, pass, or provide it.\")}(\"Callout\",!0),r(n,{children:[r(l.p,{children:[e(l.strong,{children:\"내부회계관리제도\"}),\"의 역사는 안타깝게도 \",e(l.strong,{children:\"분식회계의 역사\"}),\"와 그 궤를 같이합니다. 시장에 큰 충격을 주었던 대규모 회계 부정 사건들이 터질 때마다, 그 근본적인 원인으로 '내부통제의 부재'가 지목되었고 이를 보완하기 위해 제도가 강화되어 왔기 때문입니다.\"]}),\"\\n\",e(l.p,{children:\"본격적인 실무 가이드에 들어가기에 앞서, 내부회계관리제도가 어떤 배경에서 탄생하고 우리나라에 도입되게 되었는지 역사적인 흐름을 짚어보겠습니다. 실무와 직접적인 관련은 없지만, 상식으로 알고 있으면 제도의 성격을 이해하는 데 도움이 되니 가볍게 읽어보시길 권합니다.\"}),\"\\n\",e(l.h2,{id:\"1-미국의-회계-개혁을-촉발한-엔론enron과-월드컴worldcom\",children:e(l.a,{href:\"#1-미국의-회계-개혁을-촉발한-엔론enron과-월드컴worldcom\",children:\"1. 미국의 회계 개혁을 촉발한 '엔론(Enron)'과 '월드컴(WorldCom)'\"})}),\"\\n\",e(l.p,{children:\"2000년대 초 미국에서는 엔론과 월드컴이라는 두 초대형 회계 부정 사건이 연달아 터지면서, 미국 회계·감사 제도 전반을 뒤흔드는 개혁이 시작되었습니다. 이 사건들은 오늘날 내부통제에 대한 논의의 출발점으로 자주 언급됩니다.\"}),\"\\n\",e(l.h4,{id:\"11-엔론enron-사태-2001년\",children:e(l.a,{href:\"#11-엔론enron-사태-2001년\",children:\"1.1. 엔론(Enron) 사태 (2001년)\"})}),\"\\n\",e(l.p,{children:\"1990년대 엔론은 에너지 트레이딩과 관련 파생상품 비즈니스를 선도하며 미국을 대표하는 혁신 기업으로 꼽혔습니다. 한때 매출 기준 미국 7위를 기록할 정도의 거대한 기업이었고, 포춘(Fortune)이 선정하는 ‘미국에서 가장 혁신적인 기업’에 여러 해 연속 이름을 올릴 정도로 시장의 신뢰를 받았습니다.\"}),\"\\n\",e(l.p,{children:\"그러나 2001년, 엔론은 대규모 회계 부정이 드러난 뒤 결국 파산 보호를 신청하며 미국 기업 역사상 가장 충격적인 회계 사기 사건 중 하나로 기록됩니다. 표면적으로는 고성장·고수익을 자랑했지만, 그 이면에는 복잡한 구조를 이용한 분식이 숨겨져 있었습니다.\"}),\"\\n\",e(l.p,{children:\"엔론의 핵심 분식 수법은 크게 두 가지로 정리할 수 있습니다.\"}),\"\\n\",r(l.p,{children:[\"첫째는 \",e(l.strong,{children:\"마크투마켓(Mark-to-Market) 회계의 남용\"}),\"입니다. 엔론은 장기 에너지 공급 계약을 체결하면, 그 계약이 앞으로 장기간에 걸쳐 벌어들일 것으로 예상되는 이익을 계약 시점에 한꺼번에 현재 이익으로 인식하는 방식을 폭넓게 사용했습니다. 실제로는 아직 현금이 유입되지 않았고, 계약 자체의 불확실성도 상당했지만, 회계상으로는 미래 이익을 미리 끌어와 단기 실적을 부풀리는 효과가 있었습니다.\"]}),\"\\n\",r(l.p,{children:[\"둘째는 \",e(l.strong,{children:\"특수목적법인(SPE)을 이용한 부채·손실 은폐\"}),\"입니다. 엔론은 수백 개의 특수목적법인(SPE)을 설립해, 손실이 나는 자산과 관련 부채를 이들 법인으로 이전했습니다. 당시 회계 규정을 교묘히 이용해 이 SPE들이 엔론의 연결 재무제표에 포함되지 않도록 구조를 짠 결과 엔론 본사의 재무제표에서는 부채 규모와 손실이 제대로 드러나지 않았고, 기업의 재무 상태가 실제보다 훨씬 건전해 보이도록 포장되었습니다.\"]}),\"\\n\",e(l.p,{children:\"사건이 폭로된 이후 엔론은 순식간에 신뢰를 잃고 붕괴했습니다. 당시 세계 5대 회계법인(Big 5) 중 하나였던 아서 앤더슨(Arthur Andersen)은 엔론의 회계 처리 문제를 알고도 사실상 묵인했다는 비판을 받았고, 이후 수사가 시작되자 관련 감사 문서를 대규모로 파쇄한 사실까지 드러났습니다. 이 과정에서 아서 앤더슨은 형사 책임과 평판 훼손으로 사실상 해체되었고, 글로벌 회계 시장은 현재와 같은 Big 4 체제(Deloitte, PwC, EY, KPMG)로 재편됩니다.\"}),\"\\n\",e(l.h4,{id:\"12-월드컴worldcom-사태-2002년\",children:e(l.a,{href:\"#12-월드컴worldcom-사태-2002년\",children:\"1.2. 월드컴(WorldCom) 사태 (2002년)\"})}),\"\\n\",r(l.p,{children:[\"엔론의 충격이 채 가시기도 전인 2002년, 이번에는 미국 2위 통신 대기업 \",e(l.strong,{children:\"월드컴\"}),\"에서 더욱 대담한 분식이 터졌습니다.\"]}),\"\\n\",r(l.p,{children:[\"월드컴의 수법은 엔론에 비해 단순했지만, 그 규모는 어마어마했습니다. 네트워크 장비 유지 보수처럼 당연히 **비용(손익계산서)**으로 처리해야 할 지출을 **자본적 지출(자산)**로 슬쩍 재분류했습니다. 이 간단한 계정 조작 하나로, 비용이 줄어드니 이익이 늘어나고 자산도 부풀어 올라 무려 \",e(l.strong,{children:\"110억 달러(약 15조 원)\"}),\" 이상의 이익이 조작되었습니다. 이는 당시 미국 역사상 최대 규모의 회계 사기였습니다.\"]}),\"\\n\",e(l.p,{children:\"결과적으로 월드컴 역시 파산하였고, CEO 버나드 에버스(Bernard Ebbers)는 증권 사기 및 공모 혐의로 25년 징역형을 선고받았습니다.\"}),\"\\n\",e(l.h3,{id:\"13-사베인스-옥슬리법sarbanes-oxley-act-sox의-탄생\",children:e(l.a,{href:\"#13-사베인스-옥슬리법sarbanes-oxley-act-sox의-탄생\",children:\"1.3 사베인스-옥슬리법(Sarbanes-Oxley Act, SOX)의 탄생\"})}),\"\\n\",r(l.p,{children:[\"미 의회는 연이은 충격에 발빠르게 대응해 \",e(l.strong,{children:\"2002년 7월, SOX\"}),\"를 제정합니다. 주요 내용은 다음과 같습니다.\"]}),\"\\n\",r(l.ul,{children:[\"\\n\",r(l.li,{children:[e(l.strong,{children:\"302조 (경영진 인증)\"}),\": CEO·CFO가 재무제표의 정확성을 직접 서명·인증해야 하며, 허위 인증 시 형사 처벌을 받습니다.\"]}),\"\\n\",r(l.li,{children:[e(l.strong,{children:\"401조 (부외부채 공시 강화)\"}),\": 특수목적법인 등을 통한 부채 은폐를 막기 위해 부외 부채를 의무적으로 공시해야 합니다.\"]}),\"\\n\",r(l.li,{children:[e(l.strong,{children:\"404조 (내부통제에 대한 경영진 보고서)\"}),\": 경영진은 매년 내부통제의 효과성을 평가한 보고서를 제출해야 하며, 외부 감사인이 이를 **감사(Audit)**해야 합니다.\"]}),\"\\n\",r(l.li,{children:[e(l.strong,{children:\"802조 (증거 인멸 처벌 강화)\"}),\": 아서 앤더슨의 감사조서 삭제 사태를 계기로, 감사 관련 기록을 의도적으로 변경·폐기하면 최대 20년 징역에 처할 수 있습니다.\"]}),\"\\n\"]}),\"\\n\",e(i,{type:\"important\",title:\"내부회계관리제도의 시초\",children:e(l.p,{children:\"SOX 404조가 바로 내부회계관리제도의 원형이 된 조항입니다. '경영진이 내부통제를 직접 평가·책임지고, 외부 감사인이 이를 독립적으로 검증한다'는 구조가 우리나라의 내부회계관리제도에도 그대로 이식되었습니다.\"})}),\"\\n\",e(l.h2,{id:\"2-우리나라-내부회계관리제도의-도입-배경\",children:e(l.a,{href:\"#2-우리나라-내부회계관리제도의-도입-배경\",children:\"2. 우리나라 내부회계관리제도의 도입 배경\"})}),\"\\n\",e(l.p,{children:\"미국에서 대형 분식회계 사건들이 터지던 2000년대 초반, 우리나라도 비슷한 충격을 겪고 있었습니다. 우리나라의 내부회계관리제도 역시 대규모 회계 부정 사건이 발생할 때마다 제도의 허점이 지적되었고, 이를 보완하기 위해 검증 수준이 강화되어 온 역사를 가지고 있습니다.\"}),\"\\n\",e(l.h3,{id:\"21-대우그룹-사태와-제도의-첫걸음-2001년\",children:e(l.a,{href:\"#21-대우그룹-사태와-제도의-첫걸음-2001년\",children:\"2.1. 대우그룹 사태와 '제도의 첫걸음' (2001년)\"})}),\"\\n\",r(l.p,{children:[\"IMF 외환위기 직후인 1999년, 당시 국내 4대 재벌 중 하나였던 \",e(l.strong,{children:\"대우그룹\"}),\"의 수십조 원대 분식회계가 세상에 드러났습니다. 가공 매출 계상, 부채 누락 등 광범위한 조작이 이루어졌고, 결국 대우그룹은 해체 수순을 밟게 되었습니다. 대우그룹의 주요 계열사를 감사했던 \",e(l.strong,{children:\"산동회계법인\"}),\" 역시 부실 감사의 책임을 물어 영업정지 처분을 받았습니다. 이후 삼정회계법인이 산동회계법인의 대부분의 인력과 고객사를 흡수하며, 산동회계법인은 역사 속으로 사라졌습니다.\"]}),\"\\n\",r(l.p,{children:[\"이 충격 속에서 회계 투명성에 대한 요구가 빗발쳤고, 그 요구에 대한 대응의 일환으로 2001년 제정된 \",e(l.strong,{children:\"기업구조조정촉진법\"}),\"에 내부회계관리제도가 한시적으로 도입되었습니다. 신용공여액 500억 원 이상 기업을 대상으로 내부회계관리규정과 조직을 갖추도록 의무화했으나, \",e(l.strong,{children:\"외부감사인의 별도 검증 의무는 없어\"}),\" 실질적인 효과를 기대하기는 어려웠습니다.\"]}),\"\\n\",e(l.h3,{id:\"22-sk글로벌-사태와-검토review-제도의-도입-2003년\",children:e(l.a,{href:\"#22-sk글로벌-사태와-검토review-제도의-도입-2003년\",children:\"2.2. SK글로벌 사태와 '검토(Review) 제도의 도입' (2003년)\"})}),\"\\n\",e(l.p,{children:\"대우그룹 사태의 여파가 가라앉기도 전인 2003년, **SK글로벌(현 SK네트웍스)**에서 또다시 약 1조 5천억 원 규모의 분식회계가 터졌습니다. 특히 부채를 장부에서 숨기기 위해 금융기관의 잔액 증명서까지 위조하는 대담한 수법이 동원되었고, 감사인과 기업 간의 유착 문제까지 불거지며 시장의 불신은 극에 달했습니다.\"}),\"\\n\",r(l.p,{children:[\"계속되는 대형 분식을 막기 위해 정부는 미국의 SOX법을 참고하여 2003년 12월 \",e(l.strong,{children:\"외부감사법을 개정\"}),\"합니다. 한시법에 있던 제도를 정식으로 이관하여 상장사를 중심으로 제도의 운영을 의무화했고, 이때부터 \",e(l.strong,{children:\"외부감사인의 '검토(Review)' 의견 표명이 도입\"}),\"되었습니다.\\n다만, '검토'는 회사가 자체적으로 평가한 내용을 감사인이 질문이나 서면 위주로 가볍게 확인하는 수준에 머물렀다는 한계가 존재했습니다.\"]}),\"\\n\",e(l.h3,{id:\"23-대우조선해양-사태와-감사audit-제도로의-격상-20152018년\",children:e(l.a,{href:\"#23-대우조선해양-사태와-감사audit-제도로의-격상-20152018년\",children:\"2.3. 대우조선해양 사태와 '감사(Audit) 제도로의 격상' (2015~2018년)\"})}),\"\\n\",r(l.p,{children:[\"제도가 '검토' 수준으로 운영되던 중, 2015년 \",e(l.strong,{children:\"대우조선해양\"}),\"에서 또다시 약 3~4조 원대에 달하는 충격적인 분식회계가 적발되었습니다. 허위 이익을 바탕으로 대출을 받아 결국 10조 원에 달하는 공적 자금이 투입된 참사였습니다.\"]}),\"\\n\",r(l.p,{children:[\"이 사건이 결정적인 계기가 되어 2018년 11월, 이른바 **'신(新)외부감사법'**이 전면 시행되었습니다. 가장 핵심적인 변화는 회계 투명성을 높이기 위해 내부회계관리제도에 대한 외부감사인의 검증 수준을 기존 \",e(l.strong,{children:\"'검토(Review)'에서 '감사(Audit)'로 격상\"}),\"한 것입니다.\"]}),\"\\n\",e(l.p,{children:\"이제 외부감사인은 회사의 보고서를 훑어보는 것에 그치지 않고, 회사의 내부통제 시스템이 실제로 잘 돌아가고 있는지 직접 샘플을 뽑아 깐깐하게 테스트(Test)하고 독자적인 감사의견을 표명하도록 요구됩니다.\"}),\"\\n\",e(l.h4,{id:\"24-법령-타임라인\",children:e(l.a,{href:\"#24-법령-타임라인\",children:\"2.4. 법령 타임라인\"})}),\"\\n\",e(l.p,{children:\"지금까지 살펴본 굵직한 사건들을 거치며, 우리나라의 내부회계관리제도는 점차 그 검증 강도를 높여가는 방향으로 진화해 왔습니다. 핵심적인 법령 변천사를 시기별로 요약하면 다음과 같습니다.\"}),\"\\n\",r(l.table,{children:[e(l.thead,{children:r(l.tr,{children:[e(l.th,{style:{textAlign:\"left\"},children:\"관련 법령\"}),e(l.th,{style:{textAlign:\"left\"},children:\"시기\"}),e(l.th,{style:{textAlign:\"left\"},children:\"주요 내용 및 특징\"})]})}),r(l.tbody,{children:[r(l.tr,{children:[e(l.td,{style:{textAlign:\"left\"},children:e(l.strong,{children:\"기업구조조정 촉진법\"})}),e(l.td,{style:{textAlign:\"left\"},children:\"2003년 이전\"}),r(l.td,{style:{textAlign:\"left\"},children:[\"• 신용공여액 500억 원 이상 기업에 한해 최초 도입\",\"• 외부감사인의 별도 검증(검토·감사) 의무가 없어 실효성이 미미했음\"]})]}),r(l.tr,{children:[e(l.td,{style:{textAlign:\"left\"},children:e(l.strong,{children:\"외부감사법 개정\"})}),e(l.td,{style:{textAlign:\"left\"},children:\"2003년 12월\"}),r(l.td,{style:{textAlign:\"left\"},children:[\"• 제도의 법적 근거를 외부감사법으로 이관하여 본격화\",\"• 2006년부터 모든 상장법인을 대상으로 \",e(l.strong,{children:\"외부감사인의 '검토(Review)' 의무\"}),\" 부과\"]})]}),r(l.tr,{children:[r(l.td,{style:{textAlign:\"left\"},children:[e(l.strong,{children:\"신(新)외부감사법\"}),\"(전면 개정)\"]}),e(l.td,{style:{textAlign:\"left\"},children:\"2018년 11월\"}),r(l.td,{style:{textAlign:\"left\"},children:[\"• 2019년부터 자산 규모에 따라 \",e(l.strong,{children:\"외부감사인의 '감사(Audit)' 검증\"}),\"으로 대폭 상향\",\"• 단, 자산 1천억 원 미만 상장법인 및 5천억 원 이상 대형 비상장법인은 기존의 '검토' 절차 유지\"]})]})]})]})]})}return{default:function(n={}){const{wrapper:r}=n.components||{};return r?e(r,{...n,children:e(_createMdxContent,{...n})}):_createMdxContent(n)}};",
+    "body": "const{Fragment:n,jsx:e,jsxs:r}=arguments[0];function _createMdxContent(t){const o={a:\"a\",em:\"em\",h2:\"h2\",h3:\"h3\",li:\"li\",ol:\"ol\",p:\"p\",section:\"section\",strong:\"strong\",sup:\"sup\",ul:\"ul\",...t.components},{Callout:c}=o;return c||function(n,e){throw new Error(\"Expected \"+(e?\"component\":\"object\")+\" `\"+n+\"` to be defined: you likely forgot to import, pass, or provide it.\")}(\"Callout\",!0),r(n,{children:[r(o.p,{children:[\"이 실무 가이드는 \",e(o.strong,{children:\"내부회계관리제도\"}),\"를 처음 접하시거나 직접 구축·운영해야 하는 실무자분들을 위해 작성되었습니다. 본 장에서는 제가 왜 실무가이드를 작성하게 되었는지, 그리고 본서에서 어떤 내용들을 다루게 될지 전반적인 방향성을 소개하겠습니다.\"]}),\"\\n\",e(o.h2,{id:\"내부회계-실무-가이드-작성-동기\",children:e(o.a,{href:\"#내부회계-실무-가이드-작성-동기\",children:\"내부회계 실무 가이드 작성 동기\"})}),\"\\n\",r(o.p,{children:[\"저는 평소에도 \",e(o.strong,{children:\"업무 생산성\"}),\"에 대한 관심이 많았지만 그 관심이 증폭된 계기 중 하나는 \",e(o.strong,{children:\"내부회계관리제도 구축\"}),\" 용역의 인차지(In-charge)\",e(o.sup,{children:e(o.a,{href:\"#user-content-fn-1\",id:\"user-content-fnref-1\",\"data-footnote-ref\":!0,\"aria-describedby\":\"footnote-label\",children:\"1\"})}),\"를 맡게 되면서부터였습니다.\"]}),\"\\n\",r(o.p,{children:[\"제가 맡았던 회사 중 하나는 자산총액 1,000억 원을 조금 넘는 비교적 작은 규모의 상장사였습니다. 회사는 ERP 시스템이 오래되고 보안이 취약해 IT 환경에 의존할 수 없는 상황이었고, 이로 인해 거의 모든 내부통제를 \",e(o.strong,{children:\"수동으로 구축\"}),\"해야만 했습니다. 게다가 용역이 진행되는 동안 거의 모든 부서의 실무 담당자가 수차례 바뀌는 바람에, 매번 새로운 담당자와 인터뷰를 진행해야 하는 그야말로 최악의 상황이라고 할 만한 용역 업무였습니다.\"]}),\"\\n\",e(o.p,{children:\"그런 와중에 상대 감사인은 회사의 현실적인 여건으로는 감당하기 어려운 원론적인 통제만을 요구했습니다. 저희 팀은 회사의 입장에서 최대한 감사인을 설득하려 했었지만, Big4 회계법인이자 감사 마지막 해였던 그들은 요지부동이었습니다. 결국 제도의 실효성은 뒤로 한 채 마지막 분기에 어떻게든 증빙을 형식적으로 갖추는데만 급급하여 감사의견을 받아냈던  경험이 있습니다.\"}),\"\\n\",r(o.p,{children:[\"일반적으로 회계사들이 기피하는 내부회계관리제도 용역이라도, 저는 다양한 회사의 비즈니스 프로세스를 깊이 들여다볼 수 있다는 점이 좋아 흥미를 느끼던 편이었습니다. 하지만 그런 저조차도 너무 힘들었던 기억이었고, \",e(o.strong,{children:\"제도의 본질에 대해 깊은 회의감\"}),\"이 들기 시작했습니다.\"]}),\"\\n\",r(o.p,{children:[\"단순히 일이 힘들어서가 아니었습니다. 이미 과부하 상태인 현업 실무자분들의 입장에서 하던 대로 처리하면 될 업무에 대해 일일이 승인 절차를 거치고 증빙을 남기라고 강요해야 하는 상황 자체가 커다란 스트레스로 다가왔습니다. 누구보다 업무 생산성과 효율을 신봉하는 사람으로서, 오히려 제가 \",e(o.strong,{children:\"기업의 생산성을 저해\"}),\"하고 있다는 사실에 큰 자괴감이 들었고 회사 담당자분들께 죄송한 마음을 지울 수 없었습니다.\"]}),\"\\n\",r(o.p,{children:[\"하지만 그 때의 경험으로 저는 이후 내부회계관리제도에 대해 더욱 깊이 파고들었고 \",e(o.strong,{children:\"어떻게 하면 내부회계를 기업의 현실에 맞게 효율적으로 구축하면서도 효과성을 보장할 수 있을까?\"}),\" 를 끊임없이 고민해 왔습니다. 본서는 바로 그 고민의 결과물입니다.\"]}),\"\\n\",e(o.h2,{id:\"본서에서-다룰-내용\",children:e(o.a,{href:\"#본서에서-다룰-내용\",children:\"본서에서 다룰 내용\"})}),\"\\n\",e(o.p,{children:\"본서에서는 크게 세 가지 방향성에 중점을 두고 내용을 풀어나갈 예정입니다.\"}),\"\\n\",e(o.h3,{id:\"1-내부회계관리제도의-개념-및-용어-정리\",children:e(o.a,{href:\"#1-내부회계관리제도의-개념-및-용어-정리\",children:\"1. 내부회계관리제도의 개념 및 용어 정리\"})}),\"\\n\",r(o.p,{children:[\"처음 관련 업무를 맡으셨다면 '내부회계관리제도'라는 개념 자체가 매우 생소할 수밖에 없습니다. 외감법부터 시작해 설계 및 운영 개념체계, 모범규준, COSO 프레임워크\",e(o.sup,{children:e(o.a,{href:\"#user-content-fn-2\",id:\"user-content-fnref-2\",\"data-footnote-ref\":!0,\"aria-describedby\":\"footnote-label\",children:\"2\"})}),\"에 이르기까지, 회계사들조차 모호하고 어렵게 느낄 때가 많습니다.\\n본서에서는 지나치게 학문적인 접근은 피하고, 감사인이나 외부 용역사와 원활하게 \",e(o.strong,{children:\"소통할 수 있을 수준의 실무적인 핵심 지식\"}),\"을 최대한 알기 쉽게 풀어서 설명하겠습니다.\"]}),\"\\n\",e(o.h3,{id:\"2-내부회계관리제도-구축-및-운영-프로세스\",children:e(o.a,{href:\"#2-내부회계관리제도-구축-및-운영-프로세스\",children:\"2. 내부회계관리제도 구축 및 운영 프로세스\"})}),\"\\n\",r(o.p,{children:[\"제도를 처음 구축하고 운영하는 상황을 가정하여, 스코핑(Scoping)\",e(o.sup,{children:e(o.a,{href:\"#user-content-fn-3\",id:\"user-content-fnref-3\",\"data-footnote-ref\":!0,\"aria-describedby\":\"footnote-label\",children:\"3\"})}),\"부터 최종 보고에 이르기까지의 전 과정을 상세하게 다룹니다. 특히 실무에서 마주하는 주요 산출물에 대해서는 실제 예시를 곁들여 설명하며, 곧바로 \",e(o.strong,{children:\"실무에 활용할 수 있는 템플릿(Template)\"}),\" 도 함께 제공할 예정입니다.\"]}),\"\\n\",e(o.h3,{id:\"3-효율적인-내부통제-구축-방법론-제시\",children:e(o.a,{href:\"#3-효율적인-내부통제-구축-방법론-제시\",children:\"3. 효율적인 내부통제 구축 방법론 제시\"})}),\"\\n\",r(o.p,{children:[\"내부회계관리제도의 본질적 목표는 \",e(o.strong,{children:\"'재무보고의 신뢰성'\"}),\" 에 대한 \",e(o.strong,{children:\"'합리적 확신'\"}),\" 을 제공하는 것입니다. 모든 위험에 완벽하게 대응할 수 있는 통제를 설계하는 것은 풍부한 자원을 가진 극소수의 대기업에서나 가능한 일입니다. 대부분의 기업에게는 현실적으로 불가능에 가까울 뿐만 아니라, 설령 정교하게 설계하더라도 이를 운영하는 과정에서 제대로 이루어지지 않을 가능성이 높습니다. 만약 감사인이 회사에 과도하고 원론적인 수준의 통제만을 요구한다면, 이는 제도의 본질을 오해하고 있거나 실무적인 리스크를 회사에 일방적으로 전가하는 것에 가깝다고 생각합니다.\"]}),\"\\n\",r(o.p,{children:[\"본서의 가장 큰 목표는 각 회사가 처한 \",e(o.strong,{children:\"고유한 비즈니스 환경과 프로세스에 맞게 최적화\"}),\"하면서도, 제도의 본래 취지인 \",e(o.strong,{children:\"'효과성'을 잃지 않는\"}),\" 현실적이고 스마트한 내부통제 구축 방법을 제시하는 것입니다.\"]}),\"\\n\",e(c,{type:\"note\",title:\"내부회계관리제도 설계 및 운영 개념체계\",children:r(o.ul,{children:[\"\\n\",e(o.li,{children:r(o.em,{children:[\"문단 9 : 그러나 아무리 잘 설계된 내부통제제도라고 할지라도 제도를 운영하는 과정에서 발생하는 집행위험은 피할 수 없다. 즉, 최상의 자질과 경험을 지닌 사람도 부주의, 피로, 판단 착오 등에 노출될 수 있으며, 내부통제제도도 이러한 사람들에 의해 운영되므로 내부통제제도가 \",e(o.strong,{children:\"모든 위험을 완벽하게 통제할 수는 없다\"}),\".\"]})}),\"\\n\",e(o.li,{children:r(o.em,{children:['문단 10 : 효과적인 내부통제제도는 경영진과 이사회에 회사의 목적 달성에 관한 합리적 확신을 제공한다. \"절대적 확신\"이 아닌 \"합리적 확신\"이라는 개념은 모든 내부통제제도에 한계가 존재하고, 정확하게 예측할 수 없는 불확실성과 위험이 존재한다는 것을 인정하는 것이다. 이러한 한계로 인해 경영진과 이사회는 회사의 목적 달성에 대한 절대적인 확신을 갖지 못하게 된다. 즉, 내부통제제도는 ',e(o.strong,{children:\"합리적 확신을 제공하며, 절대적 확신을 제공하지 못한다\"}),\".\"]})}),\"\\n\"]})}),\"\\n\",e(o.h2,{id:\"마치며\",children:e(o.a,{href:\"#마치며\",children:\"마치며\"})}),\"\\n\",e(o.p,{children:\"내부회계는 회계 지식부터 회사의 비즈니스 프로세스 및 IT환경, ERP에 대한 이해까지 요구되는 난이도가 높은 업무입니다. 게다가 아무리 완벽하게 수행하더라도 현업 부서 입장에서는 자신들을 평가하고 업무를 가중시키는 존재로 비치기 쉽기에, 실무자분들이 마주하는 심리적 부담이 얼마나 클지 깊이 공감합니다.\"}),\"\\n\",r(o.p,{children:[\"부디 이 책이 막막한 실무 현장에서 고군분투하시는 분들에게 실질적인 도움이 되고, 더 나아가 \",e(o.strong,{children:\"건강하고 효율적인 통제 환경\"}),\"을 구축하는 길잡이가 되기를 간절히 바랍니다.\"]}),\"\\n\",r(o.section,{\"data-footnotes\":!0,className:\"footnotes\",children:[e(o.h2,{className:\"sr-only\",id:\"footnote-label\",children:e(o.a,{href:\"#footnote-label\",children:\"Footnotes\"})}),\"\\n\",r(o.ol,{children:[\"\\n\",r(o.li,{id:\"user-content-fn-1\",children:[\"\\n\",r(o.p,{children:[e(o.strong,{children:\"인차지(In-charge)\"}),\": 회계감사나 용역 프로젝트에서 업무를 총괄하고 책임지는 현장 책임자를 의미합니다. \",e(o.a,{href:\"#user-content-fnref-1\",\"data-footnote-backref\":\"\",\"aria-label\":\"Back to reference 1\",className:\"data-footnote-backref\",children:\"↩\"})]}),\"\\n\"]}),\"\\n\",r(o.li,{id:\"user-content-fn-2\",children:[\"\\n\",r(o.p,{children:[e(o.strong,{children:\"COSO 프레임워크(COSO Framework)\"}),\" : 미국의 여러 전문가 단체가 공동으로 만든 내부통제의 글로벌 표준 모델입니다. \",e(o.a,{href:\"#user-content-fnref-2\",\"data-footnote-backref\":\"\",\"aria-label\":\"Back to reference 2\",className:\"data-footnote-backref\",children:\"↩\"})]}),\"\\n\"]}),\"\\n\",r(o.li,{id:\"user-content-fn-3\",children:[\"\\n\",r(o.p,{children:[e(o.strong,{children:\"스코핑(Scoping)\"}),\": 내부회계관리제도 구축 전, 재무제표에 미칠 영향이 큰 유의적인 계정과목과 사업부문을 파악해 '평가 대상(범위)'을 선정하는 과정입니다. \",e(o.a,{href:\"#user-content-fnref-3\",\"data-footnote-backref\":\"\",\"aria-label\":\"Back to reference 3\",className:\"data-footnote-backref\",children:\"↩\"})]}),\"\\n\"]}),\"\\n\"]}),\"\\n\"]})]})}return{default:function(n={}){const{wrapper:r}=n.components||{};return r?e(r,{...n,children:e(_createMdxContent,{...n})}):_createMdxContent(n)}};",
     "toc": [
       {
-        "title": "1. 미국의 회계 개혁을 촉발한 '엔론(Enron)'과 '월드컴(WorldCom)'",
-        "url": "#1-미국의-회계-개혁을-촉발한-엔론enron과-월드컴worldcom",
+        "title": "내부회계 실무 가이드 작성 동기",
+        "url": "#내부회계-실무-가이드-작성-동기",
+        "items": []
+      },
+      {
+        "title": "본서에서 다룰 내용",
+        "url": "#본서에서-다룰-내용",
         "items": [
           {
-            "title": "1.3 사베인스-옥슬리법(Sarbanes-Oxley Act, SOX)의 탄생",
-            "url": "#13-사베인스-옥슬리법sarbanes-oxley-act-sox의-탄생",
+            "title": "1. 내부회계관리제도의 개념 및 용어 정리",
+            "url": "#1-내부회계관리제도의-개념-및-용어-정리",
+            "items": []
+          },
+          {
+            "title": "2. 내부회계관리제도 구축 및 운영 프로세스",
+            "url": "#2-내부회계관리제도-구축-및-운영-프로세스",
+            "items": []
+          },
+          {
+            "title": "3. 효율적인 내부통제 구축 방법론 제시",
+            "url": "#3-효율적인-내부통제-구축-방법론-제시",
             "items": []
           }
         ]
       },
       {
-        "title": "2. 우리나라 내부회계관리제도의 도입 배경",
-        "url": "#2-우리나라-내부회계관리제도의-도입-배경",
-        "items": [
-          {
-            "title": "2.1. 대우그룹 사태와 '제도의 첫걸음' (2001년)",
-            "url": "#21-대우그룹-사태와-제도의-첫걸음-2001년",
-            "items": []
-          },
-          {
-            "title": "2.2. SK글로벌 사태와 '검토(Review) 제도의 도입' (2003년)",
-            "url": "#22-sk글로벌-사태와-검토review-제도의-도입-2003년",
-            "items": []
-          },
-          {
-            "title": "2.3. 대우조선해양 사태와 '감사(Audit) 제도로의 격상' (2015~2018년)",
-            "url": "#23-대우조선해양-사태와-감사audit-제도로의-격상-20152018년",
-            "items": [
-              {
-                "title": "2.4. 법령 타임라인",
-                "url": "#24-법령-타임라인",
-                "items": []
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "title": "1.1. 내부회계관리제도의 도입 배경",
-    "series": "accounting/일반/내부회계관리제도-실무-가이드북",
-    "category": "accounting",
-    "subcategory": "일반",
-    "order": 1,
-    "depth": 1,
-    "parentPath": "1-개요",
-    "slugAsParams": "accounting/일반/내부회계관리제도-실무-가이드북/1-개요/11-내부회계관리제도의-도입-배경"
-  },
-  {
-    "slug": "accounting/일반/내부회계관리제도 실무 가이드북/1. 개요/1.2. 내부회계관리제도 기본 개념",
-    "subject": "제목 없음",
-    "draft": false,
-    "id": -1,
-    "parent_id": 333210,
-    "book_id": 19244,
-    "last_synced": "",
-    "metadata": {
-      "readingTime": 1,
-      "wordCount": 0
-    },
-    "body": "const{Fragment:n,jsx:e,jsxs:l}=arguments[0];function _createMdxContent(i){const r={a:\"a\",h2:\"h2\",li:\"li\",p:\"p\",ul:\"ul\",...i.components};return l(n,{children:[e(r.h2,{id:\"내부통제의-필요성\",children:e(r.a,{href:\"#내부통제의-필요성\",children:\"내부통제의 필요성\"})}),\"\\n\",e(r.p,{children:\"내부회계가 뭐길래 분식회계가 발생할 때마다 내부회계를 강화해야한다는 목소리가 나왔을까?\\n앞서 말했듯이 내부회계관리제도는 재무보고의 신뢰성을 향상시키는 것을 목표로 한다. 재무보고의 신뢰성이란 결국 재무제표가 정확하게 작성되었는지이다.\"}),\"\\n\",e(r.p,{children:\"우리나라는 외감법에 따라 일정 규모 이상의 회사에 대해서는 회계감사를 받도록 함으로써 재무제표가 정확하게 작성되었는지를 검증하도록 하고 있다. 그렇다면 기존의 재무제표 감사만으로는 왜 재무제표의 적정성을 검증하기 어려웠을까?\"}),\"\\n\",e(r.p,{children:\"회계감사는 기말 자산, 부채의 적정성을 확인하고 기중 발생한 손익의 적정성을 확인하게 되어 있다. 하지만 회계감사는 모든 자산, 부채에 대해서 전수로 감사를 수행하지도 않고 그 방법 자체에도 한계가 있다.\\n예를 들어 재고자산에 대해 기말 재고실사를 수행하지만 회사가 장부상 재고자산을 뻥튀기해놓고 몰래 다른 재고를 빌려와서 넣어놨다고 했을 때, 하루 잠깐 나와서 실사를 한다고 그 사실을 알아낼 수 있을까?\\n혹은 거래가 기중에 수도 없이 발생하는 도소매업의 경우 기말에 관련 증빙을 몇백개 본다는 것 만으로 그 적정성을 확인할 수 있을까?\"}),\"\\n\",e(r.p,{children:\"즉, 기존의 재무제표 감사 절차는 결코 완벽하지 않고, 회사가 재무제표를 작성하는 과정 자체에 통제를 갖춰야 부정이나 오류가 발생하지 않는다는 관점이 내부회계꽌리제도의 도입 취지이다.\"}),\"\\n\",e(r.h2,{id:\"내부통제와-내부회계관리제도\",children:e(r.a,{href:\"#내부통제와-내부회계관리제도\",children:\"내부통제와 내부회계관리제도\"})}),\"\\n\",e(r.p,{children:\"내부회계관리제도 설계 및 운영 개념체계는 내부통제제도를 다음과 같이 정의하고 있다.\"}),\"\\n\",l(r.ul,{children:[\"\\n\",l(r.li,{children:[\"내부통제제도는 다음의 세 가지 목적달성에 대한 합리적 확신을 제공하기 위하여 조직의 이사회, 경영진 및 여타 구성원에 의해 지속적으로 실행되는 일련의 과정이다.\",\"\\n\",l(r.ul,{children:[\"\\n\",l(r.li,{children:[\"기업운영의 효율성 및 효과성 확보(운영목적)\",\"\\n\",l(r.ul,{children:[\"\\n\",e(r.li,{children:\"회사가 업무를 수행함에 있어 자원을 효과적이고 효율적으로 사용하고 있다.\"}),\"\\n\"]}),\"\\n\"]}),\"\\n\",l(r.li,{children:[\"보고 정보의 신뢰성 확보(보고목적)\",\"\\n\",l(r.ul,{children:[\"\\n\",e(r.li,{children:\"회사는 내부 및 외부 보고를 위해 정확하고 신뢰할 수 있는 재무정보와 비재무정보의 작성 및 보고체계를 유지하고 있다.\"}),\"\\n\"]}),\"\\n\"]}),\"\\n\",l(r.li,{children:[\"관련 법규 및 정책의 준수(법규준수목적)\",\"\\n\",l(r.ul,{children:[\"\\n\",e(r.li,{children:\"회사의 모든 활동은 관련 법규, 감독규정, 내부정책 및 절차를 준수하고 있다.\"}),\"\\n\"]}),\"\\n\"]}),\"\\n\"]}),\"\\n\"]}),\"\\n\"]}),\"\\n\",e(r.p,{children:\"그리고 내부회계관리제도는 다음과 같의 정의하고 있다.\"}),\"\\n\",l(r.ul,{children:[\"\\n\",e(r.li,{children:\"11 내부회계관리제도는 회사의 재무제표가 일반적으로 인정되는 회계처리기준에 따라 작성·공시되었는지에 대한 합리적 확신을 제공하기 위해 설계·운영되는 내부통제제도의 일부분으로서 회사의 경영진과 이사회를 포함한 모든 구성원들에 의해 지속적으로 실행되는 과정을 의미한다.\"}),\"\\n\",e(r.li,{children:\"12 내부회계관리제도는 내부통제제도의 보고정보의 신뢰성 확보목적 중 외부에 공시되는 재무제표의 신뢰성 확보를 목적으로 하며, 여기에는 자산의 보호 및 부정방지 프로그램이 포함된다. 운영목적이나 법규준수목적 등 다른 목적과 관련된 내부통제제도가 재무제표의 신뢰성 확보와 관련된 경우 해당 내부통제제도는 내부회계관리제도의 범위에 포함된다.\"}),\"\\n\"]}),\"\\n\",e(r.p,{children:\"즉, 내부회계관리제도는 재무제표의 신뢰성 확보를 목적으로 하는 내부통제제도라고 볼 수 있다.\"})]})}return{default:function(n={}){const{wrapper:l}=n.components||{};return l?e(l,{...n,children:e(_createMdxContent,{...n})}):_createMdxContent(n)}};",
-    "toc": [
-      {
-        "title": "내부통제의 필요성",
-        "url": "#내부통제의-필요성",
-        "items": []
-      },
-      {
-        "title": "내부통제와 내부회계관리제도",
-        "url": "#내부통제와-내부회계관리제도",
+        "title": "마치며",
+        "url": "#마치며",
         "items": []
       }
     ],
-    "title": "제목 없음",
+    "title": "0. 시작하며",
     "series": "accounting/일반/내부회계관리제도-실무-가이드북",
     "category": "accounting",
     "subcategory": "일반",
-    "order": 1,
-    "depth": 1,
-    "parentPath": "1-개요",
-    "slugAsParams": "accounting/일반/내부회계관리제도-실무-가이드북/1-개요/12-내부회계관리제도-기본-개념"
+    "order": 0,
+    "depth": 0,
+    "parentPath": null,
+    "slugAsParams": "accounting/일반/내부회계관리제도-실무-가이드북/0-시작하며"
   },
   {
-    "slug": "accounting/일반/내부회계관리제도 실무 가이드북/1. 개요/1.3. 내부회계관리제도 관련 기준 체계",
-    "subject": "제목 없음",
+    "slug": "accounting/일반/내부회계관리제도 실무 가이드북/1. 개요",
+    "subject": "1. 개요",
     "draft": false,
     "id": -1,
-    "parent_id": 333210,
+    "parent_id": -1,
     "book_id": 19244,
-    "last_synced": "",
+    "open_yn": "Y",
+    "last_synced": null,
     "metadata": {
       "readingTime": 0,
       "wordCount": 0
     },
     "body": "",
     "toc": [],
-    "title": "제목 없음",
+    "title": "1. 개요",
     "series": "accounting/일반/내부회계관리제도-실무-가이드북",
     "category": "accounting",
     "subcategory": "일반",
     "order": 1,
-    "depth": 1,
-    "parentPath": "1-개요",
-    "slugAsParams": "accounting/일반/내부회계관리제도-실무-가이드북/1-개요/13-내부회계관리제도-관련-기준-체계"
+    "depth": 0,
+    "parentPath": null,
+    "slugAsParams": "accounting/일반/내부회계관리제도-실무-가이드북/1-개요"
   },
   {
     "slug": "ai/AI도구/비개발자를 위한 Antigravity 가이드/6. 스킬(Skills)/6.1. 스킬(Skills)의 개념 및 구조",
@@ -1823,135 +1703,6 @@
     "slugAsParams": "ai/AI도구/비개발자를-위한-Antigravity-가이드/7-MCP/72-NotebookLM-MCP"
   },
   {
-    "slug": "ai/AI도구/클로드 엑셀(Claude for Excel) 가이드/7. 커넥터(MCP) 활용법/7.1. 커넥터(MCP)란",
-    "subject": "7.1. 커넥터(MCP)란",
-    "draft": false,
-    "id": 336068,
-    "parent_id": 336045,
-    "book_id": 19374,
-    "open_yn": "Y",
-    "last_synced": "2026-04-09T15:49:26.208Z",
-    "metadata": {
-      "readingTime": 1,
-      "wordCount": 79
-    },
-    "body": "const{Fragment:n,jsx:e,jsxs:r}=arguments[0];function _createMdxContent(i){const c={a:\"a\",code:\"code\",h2:\"h2\",h3:\"h3\",h4:\"h4\",img:\"img\",li:\"li\",ol:\"ol\",p:\"p\",section:\"section\",strong:\"strong\",sup:\"sup\",ul:\"ul\",...i.components},{Callout:o}=c;return o||function(n,e){throw new Error(\"Expected \"+(e?\"component\":\"object\")+\" `\"+n+\"` to be defined: you likely forgot to import, pass, or provide it.\")}(\"Callout\",!0),r(n,{children:[e(c.h2,{id:\"1-커넥터mcp의-개념\",children:e(c.a,{href:\"#1-커넥터mcp의-개념\",children:\"1. 커넥터(MCP)의 개념\"})}),\"\\n\",r(c.p,{children:[e(c.strong,{children:\"MCP(Model Context Protocol)\"}),\" 는 AI 모델이 외부의 다양한 소프트웨어 및 서비스와 상호작용할 수 있도록 통신 규격을 하나로 통일한 '개방형 표준 프로토콜'입니다. 쉽게 말해, AI가 외부 서비스를 다룰 수 있도록 하는 공용 언어라고 할 수 있습니다.\"]}),\"\\n\",r(c.p,{children:[\"우리가 업무에서 사용하는 수많은 서비스(예: Microsoft 365, Google Drive, Slack, Notion 등)는 데이터를 주고받기 위한 고유의 \",e(c.strong,{children:\"API(Application Programming Interface)\"}),e(c.sup,{children:e(c.a,{href:\"#user-content-fn-1\",id:\"user-content-fnref-1\",\"data-footnote-ref\":!0,\"aria-describedby\":\"footnote-label\",children:\"1\"})}),\"라는 통로를 가지고 있습니다. 문제는 이 API들의 규격이나 통신 방식이 각 서비스마다 제각각이라는 점입니다. 과거에는 AI가 10개의 서비스와 연동하려면 개발자들이 10개의 서로 다른 API 규격을 개별적으로 연결하는 코드를 짜야만 했습니다.\"]}),\"\\n\",r(c.p,{children:[\"이러한 비효율을 해결하기 위해 앤트로픽(Anthropic)이 제안한 범용 표준이 바로 \",e(c.strong,{children:\"MCP\"}),\"입니다. 비유하자면, 형태가 제각각인 각국의 전기 콘센트 규격에 '여행용 멀티 어댑터(MCP)'를 꽂아, 플러그 모양과 상관없이 전 세계 어디서든 똑같이 전기를 쓸 수 있게 만든 것과 같습니다. 각 서비스 앞에 MCP 규격만 씌워두면, AI가 어떤 서비스의 API를 쓰든지 똑같은 언어로 범용적으로 통신할 수 있게 됩니다.\"]}),\"\\n\",e(c.p,{children:\"언제부터인가 ChatGPT나 Gemini 같은 AI 챗봇들이 구글 드라이브의 문서를 스스로 읽어오거나, 지메일(Gmail) 내용을 직접 검색하는 등 외부 서비스와 연동되는 모습을 보셨을 것입니다. 이러한 AI의 기능 확장을 가능하게 한 핵심 기술이 바로 MCP라 할 수 있습니다.\"}),\"\\n\",r(c.p,{children:[\"클로드에서는 사용자들이 이 복잡한 기술 용어 대신 더욱 친숙하게 기능을 사용할 수 있도록, MCP를 \",e(c.strong,{children:\"'커넥터(Connectors)'\"}),\" 라는 직관적인 이름으로 부르며 제공하고 있습니다.\"]}),\"\\n\",e(c.h2,{id:\"2-커넥터의-종류-및-연결방법\",children:e(c.a,{href:\"#2-커넥터의-종류-및-연결방법\",children:\"2. 커넥터의 종류 및 연결방법\"})}),\"\\n\",e(c.h3,{id:\"21-커넥터의-종류와-동기화-범위\",children:e(c.a,{href:\"#21-커넥터의-종류와-동기화-범위\",children:\"2.1. 커넥터의 종류와 동기화 범위\"})}),\"\\n\",r(c.p,{children:[\"모든 커넥터는 \",e(c.strong,{children:\"MCP\"}),\" 위에서 동작합니다. 그러나 데이터를 처리하는 위치가 웹(클라우드)인지 내 컴퓨터(로컬) 내부에 국한되는지 등에 따라 크게 3가지로 분류됩니다.\"]}),\"\\n\",r(c.ul,{children:[\"\\n\",r(c.li,{children:[\"\\n\",r(c.p,{children:[e(c.strong,{children:\"웹 커넥터 (Web Connectors)\"}),\"\\n외부 원격 클라우드 서버에서 실행되는 가장 기본적인 커넥터입니다. Gmail, Google Calendar, Notion, Slack 등 앤트로픽이 안전성을 검증한 서비스들이 이에 속합니다. '커넥터 디렉토리'를 통해 로그인(OAuth) 한 번으로 간편하게 연결할 수 있으며, 계정에 한 번만 연결해 두면 데스크톱 앱, 모바일 앱, 그리고 \",e(c.strong,{children:\"클로드 엑셀에서도 사용할 수 있습니다.\"})]}),\"\\n\"]}),\"\\n\",r(c.li,{children:[\"\\n\",r(c.p,{children:[e(c.strong,{children:\"커스텀 커넥터 (Custom Connectors)\"}),\"\\n앤트로픽의 공식 인증 커넥터 목록에는 등록되지 않았지만, 사용자가 직접 개발하거나 외부에서 만들어진 MCP 서버 URL 주소를 입력하여 확장하는 연결 방식입니다. 예를 들어 DART(한국 전자공시시스템) 데이터를 호출하는 개인 서버를 맞춤형으로 붙여 쓸 수 있습니다. 방식 자체는 웹 커넥터와 동일하게 외부 원격 서버(인터넷 연결)를 통하므로, 이 역시 계정에 동기화되어 \",e(c.strong,{children:\"클로드 엑셀에서 사용할 수 있습니다.\"})]}),\"\\n\"]}),\"\\n\",r(c.li,{children:[\"\\n\",r(c.p,{children:[e(c.strong,{children:\"데스크톱 확장 (Desktop Extensions)\"}),\"\\n데이터가 외부 서버나 인터넷으로 나가지 않고, 오직 내 컴퓨터 안의 '클로드 데스크톱 앱'을 통해서만 돌아가는 로컬(Local) 서버 기반의 커넥터 방식입니다. 로컬(내 컴퓨터) 파일을 다루는 데 최적화되어 있지만, 외부 동기화가 차단되는 구조적 한계 때문에 \",e(c.strong,{children:\"클로드 엑셀에서는 사용할 수 없습니다.\"})]}),\"\\n\"]}),\"\\n\"]}),\"\\n\",e(o,{type:\"note\",title:\"결론: 클로드 엑셀에서 사용 가능한 커넥터의 범위\",children:r(c.p,{children:[\"클로드 엑셀은 웹 기반으로 동작하기 때문에 리모트(Remote) 기반인 **'웹 커넥터'**와 \",e(c.strong,{children:\"'커스텀 커넥터'\"}),\" 두가지만 직접 연결하여 사용할 수 있습니다.\"]})}),\"\\n\",e(c.h3,{id:\"22-커넥터-연결-방법\",children:e(c.a,{href:\"#22-커넥터-연결-방법\",children:\"2.2. 커넥터 연결 방법\"})}),\"\\n\",e(c.p,{children:\"클로드 엑셀에서 커넥터를 연결하는 방법은 간단합니다. 복잡한 설치 과정 없이, 클로드 계정의 설정 패널에서 클릭 몇 번만으로 외부 서비스를 연결할 수 있습니다.\"}),\"\\n\",e(c.h4,{id:\"221-웹-커넥터-연결하기\",children:e(c.a,{href:\"#221-웹-커넥터-연결하기\",children:\"2.2.1. 웹 커넥터 연결하기\"})}),\"\\n\",e(c.p,{children:\"가장 기본적인 공식 웹 커넥터를 연결하는 순서입니다.\"}),\"\\n\",r(c.ol,{children:[\"\\n\",r(c.li,{children:[\"\\n\",r(c.p,{children:[\"브라우저에서 \",e(c.code,{children:\"Claude.ai\"}),\"에 접속하거나 클로드 데스크톱 앱을 열어, 프로필 메뉴를 클릭합니다. \",e(c.code,{children:\"사용자 지정\"}),\" ➔ \",e(c.code,{children:\"커넥터\"}),\" 메뉴로 진입한 후, 우측 상단의 \",e(c.code,{children:\"+\"}),\" 버튼을 눌러 \",e(c.code,{children:\"커넥터 둘러보기\"}),\"를 클릭합니다.\\n\",e(c.img,{src:\"https://raw.githubusercontent.com/procpalee/my_obsidian_images/master/20260324233944478.png\",alt:\"웹 커넥터 둘러보기 화면\"})]}),\"\\n\"]}),\"\\n\",r(c.li,{children:[\"\\n\",r(c.p,{children:[\"연동을 원하는 외부 서비스(예: Google Calendar, Notion 등)를 찾아 우측의 \",e(c.code,{children:\"+\"}),\" 버튼을 클릭합니다. 팝업 안내를 따라 외부 서비스의 계정에 로그인하거나, 인증키(API Key)를 입력하면 즉시 연동이 완료됩니다.\\n\",e(c.img,{src:\"https://raw.githubusercontent.com/procpalee/my_obsidian_images/master/20260324233821021.png\",alt:\"원하는 커넥터 선택 및 연결\"})]}),\"\\n\"]}),\"\\n\"]}),\"\\n\",e(c.h4,{id:\"222-커스텀-커넥터-연결하기\",children:e(c.a,{href:\"#222-커스텀-커넥터-연결하기\",children:\"2.2.2. 커스텀 커넥터 연결하기\"})}),\"\\n\",e(c.p,{children:\"공식 인증을 받지 않은 외부 리모트 MCP 서버를 수동으로 등록하는 방법입니다.\"}),\"\\n\",r(c.ol,{children:[\"\\n\",r(c.li,{children:[\"\\n\",r(c.p,{children:[\"동일하게 \",e(c.code,{children:\"사용자 지정\"}),\" ➔ \",e(c.code,{children:\"커넥터\"}),\" 메뉴에서 우측 상단의 \",e(c.code,{children:\"+\"}),\" 버튼을 누르고, 이번에는 드롭다운 메뉴 아래의 \",e(c.code,{children:\"커스텀 커넥터 등록\"}),\"을 클릭합니다.\\n\",e(c.img,{src:\"https://raw.githubusercontent.com/procpalee/my_obsidian_images/master/20260325002537603.png\",alt:\"커스텀 커넥터 등록 메뉴\"})]}),\"\\n\"]}),\"\\n\",r(c.li,{children:[\"\\n\",r(c.p,{children:[\"연결하려는 외부 서버에서 제공받은 커넥터 고유의 이름(Name)과 접속 URL을 지정 칸에 각각 입력한 후, 하단의 \",e(c.code,{children:\"추가\"}),\" 버튼을 누르면 나만의 커넥터가 즉시 활성화됩니다.\\n\",e(c.img,{src:\"https://raw.githubusercontent.com/procpalee/my_obsidian_images/master/20260325002704558.png\",alt:\"커넥터 이름과 서버 URL 입력창\"})]}),\"\\n\"]}),\"\\n\"]}),\"\\n\",e(o,{type:\"tip\",title:\"커스텀 커넥터 실전 활용\",children:e(c.p,{children:\"커스텀 커넥터를 엑셀과 연결하여 실무에서 본격 활용하는 구체적인 전략에 대해서는, 이어지는 다음 장의 전자공시시스템(Open DART) 활용 사례에서 상세하게 다루도록 하겠습니다!\"})}),\"\\n\",e(c.h2,{id:\"3-커넥터-사용법\",children:e(c.a,{href:\"#3-커넥터-사용법\",children:\"3. 커넥터 사용법\"})}),\"\\n\",e(c.p,{children:\"원하는 커넥터를 성공적으로 연결했다면, 이제 클로드 엑셀 대화창에서 평소처럼 자연어로 외부 서비스 활용을 지시하기만 하면 됩니다.\"}),\"\\n\",e(o,{type:\"important\",title:\"커넥터 도구 사용 권한 체크\",children:r(c.p,{children:[\"클로드 엑셀에서 커넥터를 문제없이 구동하려면, 최초 연결을 진행했던 클로드 창(웹/앱) 설정에서 해당 커넥터의 \",e(c.strong,{children:\"도구 구동 권한\"}),\"을 \",e(c.code,{children:\"항상 허용(Always allow)\"}),\" 또는 \",e(c.code,{children:\"승인 필요(Ask before running)\"}),\" 상태로 유지해 두어야 합니다.\"]})}),\"\\n\",r(c.p,{children:[\"예를 들어 구글 캘린더(Google Calendar) 커넥터를 연동해 두었다면, 클로드 엑셀 채팅창에 \",e(c.strong,{children:'\"구글 캘린더에서 내 3월달 개인일정과 업무일정 찾아서 시트에 정리해\"'}),\" 고 요청해 봅니다.\"]}),\"\\n\",e(c.p,{children:e(c.img,{src:\"https://raw.githubusercontent.com/procpalee/my_obsidian_images/master/20260325010820299.png\",alt:\"image.png\"})}),\"\\n\",e(c.p,{children:\"요청 즉시 클로드가 외부 캘린더의 일정을 스스로 읽어온 다음, 다음과 같이 엑셀 시트 위에 표 형태로 깔끔하게 정리해 주는 것을 확인할 수 있습니다.\"}),\"\\n\",e(c.p,{children:e(c.img,{src:\"https://raw.githubusercontent.com/procpalee/my_obsidian_images/master/20260325011023309.png\",alt:\"image.png\"})}),\"\\n\",r(c.section,{\"data-footnotes\":!0,className:\"footnotes\",children:[e(c.h2,{className:\"sr-only\",id:\"footnote-label\",children:e(c.a,{href:\"#footnote-label\",children:\"Footnotes\"})}),\"\\n\",r(c.ol,{children:[\"\\n\",r(c.li,{id:\"user-content-fn-1\",children:[\"\\n\",r(c.p,{children:[e(c.strong,{children:\"API(Application Programming Interface)\"}),\" : 서로 다른 소프트웨어가 데이터를 주고받거나 기능을 사용할 수 있도록 연결해 주는 통신 매개체입니다. API를 활용하면 상대방 프로그램의 내부 구조를 몰라도 정해진 규칙에 맞게 요청하기만 하면 원하는 데이터나 결과물을 쉽게 얻어올 수 있습니다. 우리가 웹사이트에서 흔히 쓰는 '카카오/네이버 간편 로그인'의 경우가 해당 서비스 제공자(카카오/네이버)의 API를 활용한 대표적인 사례입니다. \",e(c.a,{href:\"#user-content-fnref-1\",\"data-footnote-backref\":\"\",\"aria-label\":\"Back to reference 1\",className:\"data-footnote-backref\",children:\"↩\"})]}),\"\\n\"]}),\"\\n\"]}),\"\\n\"]})]})}return{default:function(n={}){const{wrapper:r}=n.components||{};return r?e(r,{...n,children:e(_createMdxContent,{...n})}):_createMdxContent(n)}};",
-    "toc": [
-      {
-        "title": "1. 커넥터(MCP)의 개념",
-        "url": "#1-커넥터mcp의-개념",
-        "items": []
-      },
-      {
-        "title": "2. 커넥터의 종류 및 연결방법",
-        "url": "#2-커넥터의-종류-및-연결방법",
-        "items": [
-          {
-            "title": "2.1. 커넥터의 종류와 동기화 범위",
-            "url": "#21-커넥터의-종류와-동기화-범위",
-            "items": []
-          },
-          {
-            "title": "2.2. 커넥터 연결 방법",
-            "url": "#22-커넥터-연결-방법",
-            "items": [
-              {
-                "title": "2.2.1. 웹 커넥터 연결하기",
-                "url": "#221-웹-커넥터-연결하기",
-                "items": []
-              },
-              {
-                "title": "2.2.2. 커스텀 커넥터 연결하기",
-                "url": "#222-커스텀-커넥터-연결하기",
-                "items": []
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "3. 커넥터 사용법",
-        "url": "#3-커넥터-사용법",
-        "items": []
-      }
-    ],
-    "title": "7.1. 커넥터(MCP)란",
-    "series": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드",
-    "category": "ai",
-    "subcategory": "AI도구",
-    "order": 7,
-    "depth": 1,
-    "parentPath": "7-커넥터MCP-활용법",
-    "slugAsParams": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/71-커넥터MCP란"
-  },
-  {
-    "slug": "ai/AI도구/클로드 엑셀(Claude for Excel) 가이드/7. 커넥터(MCP) 활용법/7.2. 커스텀 커넥터 활용 - 전자공시시스템(Open DART)",
-    "subject": "7.2. 커스텀 커넥터 활용 - 전자공시시스템(Open DART)",
-    "draft": false,
-    "id": 336171,
-    "parent_id": 336045,
-    "book_id": 19374,
-    "open_yn": "Y",
-    "last_synced": "2026-04-09T15:49:26.227Z",
-    "metadata": {
-      "readingTime": 1,
-      "wordCount": 80
-    },
-    "body": "const{Fragment:n,jsx:e,jsxs:r}=arguments[0];function _createMdxContent(i){const c={a:\"a\",blockquote:\"blockquote\",code:\"code\",h2:\"h2\",h3:\"h3\",img:\"img\",li:\"li\",ol:\"ol\",p:\"p\",strong:\"strong\",ul:\"ul\",...i.components},{Callout:l}=c;return l||function(n,e){throw new Error(\"Expected \"+(e?\"component\":\"object\")+\" `\"+n+\"` to be defined: you likely forgot to import, pass, or provide it.\")}(\"Callout\",!0),r(n,{children:[e(c.h2,{id:\"1-opendart란\",children:e(c.a,{href:\"#1-opendart란\",children:\"1. OpenDART란?\"})}),\"\\n\",e(c.p,{children:\"회계, 재무 실무를 하다 보면 전자공시시스템(DART)에서 특정 기업의 재무제표나 공시 자료를 일일이 검색해서 찾아야 하는 일이 매우 잦습니다.\"}),\"\\n\",r(c.p,{children:[\"금융감독원에서는 이러한 번거로움을 덜기 위해 \",e(c.strong,{children:\"OpenDART\"}),\"라는 공식 API를 개방하여, 프로그래밍을 통해 공시 자료를 불러올 수 있도록 지원하고 있습니다.\"]}),\"\\n\",r(c.p,{children:[\"현재 OpenDART는 \",e(c.strong,{children:\"총 83개\"}),\"에 달하는 API 기능을 세분화하여 제공하고 있습니다. 대표적으로 단일/다중 회사의 \",e(c.strong,{children:\"주요 재무제표\"}),\"(재무상태표, 손익계산서 등) 조회부터, \",e(c.strong,{children:\"지분 공시\"}),\"(최대주주 변동, 대량보유 상황), \",e(c.strong,{children:\"주요 사항 보고서\"}),\"(유상증자, 전환사채 등), 그리고 사업보고서 원문 검색까지 기업 분석에 필요한 핵심 데이터를 프로그래밍으로 불러올 수 있습니다.\"]}),\"\\n\",r(l,{type:\"info\",title:\"XBRL과 OpenDART\",children:[r(c.p,{children:[e(c.strong,{children:\"XBRL(eXtensible Business Reporting Language)\"}),\" 은 기업이 재무제표를 작성할 때 각종 재무 데이터 항목에 표준화된 꼬리표(태그)를 달아 기계가 쉽게 읽고 활용할 수 있도록 만든 국제 표준 전산 언어입니다.\"]}),r(c.p,{children:[\"한국에서도 최근 상장사들의 \",e(c.strong,{children:\"XBRL 공시가 단계적으로 전면 의무화\"}),\"되었습니다. 즉, 과거에는 사람이 눈으로 읽어야 했던 PDF나 단순 표 형식의 재무제표들이 이제는 컴퓨터가 인식할 수 있는 규격화된 코드로 통일된 것입니다. XBRL의 도입 덕분에, 금융감독원(Open DART)은 각 기업의 방대한 재무 정보를 \",e(c.strong,{children:\"API 형태의 데이터로 제공\"}),\"할 수 있게 되었고, 클로드와 같은 AI가 이 데이터를 읽어내어 분석 및 요약할 수 있게 된 것입니다.\"]})]}),\"\\n\",e(c.h2,{id:\"2-opendart-mcp-서버-소개\",children:e(c.a,{href:\"#2-opendart-mcp-서버-소개\",children:\"2. OpenDART MCP 서버 소개\"})}),\"\\n\",r(c.p,{children:[\"여기서 한 걸음 더 나아가, Open DART를 \",e(c.strong,{children:\"'클로드의 MCP 서버(커스텀 커넥터)'\"}),\" 로 연동해 보면 어떨까요? 엑셀 밖을 벗어날 필요 없이, 클로드 엑셀 채팅창에 자연어로 지시하기만 하면 언제든 원하는 기업의 공시 데이터를 엑셀 시트로 불러오고 분석할 수 있게 됩니다.\"]}),\"\\n\",e(c.p,{children:\"공식 MCP 서버는 없지만, 제가 개발한 OpenDART MCP 서버를 연결하면 클로드 엑셀에서 손쉽게 공시 데이터를 다룰 수 있습니다.\"}),\"\\n\",r(c.blockquote,{children:[\"\\n\",r(c.p,{children:[\"GitHub 저장소: \",e(c.a,{href:\"https://github.com/procpalee/OpenDART-MCP-Server\",children:\"procpalee/OpenDART-MCP-Server\"})]}),\"\\n\"]}),\"\\n\",e(c.p,{children:\"이 커스텀 커넥터를 통해 엑셀 안에서 활용할 수 있는 주요 기능은 다음과 같습니다.\"}),\"\\n\",r(c.ul,{children:[\"\\n\",r(c.li,{children:[e(c.strong,{children:\"주요 재무제표 추출 및 분석:\"}),\"\\n상장기업의 재무상태표, 손익계산서 등 핵심 재무 데이터를 즉시 엑셀 표 형태로 불러와 수익성이나 안정성 지표 등을 분석할 수 있습니다.\"]}),\"\\n\",r(c.li,{children:[e(c.strong,{children:\"지분 변동 및 지배구조 현황 추적:\"}),\"\\n특정 기업의 최대주주 변경 내역이나 주요 임원진의 주식 대량 보유 상황, 지분 변동 공시를 빠르게 원격으로 추적할 수 있습니다.\"]}),\"\\n\",r(c.li,{children:[e(c.strong,{children:\"주요 사항 보고서 조회:\"}),\"\\n유상증자, 주식 배당 결정, 전환사채 발행 등 기업에 큰 영향을 미치는 경영 사항과 관련된 공시 정보들을 조건별로 검색하여 즉각 파악할 수 있습니다.\"]}),\"\\n\",r(c.li,{children:[e(c.strong,{children:\"스마트 기업명 매칭 (자동 고유번호 변환):\"}),\"\\n원래 공시를 조회하려면 복잡한 8자리 '기업 고유번호(Corp Code)'가 필수적이지만, 본 서버는 9만여 개의 데이터베이스를 자체 내장하고 있어 \\\"삼성전자\\\" 등 일반 회사 이름만 텍스트로 적어도 알아서 데이터를 매칭해 찾아옵니다.\"]}),\"\\n\"]}),\"\\n\",e(c.h2,{id:\"2-커스텀-커넥터-연결하기\",children:e(c.a,{href:\"#2-커스텀-커넥터-연결하기\",children:\"2. 커스텀 커넥터 연결하기\"})}),\"\\n\",e(c.h3,{id:\"21-opendart-api-키-발급받기\",children:e(c.a,{href:\"#21-opendart-api-키-발급받기\",children:\"2.1. OpenDART API 키 발급받기\"})}),\"\\n\",e(c.p,{children:\"MCP 서버를 사용하기 위해서는 다음의 순서에 따라 OpenDART API 키를 발급받아야 합니다.\"}),\"\\n\",r(c.ol,{children:[\"\\n\",r(c.li,{children:[e(c.a,{href:\"https://opendart.fss.or.kr/\",children:\"Open DART 홈페이지(opendart.fss.or.kr)\"}),\"에 접속합니다.\"]}),\"\\n\",r(c.li,{children:[\"상단 메뉴에서 \",e(c.code,{children:\"인증키 신청/관리\"}),\" - \",e(c.code,{children:\"인증키 신청\"}),\" 메뉴로 들어가서 회원가입 후 API 인증키 발급을 완료합니다.\"]}),\"\\n\",r(c.li,{children:[\"발급 후 \",e(c.code,{children:\"인증키 신청/관리\"}),\" - \",e(c.code,{children:\"Open API 이용현황\"}),\"에 들어가면 영문과 숫자로 조합된 긴 인증키가 나타나는데, 이 키를 미리 복사(Ctrl+C)해 둡니다.\"]}),\"\\n\"]}),\"\\n\",e(c.h3,{id:\"22-클로드에-커스텀-커넥터-추가하기\",children:e(c.a,{href:\"#22-클로드에-커스텀-커넥터-추가하기\",children:\"2.2. 클로드에 커스텀 커넥터 추가하기\"})}),\"\\n\",e(c.p,{children:\"발급 받은 API키를 활용해서 클로드에 커스텀 커넥터를 추가합니다.\"}),\"\\n\",r(c.ol,{children:[\"\\n\",r(c.li,{children:[\"브라우저에서 \",e(c.code,{children:\"Claude.ai\"}),\"에 접속하거나 클로드 데스크톱 앱을 열고, \",e(c.code,{children:\"사용자 지정\"}),\" ➔ \",e(c.code,{children:\"커넥터\"}),\" ➔ \",e(c.code,{children:\"+\"}),\" ➔ \",e(c.code,{children:\"커스텀 커넥터 추가\"}),\" 로 이동합니다.\"]}),\"\\n\",r(c.li,{children:[e(c.strong,{children:\"이름\"}),\"은 'OpenDART' 등 알아보기 편하게 적습니다.\"]}),\"\\n\",r(c.li,{children:[e(c.strong,{children:\"URL\"}),\" 입력란에 아래 주소를 복사하여 붙여넣고, 끝부분 \",e(c.code,{children:\"YOUR_API_KEY\"}),\" 글자를 지운 뒤 앞서 2.1에서 발급받은 본인의 API 키 번호로 바꿔서 적어줍니다.\\n\",e(c.code,{children:\"https://open-dart-mcp-server.vercel.app/api/mcp?opendart_key=YOUR_API_KEY\"})]}),\"\\n\",r(c.li,{children:[e(c.strong,{children:\"추가\"}),\" 버튼을 누르면 연동이 완료됩니다.\"]}),\"\\n\"]}),\"\\n\",e(c.h2,{id:\"3-실무-활용-사례-테스트\",children:e(c.a,{href:\"#3-실무-활용-사례-테스트\",children:\"3. 실무 활용 사례 테스트\"})}),\"\\n\",e(c.p,{children:\"이제 준비가 끝났다면 다음의 사례와 같이 테스트를 진행해 볼 수 있습니다.\"}),\"\\n\",e(c.h3,{id:\"사례-1-특정-기업의-최근-공시사항-일괄-조회\",children:e(c.a,{href:\"#사례-1-특정-기업의-최근-공시사항-일괄-조회\",children:\"사례 1. 특정 기업의 최근 공시사항 일괄 조회\"})}),\"\\n\",e(c.p,{children:'먼저, **\"현대자동차의 최근 공시사항 20개를 엑셀 시트에 정리해 줘.\"**라고 단순하게 요청해 보겠습니다.'}),\"\\n\",e(c.p,{children:\"클로드 에이전트가 지시를 파악한 즉시 알아서 OpenDART MCP 도구를 호출해 데이터를 조회하는 것을 확인할 수 있습니다. 특히 클로드가 먼저 '현대자동차'의 8자리 고유 코드를 찾아낸 뒤 곧바로 해당 기업의 공시 목록을 원격으로 불러오는 과정을 보여줍니다.\"}),\"\\n\",e(c.p,{children:e(c.img,{src:\"https://raw.githubusercontent.com/procpalee/my_obsidian_images/master/20260327105748475.png\",alt:\"클로드의 DART API 호출 화면\"})}),\"\\n\",e(c.p,{children:\"데이터 수집이 끝난 뒤, 클로드가 공시일자, 보고서 제목, 공시유형 등을 정리한 결과입니다.\"}),\"\\n\",e(c.p,{children:e(c.img,{src:\"https://raw.githubusercontent.com/procpalee/my_obsidian_images/master/20260327105233963.png\",alt:\"공시사항 결과물 시트\"})}),\"\\n\",e(c.h3,{id:\"사례-2-기업-최신-재무-데이터-원격-추출\",children:e(c.a,{href:\"#사례-2-기업-최신-재무-데이터-원격-추출\",children:\"사례 2. 기업 최신 재무 데이터 원격 추출\"})}),\"\\n\",e(c.p,{children:'이번에는 실무에서 가장 많이 쓰이는 재무 지표 조회를 위해 **\"삼성전자의 최신 사업보고서에서 주요 계정과목의 금액을 표로 정리해 줘.\"**라고 요청해 보겠습니다.'}),\"\\n\",e(c.p,{children:e(c.img,{src:\"https://raw.githubusercontent.com/procpalee/my_obsidian_images/master/20260327111141099.png\",alt:\"재무제표 API 호출 과정\"})}),\"\\n\",e(c.p,{children:\"마찬가지로 클로드가 DART 데이터베이스에 직접 접속하여 재무상태표의 핵심 단위 금액들을 엑셀 시트로 즉시 가져옵니다.\"}),\"\\n\",e(c.p,{children:e(c.img,{src:\"https://raw.githubusercontent.com/procpalee/my_obsidian_images/master/20260327111158653.png\",alt:\"재무제표 자동 작성 결과\"})}),\"\\n\",r(c.p,{children:[\"이러한 MCP 커넥터는 단독으로 사용하기보다는 앞서 우리가 배운 \",e(c.strong,{children:\"스킬(Skills)\"}),\" 기능과 결합했을 때 진정한 확장성을 가집니다. 스킬에 전체 프로세스를 정의하고, 외부에서 필요한 데이터가 있다면 이를 커넥터를 통해 가져올 수 있기 때문입니다.\"]}),\"\\n\",r(c.p,{children:[\"다음 챕터부터는 지금까지 배운 기능들을 토대로 \",e(c.strong,{children:\"실제 현업의 복잡한 실무 작업들을 클로드 엑셀로 어떻게 자동화할 수 있는지\"}),\" 구체적 사례들을 본격적으로 다뤄보겠습니다.\"]})]})}return{default:function(n={}){const{wrapper:r}=n.components||{};return r?e(r,{...n,children:e(_createMdxContent,{...n})}):_createMdxContent(n)}};",
-    "toc": [
-      {
-        "title": "1. OpenDART란?",
-        "url": "#1-opendart란",
-        "items": []
-      },
-      {
-        "title": "2. OpenDART MCP 서버 소개",
-        "url": "#2-opendart-mcp-서버-소개",
-        "items": []
-      },
-      {
-        "title": "2. 커스텀 커넥터 연결하기",
-        "url": "#2-커스텀-커넥터-연결하기",
-        "items": [
-          {
-            "title": "2.1. OpenDART API 키 발급받기",
-            "url": "#21-opendart-api-키-발급받기",
-            "items": []
-          },
-          {
-            "title": "2.2. 클로드에 커스텀 커넥터 추가하기",
-            "url": "#22-클로드에-커스텀-커넥터-추가하기",
-            "items": []
-          }
-        ]
-      },
-      {
-        "title": "3. 실무 활용 사례 테스트",
-        "url": "#3-실무-활용-사례-테스트",
-        "items": [
-          {
-            "title": "사례 1. 특정 기업의 최근 공시사항 일괄 조회",
-            "url": "#사례-1-특정-기업의-최근-공시사항-일괄-조회",
-            "items": []
-          },
-          {
-            "title": "사례 2. 기업 최신 재무 데이터 원격 추출",
-            "url": "#사례-2-기업-최신-재무-데이터-원격-추출",
-            "items": []
-          }
-        ]
-      }
-    ],
-    "title": "7.2. 커스텀 커넥터 활용 - 전자공시시스템(Open DART)",
-    "series": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드",
-    "category": "ai",
-    "subcategory": "AI도구",
-    "order": 7,
-    "depth": 1,
-    "parentPath": "7-커넥터MCP-활용법",
-    "slugAsParams": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/72-커스텀-커넥터-활용-전자공시시스템Open-DART"
-  },
-  {
     "slug": "ai/AI도구/클로드 엑셀(Claude for Excel) 가이드/6. 스킬(Skills) 활용법/6.1. 스킬(Skills)이란",
     "subject": "6.1. 스킬(Skills)이란",
     "draft": false,
@@ -2316,5 +2067,254 @@
     "depth": 1,
     "parentPath": "8-실무-사례-1-DCF-평가",
     "slugAsParams": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/8-실무-사례-1-DCF-평가/83-Step-2-기초-데이터-수집"
+  },
+  {
+    "slug": "ai/AI도구/클로드 엑셀(Claude for Excel) 가이드/7. 커넥터(MCP) 활용법/7.1. 커넥터(MCP)란",
+    "subject": "7.1. 커넥터(MCP)란",
+    "draft": false,
+    "id": 336068,
+    "parent_id": 336045,
+    "book_id": 19374,
+    "open_yn": "Y",
+    "last_synced": "2026-04-09T15:49:26.208Z",
+    "metadata": {
+      "readingTime": 1,
+      "wordCount": 79
+    },
+    "body": "const{Fragment:n,jsx:e,jsxs:r}=arguments[0];function _createMdxContent(i){const c={a:\"a\",code:\"code\",h2:\"h2\",h3:\"h3\",h4:\"h4\",img:\"img\",li:\"li\",ol:\"ol\",p:\"p\",section:\"section\",strong:\"strong\",sup:\"sup\",ul:\"ul\",...i.components},{Callout:o}=c;return o||function(n,e){throw new Error(\"Expected \"+(e?\"component\":\"object\")+\" `\"+n+\"` to be defined: you likely forgot to import, pass, or provide it.\")}(\"Callout\",!0),r(n,{children:[e(c.h2,{id:\"1-커넥터mcp의-개념\",children:e(c.a,{href:\"#1-커넥터mcp의-개념\",children:\"1. 커넥터(MCP)의 개념\"})}),\"\\n\",r(c.p,{children:[e(c.strong,{children:\"MCP(Model Context Protocol)\"}),\" 는 AI 모델이 외부의 다양한 소프트웨어 및 서비스와 상호작용할 수 있도록 통신 규격을 하나로 통일한 '개방형 표준 프로토콜'입니다. 쉽게 말해, AI가 외부 서비스를 다룰 수 있도록 하는 공용 언어라고 할 수 있습니다.\"]}),\"\\n\",r(c.p,{children:[\"우리가 업무에서 사용하는 수많은 서비스(예: Microsoft 365, Google Drive, Slack, Notion 등)는 데이터를 주고받기 위한 고유의 \",e(c.strong,{children:\"API(Application Programming Interface)\"}),e(c.sup,{children:e(c.a,{href:\"#user-content-fn-1\",id:\"user-content-fnref-1\",\"data-footnote-ref\":!0,\"aria-describedby\":\"footnote-label\",children:\"1\"})}),\"라는 통로를 가지고 있습니다. 문제는 이 API들의 규격이나 통신 방식이 각 서비스마다 제각각이라는 점입니다. 과거에는 AI가 10개의 서비스와 연동하려면 개발자들이 10개의 서로 다른 API 규격을 개별적으로 연결하는 코드를 짜야만 했습니다.\"]}),\"\\n\",r(c.p,{children:[\"이러한 비효율을 해결하기 위해 앤트로픽(Anthropic)이 제안한 범용 표준이 바로 \",e(c.strong,{children:\"MCP\"}),\"입니다. 비유하자면, 형태가 제각각인 각국의 전기 콘센트 규격에 '여행용 멀티 어댑터(MCP)'를 꽂아, 플러그 모양과 상관없이 전 세계 어디서든 똑같이 전기를 쓸 수 있게 만든 것과 같습니다. 각 서비스 앞에 MCP 규격만 씌워두면, AI가 어떤 서비스의 API를 쓰든지 똑같은 언어로 범용적으로 통신할 수 있게 됩니다.\"]}),\"\\n\",e(c.p,{children:\"언제부터인가 ChatGPT나 Gemini 같은 AI 챗봇들이 구글 드라이브의 문서를 스스로 읽어오거나, 지메일(Gmail) 내용을 직접 검색하는 등 외부 서비스와 연동되는 모습을 보셨을 것입니다. 이러한 AI의 기능 확장을 가능하게 한 핵심 기술이 바로 MCP라 할 수 있습니다.\"}),\"\\n\",r(c.p,{children:[\"클로드에서는 사용자들이 이 복잡한 기술 용어 대신 더욱 친숙하게 기능을 사용할 수 있도록, MCP를 \",e(c.strong,{children:\"'커넥터(Connectors)'\"}),\" 라는 직관적인 이름으로 부르며 제공하고 있습니다.\"]}),\"\\n\",e(c.h2,{id:\"2-커넥터의-종류-및-연결방법\",children:e(c.a,{href:\"#2-커넥터의-종류-및-연결방법\",children:\"2. 커넥터의 종류 및 연결방법\"})}),\"\\n\",e(c.h3,{id:\"21-커넥터의-종류와-동기화-범위\",children:e(c.a,{href:\"#21-커넥터의-종류와-동기화-범위\",children:\"2.1. 커넥터의 종류와 동기화 범위\"})}),\"\\n\",r(c.p,{children:[\"모든 커넥터는 \",e(c.strong,{children:\"MCP\"}),\" 위에서 동작합니다. 그러나 데이터를 처리하는 위치가 웹(클라우드)인지 내 컴퓨터(로컬) 내부에 국한되는지 등에 따라 크게 3가지로 분류됩니다.\"]}),\"\\n\",r(c.ul,{children:[\"\\n\",r(c.li,{children:[\"\\n\",r(c.p,{children:[e(c.strong,{children:\"웹 커넥터 (Web Connectors)\"}),\"\\n외부 원격 클라우드 서버에서 실행되는 가장 기본적인 커넥터입니다. Gmail, Google Calendar, Notion, Slack 등 앤트로픽이 안전성을 검증한 서비스들이 이에 속합니다. '커넥터 디렉토리'를 통해 로그인(OAuth) 한 번으로 간편하게 연결할 수 있으며, 계정에 한 번만 연결해 두면 데스크톱 앱, 모바일 앱, 그리고 \",e(c.strong,{children:\"클로드 엑셀에서도 사용할 수 있습니다.\"})]}),\"\\n\"]}),\"\\n\",r(c.li,{children:[\"\\n\",r(c.p,{children:[e(c.strong,{children:\"커스텀 커넥터 (Custom Connectors)\"}),\"\\n앤트로픽의 공식 인증 커넥터 목록에는 등록되지 않았지만, 사용자가 직접 개발하거나 외부에서 만들어진 MCP 서버 URL 주소를 입력하여 확장하는 연결 방식입니다. 예를 들어 DART(한국 전자공시시스템) 데이터를 호출하는 개인 서버를 맞춤형으로 붙여 쓸 수 있습니다. 방식 자체는 웹 커넥터와 동일하게 외부 원격 서버(인터넷 연결)를 통하므로, 이 역시 계정에 동기화되어 \",e(c.strong,{children:\"클로드 엑셀에서 사용할 수 있습니다.\"})]}),\"\\n\"]}),\"\\n\",r(c.li,{children:[\"\\n\",r(c.p,{children:[e(c.strong,{children:\"데스크톱 확장 (Desktop Extensions)\"}),\"\\n데이터가 외부 서버나 인터넷으로 나가지 않고, 오직 내 컴퓨터 안의 '클로드 데스크톱 앱'을 통해서만 돌아가는 로컬(Local) 서버 기반의 커넥터 방식입니다. 로컬(내 컴퓨터) 파일을 다루는 데 최적화되어 있지만, 외부 동기화가 차단되는 구조적 한계 때문에 \",e(c.strong,{children:\"클로드 엑셀에서는 사용할 수 없습니다.\"})]}),\"\\n\"]}),\"\\n\"]}),\"\\n\",e(o,{type:\"note\",title:\"결론: 클로드 엑셀에서 사용 가능한 커넥터의 범위\",children:r(c.p,{children:[\"클로드 엑셀은 웹 기반으로 동작하기 때문에 리모트(Remote) 기반인 **'웹 커넥터'**와 \",e(c.strong,{children:\"'커스텀 커넥터'\"}),\" 두가지만 직접 연결하여 사용할 수 있습니다.\"]})}),\"\\n\",e(c.h3,{id:\"22-커넥터-연결-방법\",children:e(c.a,{href:\"#22-커넥터-연결-방법\",children:\"2.2. 커넥터 연결 방법\"})}),\"\\n\",e(c.p,{children:\"클로드 엑셀에서 커넥터를 연결하는 방법은 간단합니다. 복잡한 설치 과정 없이, 클로드 계정의 설정 패널에서 클릭 몇 번만으로 외부 서비스를 연결할 수 있습니다.\"}),\"\\n\",e(c.h4,{id:\"221-웹-커넥터-연결하기\",children:e(c.a,{href:\"#221-웹-커넥터-연결하기\",children:\"2.2.1. 웹 커넥터 연결하기\"})}),\"\\n\",e(c.p,{children:\"가장 기본적인 공식 웹 커넥터를 연결하는 순서입니다.\"}),\"\\n\",r(c.ol,{children:[\"\\n\",r(c.li,{children:[\"\\n\",r(c.p,{children:[\"브라우저에서 \",e(c.code,{children:\"Claude.ai\"}),\"에 접속하거나 클로드 데스크톱 앱을 열어, 프로필 메뉴를 클릭합니다. \",e(c.code,{children:\"사용자 지정\"}),\" ➔ \",e(c.code,{children:\"커넥터\"}),\" 메뉴로 진입한 후, 우측 상단의 \",e(c.code,{children:\"+\"}),\" 버튼을 눌러 \",e(c.code,{children:\"커넥터 둘러보기\"}),\"를 클릭합니다.\\n\",e(c.img,{src:\"https://raw.githubusercontent.com/procpalee/my_obsidian_images/master/20260324233944478.png\",alt:\"웹 커넥터 둘러보기 화면\"})]}),\"\\n\"]}),\"\\n\",r(c.li,{children:[\"\\n\",r(c.p,{children:[\"연동을 원하는 외부 서비스(예: Google Calendar, Notion 등)를 찾아 우측의 \",e(c.code,{children:\"+\"}),\" 버튼을 클릭합니다. 팝업 안내를 따라 외부 서비스의 계정에 로그인하거나, 인증키(API Key)를 입력하면 즉시 연동이 완료됩니다.\\n\",e(c.img,{src:\"https://raw.githubusercontent.com/procpalee/my_obsidian_images/master/20260324233821021.png\",alt:\"원하는 커넥터 선택 및 연결\"})]}),\"\\n\"]}),\"\\n\"]}),\"\\n\",e(c.h4,{id:\"222-커스텀-커넥터-연결하기\",children:e(c.a,{href:\"#222-커스텀-커넥터-연결하기\",children:\"2.2.2. 커스텀 커넥터 연결하기\"})}),\"\\n\",e(c.p,{children:\"공식 인증을 받지 않은 외부 리모트 MCP 서버를 수동으로 등록하는 방법입니다.\"}),\"\\n\",r(c.ol,{children:[\"\\n\",r(c.li,{children:[\"\\n\",r(c.p,{children:[\"동일하게 \",e(c.code,{children:\"사용자 지정\"}),\" ➔ \",e(c.code,{children:\"커넥터\"}),\" 메뉴에서 우측 상단의 \",e(c.code,{children:\"+\"}),\" 버튼을 누르고, 이번에는 드롭다운 메뉴 아래의 \",e(c.code,{children:\"커스텀 커넥터 등록\"}),\"을 클릭합니다.\\n\",e(c.img,{src:\"https://raw.githubusercontent.com/procpalee/my_obsidian_images/master/20260325002537603.png\",alt:\"커스텀 커넥터 등록 메뉴\"})]}),\"\\n\"]}),\"\\n\",r(c.li,{children:[\"\\n\",r(c.p,{children:[\"연결하려는 외부 서버에서 제공받은 커넥터 고유의 이름(Name)과 접속 URL을 지정 칸에 각각 입력한 후, 하단의 \",e(c.code,{children:\"추가\"}),\" 버튼을 누르면 나만의 커넥터가 즉시 활성화됩니다.\\n\",e(c.img,{src:\"https://raw.githubusercontent.com/procpalee/my_obsidian_images/master/20260325002704558.png\",alt:\"커넥터 이름과 서버 URL 입력창\"})]}),\"\\n\"]}),\"\\n\"]}),\"\\n\",e(o,{type:\"tip\",title:\"커스텀 커넥터 실전 활용\",children:e(c.p,{children:\"커스텀 커넥터를 엑셀과 연결하여 실무에서 본격 활용하는 구체적인 전략에 대해서는, 이어지는 다음 장의 전자공시시스템(Open DART) 활용 사례에서 상세하게 다루도록 하겠습니다!\"})}),\"\\n\",e(c.h2,{id:\"3-커넥터-사용법\",children:e(c.a,{href:\"#3-커넥터-사용법\",children:\"3. 커넥터 사용법\"})}),\"\\n\",e(c.p,{children:\"원하는 커넥터를 성공적으로 연결했다면, 이제 클로드 엑셀 대화창에서 평소처럼 자연어로 외부 서비스 활용을 지시하기만 하면 됩니다.\"}),\"\\n\",e(o,{type:\"important\",title:\"커넥터 도구 사용 권한 체크\",children:r(c.p,{children:[\"클로드 엑셀에서 커넥터를 문제없이 구동하려면, 최초 연결을 진행했던 클로드 창(웹/앱) 설정에서 해당 커넥터의 \",e(c.strong,{children:\"도구 구동 권한\"}),\"을 \",e(c.code,{children:\"항상 허용(Always allow)\"}),\" 또는 \",e(c.code,{children:\"승인 필요(Ask before running)\"}),\" 상태로 유지해 두어야 합니다.\"]})}),\"\\n\",r(c.p,{children:[\"예를 들어 구글 캘린더(Google Calendar) 커넥터를 연동해 두었다면, 클로드 엑셀 채팅창에 \",e(c.strong,{children:'\"구글 캘린더에서 내 3월달 개인일정과 업무일정 찾아서 시트에 정리해\"'}),\" 고 요청해 봅니다.\"]}),\"\\n\",e(c.p,{children:e(c.img,{src:\"https://raw.githubusercontent.com/procpalee/my_obsidian_images/master/20260325010820299.png\",alt:\"image.png\"})}),\"\\n\",e(c.p,{children:\"요청 즉시 클로드가 외부 캘린더의 일정을 스스로 읽어온 다음, 다음과 같이 엑셀 시트 위에 표 형태로 깔끔하게 정리해 주는 것을 확인할 수 있습니다.\"}),\"\\n\",e(c.p,{children:e(c.img,{src:\"https://raw.githubusercontent.com/procpalee/my_obsidian_images/master/20260325011023309.png\",alt:\"image.png\"})}),\"\\n\",r(c.section,{\"data-footnotes\":!0,className:\"footnotes\",children:[e(c.h2,{className:\"sr-only\",id:\"footnote-label\",children:e(c.a,{href:\"#footnote-label\",children:\"Footnotes\"})}),\"\\n\",r(c.ol,{children:[\"\\n\",r(c.li,{id:\"user-content-fn-1\",children:[\"\\n\",r(c.p,{children:[e(c.strong,{children:\"API(Application Programming Interface)\"}),\" : 서로 다른 소프트웨어가 데이터를 주고받거나 기능을 사용할 수 있도록 연결해 주는 통신 매개체입니다. API를 활용하면 상대방 프로그램의 내부 구조를 몰라도 정해진 규칙에 맞게 요청하기만 하면 원하는 데이터나 결과물을 쉽게 얻어올 수 있습니다. 우리가 웹사이트에서 흔히 쓰는 '카카오/네이버 간편 로그인'의 경우가 해당 서비스 제공자(카카오/네이버)의 API를 활용한 대표적인 사례입니다. \",e(c.a,{href:\"#user-content-fnref-1\",\"data-footnote-backref\":\"\",\"aria-label\":\"Back to reference 1\",className:\"data-footnote-backref\",children:\"↩\"})]}),\"\\n\"]}),\"\\n\"]}),\"\\n\"]})]})}return{default:function(n={}){const{wrapper:r}=n.components||{};return r?e(r,{...n,children:e(_createMdxContent,{...n})}):_createMdxContent(n)}};",
+    "toc": [
+      {
+        "title": "1. 커넥터(MCP)의 개념",
+        "url": "#1-커넥터mcp의-개념",
+        "items": []
+      },
+      {
+        "title": "2. 커넥터의 종류 및 연결방법",
+        "url": "#2-커넥터의-종류-및-연결방법",
+        "items": [
+          {
+            "title": "2.1. 커넥터의 종류와 동기화 범위",
+            "url": "#21-커넥터의-종류와-동기화-범위",
+            "items": []
+          },
+          {
+            "title": "2.2. 커넥터 연결 방법",
+            "url": "#22-커넥터-연결-방법",
+            "items": [
+              {
+                "title": "2.2.1. 웹 커넥터 연결하기",
+                "url": "#221-웹-커넥터-연결하기",
+                "items": []
+              },
+              {
+                "title": "2.2.2. 커스텀 커넥터 연결하기",
+                "url": "#222-커스텀-커넥터-연결하기",
+                "items": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "3. 커넥터 사용법",
+        "url": "#3-커넥터-사용법",
+        "items": []
+      }
+    ],
+    "title": "7.1. 커넥터(MCP)란",
+    "series": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드",
+    "category": "ai",
+    "subcategory": "AI도구",
+    "order": 7,
+    "depth": 1,
+    "parentPath": "7-커넥터MCP-활용법",
+    "slugAsParams": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/71-커넥터MCP란"
+  },
+  {
+    "slug": "ai/AI도구/클로드 엑셀(Claude for Excel) 가이드/7. 커넥터(MCP) 활용법/7.2. 커스텀 커넥터 활용 - 전자공시시스템(Open DART)",
+    "subject": "7.2. 커스텀 커넥터 활용 - 전자공시시스템(Open DART)",
+    "draft": false,
+    "id": 336171,
+    "parent_id": 336045,
+    "book_id": 19374,
+    "open_yn": "Y",
+    "last_synced": "2026-04-09T15:49:26.227Z",
+    "metadata": {
+      "readingTime": 1,
+      "wordCount": 80
+    },
+    "body": "const{Fragment:n,jsx:e,jsxs:r}=arguments[0];function _createMdxContent(i){const c={a:\"a\",blockquote:\"blockquote\",code:\"code\",h2:\"h2\",h3:\"h3\",img:\"img\",li:\"li\",ol:\"ol\",p:\"p\",strong:\"strong\",ul:\"ul\",...i.components},{Callout:l}=c;return l||function(n,e){throw new Error(\"Expected \"+(e?\"component\":\"object\")+\" `\"+n+\"` to be defined: you likely forgot to import, pass, or provide it.\")}(\"Callout\",!0),r(n,{children:[e(c.h2,{id:\"1-opendart란\",children:e(c.a,{href:\"#1-opendart란\",children:\"1. OpenDART란?\"})}),\"\\n\",e(c.p,{children:\"회계, 재무 실무를 하다 보면 전자공시시스템(DART)에서 특정 기업의 재무제표나 공시 자료를 일일이 검색해서 찾아야 하는 일이 매우 잦습니다.\"}),\"\\n\",r(c.p,{children:[\"금융감독원에서는 이러한 번거로움을 덜기 위해 \",e(c.strong,{children:\"OpenDART\"}),\"라는 공식 API를 개방하여, 프로그래밍을 통해 공시 자료를 불러올 수 있도록 지원하고 있습니다.\"]}),\"\\n\",r(c.p,{children:[\"현재 OpenDART는 \",e(c.strong,{children:\"총 83개\"}),\"에 달하는 API 기능을 세분화하여 제공하고 있습니다. 대표적으로 단일/다중 회사의 \",e(c.strong,{children:\"주요 재무제표\"}),\"(재무상태표, 손익계산서 등) 조회부터, \",e(c.strong,{children:\"지분 공시\"}),\"(최대주주 변동, 대량보유 상황), \",e(c.strong,{children:\"주요 사항 보고서\"}),\"(유상증자, 전환사채 등), 그리고 사업보고서 원문 검색까지 기업 분석에 필요한 핵심 데이터를 프로그래밍으로 불러올 수 있습니다.\"]}),\"\\n\",r(l,{type:\"info\",title:\"XBRL과 OpenDART\",children:[r(c.p,{children:[e(c.strong,{children:\"XBRL(eXtensible Business Reporting Language)\"}),\" 은 기업이 재무제표를 작성할 때 각종 재무 데이터 항목에 표준화된 꼬리표(태그)를 달아 기계가 쉽게 읽고 활용할 수 있도록 만든 국제 표준 전산 언어입니다.\"]}),r(c.p,{children:[\"한국에서도 최근 상장사들의 \",e(c.strong,{children:\"XBRL 공시가 단계적으로 전면 의무화\"}),\"되었습니다. 즉, 과거에는 사람이 눈으로 읽어야 했던 PDF나 단순 표 형식의 재무제표들이 이제는 컴퓨터가 인식할 수 있는 규격화된 코드로 통일된 것입니다. XBRL의 도입 덕분에, 금융감독원(Open DART)은 각 기업의 방대한 재무 정보를 \",e(c.strong,{children:\"API 형태의 데이터로 제공\"}),\"할 수 있게 되었고, 클로드와 같은 AI가 이 데이터를 읽어내어 분석 및 요약할 수 있게 된 것입니다.\"]})]}),\"\\n\",e(c.h2,{id:\"2-opendart-mcp-서버-소개\",children:e(c.a,{href:\"#2-opendart-mcp-서버-소개\",children:\"2. OpenDART MCP 서버 소개\"})}),\"\\n\",r(c.p,{children:[\"여기서 한 걸음 더 나아가, Open DART를 \",e(c.strong,{children:\"'클로드의 MCP 서버(커스텀 커넥터)'\"}),\" 로 연동해 보면 어떨까요? 엑셀 밖을 벗어날 필요 없이, 클로드 엑셀 채팅창에 자연어로 지시하기만 하면 언제든 원하는 기업의 공시 데이터를 엑셀 시트로 불러오고 분석할 수 있게 됩니다.\"]}),\"\\n\",e(c.p,{children:\"공식 MCP 서버는 없지만, 제가 개발한 OpenDART MCP 서버를 연결하면 클로드 엑셀에서 손쉽게 공시 데이터를 다룰 수 있습니다.\"}),\"\\n\",r(c.blockquote,{children:[\"\\n\",r(c.p,{children:[\"GitHub 저장소: \",e(c.a,{href:\"https://github.com/procpalee/OpenDART-MCP-Server\",children:\"procpalee/OpenDART-MCP-Server\"})]}),\"\\n\"]}),\"\\n\",e(c.p,{children:\"이 커스텀 커넥터를 통해 엑셀 안에서 활용할 수 있는 주요 기능은 다음과 같습니다.\"}),\"\\n\",r(c.ul,{children:[\"\\n\",r(c.li,{children:[e(c.strong,{children:\"주요 재무제표 추출 및 분석:\"}),\"\\n상장기업의 재무상태표, 손익계산서 등 핵심 재무 데이터를 즉시 엑셀 표 형태로 불러와 수익성이나 안정성 지표 등을 분석할 수 있습니다.\"]}),\"\\n\",r(c.li,{children:[e(c.strong,{children:\"지분 변동 및 지배구조 현황 추적:\"}),\"\\n특정 기업의 최대주주 변경 내역이나 주요 임원진의 주식 대량 보유 상황, 지분 변동 공시를 빠르게 원격으로 추적할 수 있습니다.\"]}),\"\\n\",r(c.li,{children:[e(c.strong,{children:\"주요 사항 보고서 조회:\"}),\"\\n유상증자, 주식 배당 결정, 전환사채 발행 등 기업에 큰 영향을 미치는 경영 사항과 관련된 공시 정보들을 조건별로 검색하여 즉각 파악할 수 있습니다.\"]}),\"\\n\",r(c.li,{children:[e(c.strong,{children:\"스마트 기업명 매칭 (자동 고유번호 변환):\"}),\"\\n원래 공시를 조회하려면 복잡한 8자리 '기업 고유번호(Corp Code)'가 필수적이지만, 본 서버는 9만여 개의 데이터베이스를 자체 내장하고 있어 \\\"삼성전자\\\" 등 일반 회사 이름만 텍스트로 적어도 알아서 데이터를 매칭해 찾아옵니다.\"]}),\"\\n\"]}),\"\\n\",e(c.h2,{id:\"2-커스텀-커넥터-연결하기\",children:e(c.a,{href:\"#2-커스텀-커넥터-연결하기\",children:\"2. 커스텀 커넥터 연결하기\"})}),\"\\n\",e(c.h3,{id:\"21-opendart-api-키-발급받기\",children:e(c.a,{href:\"#21-opendart-api-키-발급받기\",children:\"2.1. OpenDART API 키 발급받기\"})}),\"\\n\",e(c.p,{children:\"MCP 서버를 사용하기 위해서는 다음의 순서에 따라 OpenDART API 키를 발급받아야 합니다.\"}),\"\\n\",r(c.ol,{children:[\"\\n\",r(c.li,{children:[e(c.a,{href:\"https://opendart.fss.or.kr/\",children:\"Open DART 홈페이지(opendart.fss.or.kr)\"}),\"에 접속합니다.\"]}),\"\\n\",r(c.li,{children:[\"상단 메뉴에서 \",e(c.code,{children:\"인증키 신청/관리\"}),\" - \",e(c.code,{children:\"인증키 신청\"}),\" 메뉴로 들어가서 회원가입 후 API 인증키 발급을 완료합니다.\"]}),\"\\n\",r(c.li,{children:[\"발급 후 \",e(c.code,{children:\"인증키 신청/관리\"}),\" - \",e(c.code,{children:\"Open API 이용현황\"}),\"에 들어가면 영문과 숫자로 조합된 긴 인증키가 나타나는데, 이 키를 미리 복사(Ctrl+C)해 둡니다.\"]}),\"\\n\"]}),\"\\n\",e(c.h3,{id:\"22-클로드에-커스텀-커넥터-추가하기\",children:e(c.a,{href:\"#22-클로드에-커스텀-커넥터-추가하기\",children:\"2.2. 클로드에 커스텀 커넥터 추가하기\"})}),\"\\n\",e(c.p,{children:\"발급 받은 API키를 활용해서 클로드에 커스텀 커넥터를 추가합니다.\"}),\"\\n\",r(c.ol,{children:[\"\\n\",r(c.li,{children:[\"브라우저에서 \",e(c.code,{children:\"Claude.ai\"}),\"에 접속하거나 클로드 데스크톱 앱을 열고, \",e(c.code,{children:\"사용자 지정\"}),\" ➔ \",e(c.code,{children:\"커넥터\"}),\" ➔ \",e(c.code,{children:\"+\"}),\" ➔ \",e(c.code,{children:\"커스텀 커넥터 추가\"}),\" 로 이동합니다.\"]}),\"\\n\",r(c.li,{children:[e(c.strong,{children:\"이름\"}),\"은 'OpenDART' 등 알아보기 편하게 적습니다.\"]}),\"\\n\",r(c.li,{children:[e(c.strong,{children:\"URL\"}),\" 입력란에 아래 주소를 복사하여 붙여넣고, 끝부분 \",e(c.code,{children:\"YOUR_API_KEY\"}),\" 글자를 지운 뒤 앞서 2.1에서 발급받은 본인의 API 키 번호로 바꿔서 적어줍니다.\\n\",e(c.code,{children:\"https://open-dart-mcp-server.vercel.app/api/mcp?opendart_key=YOUR_API_KEY\"})]}),\"\\n\",r(c.li,{children:[e(c.strong,{children:\"추가\"}),\" 버튼을 누르면 연동이 완료됩니다.\"]}),\"\\n\"]}),\"\\n\",e(c.h2,{id:\"3-실무-활용-사례-테스트\",children:e(c.a,{href:\"#3-실무-활용-사례-테스트\",children:\"3. 실무 활용 사례 테스트\"})}),\"\\n\",e(c.p,{children:\"이제 준비가 끝났다면 다음의 사례와 같이 테스트를 진행해 볼 수 있습니다.\"}),\"\\n\",e(c.h3,{id:\"사례-1-특정-기업의-최근-공시사항-일괄-조회\",children:e(c.a,{href:\"#사례-1-특정-기업의-최근-공시사항-일괄-조회\",children:\"사례 1. 특정 기업의 최근 공시사항 일괄 조회\"})}),\"\\n\",e(c.p,{children:'먼저, **\"현대자동차의 최근 공시사항 20개를 엑셀 시트에 정리해 줘.\"**라고 단순하게 요청해 보겠습니다.'}),\"\\n\",e(c.p,{children:\"클로드 에이전트가 지시를 파악한 즉시 알아서 OpenDART MCP 도구를 호출해 데이터를 조회하는 것을 확인할 수 있습니다. 특히 클로드가 먼저 '현대자동차'의 8자리 고유 코드를 찾아낸 뒤 곧바로 해당 기업의 공시 목록을 원격으로 불러오는 과정을 보여줍니다.\"}),\"\\n\",e(c.p,{children:e(c.img,{src:\"https://raw.githubusercontent.com/procpalee/my_obsidian_images/master/20260327105748475.png\",alt:\"클로드의 DART API 호출 화면\"})}),\"\\n\",e(c.p,{children:\"데이터 수집이 끝난 뒤, 클로드가 공시일자, 보고서 제목, 공시유형 등을 정리한 결과입니다.\"}),\"\\n\",e(c.p,{children:e(c.img,{src:\"https://raw.githubusercontent.com/procpalee/my_obsidian_images/master/20260327105233963.png\",alt:\"공시사항 결과물 시트\"})}),\"\\n\",e(c.h3,{id:\"사례-2-기업-최신-재무-데이터-원격-추출\",children:e(c.a,{href:\"#사례-2-기업-최신-재무-데이터-원격-추출\",children:\"사례 2. 기업 최신 재무 데이터 원격 추출\"})}),\"\\n\",e(c.p,{children:'이번에는 실무에서 가장 많이 쓰이는 재무 지표 조회를 위해 **\"삼성전자의 최신 사업보고서에서 주요 계정과목의 금액을 표로 정리해 줘.\"**라고 요청해 보겠습니다.'}),\"\\n\",e(c.p,{children:e(c.img,{src:\"https://raw.githubusercontent.com/procpalee/my_obsidian_images/master/20260327111141099.png\",alt:\"재무제표 API 호출 과정\"})}),\"\\n\",e(c.p,{children:\"마찬가지로 클로드가 DART 데이터베이스에 직접 접속하여 재무상태표의 핵심 단위 금액들을 엑셀 시트로 즉시 가져옵니다.\"}),\"\\n\",e(c.p,{children:e(c.img,{src:\"https://raw.githubusercontent.com/procpalee/my_obsidian_images/master/20260327111158653.png\",alt:\"재무제표 자동 작성 결과\"})}),\"\\n\",r(c.p,{children:[\"이러한 MCP 커넥터는 단독으로 사용하기보다는 앞서 우리가 배운 \",e(c.strong,{children:\"스킬(Skills)\"}),\" 기능과 결합했을 때 진정한 확장성을 가집니다. 스킬에 전체 프로세스를 정의하고, 외부에서 필요한 데이터가 있다면 이를 커넥터를 통해 가져올 수 있기 때문입니다.\"]}),\"\\n\",r(c.p,{children:[\"다음 챕터부터는 지금까지 배운 기능들을 토대로 \",e(c.strong,{children:\"실제 현업의 복잡한 실무 작업들을 클로드 엑셀로 어떻게 자동화할 수 있는지\"}),\" 구체적 사례들을 본격적으로 다뤄보겠습니다.\"]})]})}return{default:function(n={}){const{wrapper:r}=n.components||{};return r?e(r,{...n,children:e(_createMdxContent,{...n})}):_createMdxContent(n)}};",
+    "toc": [
+      {
+        "title": "1. OpenDART란?",
+        "url": "#1-opendart란",
+        "items": []
+      },
+      {
+        "title": "2. OpenDART MCP 서버 소개",
+        "url": "#2-opendart-mcp-서버-소개",
+        "items": []
+      },
+      {
+        "title": "2. 커스텀 커넥터 연결하기",
+        "url": "#2-커스텀-커넥터-연결하기",
+        "items": [
+          {
+            "title": "2.1. OpenDART API 키 발급받기",
+            "url": "#21-opendart-api-키-발급받기",
+            "items": []
+          },
+          {
+            "title": "2.2. 클로드에 커스텀 커넥터 추가하기",
+            "url": "#22-클로드에-커스텀-커넥터-추가하기",
+            "items": []
+          }
+        ]
+      },
+      {
+        "title": "3. 실무 활용 사례 테스트",
+        "url": "#3-실무-활용-사례-테스트",
+        "items": [
+          {
+            "title": "사례 1. 특정 기업의 최근 공시사항 일괄 조회",
+            "url": "#사례-1-특정-기업의-최근-공시사항-일괄-조회",
+            "items": []
+          },
+          {
+            "title": "사례 2. 기업 최신 재무 데이터 원격 추출",
+            "url": "#사례-2-기업-최신-재무-데이터-원격-추출",
+            "items": []
+          }
+        ]
+      }
+    ],
+    "title": "7.2. 커스텀 커넥터 활용 - 전자공시시스템(Open DART)",
+    "series": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드",
+    "category": "ai",
+    "subcategory": "AI도구",
+    "order": 7,
+    "depth": 1,
+    "parentPath": "7-커넥터MCP-활용법",
+    "slugAsParams": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/72-커스텀-커넥터-활용-전자공시시스템Open-DART"
+  },
+  {
+    "slug": "accounting/일반/내부회계관리제도 실무 가이드북/1. 개요/1.1. 내부회계관리제도의 도입 배경",
+    "subject": "1.1. 내부회계관리제도의 도입 배경",
+    "draft": false,
+    "id": -1,
+    "parent_id": 333210,
+    "book_id": 19244,
+    "open_yn": "Y",
+    "last_synced": "",
+    "metadata": {
+      "readingTime": 1,
+      "wordCount": 46.12
+    },
+    "body": "const{Fragment:n,jsx:e,jsxs:r}=arguments[0];function _createMdxContent(t){const l={a:\"a\",h2:\"h2\",h3:\"h3\",h4:\"h4\",li:\"li\",p:\"p\",strong:\"strong\",table:\"table\",tbody:\"tbody\",td:\"td\",th:\"th\",thead:\"thead\",tr:\"tr\",ul:\"ul\",...t.components},{Callout:i}=l;return i||function(n,e){throw new Error(\"Expected \"+(e?\"component\":\"object\")+\" `\"+n+\"` to be defined: you likely forgot to import, pass, or provide it.\")}(\"Callout\",!0),r(n,{children:[r(l.p,{children:[e(l.strong,{children:\"내부회계관리제도\"}),\"의 역사는 안타깝게도 \",e(l.strong,{children:\"분식회계의 역사\"}),\"와 그 궤를 같이합니다. 시장에 큰 충격을 주었던 대규모 회계 부정 사건들이 터질 때마다, 그 근본적인 원인으로 '내부통제의 부재'가 지목되었고 이를 보완하기 위해 제도가 강화되어 왔기 때문입니다.\"]}),\"\\n\",e(l.p,{children:\"본격적인 실무 가이드에 들어가기에 앞서, 내부회계관리제도가 어떤 배경에서 탄생하고 우리나라에 도입되게 되었는지 역사적인 흐름을 짚어보겠습니다. 실무와 직접적인 관련은 없지만, 상식으로 알고 있으면 제도의 성격을 이해하는 데 도움이 되니 가볍게 읽어보시길 권합니다.\"}),\"\\n\",e(l.h2,{id:\"1-미국의-회계-개혁을-촉발한-엔론enron과-월드컴worldcom\",children:e(l.a,{href:\"#1-미국의-회계-개혁을-촉발한-엔론enron과-월드컴worldcom\",children:\"1. 미국의 회계 개혁을 촉발한 '엔론(Enron)'과 '월드컴(WorldCom)'\"})}),\"\\n\",e(l.p,{children:\"2000년대 초 미국에서는 엔론과 월드컴이라는 두 초대형 회계 부정 사건이 연달아 터지면서, 미국 회계·감사 제도 전반을 뒤흔드는 개혁이 시작되었습니다. 이 사건들은 오늘날 내부통제에 대한 논의의 출발점으로 자주 언급됩니다.\"}),\"\\n\",e(l.h4,{id:\"11-엔론enron-사태-2001년\",children:e(l.a,{href:\"#11-엔론enron-사태-2001년\",children:\"1.1. 엔론(Enron) 사태 (2001년)\"})}),\"\\n\",e(l.p,{children:\"1990년대 엔론은 에너지 트레이딩과 관련 파생상품 비즈니스를 선도하며 미국을 대표하는 혁신 기업으로 꼽혔습니다. 한때 매출 기준 미국 7위를 기록할 정도의 거대한 기업이었고, 포춘(Fortune)이 선정하는 ‘미국에서 가장 혁신적인 기업’에 여러 해 연속 이름을 올릴 정도로 시장의 신뢰를 받았습니다.\"}),\"\\n\",e(l.p,{children:\"그러나 2001년, 엔론은 대규모 회계 부정이 드러난 뒤 결국 파산 보호를 신청하며 미국 기업 역사상 가장 충격적인 회계 사기 사건 중 하나로 기록됩니다. 표면적으로는 고성장·고수익을 자랑했지만, 그 이면에는 복잡한 구조를 이용한 분식이 숨겨져 있었습니다.\"}),\"\\n\",e(l.p,{children:\"엔론의 핵심 분식 수법은 크게 두 가지로 정리할 수 있습니다.\"}),\"\\n\",r(l.p,{children:[\"첫째는 \",e(l.strong,{children:\"마크투마켓(Mark-to-Market) 회계의 남용\"}),\"입니다. 엔론은 장기 에너지 공급 계약을 체결하면, 그 계약이 앞으로 장기간에 걸쳐 벌어들일 것으로 예상되는 이익을 계약 시점에 한꺼번에 현재 이익으로 인식하는 방식을 폭넓게 사용했습니다. 실제로는 아직 현금이 유입되지 않았고, 계약 자체의 불확실성도 상당했지만, 회계상으로는 미래 이익을 미리 끌어와 단기 실적을 부풀리는 효과가 있었습니다.\"]}),\"\\n\",r(l.p,{children:[\"둘째는 \",e(l.strong,{children:\"특수목적법인(SPE)을 이용한 부채·손실 은폐\"}),\"입니다. 엔론은 수백 개의 특수목적법인(SPE)을 설립해, 손실이 나는 자산과 관련 부채를 이들 법인으로 이전했습니다. 당시 회계 규정을 교묘히 이용해 이 SPE들이 엔론의 연결 재무제표에 포함되지 않도록 구조를 짠 결과 엔론 본사의 재무제표에서는 부채 규모와 손실이 제대로 드러나지 않았고, 기업의 재무 상태가 실제보다 훨씬 건전해 보이도록 포장되었습니다.\"]}),\"\\n\",e(l.p,{children:\"사건이 폭로된 이후 엔론은 순식간에 신뢰를 잃고 붕괴했습니다. 당시 세계 5대 회계법인(Big 5) 중 하나였던 아서 앤더슨(Arthur Andersen)은 엔론의 회계 처리 문제를 알고도 사실상 묵인했다는 비판을 받았고, 이후 수사가 시작되자 관련 감사 문서를 대규모로 파쇄한 사실까지 드러났습니다. 이 과정에서 아서 앤더슨은 형사 책임과 평판 훼손으로 사실상 해체되었고, 글로벌 회계 시장은 현재와 같은 Big 4 체제(Deloitte, PwC, EY, KPMG)로 재편됩니다.\"}),\"\\n\",e(l.h4,{id:\"12-월드컴worldcom-사태-2002년\",children:e(l.a,{href:\"#12-월드컴worldcom-사태-2002년\",children:\"1.2. 월드컴(WorldCom) 사태 (2002년)\"})}),\"\\n\",r(l.p,{children:[\"엔론의 충격이 채 가시기도 전인 2002년, 이번에는 미국 2위 통신 대기업 \",e(l.strong,{children:\"월드컴\"}),\"에서 더욱 대담한 분식이 터졌습니다.\"]}),\"\\n\",r(l.p,{children:[\"월드컴의 수법은 엔론에 비해 단순했지만, 그 규모는 어마어마했습니다. 네트워크 장비 유지 보수처럼 당연히 **비용(손익계산서)**으로 처리해야 할 지출을 **자본적 지출(자산)**로 슬쩍 재분류했습니다. 이 간단한 계정 조작 하나로, 비용이 줄어드니 이익이 늘어나고 자산도 부풀어 올라 무려 \",e(l.strong,{children:\"110억 달러(약 15조 원)\"}),\" 이상의 이익이 조작되었습니다. 이는 당시 미국 역사상 최대 규모의 회계 사기였습니다.\"]}),\"\\n\",e(l.p,{children:\"결과적으로 월드컴 역시 파산하였고, CEO 버나드 에버스(Bernard Ebbers)는 증권 사기 및 공모 혐의로 25년 징역형을 선고받았습니다.\"}),\"\\n\",e(l.h3,{id:\"13-사베인스-옥슬리법sarbanes-oxley-act-sox의-탄생\",children:e(l.a,{href:\"#13-사베인스-옥슬리법sarbanes-oxley-act-sox의-탄생\",children:\"1.3 사베인스-옥슬리법(Sarbanes-Oxley Act, SOX)의 탄생\"})}),\"\\n\",r(l.p,{children:[\"미 의회는 연이은 충격에 발빠르게 대응해 \",e(l.strong,{children:\"2002년 7월, SOX\"}),\"를 제정합니다. 주요 내용은 다음과 같습니다.\"]}),\"\\n\",r(l.ul,{children:[\"\\n\",r(l.li,{children:[e(l.strong,{children:\"302조 (경영진 인증)\"}),\": CEO·CFO가 재무제표의 정확성을 직접 서명·인증해야 하며, 허위 인증 시 형사 처벌을 받습니다.\"]}),\"\\n\",r(l.li,{children:[e(l.strong,{children:\"401조 (부외부채 공시 강화)\"}),\": 특수목적법인 등을 통한 부채 은폐를 막기 위해 부외 부채를 의무적으로 공시해야 합니다.\"]}),\"\\n\",r(l.li,{children:[e(l.strong,{children:\"404조 (내부통제에 대한 경영진 보고서)\"}),\": 경영진은 매년 내부통제의 효과성을 평가한 보고서를 제출해야 하며, 외부 감사인이 이를 **감사(Audit)**해야 합니다.\"]}),\"\\n\",r(l.li,{children:[e(l.strong,{children:\"802조 (증거 인멸 처벌 강화)\"}),\": 아서 앤더슨의 감사조서 삭제 사태를 계기로, 감사 관련 기록을 의도적으로 변경·폐기하면 최대 20년 징역에 처할 수 있습니다.\"]}),\"\\n\"]}),\"\\n\",e(i,{type:\"important\",title:\"내부회계관리제도의 시초\",children:e(l.p,{children:\"SOX 404조가 바로 내부회계관리제도의 원형이 된 조항입니다. '경영진이 내부통제를 직접 평가·책임지고, 외부 감사인이 이를 독립적으로 검증한다'는 구조가 우리나라의 내부회계관리제도에도 그대로 이식되었습니다.\"})}),\"\\n\",e(l.h2,{id:\"2-우리나라-내부회계관리제도의-도입-배경\",children:e(l.a,{href:\"#2-우리나라-내부회계관리제도의-도입-배경\",children:\"2. 우리나라 내부회계관리제도의 도입 배경\"})}),\"\\n\",e(l.p,{children:\"미국에서 대형 분식회계 사건들이 터지던 2000년대 초반, 우리나라도 비슷한 충격을 겪고 있었습니다. 우리나라의 내부회계관리제도 역시 대규모 회계 부정 사건이 발생할 때마다 제도의 허점이 지적되었고, 이를 보완하기 위해 검증 수준이 강화되어 온 역사를 가지고 있습니다.\"}),\"\\n\",e(l.h3,{id:\"21-대우그룹-사태와-제도의-첫걸음-2001년\",children:e(l.a,{href:\"#21-대우그룹-사태와-제도의-첫걸음-2001년\",children:\"2.1. 대우그룹 사태와 '제도의 첫걸음' (2001년)\"})}),\"\\n\",r(l.p,{children:[\"IMF 외환위기 직후인 1999년, 당시 국내 4대 재벌 중 하나였던 \",e(l.strong,{children:\"대우그룹\"}),\"의 수십조 원대 분식회계가 세상에 드러났습니다. 가공 매출 계상, 부채 누락 등 광범위한 조작이 이루어졌고, 결국 대우그룹은 해체 수순을 밟게 되었습니다. 대우그룹의 주요 계열사를 감사했던 \",e(l.strong,{children:\"산동회계법인\"}),\" 역시 부실 감사의 책임을 물어 영업정지 처분을 받았습니다. 이후 삼정회계법인이 산동회계법인의 대부분의 인력과 고객사를 흡수하며, 산동회계법인은 역사 속으로 사라졌습니다.\"]}),\"\\n\",r(l.p,{children:[\"이 충격 속에서 회계 투명성에 대한 요구가 빗발쳤고, 그 요구에 대한 대응의 일환으로 2001년 제정된 \",e(l.strong,{children:\"기업구조조정촉진법\"}),\"에 내부회계관리제도가 한시적으로 도입되었습니다. 신용공여액 500억 원 이상 기업을 대상으로 내부회계관리규정과 조직을 갖추도록 의무화했으나, \",e(l.strong,{children:\"외부감사인의 별도 검증 의무는 없어\"}),\" 실질적인 효과를 기대하기는 어려웠습니다.\"]}),\"\\n\",e(l.h3,{id:\"22-sk글로벌-사태와-검토review-제도의-도입-2003년\",children:e(l.a,{href:\"#22-sk글로벌-사태와-검토review-제도의-도입-2003년\",children:\"2.2. SK글로벌 사태와 '검토(Review) 제도의 도입' (2003년)\"})}),\"\\n\",e(l.p,{children:\"대우그룹 사태의 여파가 가라앉기도 전인 2003년, **SK글로벌(현 SK네트웍스)**에서 또다시 약 1조 5천억 원 규모의 분식회계가 터졌습니다. 특히 부채를 장부에서 숨기기 위해 금융기관의 잔액 증명서까지 위조하는 대담한 수법이 동원되었고, 감사인과 기업 간의 유착 문제까지 불거지며 시장의 불신은 극에 달했습니다.\"}),\"\\n\",r(l.p,{children:[\"계속되는 대형 분식을 막기 위해 정부는 미국의 SOX법을 참고하여 2003년 12월 \",e(l.strong,{children:\"외부감사법을 개정\"}),\"합니다. 한시법에 있던 제도를 정식으로 이관하여 상장사를 중심으로 제도의 운영을 의무화했고, 이때부터 \",e(l.strong,{children:\"외부감사인의 '검토(Review)' 의견 표명이 도입\"}),\"되었습니다.\\n다만, '검토'는 회사가 자체적으로 평가한 내용을 감사인이 질문이나 서면 위주로 가볍게 확인하는 수준에 머물렀다는 한계가 존재했습니다.\"]}),\"\\n\",e(l.h3,{id:\"23-대우조선해양-사태와-감사audit-제도로의-격상-20152018년\",children:e(l.a,{href:\"#23-대우조선해양-사태와-감사audit-제도로의-격상-20152018년\",children:\"2.3. 대우조선해양 사태와 '감사(Audit) 제도로의 격상' (2015~2018년)\"})}),\"\\n\",r(l.p,{children:[\"제도가 '검토' 수준으로 운영되던 중, 2015년 \",e(l.strong,{children:\"대우조선해양\"}),\"에서 또다시 약 3~4조 원대에 달하는 충격적인 분식회계가 적발되었습니다. 허위 이익을 바탕으로 대출을 받아 결국 10조 원에 달하는 공적 자금이 투입된 참사였습니다.\"]}),\"\\n\",r(l.p,{children:[\"이 사건이 결정적인 계기가 되어 2018년 11월, 이른바 **'신(新)외부감사법'**이 전면 시행되었습니다. 가장 핵심적인 변화는 회계 투명성을 높이기 위해 내부회계관리제도에 대한 외부감사인의 검증 수준을 기존 \",e(l.strong,{children:\"'검토(Review)'에서 '감사(Audit)'로 격상\"}),\"한 것입니다.\"]}),\"\\n\",e(l.p,{children:\"이제 외부감사인은 회사의 보고서를 훑어보는 것에 그치지 않고, 회사의 내부통제 시스템이 실제로 잘 돌아가고 있는지 직접 샘플을 뽑아 깐깐하게 테스트(Test)하고 독자적인 감사의견을 표명하도록 요구됩니다.\"}),\"\\n\",e(l.h4,{id:\"24-법령-타임라인\",children:e(l.a,{href:\"#24-법령-타임라인\",children:\"2.4. 법령 타임라인\"})}),\"\\n\",e(l.p,{children:\"지금까지 살펴본 굵직한 사건들을 거치며, 우리나라의 내부회계관리제도는 점차 그 검증 강도를 높여가는 방향으로 진화해 왔습니다. 핵심적인 법령 변천사를 시기별로 요약하면 다음과 같습니다.\"}),\"\\n\",r(l.table,{children:[e(l.thead,{children:r(l.tr,{children:[e(l.th,{style:{textAlign:\"left\"},children:\"관련 법령\"}),e(l.th,{style:{textAlign:\"left\"},children:\"시기\"}),e(l.th,{style:{textAlign:\"left\"},children:\"주요 내용 및 특징\"})]})}),r(l.tbody,{children:[r(l.tr,{children:[e(l.td,{style:{textAlign:\"left\"},children:e(l.strong,{children:\"기업구조조정 촉진법\"})}),e(l.td,{style:{textAlign:\"left\"},children:\"2003년 이전\"}),r(l.td,{style:{textAlign:\"left\"},children:[\"• 신용공여액 500억 원 이상 기업에 한해 최초 도입\",\"• 외부감사인의 별도 검증(검토·감사) 의무가 없어 실효성이 미미했음\"]})]}),r(l.tr,{children:[e(l.td,{style:{textAlign:\"left\"},children:e(l.strong,{children:\"외부감사법 개정\"})}),e(l.td,{style:{textAlign:\"left\"},children:\"2003년 12월\"}),r(l.td,{style:{textAlign:\"left\"},children:[\"• 제도의 법적 근거를 외부감사법으로 이관하여 본격화\",\"• 2006년부터 모든 상장법인을 대상으로 \",e(l.strong,{children:\"외부감사인의 '검토(Review)' 의무\"}),\" 부과\"]})]}),r(l.tr,{children:[r(l.td,{style:{textAlign:\"left\"},children:[e(l.strong,{children:\"신(新)외부감사법\"}),\"(전면 개정)\"]}),e(l.td,{style:{textAlign:\"left\"},children:\"2018년 11월\"}),r(l.td,{style:{textAlign:\"left\"},children:[\"• 2019년부터 자산 규모에 따라 \",e(l.strong,{children:\"외부감사인의 '감사(Audit)' 검증\"}),\"으로 대폭 상향\",\"• 단, 자산 1천억 원 미만 상장법인 및 5천억 원 이상 대형 비상장법인은 기존의 '검토' 절차 유지\"]})]})]})]})]})}return{default:function(n={}){const{wrapper:r}=n.components||{};return r?e(r,{...n,children:e(_createMdxContent,{...n})}):_createMdxContent(n)}};",
+    "toc": [
+      {
+        "title": "1. 미국의 회계 개혁을 촉발한 '엔론(Enron)'과 '월드컴(WorldCom)'",
+        "url": "#1-미국의-회계-개혁을-촉발한-엔론enron과-월드컴worldcom",
+        "items": [
+          {
+            "title": "1.3 사베인스-옥슬리법(Sarbanes-Oxley Act, SOX)의 탄생",
+            "url": "#13-사베인스-옥슬리법sarbanes-oxley-act-sox의-탄생",
+            "items": []
+          }
+        ]
+      },
+      {
+        "title": "2. 우리나라 내부회계관리제도의 도입 배경",
+        "url": "#2-우리나라-내부회계관리제도의-도입-배경",
+        "items": [
+          {
+            "title": "2.1. 대우그룹 사태와 '제도의 첫걸음' (2001년)",
+            "url": "#21-대우그룹-사태와-제도의-첫걸음-2001년",
+            "items": []
+          },
+          {
+            "title": "2.2. SK글로벌 사태와 '검토(Review) 제도의 도입' (2003년)",
+            "url": "#22-sk글로벌-사태와-검토review-제도의-도입-2003년",
+            "items": []
+          },
+          {
+            "title": "2.3. 대우조선해양 사태와 '감사(Audit) 제도로의 격상' (2015~2018년)",
+            "url": "#23-대우조선해양-사태와-감사audit-제도로의-격상-20152018년",
+            "items": [
+              {
+                "title": "2.4. 법령 타임라인",
+                "url": "#24-법령-타임라인",
+                "items": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "title": "1.1. 내부회계관리제도의 도입 배경",
+    "series": "accounting/일반/내부회계관리제도-실무-가이드북",
+    "category": "accounting",
+    "subcategory": "일반",
+    "order": 1,
+    "depth": 1,
+    "parentPath": "1-개요",
+    "slugAsParams": "accounting/일반/내부회계관리제도-실무-가이드북/1-개요/11-내부회계관리제도의-도입-배경"
+  },
+  {
+    "slug": "accounting/일반/내부회계관리제도 실무 가이드북/1. 개요/1.2. 내부회계관리제도 기본 개념",
+    "subject": "제목 없음",
+    "draft": false,
+    "id": -1,
+    "parent_id": 333210,
+    "book_id": 19244,
+    "last_synced": "",
+    "metadata": {
+      "readingTime": 1,
+      "wordCount": 0
+    },
+    "body": "const{Fragment:n,jsx:e,jsxs:l}=arguments[0];function _createMdxContent(i){const r={a:\"a\",h2:\"h2\",li:\"li\",p:\"p\",ul:\"ul\",...i.components};return l(n,{children:[e(r.h2,{id:\"내부통제의-필요성\",children:e(r.a,{href:\"#내부통제의-필요성\",children:\"내부통제의 필요성\"})}),\"\\n\",e(r.p,{children:\"내부회계가 뭐길래 분식회계가 발생할 때마다 내부회계를 강화해야한다는 목소리가 나왔을까?\\n앞서 말했듯이 내부회계관리제도는 재무보고의 신뢰성을 향상시키는 것을 목표로 한다. 재무보고의 신뢰성이란 결국 재무제표가 정확하게 작성되었는지이다.\"}),\"\\n\",e(r.p,{children:\"우리나라는 외감법에 따라 일정 규모 이상의 회사에 대해서는 회계감사를 받도록 함으로써 재무제표가 정확하게 작성되었는지를 검증하도록 하고 있다. 그렇다면 기존의 재무제표 감사만으로는 왜 재무제표의 적정성을 검증하기 어려웠을까?\"}),\"\\n\",e(r.p,{children:\"회계감사는 기말 자산, 부채의 적정성을 확인하고 기중 발생한 손익의 적정성을 확인하게 되어 있다. 하지만 회계감사는 모든 자산, 부채에 대해서 전수로 감사를 수행하지도 않고 그 방법 자체에도 한계가 있다.\\n예를 들어 재고자산에 대해 기말 재고실사를 수행하지만 회사가 장부상 재고자산을 뻥튀기해놓고 몰래 다른 재고를 빌려와서 넣어놨다고 했을 때, 하루 잠깐 나와서 실사를 한다고 그 사실을 알아낼 수 있을까?\\n혹은 거래가 기중에 수도 없이 발생하는 도소매업의 경우 기말에 관련 증빙을 몇백개 본다는 것 만으로 그 적정성을 확인할 수 있을까?\"}),\"\\n\",e(r.p,{children:\"즉, 기존의 재무제표 감사 절차는 결코 완벽하지 않고, 회사가 재무제표를 작성하는 과정 자체에 통제를 갖춰야 부정이나 오류가 발생하지 않는다는 관점이 내부회계꽌리제도의 도입 취지이다.\"}),\"\\n\",e(r.h2,{id:\"내부통제와-내부회계관리제도\",children:e(r.a,{href:\"#내부통제와-내부회계관리제도\",children:\"내부통제와 내부회계관리제도\"})}),\"\\n\",e(r.p,{children:\"내부회계관리제도 설계 및 운영 개념체계는 내부통제제도를 다음과 같이 정의하고 있다.\"}),\"\\n\",l(r.ul,{children:[\"\\n\",l(r.li,{children:[\"내부통제제도는 다음의 세 가지 목적달성에 대한 합리적 확신을 제공하기 위하여 조직의 이사회, 경영진 및 여타 구성원에 의해 지속적으로 실행되는 일련의 과정이다.\",\"\\n\",l(r.ul,{children:[\"\\n\",l(r.li,{children:[\"기업운영의 효율성 및 효과성 확보(운영목적)\",\"\\n\",l(r.ul,{children:[\"\\n\",e(r.li,{children:\"회사가 업무를 수행함에 있어 자원을 효과적이고 효율적으로 사용하고 있다.\"}),\"\\n\"]}),\"\\n\"]}),\"\\n\",l(r.li,{children:[\"보고 정보의 신뢰성 확보(보고목적)\",\"\\n\",l(r.ul,{children:[\"\\n\",e(r.li,{children:\"회사는 내부 및 외부 보고를 위해 정확하고 신뢰할 수 있는 재무정보와 비재무정보의 작성 및 보고체계를 유지하고 있다.\"}),\"\\n\"]}),\"\\n\"]}),\"\\n\",l(r.li,{children:[\"관련 법규 및 정책의 준수(법규준수목적)\",\"\\n\",l(r.ul,{children:[\"\\n\",e(r.li,{children:\"회사의 모든 활동은 관련 법규, 감독규정, 내부정책 및 절차를 준수하고 있다.\"}),\"\\n\"]}),\"\\n\"]}),\"\\n\"]}),\"\\n\"]}),\"\\n\"]}),\"\\n\",e(r.p,{children:\"그리고 내부회계관리제도는 다음과 같의 정의하고 있다.\"}),\"\\n\",l(r.ul,{children:[\"\\n\",e(r.li,{children:\"11 내부회계관리제도는 회사의 재무제표가 일반적으로 인정되는 회계처리기준에 따라 작성·공시되었는지에 대한 합리적 확신을 제공하기 위해 설계·운영되는 내부통제제도의 일부분으로서 회사의 경영진과 이사회를 포함한 모든 구성원들에 의해 지속적으로 실행되는 과정을 의미한다.\"}),\"\\n\",e(r.li,{children:\"12 내부회계관리제도는 내부통제제도의 보고정보의 신뢰성 확보목적 중 외부에 공시되는 재무제표의 신뢰성 확보를 목적으로 하며, 여기에는 자산의 보호 및 부정방지 프로그램이 포함된다. 운영목적이나 법규준수목적 등 다른 목적과 관련된 내부통제제도가 재무제표의 신뢰성 확보와 관련된 경우 해당 내부통제제도는 내부회계관리제도의 범위에 포함된다.\"}),\"\\n\"]}),\"\\n\",e(r.p,{children:\"즉, 내부회계관리제도는 재무제표의 신뢰성 확보를 목적으로 하는 내부통제제도라고 볼 수 있다.\"})]})}return{default:function(n={}){const{wrapper:l}=n.components||{};return l?e(l,{...n,children:e(_createMdxContent,{...n})}):_createMdxContent(n)}};",
+    "toc": [
+      {
+        "title": "내부통제의 필요성",
+        "url": "#내부통제의-필요성",
+        "items": []
+      },
+      {
+        "title": "내부통제와 내부회계관리제도",
+        "url": "#내부통제와-내부회계관리제도",
+        "items": []
+      }
+    ],
+    "title": "제목 없음",
+    "series": "accounting/일반/내부회계관리제도-실무-가이드북",
+    "category": "accounting",
+    "subcategory": "일반",
+    "order": 1,
+    "depth": 1,
+    "parentPath": "1-개요",
+    "slugAsParams": "accounting/일반/내부회계관리제도-실무-가이드북/1-개요/12-내부회계관리제도-기본-개념"
+  },
+  {
+    "slug": "accounting/일반/내부회계관리제도 실무 가이드북/1. 개요/1.3. 내부회계관리제도 관련 기준 체계",
+    "subject": "제목 없음",
+    "draft": false,
+    "id": -1,
+    "parent_id": 333210,
+    "book_id": 19244,
+    "last_synced": "",
+    "metadata": {
+      "readingTime": 0,
+      "wordCount": 0
+    },
+    "body": "",
+    "toc": [],
+    "title": "제목 없음",
+    "series": "accounting/일반/내부회계관리제도-실무-가이드북",
+    "category": "accounting",
+    "subcategory": "일반",
+    "order": 1,
+    "depth": 1,
+    "parentPath": "1-개요",
+    "slugAsParams": "accounting/일반/내부회계관리제도-실무-가이드북/1-개요/13-내부회계관리제도-관련-기준-체계"
   }
 ]

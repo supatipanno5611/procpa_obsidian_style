@@ -119,48 +119,6 @@
     "url": "/dev/일반/wiki-test",
     "category": "dev"
   },
-  "accounting/일반/내부회계관리제도-실무-가이드북/0-시작하며": {
-    "id": "accounting/일반/내부회계관리제도-실무-가이드북/0-시작하며",
-    "type": "chapter",
-    "title": "0. 시작하며",
-    "url": "/accounting/일반/내부회계관리제도-실무-가이드북/0-시작하며",
-    "category": "accounting"
-  },
-  "0-시작하며": {
-    "id": "accounting/일반/내부회계관리제도-실무-가이드북/0-시작하며",
-    "type": "chapter",
-    "title": "0. 시작하며",
-    "url": "/accounting/일반/내부회계관리제도-실무-가이드북/0-시작하며",
-    "category": "accounting"
-  },
-  "0. 시작하며": {
-    "id": "accounting/일반/내부회계관리제도-실무-가이드북/0-시작하며",
-    "type": "chapter",
-    "title": "0. 시작하며",
-    "url": "/accounting/일반/내부회계관리제도-실무-가이드북/0-시작하며",
-    "category": "accounting"
-  },
-  "accounting/일반/내부회계관리제도-실무-가이드북/1-개요": {
-    "id": "accounting/일반/내부회계관리제도-실무-가이드북/1-개요",
-    "type": "chapter",
-    "title": "1. 개요",
-    "url": "/accounting/일반/내부회계관리제도-실무-가이드북/1-개요",
-    "category": "accounting"
-  },
-  "1-개요": {
-    "id": "accounting/일반/내부회계관리제도-실무-가이드북/1-개요",
-    "type": "chapter",
-    "title": "1. 개요",
-    "url": "/accounting/일반/내부회계관리제도-실무-가이드북/1-개요",
-    "category": "accounting"
-  },
-  "1. 개요": {
-    "id": "accounting/일반/내부회계관리제도-실무-가이드북/1-개요",
-    "type": "chapter",
-    "title": "1. 개요",
-    "url": "/accounting/일반/내부회계관리제도-실무-가이드북/1-개요",
-    "category": "accounting"
-  },
   "ai/ai도구/비개발자를-위한-antigravity-가이드/1-설치-기본설정-확장-및-단축키": {
     "id": "ai/AI도구/비개발자를-위한-Antigravity-가이드/1-설치-기본설정-확장-및-단축키",
     "type": "chapter",
@@ -497,6 +455,20 @@
     "url": "/ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/8-실무-사례-1-DCF-평가",
     "category": "ai"
   },
+  "ai/ai도구/클로드-코워크claude-cowork-실무-가이드/시작하며": {
+    "id": "ai/AI도구/클로드-코워크Claude-Cowork-실무-가이드/시작하며",
+    "type": "chapter",
+    "title": "시작하며",
+    "url": "/ai/AI도구/클로드-코워크Claude-Cowork-실무-가이드/시작하며",
+    "category": "ai"
+  },
+  "시작하며": {
+    "id": "ai/AI도구/클로드-코워크Claude-Cowork-실무-가이드/시작하며",
+    "type": "chapter",
+    "title": "시작하며",
+    "url": "/ai/AI도구/클로드-코워크Claude-Cowork-실무-가이드/시작하며",
+    "category": "ai"
+  },
   "dev/일반/getting-started/01-intro": {
     "id": "dev/일반/getting-started/01-intro",
     "type": "chapter",
@@ -521,74 +493,46 @@
     "url": "/dev/일반/getting-started/01-intro",
     "category": "dev"
   },
-  "ai/ai도구/클로드-코워크claude-cowork-실무-가이드/시작하며": {
-    "id": "ai/AI도구/클로드-코워크Claude-Cowork-실무-가이드/시작하며",
+  "accounting/일반/내부회계관리제도-실무-가이드북/0-시작하며": {
+    "id": "accounting/일반/내부회계관리제도-실무-가이드북/0-시작하며",
     "type": "chapter",
-    "title": "시작하며",
-    "url": "/ai/AI도구/클로드-코워크Claude-Cowork-실무-가이드/시작하며",
-    "category": "ai"
-  },
-  "시작하며": {
-    "id": "ai/AI도구/클로드-코워크Claude-Cowork-실무-가이드/시작하며",
-    "type": "chapter",
-    "title": "시작하며",
-    "url": "/ai/AI도구/클로드-코워크Claude-Cowork-실무-가이드/시작하며",
-    "category": "ai"
-  },
-  "accounting/일반/내부회계관리제도-실무-가이드북/1-개요/11-내부회계관리제도의-도입-배경": {
-    "id": "accounting/일반/내부회계관리제도-실무-가이드북/1-개요/11-내부회계관리제도의-도입-배경",
-    "type": "chapter",
-    "title": "1.1. 내부회계관리제도의 도입 배경",
-    "url": "/accounting/일반/내부회계관리제도-실무-가이드북/1-개요/11-내부회계관리제도의-도입-배경",
+    "title": "0. 시작하며",
+    "url": "/accounting/일반/내부회계관리제도-실무-가이드북/0-시작하며",
     "category": "accounting"
   },
-  "11-내부회계관리제도의-도입-배경": {
-    "id": "accounting/일반/내부회계관리제도-실무-가이드북/1-개요/11-내부회계관리제도의-도입-배경",
+  "0-시작하며": {
+    "id": "accounting/일반/내부회계관리제도-실무-가이드북/0-시작하며",
     "type": "chapter",
-    "title": "1.1. 내부회계관리제도의 도입 배경",
-    "url": "/accounting/일반/내부회계관리제도-실무-가이드북/1-개요/11-내부회계관리제도의-도입-배경",
+    "title": "0. 시작하며",
+    "url": "/accounting/일반/내부회계관리제도-실무-가이드북/0-시작하며",
     "category": "accounting"
   },
-  "1.1. 내부회계관리제도의 도입 배경": {
-    "id": "accounting/일반/내부회계관리제도-실무-가이드북/1-개요/11-내부회계관리제도의-도입-배경",
+  "0. 시작하며": {
+    "id": "accounting/일반/내부회계관리제도-실무-가이드북/0-시작하며",
     "type": "chapter",
-    "title": "1.1. 내부회계관리제도의 도입 배경",
-    "url": "/accounting/일반/내부회계관리제도-실무-가이드북/1-개요/11-내부회계관리제도의-도입-배경",
+    "title": "0. 시작하며",
+    "url": "/accounting/일반/내부회계관리제도-실무-가이드북/0-시작하며",
     "category": "accounting"
   },
-  "accounting/일반/내부회계관리제도-실무-가이드북/1-개요/12-내부회계관리제도-기본-개념": {
-    "id": "accounting/일반/내부회계관리제도-실무-가이드북/1-개요/12-내부회계관리제도-기본-개념",
+  "accounting/일반/내부회계관리제도-실무-가이드북/1-개요": {
+    "id": "accounting/일반/내부회계관리제도-실무-가이드북/1-개요",
     "type": "chapter",
-    "title": "제목 없음",
-    "url": "/accounting/일반/내부회계관리제도-실무-가이드북/1-개요/12-내부회계관리제도-기본-개념",
+    "title": "1. 개요",
+    "url": "/accounting/일반/내부회계관리제도-실무-가이드북/1-개요",
     "category": "accounting"
   },
-  "12-내부회계관리제도-기본-개념": {
-    "id": "accounting/일반/내부회계관리제도-실무-가이드북/1-개요/12-내부회계관리제도-기본-개념",
+  "1-개요": {
+    "id": "accounting/일반/내부회계관리제도-실무-가이드북/1-개요",
     "type": "chapter",
-    "title": "제목 없음",
-    "url": "/accounting/일반/내부회계관리제도-실무-가이드북/1-개요/12-내부회계관리제도-기본-개념",
+    "title": "1. 개요",
+    "url": "/accounting/일반/내부회계관리제도-실무-가이드북/1-개요",
     "category": "accounting"
   },
-  "제목 없음": {
-    "id": "accounting/일반/내부회계관리제도-실무-가이드북/1-개요/12-내부회계관리제도-기본-개념",
+  "1. 개요": {
+    "id": "accounting/일반/내부회계관리제도-실무-가이드북/1-개요",
     "type": "chapter",
-    "title": "제목 없음",
-    "url": "/accounting/일반/내부회계관리제도-실무-가이드북/1-개요/12-내부회계관리제도-기본-개념",
-    "category": "accounting"
-  },
-  "accounting/일반/내부회계관리제도-실무-가이드북/1-개요/13-내부회계관리제도-관련-기준-체계": {
-    "id": "accounting/일반/내부회계관리제도-실무-가이드북/1-개요/13-내부회계관리제도-관련-기준-체계",
-    "type": "chapter",
-    "title": "제목 없음",
-    "url": "/accounting/일반/내부회계관리제도-실무-가이드북/1-개요/13-내부회계관리제도-관련-기준-체계",
-    "category": "accounting"
-  },
-  "13-내부회계관리제도-관련-기준-체계": {
-    "id": "accounting/일반/내부회계관리제도-실무-가이드북/1-개요/13-내부회계관리제도-관련-기준-체계",
-    "type": "chapter",
-    "title": "제목 없음",
-    "url": "/accounting/일반/내부회계관리제도-실무-가이드북/1-개요/13-내부회계관리제도-관련-기준-체계",
+    "title": "1. 개요",
+    "url": "/accounting/일반/내부회계관리제도-실무-가이드북/1-개요",
     "category": "accounting"
   },
   "ai/ai도구/비개발자를-위한-antigravity-가이드/6-스킬skills/61-스킬skills의-개념-및-구조": {
@@ -717,48 +661,6 @@
     "url": "/ai/AI도구/비개발자를-위한-Antigravity-가이드/7-MCP/72-NotebookLM-MCP",
     "category": "ai"
   },
-  "ai/ai도구/클로드-엑셀claude-for-excel-가이드/7-커넥터mcp-활용법/71-커넥터mcp란": {
-    "id": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/71-커넥터MCP란",
-    "type": "chapter",
-    "title": "7.1. 커넥터(MCP)란",
-    "url": "/ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/71-커넥터MCP란",
-    "category": "ai"
-  },
-  "71-커넥터mcp란": {
-    "id": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/71-커넥터MCP란",
-    "type": "chapter",
-    "title": "7.1. 커넥터(MCP)란",
-    "url": "/ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/71-커넥터MCP란",
-    "category": "ai"
-  },
-  "7.1. 커넥터(mcp)란": {
-    "id": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/71-커넥터MCP란",
-    "type": "chapter",
-    "title": "7.1. 커넥터(MCP)란",
-    "url": "/ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/71-커넥터MCP란",
-    "category": "ai"
-  },
-  "ai/ai도구/클로드-엑셀claude-for-excel-가이드/7-커넥터mcp-활용법/72-커스텀-커넥터-활용-전자공시시스템open-dart": {
-    "id": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/72-커스텀-커넥터-활용-전자공시시스템Open-DART",
-    "type": "chapter",
-    "title": "7.2. 커스텀 커넥터 활용 - 전자공시시스템(Open DART)",
-    "url": "/ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/72-커스텀-커넥터-활용-전자공시시스템Open-DART",
-    "category": "ai"
-  },
-  "72-커스텀-커넥터-활용-전자공시시스템open-dart": {
-    "id": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/72-커스텀-커넥터-활용-전자공시시스템Open-DART",
-    "type": "chapter",
-    "title": "7.2. 커스텀 커넥터 활용 - 전자공시시스템(Open DART)",
-    "url": "/ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/72-커스텀-커넥터-활용-전자공시시스템Open-DART",
-    "category": "ai"
-  },
-  "7.2. 커스텀 커넥터 활용 - 전자공시시스템(open dart)": {
-    "id": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/72-커스텀-커넥터-활용-전자공시시스템Open-DART",
-    "type": "chapter",
-    "title": "7.2. 커스텀 커넥터 활용 - 전자공시시스템(Open DART)",
-    "url": "/ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/72-커스텀-커넥터-활용-전자공시시스템Open-DART",
-    "category": "ai"
-  },
   "ai/ai도구/클로드-엑셀claude-for-excel-가이드/6-스킬skills-활용법/61-스킬skills이란": {
     "id": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/6-스킬Skills-활용법/61-스킬Skills이란",
     "type": "chapter",
@@ -884,5 +786,103 @@
     "title": "8.3. Step 2. 기초 데이터 수집",
     "url": "/ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/8-실무-사례-1-DCF-평가/83-Step-2-기초-데이터-수집",
     "category": "ai"
+  },
+  "ai/ai도구/클로드-엑셀claude-for-excel-가이드/7-커넥터mcp-활용법/71-커넥터mcp란": {
+    "id": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/71-커넥터MCP란",
+    "type": "chapter",
+    "title": "7.1. 커넥터(MCP)란",
+    "url": "/ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/71-커넥터MCP란",
+    "category": "ai"
+  },
+  "71-커넥터mcp란": {
+    "id": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/71-커넥터MCP란",
+    "type": "chapter",
+    "title": "7.1. 커넥터(MCP)란",
+    "url": "/ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/71-커넥터MCP란",
+    "category": "ai"
+  },
+  "7.1. 커넥터(mcp)란": {
+    "id": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/71-커넥터MCP란",
+    "type": "chapter",
+    "title": "7.1. 커넥터(MCP)란",
+    "url": "/ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/71-커넥터MCP란",
+    "category": "ai"
+  },
+  "ai/ai도구/클로드-엑셀claude-for-excel-가이드/7-커넥터mcp-활용법/72-커스텀-커넥터-활용-전자공시시스템open-dart": {
+    "id": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/72-커스텀-커넥터-활용-전자공시시스템Open-DART",
+    "type": "chapter",
+    "title": "7.2. 커스텀 커넥터 활용 - 전자공시시스템(Open DART)",
+    "url": "/ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/72-커스텀-커넥터-활용-전자공시시스템Open-DART",
+    "category": "ai"
+  },
+  "72-커스텀-커넥터-활용-전자공시시스템open-dart": {
+    "id": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/72-커스텀-커넥터-활용-전자공시시스템Open-DART",
+    "type": "chapter",
+    "title": "7.2. 커스텀 커넥터 활용 - 전자공시시스템(Open DART)",
+    "url": "/ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/72-커스텀-커넥터-활용-전자공시시스템Open-DART",
+    "category": "ai"
+  },
+  "7.2. 커스텀 커넥터 활용 - 전자공시시스템(open dart)": {
+    "id": "ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/72-커스텀-커넥터-활용-전자공시시스템Open-DART",
+    "type": "chapter",
+    "title": "7.2. 커스텀 커넥터 활용 - 전자공시시스템(Open DART)",
+    "url": "/ai/AI도구/클로드-엑셀Claude-for-Excel-가이드/7-커넥터MCP-활용법/72-커스텀-커넥터-활용-전자공시시스템Open-DART",
+    "category": "ai"
+  },
+  "accounting/일반/내부회계관리제도-실무-가이드북/1-개요/11-내부회계관리제도의-도입-배경": {
+    "id": "accounting/일반/내부회계관리제도-실무-가이드북/1-개요/11-내부회계관리제도의-도입-배경",
+    "type": "chapter",
+    "title": "1.1. 내부회계관리제도의 도입 배경",
+    "url": "/accounting/일반/내부회계관리제도-실무-가이드북/1-개요/11-내부회계관리제도의-도입-배경",
+    "category": "accounting"
+  },
+  "11-내부회계관리제도의-도입-배경": {
+    "id": "accounting/일반/내부회계관리제도-실무-가이드북/1-개요/11-내부회계관리제도의-도입-배경",
+    "type": "chapter",
+    "title": "1.1. 내부회계관리제도의 도입 배경",
+    "url": "/accounting/일반/내부회계관리제도-실무-가이드북/1-개요/11-내부회계관리제도의-도입-배경",
+    "category": "accounting"
+  },
+  "1.1. 내부회계관리제도의 도입 배경": {
+    "id": "accounting/일반/내부회계관리제도-실무-가이드북/1-개요/11-내부회계관리제도의-도입-배경",
+    "type": "chapter",
+    "title": "1.1. 내부회계관리제도의 도입 배경",
+    "url": "/accounting/일반/내부회계관리제도-실무-가이드북/1-개요/11-내부회계관리제도의-도입-배경",
+    "category": "accounting"
+  },
+  "accounting/일반/내부회계관리제도-실무-가이드북/1-개요/12-내부회계관리제도-기본-개념": {
+    "id": "accounting/일반/내부회계관리제도-실무-가이드북/1-개요/12-내부회계관리제도-기본-개념",
+    "type": "chapter",
+    "title": "제목 없음",
+    "url": "/accounting/일반/내부회계관리제도-실무-가이드북/1-개요/12-내부회계관리제도-기본-개념",
+    "category": "accounting"
+  },
+  "12-내부회계관리제도-기본-개념": {
+    "id": "accounting/일반/내부회계관리제도-실무-가이드북/1-개요/12-내부회계관리제도-기본-개념",
+    "type": "chapter",
+    "title": "제목 없음",
+    "url": "/accounting/일반/내부회계관리제도-실무-가이드북/1-개요/12-내부회계관리제도-기본-개념",
+    "category": "accounting"
+  },
+  "제목 없음": {
+    "id": "accounting/일반/내부회계관리제도-실무-가이드북/1-개요/12-내부회계관리제도-기본-개념",
+    "type": "chapter",
+    "title": "제목 없음",
+    "url": "/accounting/일반/내부회계관리제도-실무-가이드북/1-개요/12-내부회계관리제도-기본-개념",
+    "category": "accounting"
+  },
+  "accounting/일반/내부회계관리제도-실무-가이드북/1-개요/13-내부회계관리제도-관련-기준-체계": {
+    "id": "accounting/일반/내부회계관리제도-실무-가이드북/1-개요/13-내부회계관리제도-관련-기준-체계",
+    "type": "chapter",
+    "title": "제목 없음",
+    "url": "/accounting/일반/내부회계관리제도-실무-가이드북/1-개요/13-내부회계관리제도-관련-기준-체계",
+    "category": "accounting"
+  },
+  "13-내부회계관리제도-관련-기준-체계": {
+    "id": "accounting/일반/내부회계관리제도-실무-가이드북/1-개요/13-내부회계관리제도-관련-기준-체계",
+    "type": "chapter",
+    "title": "제목 없음",
+    "url": "/accounting/일반/내부회계관리제도-실무-가이드북/1-개요/13-내부회계관리제도-관련-기준-체계",
+    "category": "accounting"
   }
 }

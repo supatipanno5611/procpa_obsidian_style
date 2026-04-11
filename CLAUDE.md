@@ -25,7 +25,7 @@ npm run lint        # eslint
 
 After editing any file in `content/`, Velite must rebuild. `predev`/`prebuild` hooks handle this automatically; if the dev server is already running, either restart it or run `npm run content:watch` in a second terminal.
 
-Vercel CLI (installed globally) is the deploy path: `vercel` for preview, `vercel env pull` for env. **Do not `vercel --prod` yet** — procpa.co.kr is still served by the old site; production cutover will happen as a separate, deliberate step.
+Vercel CLI (installed globally) is the deploy path: `vercel` for preview, `vercel --prod` for production, `vercel env pull` for env.
 
 ## Content pipeline (Velite)
 

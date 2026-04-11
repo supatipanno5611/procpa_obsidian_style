@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 export default function GraphPage() {
   return (
-    <main className="mx-auto w-full max-w-6xl px-6 py-12">
+    <main className="mx-auto w-full max-w-5xl px-6 py-12">
       <header className="mb-10">
         <p className="font-mono text-[11px] uppercase tracking-wider text-muted-foreground">
           Graph

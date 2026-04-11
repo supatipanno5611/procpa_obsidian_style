@@ -36,7 +36,7 @@ function VaultLayout({ children }: { children: React.ReactNode }) {
   const vaultData = getVaultData()
   return (
     <div className="border-t border-border/60">
-      <div className="mx-auto grid min-h-[calc(100vh-3.5rem)] max-w-6xl grid-cols-12 gap-0 px-6 lg:px-0">
+      <div className="mx-auto grid min-h-[calc(100vh-3.5rem)] max-w-5xl grid-cols-12 gap-0 px-6 lg:px-0">
         <aside className="hidden border-border/60 lg:col-span-3 lg:block lg:border-r">
           <div className="group/sidebar sticky top-14 h-[calc(100vh-3.5rem)]">
             <ScrollArea className="h-full [&_[data-slot=scroll-area-scrollbar]]:opacity-0 [&_[data-slot=scroll-area-scrollbar]]:transition-opacity group-hover/sidebar:[&_[data-slot=scroll-area-scrollbar]]:opacity-100">
@@ -459,7 +459,7 @@ function PostView({
   return (
     <>
     <ReadingProgress />
-    <div className="mx-auto max-w-6xl px-6 py-12">
+    <div className="mx-auto max-w-5xl px-6 py-12">
       <JsonLd
         data={articleJsonLd({
           title: post.title,
@@ -595,7 +595,7 @@ function ChapterView({ r }: { r: Extract<Resolved, { type: 'chapter' }> }) {
   return (
     <>
     <ReadingProgress />
-    <div className="mx-auto max-w-6xl px-6 py-12">
+    <div className="mx-auto max-w-5xl px-6 py-12">
       <JsonLd
         data={articleJsonLd({
           title: `${r.chapter.title} · ${r.series.title}`,

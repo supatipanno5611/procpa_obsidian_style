@@ -2,7 +2,10 @@ import type { Metadata } from 'next'
 import { posts, series, chapters } from '#site/content'
 import { FacetPanel, type FacetCounts } from '@/components/explore/facet-panel'
 import { ResultList, type ResultItem } from '@/components/explore/result-list'
+import { Pagination } from '@/components/explore/pagination'
 import { topicLabel } from '@/lib/topics'
+
+const PER_PAGE = 10
 
 export const metadata: Metadata = {
   title: 'Explore',
@@ -86,6 +89,7 @@ export default async function ExplorePage({ searchParams }: PageProps) {
   const selectedType = asString(sp.type) as '' | 'post' | 'series' | 'chapter'
   const selectedYear = asString(sp.year)
   const selectedTags = asArray(sp.tag)
+  const currentPage = Math.max(1, parseInt(asString(sp.page) || '1', 10))
 
   const allDocs = buildDocs()
 
@@ -132,8 +136,12 @@ export default async function ExplorePage({ searchParams }: PageProps) {
   if (selectedYear) activeBadges.push(`year: ${selectedYear}`)
   for (const t of selectedTags) activeBadges.push(`#${t}`)
 
+  const totalPages = Math.max(1, Math.ceil(results.length / PER_PAGE))
+  const safePage = Math.min(currentPage, totalPages)
+  const pagedResults = results.slice((safePage - 1) * PER_PAGE, safePage * PER_PAGE)
+
   return (
-    <div className="mx-auto max-w-6xl px-6 py-12">
+    <div className="mx-auto max-w-5xl px-6 py-12">
       <header className="mb-10">
         <p className="font-mono text-[11px] uppercase tracking-wider text-muted-foreground">
           Explore
@@ -151,7 +159,7 @@ export default async function ExplorePage({ searchParams }: PageProps) {
         <div className="col-span-12 md:col-span-9">
           <div className="mb-4 flex items-center justify-between">
             <p className="font-mono text-[11px] text-muted-foreground">
-              {results.length}개 결과
+              {results.length}개 결과{totalPages > 1 && ` · ${safePage}/${totalPages} 페이지`}
             </p>
             {activeBadges.length > 0 && (
               <div className="flex flex-wrap gap-1.5">
@@ -166,7 +174,8 @@ export default async function ExplorePage({ searchParams }: PageProps) {
               </div>
             )}
           </div>
-          <ResultList items={results} />
+          <ResultList items={pagedResults} />
+          <Pagination currentPage={safePage} totalPages={totalPages} searchParams={sp} />
         </div>
       </div>
     </div>
