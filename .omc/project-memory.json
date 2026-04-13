@@ -194,15 +194,15 @@
       "type": "file"
     },
     {
-      "path": "src\\components\\graph\\global-graph.tsx",
-      "accessCount": 6,
-      "lastAccessed": 1776045063855,
+      "path": "src\\app\\page.tsx",
+      "accessCount": 8,
+      "lastAccessed": 1776053606603,
       "type": "file"
     },
     {
-      "path": "src\\app\\page.tsx",
+      "path": "src\\components\\graph\\global-graph.tsx",
       "accessCount": 6,
-      "lastAccessed": 1776045064584,
+      "lastAccessed": 1776045063855,
       "type": "file"
     },
     {
@@ -419,6 +419,18 @@
       "path": "src\\components\\graph\\lazy-local-graph.tsx",
       "accessCount": 1,
       "lastAccessed": 1776045906092,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\theme-preview\\page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776053600473,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\series-preview\\page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776070190794,
       "type": "file"
     }
   ],
