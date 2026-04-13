@@ -7,7 +7,8 @@ import { Menu } from 'lucide-react'
 import { Sheet, SheetContent, SheetTitle, SheetTrigger } from '@/components/ui/sheet'
 import { ThemeToggle } from '@/components/theme-toggle'
 import { PalettePicker } from '@/components/palette-picker'
-import { CommandPalette } from '@/components/command-palette'
+import dynamic from 'next/dynamic'
+const CommandPalette = dynamic(() => import('@/components/command-palette').then((m) => m.CommandPalette), { ssr: false })
 import { MobileVaultSidebar } from '@/components/vault/mobile-vault-sidebar'
 
 const nav = [

@@ -6,16 +6,23 @@ export function ReadingProgress() {
   const [progress, setProgress] = useState(0)
 
   useEffect(() => {
+    let raf = 0
     function handleScroll() {
-      const el = document.documentElement
-      const scrollTop = el.scrollTop
-      const scrollHeight = el.scrollHeight - el.clientHeight
-      if (scrollHeight > 0) {
-        setProgress(Math.min(100, (scrollTop / scrollHeight) * 100))
-      }
+      if (raf) return
+      raf = requestAnimationFrame(() => {
+        const el = document.documentElement
+        const scrollHeight = el.scrollHeight - el.clientHeight
+        if (scrollHeight > 0) {
+          setProgress(Math.min(100, (el.scrollTop / scrollHeight) * 100))
+        }
+        raf = 0
+      })
     }
     window.addEventListener('scroll', handleScroll, { passive: true })
-    return () => window.removeEventListener('scroll', handleScroll)
+    return () => {
+      window.removeEventListener('scroll', handleScroll)
+      cancelAnimationFrame(raf)
+    }
   }, [])
 
   return (

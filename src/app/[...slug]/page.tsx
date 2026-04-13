@@ -10,7 +10,7 @@ import { ReadingProgress } from '@/components/reading-progress'
 import { ShareButtons } from '@/components/share-buttons'
 import { MobileCollapsible } from '@/components/mobile-collapsible'
 import { BacklinksPanel } from '@/components/backlinks-panel'
-import { LocalGraph } from '@/components/graph/local-graph'
+import { LazyLocalGraph } from '@/components/graph/lazy-local-graph'
 import { JsonLd, articleJsonLd, breadcrumbJsonLd } from '@/components/json-ld'
 import { VaultSidebar, type VaultData } from '@/components/vault/vault-sidebar'
 import { ScrollArea } from '@/components/ui/scroll-area'
@@ -615,7 +615,9 @@ function PostView({
 
           {/* 백링크/그래프 */}
           <BacklinksPanel slug={post.slugAsParams} />
-          <LocalGraph currentSlug={post.slugAsParams} />
+          <div className="hidden lg:block">
+            <LazyLocalGraph currentSlug={post.slugAsParams} />
+          </div>
         </article>
       </div>
     </div>
@@ -817,7 +819,9 @@ function ChapterView({ r }: { r: Extract<Resolved, { type: 'chapter' }> }) {
 
           {/* 백링크/그래프 */}
           <BacklinksPanel slug={r.chapter.slugAsParams} />
-          <LocalGraph currentSlug={r.chapter.slugAsParams} />
+          <div className="hidden lg:block">
+            <LazyLocalGraph currentSlug={r.chapter.slugAsParams} />
+          </div>
         </article>
       </div>
     </div>

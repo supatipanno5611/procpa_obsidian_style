@@ -60,12 +60,12 @@ export function TableOfContents({ items, hideTitle = false }: { items: TocItem[]
 
     const observer = new IntersectionObserver(
       (entries) => {
-        // 화면에 보이는 heading 중 가장 위에 있는 것을 active로
         const visible = entries
           .filter((e) => e.isIntersecting)
           .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top)
         if (visible.length > 0) {
-          setActiveId(visible[0].target.id)
+          const nextId = visible[0].target.id
+          setActiveId((prev) => (prev === nextId ? prev : nextId))
         }
       },
       { rootMargin: '-80px 0px -70% 0px', threshold: 0 },

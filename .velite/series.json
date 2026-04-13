@@ -1,5 +1,18 @@
 [
   {
+    "slug": "01. 회계실무/01. ICFR/내부회계관리제도 실무 가이드북/metadata",
+    "title": "내부회계관리제도 실무 가이드북",
+    "description": "",
+    "tags": [],
+    "order": 0,
+    "draft": false,
+    "id": 19244,
+    "body": "",
+    "category": "회계실무",
+    "subcategory": "01. ICFR",
+    "slugAsParams": "회계실무/icfr/내부회계관리제도-실무-가이드북"
+  },
+  {
     "slug": "02. AI&생산성/01. AI 활용/비개발자를 위한 Antigravity 가이드/metadata",
     "title": "비개발자를 위한 Antigravity 가이드",
     "description": "",
@@ -37,18 +50,5 @@
     "category": "ai-생산성",
     "subcategory": "01. AI 활용",
     "slugAsParams": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드"
-  },
-  {
-    "slug": "01. 회계실무/01. ICFR/내부회계관리제도 실무 가이드북/metadata",
-    "title": "내부회계관리제도 실무 가이드북",
-    "description": "",
-    "tags": [],
-    "order": 0,
-    "draft": false,
-    "id": 19244,
-    "body": "",
-    "category": "회계실무",
-    "subcategory": "01. ICFR",
-    "slugAsParams": "회계실무/icfr/내부회계관리제도-실무-가이드북"
   }
 ]

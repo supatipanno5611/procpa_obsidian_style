@@ -63,10 +63,20 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           type="font/woff2"
           crossOrigin="anonymous"
         />
+        {/* 폰트 CSS 비동기 로딩: print → all 트릭으로 FCP 블로킹 방지 */}
         <link
           rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/variable/pretendardvariable.min.css"
+          media="print"
+          // @ts-expect-error -- onLoad sets media to 'all' after async load
+          onLoad="this.media='all'"
         />
+        <noscript>
+          <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/variable/pretendardvariable.min.css"
+          />
+        </noscript>
         <Script strategy="beforeInteractive" dangerouslySetInnerHTML={{ __html: themeScript }} />
       </head>
       <body className="min-h-full flex flex-col bg-background text-foreground [word-break:keep-all]">

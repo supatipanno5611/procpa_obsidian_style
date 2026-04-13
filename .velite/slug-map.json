@@ -170,24 +170,24 @@
   "개발/web-app/회계재무-실무자를-위한-지식관리-플랫폼-procpa-제작": {
     "id": "개발/web-app/회계재무-실무자를-위한-지식관리-플랫폼-procpa-제작",
     "type": "post",
-    "title": "회계,재무 실무자를 위한 지식관리 플랫폼 (PROCPA) 제작",
-    "description": "최근 클로드코드(Claude Code)와 안티그래비티(Antigravity)를 활용하여 지식 관리 웹사이트를 새롭게 구축했습니다. 이 글에서는 그 제작 과정과 사용 기술, 주요 기능들을 공유하고자 합니다. 저처럼 개인 블로그나 지식 관리용 웹사이트를 직접 만들어보고 싶은 비개발자 분들에게 작은 도움이 되기를 바랍니다.",
+    "title": "회계·재무 실무자를 위한 지식관리 플랫폼 (PROCPA) 제작",
+    "description": "옵시디언에서 작성한 마크다운을 그대로 웹에 올리는 개인 지식 플랫폼을 만든 과정을 정리합니다. 제작 동기부터 기술 스택, 주요 기능, 사용 방법까지.",
     "url": "/개발/web-app/회계재무-실무자를-위한-지식관리-플랫폼-procpa-제작",
     "category": "개발"
   },
   "회계재무-실무자를-위한-지식관리-플랫폼-procpa-제작": {
     "id": "개발/web-app/회계재무-실무자를-위한-지식관리-플랫폼-procpa-제작",
     "type": "post",
-    "title": "회계,재무 실무자를 위한 지식관리 플랫폼 (PROCPA) 제작",
-    "description": "최근 클로드코드(Claude Code)와 안티그래비티(Antigravity)를 활용하여 지식 관리 웹사이트를 새롭게 구축했습니다. 이 글에서는 그 제작 과정과 사용 기술, 주요 기능들을 공유하고자 합니다. 저처럼 개인 블로그나 지식 관리용 웹사이트를 직접 만들어보고 싶은 비개발자 분들에게 작은 도움이 되기를 바랍니다.",
+    "title": "회계·재무 실무자를 위한 지식관리 플랫폼 (PROCPA) 제작",
+    "description": "옵시디언에서 작성한 마크다운을 그대로 웹에 올리는 개인 지식 플랫폼을 만든 과정을 정리합니다. 제작 동기부터 기술 스택, 주요 기능, 사용 방법까지.",
     "url": "/개발/web-app/회계재무-실무자를-위한-지식관리-플랫폼-procpa-제작",
     "category": "개발"
   },
-  "회계,재무 실무자를 위한 지식관리 플랫폼 (procpa) 제작": {
+  "회계·재무 실무자를 위한 지식관리 플랫폼 (procpa) 제작": {
     "id": "개발/web-app/회계재무-실무자를-위한-지식관리-플랫폼-procpa-제작",
     "type": "post",
-    "title": "회계,재무 실무자를 위한 지식관리 플랫폼 (PROCPA) 제작",
-    "description": "최근 클로드코드(Claude Code)와 안티그래비티(Antigravity)를 활용하여 지식 관리 웹사이트를 새롭게 구축했습니다. 이 글에서는 그 제작 과정과 사용 기술, 주요 기능들을 공유하고자 합니다. 저처럼 개인 블로그나 지식 관리용 웹사이트를 직접 만들어보고 싶은 비개발자 분들에게 작은 도움이 되기를 바랍니다.",
+    "title": "회계·재무 실무자를 위한 지식관리 플랫폼 (PROCPA) 제작",
+    "description": "옵시디언에서 작성한 마크다운을 그대로 웹에 올리는 개인 지식 플랫폼을 만든 과정을 정리합니다. 제작 동기부터 기술 스택, 주요 기능, 사용 방법까지.",
     "url": "/개발/web-app/회계재무-실무자를-위한-지식관리-플랫폼-procpa-제작",
     "category": "개발"
   },
@@ -239,173 +239,47 @@
     "url": "/개발/mcp/전자공시시스템opendart-mcp-웹-서버-개발",
     "category": "개발"
   },
-  "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/설치-기본설정-확장-및-단축키": {
-    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/설치-기본설정-확장-및-단축키",
+  "회계실무/icfr/내부회계관리제도-실무-가이드북/시작하며": {
+    "id": "회계실무/icfr/내부회계관리제도-실무-가이드북/시작하며",
     "type": "chapter",
-    "title": "1. 설치, 기본설정, 확장 및 단축키",
-    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/설치-기본설정-확장-및-단축키",
-    "category": "ai-생산성"
+    "title": "0. 시작하며",
+    "url": "/회계실무/icfr/내부회계관리제도-실무-가이드북/시작하며",
+    "category": "회계실무"
   },
-  "설치-기본설정-확장-및-단축키": {
-    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/설치-기본설정-확장-및-단축키",
+  "시작하며": {
+    "id": "회계실무/icfr/내부회계관리제도-실무-가이드북/시작하며",
     "type": "chapter",
-    "title": "1. 설치, 기본설정, 확장 및 단축키",
-    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/설치-기본설정-확장-및-단축키",
-    "category": "ai-생산성"
+    "title": "0. 시작하며",
+    "url": "/회계실무/icfr/내부회계관리제도-실무-가이드북/시작하며",
+    "category": "회계실무"
   },
-  "1. 설치, 기본설정, 확장 및 단축키": {
-    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/설치-기본설정-확장-및-단축키",
+  "0. 시작하며": {
+    "id": "회계실무/icfr/내부회계관리제도-실무-가이드북/시작하며",
     "type": "chapter",
-    "title": "1. 설치, 기본설정, 확장 및 단축키",
-    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/설치-기본설정-확장-및-단축키",
-    "category": "ai-생산성"
+    "title": "0. 시작하며",
+    "url": "/회계실무/icfr/내부회계관리제도-실무-가이드북/시작하며",
+    "category": "회계실무"
   },
-  "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/에디터editor-기초-사용법": {
-    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/에디터editor-기초-사용법",
+  "회계실무/icfr/내부회계관리제도-실무-가이드북/개요": {
+    "id": "회계실무/icfr/내부회계관리제도-실무-가이드북/개요",
     "type": "chapter",
-    "title": "2. 에디터(Editor) 기초 사용법",
-    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/에디터editor-기초-사용법",
-    "category": "ai-생산성"
+    "title": "1. 개요",
+    "url": "/회계실무/icfr/내부회계관리제도-실무-가이드북/개요",
+    "category": "회계실무"
   },
-  "에디터editor-기초-사용법": {
-    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/에디터editor-기초-사용법",
+  "개요": {
+    "id": "회계실무/icfr/내부회계관리제도-실무-가이드북/개요",
     "type": "chapter",
-    "title": "2. 에디터(Editor) 기초 사용법",
-    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/에디터editor-기초-사용법",
-    "category": "ai-생산성"
+    "title": "1. 개요",
+    "url": "/회계실무/icfr/내부회계관리제도-실무-가이드북/개요",
+    "category": "회계실무"
   },
-  "2. 에디터(editor) 기초 사용법": {
-    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/에디터editor-기초-사용법",
+  "1. 개요": {
+    "id": "회계실무/icfr/내부회계관리제도-실무-가이드북/개요",
     "type": "chapter",
-    "title": "2. 에디터(Editor) 기초 사용법",
-    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/에디터editor-기초-사용법",
-    "category": "ai-생산성"
-  },
-  "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/에이전트agent와-아티팩트artifact": {
-    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/에이전트agent와-아티팩트artifact",
-    "type": "chapter",
-    "title": "3. 에이전트(Agent)와 아티팩트(Artifact)",
-    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/에이전트agent와-아티팩트artifact",
-    "category": "ai-생산성"
-  },
-  "에이전트agent와-아티팩트artifact": {
-    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/에이전트agent와-아티팩트artifact",
-    "type": "chapter",
-    "title": "3. 에이전트(Agent)와 아티팩트(Artifact)",
-    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/에이전트agent와-아티팩트artifact",
-    "category": "ai-생산성"
-  },
-  "3. 에이전트(agent)와 아티팩트(artifact)": {
-    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/에이전트agent와-아티팩트artifact",
-    "type": "chapter",
-    "title": "3. 에이전트(Agent)와 아티팩트(Artifact)",
-    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/에이전트agent와-아티팩트artifact",
-    "category": "ai-생산성"
-  },
-  "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/규칙rules": {
-    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/규칙rules",
-    "type": "chapter",
-    "title": "4. 규칙(Rules)",
-    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/규칙rules",
-    "category": "ai-생산성"
-  },
-  "규칙rules": {
-    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/규칙rules",
-    "type": "chapter",
-    "title": "4. 규칙(Rules)",
-    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/규칙rules",
-    "category": "ai-생산성"
-  },
-  "4. 규칙(rules)": {
-    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/규칙rules",
-    "type": "chapter",
-    "title": "4. 규칙(Rules)",
-    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/규칙rules",
-    "category": "ai-생산성"
-  },
-  "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/워크플로우workflows": {
-    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/워크플로우workflows",
-    "type": "chapter",
-    "title": "5. 워크플로우(Workflows)",
-    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/워크플로우workflows",
-    "category": "ai-생산성"
-  },
-  "워크플로우workflows": {
-    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/워크플로우workflows",
-    "type": "chapter",
-    "title": "5. 워크플로우(Workflows)",
-    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/워크플로우workflows",
-    "category": "ai-생산성"
-  },
-  "5. 워크플로우(workflows)": {
-    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/워크플로우workflows",
-    "type": "chapter",
-    "title": "5. 워크플로우(Workflows)",
-    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/워크플로우workflows",
-    "category": "ai-생산성"
-  },
-  "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/스킬skills": {
-    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/스킬skills",
-    "type": "chapter",
-    "title": "6. 스킬(Skills)",
-    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/스킬skills",
-    "category": "ai-생산성"
-  },
-  "스킬skills": {
-    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/스킬skills",
-    "type": "chapter",
-    "title": "6. 스킬(Skills)",
-    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/스킬skills",
-    "category": "ai-생산성"
-  },
-  "6. 스킬(skills)": {
-    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/스킬skills",
-    "type": "chapter",
-    "title": "6. 스킬(Skills)",
-    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/스킬skills",
-    "category": "ai-생산성"
-  },
-  "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/mcp": {
-    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/mcp",
-    "type": "chapter",
-    "title": "7. MCP",
-    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/mcp",
-    "category": "ai-생산성"
-  },
-  "mcp": {
-    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/mcp",
-    "type": "chapter",
-    "title": "7. MCP",
-    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/mcp",
-    "category": "ai-생산성"
-  },
-  "7. mcp": {
-    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/mcp",
-    "type": "chapter",
-    "title": "7. MCP",
-    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/mcp",
-    "category": "ai-생산성"
-  },
-  "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/브라우저-서브-에이전트": {
-    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/브라우저-서브-에이전트",
-    "type": "chapter",
-    "title": "8. 브라우저 서브 에이전트",
-    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/브라우저-서브-에이전트",
-    "category": "ai-생산성"
-  },
-  "브라우저-서브-에이전트": {
-    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/브라우저-서브-에이전트",
-    "type": "chapter",
-    "title": "8. 브라우저 서브 에이전트",
-    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/브라우저-서브-에이전트",
-    "category": "ai-생산성"
-  },
-  "8. 브라우저 서브 에이전트": {
-    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/브라우저-서브-에이전트",
-    "type": "chapter",
-    "title": "8. 브라우저 서브 에이전트",
-    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/브라우저-서브-에이전트",
-    "category": "ai-생산성"
+    "title": "1. 개요",
+    "url": "/회계실무/icfr/내부회계관리제도-실무-가이드북/개요",
+    "category": "회계실무"
   },
   "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/클로드-엑셀-소개": {
     "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/클로드-엑셀-소개",
@@ -575,47 +449,173 @@
     "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/실무-사례-1-dcf-평가",
     "category": "ai-생산성"
   },
-  "회계실무/icfr/내부회계관리제도-실무-가이드북/시작하며": {
-    "id": "회계실무/icfr/내부회계관리제도-실무-가이드북/시작하며",
+  "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/설치-기본설정-확장-및-단축키": {
+    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/설치-기본설정-확장-및-단축키",
     "type": "chapter",
-    "title": "0. 시작하며",
-    "url": "/회계실무/icfr/내부회계관리제도-실무-가이드북/시작하며",
-    "category": "회계실무"
+    "title": "1. 설치, 기본설정, 확장 및 단축키",
+    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/설치-기본설정-확장-및-단축키",
+    "category": "ai-생산성"
   },
-  "시작하며": {
-    "id": "회계실무/icfr/내부회계관리제도-실무-가이드북/시작하며",
+  "설치-기본설정-확장-및-단축키": {
+    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/설치-기본설정-확장-및-단축키",
     "type": "chapter",
-    "title": "0. 시작하며",
-    "url": "/회계실무/icfr/내부회계관리제도-실무-가이드북/시작하며",
-    "category": "회계실무"
+    "title": "1. 설치, 기본설정, 확장 및 단축키",
+    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/설치-기본설정-확장-및-단축키",
+    "category": "ai-생산성"
   },
-  "0. 시작하며": {
-    "id": "회계실무/icfr/내부회계관리제도-실무-가이드북/시작하며",
+  "1. 설치, 기본설정, 확장 및 단축키": {
+    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/설치-기본설정-확장-및-단축키",
     "type": "chapter",
-    "title": "0. 시작하며",
-    "url": "/회계실무/icfr/내부회계관리제도-실무-가이드북/시작하며",
-    "category": "회계실무"
+    "title": "1. 설치, 기본설정, 확장 및 단축키",
+    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/설치-기본설정-확장-및-단축키",
+    "category": "ai-생산성"
   },
-  "회계실무/icfr/내부회계관리제도-실무-가이드북/개요": {
-    "id": "회계실무/icfr/내부회계관리제도-실무-가이드북/개요",
+  "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/에디터editor-기초-사용법": {
+    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/에디터editor-기초-사용법",
     "type": "chapter",
-    "title": "1. 개요",
-    "url": "/회계실무/icfr/내부회계관리제도-실무-가이드북/개요",
-    "category": "회계실무"
+    "title": "2. 에디터(Editor) 기초 사용법",
+    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/에디터editor-기초-사용법",
+    "category": "ai-생산성"
   },
-  "개요": {
-    "id": "회계실무/icfr/내부회계관리제도-실무-가이드북/개요",
+  "에디터editor-기초-사용법": {
+    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/에디터editor-기초-사용법",
     "type": "chapter",
-    "title": "1. 개요",
-    "url": "/회계실무/icfr/내부회계관리제도-실무-가이드북/개요",
-    "category": "회계실무"
+    "title": "2. 에디터(Editor) 기초 사용법",
+    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/에디터editor-기초-사용법",
+    "category": "ai-생산성"
   },
-  "1. 개요": {
-    "id": "회계실무/icfr/내부회계관리제도-실무-가이드북/개요",
+  "2. 에디터(editor) 기초 사용법": {
+    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/에디터editor-기초-사용법",
     "type": "chapter",
-    "title": "1. 개요",
-    "url": "/회계실무/icfr/내부회계관리제도-실무-가이드북/개요",
-    "category": "회계실무"
+    "title": "2. 에디터(Editor) 기초 사용법",
+    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/에디터editor-기초-사용법",
+    "category": "ai-생산성"
+  },
+  "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/에이전트agent와-아티팩트artifact": {
+    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/에이전트agent와-아티팩트artifact",
+    "type": "chapter",
+    "title": "3. 에이전트(Agent)와 아티팩트(Artifact)",
+    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/에이전트agent와-아티팩트artifact",
+    "category": "ai-생산성"
+  },
+  "에이전트agent와-아티팩트artifact": {
+    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/에이전트agent와-아티팩트artifact",
+    "type": "chapter",
+    "title": "3. 에이전트(Agent)와 아티팩트(Artifact)",
+    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/에이전트agent와-아티팩트artifact",
+    "category": "ai-생산성"
+  },
+  "3. 에이전트(agent)와 아티팩트(artifact)": {
+    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/에이전트agent와-아티팩트artifact",
+    "type": "chapter",
+    "title": "3. 에이전트(Agent)와 아티팩트(Artifact)",
+    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/에이전트agent와-아티팩트artifact",
+    "category": "ai-생산성"
+  },
+  "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/규칙rules": {
+    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/규칙rules",
+    "type": "chapter",
+    "title": "4. 규칙(Rules)",
+    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/규칙rules",
+    "category": "ai-생산성"
+  },
+  "규칙rules": {
+    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/규칙rules",
+    "type": "chapter",
+    "title": "4. 규칙(Rules)",
+    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/규칙rules",
+    "category": "ai-생산성"
+  },
+  "4. 규칙(rules)": {
+    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/규칙rules",
+    "type": "chapter",
+    "title": "4. 규칙(Rules)",
+    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/규칙rules",
+    "category": "ai-생산성"
+  },
+  "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/워크플로우workflows": {
+    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/워크플로우workflows",
+    "type": "chapter",
+    "title": "5. 워크플로우(Workflows)",
+    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/워크플로우workflows",
+    "category": "ai-생산성"
+  },
+  "워크플로우workflows": {
+    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/워크플로우workflows",
+    "type": "chapter",
+    "title": "5. 워크플로우(Workflows)",
+    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/워크플로우workflows",
+    "category": "ai-생산성"
+  },
+  "5. 워크플로우(workflows)": {
+    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/워크플로우workflows",
+    "type": "chapter",
+    "title": "5. 워크플로우(Workflows)",
+    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/워크플로우workflows",
+    "category": "ai-생산성"
+  },
+  "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/스킬skills": {
+    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/스킬skills",
+    "type": "chapter",
+    "title": "6. 스킬(Skills)",
+    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/스킬skills",
+    "category": "ai-생산성"
+  },
+  "스킬skills": {
+    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/스킬skills",
+    "type": "chapter",
+    "title": "6. 스킬(Skills)",
+    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/스킬skills",
+    "category": "ai-생산성"
+  },
+  "6. 스킬(skills)": {
+    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/스킬skills",
+    "type": "chapter",
+    "title": "6. 스킬(Skills)",
+    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/스킬skills",
+    "category": "ai-생산성"
+  },
+  "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/mcp": {
+    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/mcp",
+    "type": "chapter",
+    "title": "7. MCP",
+    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/mcp",
+    "category": "ai-생산성"
+  },
+  "mcp": {
+    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/mcp",
+    "type": "chapter",
+    "title": "7. MCP",
+    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/mcp",
+    "category": "ai-생산성"
+  },
+  "7. mcp": {
+    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/mcp",
+    "type": "chapter",
+    "title": "7. MCP",
+    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/mcp",
+    "category": "ai-생산성"
+  },
+  "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/브라우저-서브-에이전트": {
+    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/브라우저-서브-에이전트",
+    "type": "chapter",
+    "title": "8. 브라우저 서브 에이전트",
+    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/브라우저-서브-에이전트",
+    "category": "ai-생산성"
+  },
+  "브라우저-서브-에이전트": {
+    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/브라우저-서브-에이전트",
+    "type": "chapter",
+    "title": "8. 브라우저 서브 에이전트",
+    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/브라우저-서브-에이전트",
+    "category": "ai-생산성"
+  },
+  "8. 브라우저 서브 에이전트": {
+    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/브라우저-서브-에이전트",
+    "type": "chapter",
+    "title": "8. 브라우저 서브 에이전트",
+    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/브라우저-서브-에이전트",
+    "category": "ai-생산성"
   },
   "ai-생산성/ai-활용/클로드-코워크claude-cowork-실무-가이드/시작하며": {
     "id": "ai-생산성/ai-활용/클로드-코워크claude-cowork-실무-가이드/시작하며",
@@ -624,46 +624,123 @@
     "url": "/ai-생산성/ai-활용/클로드-코워크claude-cowork-실무-가이드/시작하며",
     "category": "ai-생산성"
   },
-  "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/mcp/1-mcp-설치-및-사용방법": {
-    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/mcp/1-mcp-설치-및-사용방법",
+  "회계실무/icfr/내부회계관리제도-실무-가이드북/개요/1-내부회계관리제도의-도입-배경": {
+    "id": "회계실무/icfr/내부회계관리제도-실무-가이드북/개요/1-내부회계관리제도의-도입-배경",
     "type": "chapter",
-    "title": "7.1. MCP 설치 및 사용방법",
-    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/mcp/1-mcp-설치-및-사용방법",
+    "title": "1.1. 내부회계관리제도의 도입 배경",
+    "url": "/회계실무/icfr/내부회계관리제도-실무-가이드북/개요/1-내부회계관리제도의-도입-배경",
+    "category": "회계실무"
+  },
+  "1-내부회계관리제도의-도입-배경": {
+    "id": "회계실무/icfr/내부회계관리제도-실무-가이드북/개요/1-내부회계관리제도의-도입-배경",
+    "type": "chapter",
+    "title": "1.1. 내부회계관리제도의 도입 배경",
+    "url": "/회계실무/icfr/내부회계관리제도-실무-가이드북/개요/1-내부회계관리제도의-도입-배경",
+    "category": "회계실무"
+  },
+  "1.1. 내부회계관리제도의 도입 배경": {
+    "id": "회계실무/icfr/내부회계관리제도-실무-가이드북/개요/1-내부회계관리제도의-도입-배경",
+    "type": "chapter",
+    "title": "1.1. 내부회계관리제도의 도입 배경",
+    "url": "/회계실무/icfr/내부회계관리제도-실무-가이드북/개요/1-내부회계관리제도의-도입-배경",
+    "category": "회계실무"
+  },
+  "회계실무/icfr/내부회계관리제도-실무-가이드북/개요/2-내부회계관리제도-기본-개념": {
+    "id": "회계실무/icfr/내부회계관리제도-실무-가이드북/개요/2-내부회계관리제도-기본-개념",
+    "type": "chapter",
+    "title": "제목 없음",
+    "url": "/회계실무/icfr/내부회계관리제도-실무-가이드북/개요/2-내부회계관리제도-기본-개념",
+    "category": "회계실무"
+  },
+  "2-내부회계관리제도-기본-개념": {
+    "id": "회계실무/icfr/내부회계관리제도-실무-가이드북/개요/2-내부회계관리제도-기본-개념",
+    "type": "chapter",
+    "title": "제목 없음",
+    "url": "/회계실무/icfr/내부회계관리제도-실무-가이드북/개요/2-내부회계관리제도-기본-개념",
+    "category": "회계실무"
+  },
+  "제목 없음": {
+    "id": "회계실무/icfr/내부회계관리제도-실무-가이드북/개요/2-내부회계관리제도-기본-개념",
+    "type": "chapter",
+    "title": "제목 없음",
+    "url": "/회계실무/icfr/내부회계관리제도-실무-가이드북/개요/2-내부회계관리제도-기본-개념",
+    "category": "회계실무"
+  },
+  "회계실무/icfr/내부회계관리제도-실무-가이드북/개요/3-내부회계관리제도-관련-기준-체계": {
+    "id": "회계실무/icfr/내부회계관리제도-실무-가이드북/개요/3-내부회계관리제도-관련-기준-체계",
+    "type": "chapter",
+    "title": "제목 없음",
+    "url": "/회계실무/icfr/내부회계관리제도-실무-가이드북/개요/3-내부회계관리제도-관련-기준-체계",
+    "category": "회계실무"
+  },
+  "3-내부회계관리제도-관련-기준-체계": {
+    "id": "회계실무/icfr/내부회계관리제도-실무-가이드북/개요/3-내부회계관리제도-관련-기준-체계",
+    "type": "chapter",
+    "title": "제목 없음",
+    "url": "/회계실무/icfr/내부회계관리제도-실무-가이드북/개요/3-내부회계관리제도-관련-기준-체계",
+    "category": "회계실무"
+  },
+  "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법/1-스킬skills이란": {
+    "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법/1-스킬skills이란",
+    "type": "chapter",
+    "title": "6.1. 스킬(Skills)이란",
+    "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법/1-스킬skills이란",
     "category": "ai-생산성"
   },
-  "1-mcp-설치-및-사용방법": {
-    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/mcp/1-mcp-설치-및-사용방법",
+  "1-스킬skills이란": {
+    "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법/1-스킬skills이란",
     "type": "chapter",
-    "title": "7.1. MCP 설치 및 사용방법",
-    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/mcp/1-mcp-설치-및-사용방법",
+    "title": "6.1. 스킬(Skills)이란",
+    "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법/1-스킬skills이란",
     "category": "ai-생산성"
   },
-  "7.1. mcp 설치 및 사용방법": {
-    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/mcp/1-mcp-설치-및-사용방법",
+  "6.1. 스킬(skills)이란": {
+    "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법/1-스킬skills이란",
     "type": "chapter",
-    "title": "7.1. MCP 설치 및 사용방법",
-    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/mcp/1-mcp-설치-및-사용방법",
+    "title": "6.1. 스킬(Skills)이란",
+    "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법/1-스킬skills이란",
     "category": "ai-생산성"
   },
-  "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/mcp/2-notebooklm-mcp": {
-    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/mcp/2-notebooklm-mcp",
+  "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법/2-스타터-스킬skills-맛보기": {
+    "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법/2-스타터-스킬skills-맛보기",
     "type": "chapter",
-    "title": "7.2. NotebookLM MCP",
-    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/mcp/2-notebooklm-mcp",
+    "title": "6.2. 스타터 스킬(Skills) 맛보기",
+    "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법/2-스타터-스킬skills-맛보기",
     "category": "ai-생산성"
   },
-  "2-notebooklm-mcp": {
-    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/mcp/2-notebooklm-mcp",
+  "2-스타터-스킬skills-맛보기": {
+    "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법/2-스타터-스킬skills-맛보기",
     "type": "chapter",
-    "title": "7.2. NotebookLM MCP",
-    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/mcp/2-notebooklm-mcp",
+    "title": "6.2. 스타터 스킬(Skills) 맛보기",
+    "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법/2-스타터-스킬skills-맛보기",
     "category": "ai-생산성"
   },
-  "7.2. notebooklm mcp": {
-    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/mcp/2-notebooklm-mcp",
+  "6.2. 스타터 스킬(skills) 맛보기": {
+    "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법/2-스타터-스킬skills-맛보기",
     "type": "chapter",
-    "title": "7.2. NotebookLM MCP",
-    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/mcp/2-notebooklm-mcp",
+    "title": "6.2. 스타터 스킬(Skills) 맛보기",
+    "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법/2-스타터-스킬skills-맛보기",
+    "category": "ai-생산성"
+  },
+  "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법/3-나만의-스킬skills-만들고-등록하기": {
+    "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법/3-나만의-스킬skills-만들고-등록하기",
+    "type": "chapter",
+    "title": "6.3. 나만의 스킬(Skills) 만들고 등록하기",
+    "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법/3-나만의-스킬skills-만들고-등록하기",
+    "category": "ai-생산성"
+  },
+  "3-나만의-스킬skills-만들고-등록하기": {
+    "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법/3-나만의-스킬skills-만들고-등록하기",
+    "type": "chapter",
+    "title": "6.3. 나만의 스킬(Skills) 만들고 등록하기",
+    "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법/3-나만의-스킬skills-만들고-등록하기",
+    "category": "ai-생산성"
+  },
+  "6.3. 나만의 스킬(skills) 만들고 등록하기": {
+    "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법/3-나만의-스킬skills-만들고-등록하기",
+    "type": "chapter",
+    "title": "6.3. 나만의 스킬(Skills) 만들고 등록하기",
+    "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법/3-나만의-스킬skills-만들고-등록하기",
     "category": "ai-생산성"
   },
   "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/스킬skills/1-스킬skills의-개념-및-구조": {
@@ -750,109 +827,46 @@
     "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/스킬skills/4-나만의-커스텀-스킬-제작feat-skill-creator",
     "category": "ai-생산성"
   },
-  "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법/1-스킬skills이란": {
-    "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법/1-스킬skills이란",
+  "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/mcp/1-mcp-설치-및-사용방법": {
+    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/mcp/1-mcp-설치-및-사용방법",
     "type": "chapter",
-    "title": "6.1. 스킬(Skills)이란",
-    "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법/1-스킬skills이란",
+    "title": "7.1. MCP 설치 및 사용방법",
+    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/mcp/1-mcp-설치-및-사용방법",
     "category": "ai-생산성"
   },
-  "1-스킬skills이란": {
-    "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법/1-스킬skills이란",
+  "1-mcp-설치-및-사용방법": {
+    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/mcp/1-mcp-설치-및-사용방법",
     "type": "chapter",
-    "title": "6.1. 스킬(Skills)이란",
-    "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법/1-스킬skills이란",
+    "title": "7.1. MCP 설치 및 사용방법",
+    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/mcp/1-mcp-설치-및-사용방법",
     "category": "ai-생산성"
   },
-  "6.1. 스킬(skills)이란": {
-    "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법/1-스킬skills이란",
+  "7.1. mcp 설치 및 사용방법": {
+    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/mcp/1-mcp-설치-및-사용방법",
     "type": "chapter",
-    "title": "6.1. 스킬(Skills)이란",
-    "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법/1-스킬skills이란",
+    "title": "7.1. MCP 설치 및 사용방법",
+    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/mcp/1-mcp-설치-및-사용방법",
     "category": "ai-생산성"
   },
-  "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법/2-스타터-스킬skills-맛보기": {
-    "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법/2-스타터-스킬skills-맛보기",
+  "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/mcp/2-notebooklm-mcp": {
+    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/mcp/2-notebooklm-mcp",
     "type": "chapter",
-    "title": "6.2. 스타터 스킬(Skills) 맛보기",
-    "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법/2-스타터-스킬skills-맛보기",
+    "title": "7.2. NotebookLM MCP",
+    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/mcp/2-notebooklm-mcp",
     "category": "ai-생산성"
   },
-  "2-스타터-스킬skills-맛보기": {
-    "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법/2-스타터-스킬skills-맛보기",
+  "2-notebooklm-mcp": {
+    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/mcp/2-notebooklm-mcp",
     "type": "chapter",
-    "title": "6.2. 스타터 스킬(Skills) 맛보기",
-    "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법/2-스타터-스킬skills-맛보기",
+    "title": "7.2. NotebookLM MCP",
+    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/mcp/2-notebooklm-mcp",
     "category": "ai-생산성"
   },
-  "6.2. 스타터 스킬(skills) 맛보기": {
-    "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법/2-스타터-스킬skills-맛보기",
+  "7.2. notebooklm mcp": {
+    "id": "ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/mcp/2-notebooklm-mcp",
     "type": "chapter",
-    "title": "6.2. 스타터 스킬(Skills) 맛보기",
-    "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법/2-스타터-스킬skills-맛보기",
-    "category": "ai-생산성"
-  },
-  "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법/3-나만의-스킬skills-만들고-등록하기": {
-    "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법/3-나만의-스킬skills-만들고-등록하기",
-    "type": "chapter",
-    "title": "6.3. 나만의 스킬(Skills) 만들고 등록하기",
-    "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법/3-나만의-스킬skills-만들고-등록하기",
-    "category": "ai-생산성"
-  },
-  "3-나만의-스킬skills-만들고-등록하기": {
-    "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법/3-나만의-스킬skills-만들고-등록하기",
-    "type": "chapter",
-    "title": "6.3. 나만의 스킬(Skills) 만들고 등록하기",
-    "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법/3-나만의-스킬skills-만들고-등록하기",
-    "category": "ai-생산성"
-  },
-  "6.3. 나만의 스킬(skills) 만들고 등록하기": {
-    "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법/3-나만의-스킬skills-만들고-등록하기",
-    "type": "chapter",
-    "title": "6.3. 나만의 스킬(Skills) 만들고 등록하기",
-    "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법/3-나만의-스킬skills-만들고-등록하기",
-    "category": "ai-생산성"
-  },
-  "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/커넥터mcp-활용법/1-커넥터mcp란": {
-    "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/커넥터mcp-활용법/1-커넥터mcp란",
-    "type": "chapter",
-    "title": "7.1. 커넥터(MCP)란",
-    "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/커넥터mcp-활용법/1-커넥터mcp란",
-    "category": "ai-생산성"
-  },
-  "1-커넥터mcp란": {
-    "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/커넥터mcp-활용법/1-커넥터mcp란",
-    "type": "chapter",
-    "title": "7.1. 커넥터(MCP)란",
-    "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/커넥터mcp-활용법/1-커넥터mcp란",
-    "category": "ai-생산성"
-  },
-  "7.1. 커넥터(mcp)란": {
-    "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/커넥터mcp-활용법/1-커넥터mcp란",
-    "type": "chapter",
-    "title": "7.1. 커넥터(MCP)란",
-    "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/커넥터mcp-활용법/1-커넥터mcp란",
-    "category": "ai-생산성"
-  },
-  "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/커넥터mcp-활용법/2-커스텀-커넥터-활용-전자공시시스템open-dart": {
-    "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/커넥터mcp-활용법/2-커스텀-커넥터-활용-전자공시시스템open-dart",
-    "type": "chapter",
-    "title": "7.2. 커스텀 커넥터 활용 - 전자공시시스템(Open DART)",
-    "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/커넥터mcp-활용법/2-커스텀-커넥터-활용-전자공시시스템open-dart",
-    "category": "ai-생산성"
-  },
-  "2-커스텀-커넥터-활용-전자공시시스템open-dart": {
-    "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/커넥터mcp-활용법/2-커스텀-커넥터-활용-전자공시시스템open-dart",
-    "type": "chapter",
-    "title": "7.2. 커스텀 커넥터 활용 - 전자공시시스템(Open DART)",
-    "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/커넥터mcp-활용법/2-커스텀-커넥터-활용-전자공시시스템open-dart",
-    "category": "ai-생산성"
-  },
-  "7.2. 커스텀 커넥터 활용 - 전자공시시스템(open dart)": {
-    "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/커넥터mcp-활용법/2-커스텀-커넥터-활용-전자공시시스템open-dart",
-    "type": "chapter",
-    "title": "7.2. 커스텀 커넥터 활용 - 전자공시시스템(Open DART)",
-    "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/커넥터mcp-활용법/2-커스텀-커넥터-활용-전자공시시스템open-dart",
+    "title": "7.2. NotebookLM MCP",
+    "url": "/ai-생산성/ai-활용/비개발자를-위한-antigravity-가이드/mcp/2-notebooklm-mcp",
     "category": "ai-생산성"
   },
   "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/실무-사례-1-dcf-평가/1-dcf-평가-개요": {
@@ -918,60 +932,46 @@
     "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/실무-사례-1-dcf-평가/3-step-2-기초-데이터-수집",
     "category": "ai-생산성"
   },
-  "회계실무/icfr/내부회계관리제도-실무-가이드북/개요/1-내부회계관리제도의-도입-배경": {
-    "id": "회계실무/icfr/내부회계관리제도-실무-가이드북/개요/1-내부회계관리제도의-도입-배경",
+  "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/커넥터mcp-활용법/1-커넥터mcp란": {
+    "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/커넥터mcp-활용법/1-커넥터mcp란",
     "type": "chapter",
-    "title": "1.1. 내부회계관리제도의 도입 배경",
-    "url": "/회계실무/icfr/내부회계관리제도-실무-가이드북/개요/1-내부회계관리제도의-도입-배경",
-    "category": "회계실무"
+    "title": "7.1. 커넥터(MCP)란",
+    "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/커넥터mcp-활용법/1-커넥터mcp란",
+    "category": "ai-생산성"
   },
-  "1-내부회계관리제도의-도입-배경": {
-    "id": "회계실무/icfr/내부회계관리제도-실무-가이드북/개요/1-내부회계관리제도의-도입-배경",
+  "1-커넥터mcp란": {
+    "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/커넥터mcp-활용법/1-커넥터mcp란",
     "type": "chapter",
-    "title": "1.1. 내부회계관리제도의 도입 배경",
-    "url": "/회계실무/icfr/내부회계관리제도-실무-가이드북/개요/1-내부회계관리제도의-도입-배경",
-    "category": "회계실무"
+    "title": "7.1. 커넥터(MCP)란",
+    "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/커넥터mcp-활용법/1-커넥터mcp란",
+    "category": "ai-생산성"
   },
-  "1.1. 내부회계관리제도의 도입 배경": {
-    "id": "회계실무/icfr/내부회계관리제도-실무-가이드북/개요/1-내부회계관리제도의-도입-배경",
+  "7.1. 커넥터(mcp)란": {
+    "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/커넥터mcp-활용법/1-커넥터mcp란",
     "type": "chapter",
-    "title": "1.1. 내부회계관리제도의 도입 배경",
-    "url": "/회계실무/icfr/내부회계관리제도-실무-가이드북/개요/1-내부회계관리제도의-도입-배경",
-    "category": "회계실무"
+    "title": "7.1. 커넥터(MCP)란",
+    "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/커넥터mcp-활용법/1-커넥터mcp란",
+    "category": "ai-생산성"
   },
-  "회계실무/icfr/내부회계관리제도-실무-가이드북/개요/2-내부회계관리제도-기본-개념": {
-    "id": "회계실무/icfr/내부회계관리제도-실무-가이드북/개요/2-내부회계관리제도-기본-개념",
+  "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/커넥터mcp-활용법/2-커스텀-커넥터-활용-전자공시시스템open-dart": {
+    "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/커넥터mcp-활용법/2-커스텀-커넥터-활용-전자공시시스템open-dart",
     "type": "chapter",
-    "title": "제목 없음",
-    "url": "/회계실무/icfr/내부회계관리제도-실무-가이드북/개요/2-내부회계관리제도-기본-개념",
-    "category": "회계실무"
+    "title": "7.2. 커스텀 커넥터 활용 - 전자공시시스템(Open DART)",
+    "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/커넥터mcp-활용법/2-커스텀-커넥터-활용-전자공시시스템open-dart",
+    "category": "ai-생산성"
   },
-  "2-내부회계관리제도-기본-개념": {
-    "id": "회계실무/icfr/내부회계관리제도-실무-가이드북/개요/2-내부회계관리제도-기본-개념",
+  "2-커스텀-커넥터-활용-전자공시시스템open-dart": {
+    "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/커넥터mcp-활용법/2-커스텀-커넥터-활용-전자공시시스템open-dart",
     "type": "chapter",
-    "title": "제목 없음",
-    "url": "/회계실무/icfr/내부회계관리제도-실무-가이드북/개요/2-내부회계관리제도-기본-개념",
-    "category": "회계실무"
+    "title": "7.2. 커스텀 커넥터 활용 - 전자공시시스템(Open DART)",
+    "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/커넥터mcp-활용법/2-커스텀-커넥터-활용-전자공시시스템open-dart",
+    "category": "ai-생산성"
   },
-  "제목 없음": {
-    "id": "회계실무/icfr/내부회계관리제도-실무-가이드북/개요/2-내부회계관리제도-기본-개념",
+  "7.2. 커스텀 커넥터 활용 - 전자공시시스템(open dart)": {
+    "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/커넥터mcp-활용법/2-커스텀-커넥터-활용-전자공시시스템open-dart",
     "type": "chapter",
-    "title": "제목 없음",
-    "url": "/회계실무/icfr/내부회계관리제도-실무-가이드북/개요/2-내부회계관리제도-기본-개념",
-    "category": "회계실무"
-  },
-  "회계실무/icfr/내부회계관리제도-실무-가이드북/개요/3-내부회계관리제도-관련-기준-체계": {
-    "id": "회계실무/icfr/내부회계관리제도-실무-가이드북/개요/3-내부회계관리제도-관련-기준-체계",
-    "type": "chapter",
-    "title": "제목 없음",
-    "url": "/회계실무/icfr/내부회계관리제도-실무-가이드북/개요/3-내부회계관리제도-관련-기준-체계",
-    "category": "회계실무"
-  },
-  "3-내부회계관리제도-관련-기준-체계": {
-    "id": "회계실무/icfr/내부회계관리제도-실무-가이드북/개요/3-내부회계관리제도-관련-기준-체계",
-    "type": "chapter",
-    "title": "제목 없음",
-    "url": "/회계실무/icfr/내부회계관리제도-실무-가이드북/개요/3-내부회계관리제도-관련-기준-체계",
-    "category": "회계실무"
+    "title": "7.2. 커스텀 커넥터 활용 - 전자공시시스템(Open DART)",
+    "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/커넥터mcp-활용법/2-커스텀-커넥터-활용-전자공시시스템open-dart",
+    "category": "ai-생산성"
   }
 }
