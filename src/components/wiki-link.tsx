@@ -8,7 +8,7 @@ type SlugEntry = {
   title: string
   description?: string
   url: string
-  category: 'accounting' | 'ai'
+  category: string
 }
 
 const SLUG_MAP = slugMap as Record<string, SlugEntry>

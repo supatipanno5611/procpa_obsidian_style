@@ -20,8 +20,8 @@ export default function HomePage() {
     .sort((a, b) => +new Date(b.date) - +new Date(a.date))
     .slice(0, 5)
 
-  const accountingSeries = visibleSeries.filter((s) => s.category === 'accounting')
-  const aiSeries = visibleSeries.filter((s) => s.category !== 'accounting')
+  const accountingSeries = visibleSeries.filter((s) => s.category === '회계실무')
+  const aiSeries = visibleSeries.filter((s) => s.category !== '회계실무')
 
   const tagCounts = new Map<string, number>()
   for (const p of visiblePosts) for (const t of p.tags) tagCounts.set(t, (tagCounts.get(t) ?? 0) + 1)
@@ -29,7 +29,7 @@ export default function HomePage() {
     .sort((a, b) => b[1] - a[1])
     .slice(0, 8)
 
-  const vaultTree = buildVaultTree(visiblePosts, visibleSeries)
+  const vaultTree = buildVaultTree(visiblePosts, visibleSeries, chapters)
 
   const vaultData: VaultData = {
     tree: vaultTree,
@@ -198,7 +198,7 @@ export default function HomePage() {
                   >
                     <div>
                       <span className="rounded border border-border/60 px-1.5 py-0.5 font-mono text-[10px] text-muted-foreground">
-                        {p.category === 'accounting' ? '회계' : 'AI'}
+                        {p.category === '회계실무' ? '회계' : 'AI'}
                       </span>
                       <div className="mt-2.5 text-[14px] font-medium leading-snug group-hover:text-primary">
                         {p.title}

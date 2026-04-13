@@ -9,7 +9,7 @@ type GraphNode = {
   id: string
   type: 'post' | 'chapter'
   title: string
-  category: 'accounting' | 'ai'
+  category: string
   url: string
   tags: string[]
   degree: number
@@ -22,12 +22,14 @@ const GRAPH = graphData as GraphJson
 const ForceGraph2D = dynamic(() => import('react-force-graph-2d'), { ssr: false })
 
 const COLORS: Record<string, string> = {
-  accounting: '#60a5fa',
-  ai: '#d4d4d8',
+  '인사이트': '#a78bfa',   // violet-400
+  '회계실무': '#60a5fa',   // blue-400
+  'ai-생산성': '#d4d4d8',  // zinc-300
+  '개발': '#34d399',       // emerald-400
 }
 const EDGE_COLOR = 'rgba(148,163,184,0.4)'
 
-type Filter = 'all' | 'accounting' | 'ai'
+type Filter = string
 
 export function GlobalGraph() {
   const router = useRouter()
@@ -69,7 +71,7 @@ export function GlobalGraph() {
         <span>·</span>
         <span>{data.links.length} edges</span>
         <div className="ml-auto flex items-center gap-2">
-          {(['all', 'accounting', 'ai'] as Filter[]).map((f) => (
+          {['all', ...Object.keys(COLORS)].map((f) => (
             <button
               key={f}
               type="button"

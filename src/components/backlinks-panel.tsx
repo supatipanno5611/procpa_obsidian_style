@@ -6,7 +6,7 @@ type BacklinkEdge = {
   sourceTitle: string
   sourceUrl: string
   sourceType: 'post' | 'chapter'
-  category: 'accounting' | 'ai'
+  category: string
   context: string
   alias?: string
   heading?: string

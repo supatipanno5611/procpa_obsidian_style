@@ -18,7 +18,7 @@ export function VaultSidebar({ data, onNavigate }: { data: VaultData; onNavigate
   return (
     <div>
       <div className="font-mono text-[11px] uppercase tracking-widest text-muted-foreground">
-        Vault
+        Index
       </div>
 
       <div className="mt-2">

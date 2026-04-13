@@ -9,7 +9,7 @@ type GraphNode = {
   id: string
   type: 'post' | 'chapter'
   title: string
-  category: 'accounting' | 'ai'
+  category: string
   url: string
   degree: number
 }
@@ -22,8 +22,10 @@ const ForceGraph2D = dynamic(() => import('react-force-graph-2d'), { ssr: false 
 
 // 라이트/다크 양쪽에서 대비가 충분히 잡히는 값
 const COLORS: Record<string, string> = {
-  accounting: '#60a5fa', // blue-400 — 다크에서 밝고, 라이트에서도 식별 가능
-  ai: '#d4d4d8', // zinc-300 — 다크 배경에서 충분히 밝음
+  '인사이트': '#a78bfa',   // violet-400
+  '회계실무': '#60a5fa',   // blue-400
+  'ai-생산성': '#d4d4d8',  // zinc-300
+  '개발': '#34d399',       // emerald-400
 }
 const ACTIVE_COLOR = '#fbbf24' // amber-400
 const EDGE_COLOR = 'rgba(148,163,184,0.4)' // slate-400/40 — 양쪽 테마에서 자연스러움

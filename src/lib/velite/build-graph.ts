@@ -19,7 +19,7 @@ export type GraphNode = {
   id: string // slugAsParams key (normalized)
   type: 'post' | 'chapter'
   title: string
-  category: 'accounting' | 'ai'
+  category: string
   url: string
   tags: string[]
   series?: string
@@ -36,7 +36,7 @@ export type BacklinkEdge = {
   sourceTitle: string
   sourceUrl: string
   sourceType: 'post' | 'chapter'
-  category: 'accounting' | 'ai'
+  category: string
   context: string
   alias?: string
   heading?: string
@@ -59,7 +59,7 @@ export type SlugMapEntry = {
   title: string
   description?: string
   url: string
-  category: 'accounting' | 'ai'
+  category: string
 }
 
 type Entry = {
@@ -110,7 +110,7 @@ export async function buildGraph(opts: {
       title: entry.title,
       description: entry.description,
       url: urlOf(entry, type),
-      category: entry.category ?? 'accounting',
+      category: entry.category ?? '인사이트',
     }
     // 다양한 키로 등록: slugAsParams, 파일명, 제목
     const keys = new Set<string>()
@@ -129,7 +129,7 @@ export async function buildGraph(opts: {
       id: entry.slugAsParams,
       type,
       title: entry.title,
-      category: entry.category ?? 'accounting',
+      category: entry.category ?? '인사이트',
       url: urlOf(entry, type),
       tags: entry.tags ?? [],
       series: entry.series,

@@ -7,15 +7,27 @@ import remarkWikiLink from './src/lib/velite/remark-wiki-link'
 import remarkCallout from './src/lib/velite/remark-callout'
 import { buildGraph } from './src/lib/velite/build-graph'
 
+/** Resolve category key from a content folder name (auto-derived via slugify). */
+function resolveCategory(folder: string): string {
+  return slugify(folder)
+}
+
+/** Strip leading number prefix ("00. ", "01. ") from a segment for clean URLs. */
+function stripPrefix(str: string): string {
+  return str.replace(/^\d+\.\s*/, '')
+}
+
 /** Normalize a path segment into a URL-safe slug (keeps Korean, replaces junk). */
 function slugify(str: string): string {
-  return str
+  return stripPrefix(str)
     .trim()
     .replace(/[()（）\[\]【】]/g, '')       // drop brackets / parens
-    .replace(/[.,·:;!?'"]+/g, '')           // drop punctuation
+    .replace(/&/g, '-')                       // ampersand → hyphen
+    .replace(/[.,·:;!?'"]+/g, '')            // drop punctuation
     .replace(/[\s_/\\]+/g, '-')             // whitespace → hyphen
     .replace(/-{2,}/g, '-')                 // collapse multi-hyphens
     .replace(/^-|-$/g, '')                  // trim leading/trailing hyphens
+    .replace(/[A-Z]/g, c => c.toLowerCase()) // lowercase ASCII
 }
 
 /** Slugify every segment of a `/`-delimited path. */
@@ -36,7 +48,13 @@ function slugifyPath(p: string): string {
 
 const posts = defineCollection({
   name: 'Post',
-  pattern: ['*/*/*.md', '!*/*/index.md', '!*/*/metadata.md'],
+  pattern: [
+    '*/*.md',             // depth 2: topic/file.md
+    '*/*/*.md',           // depth 3: topic/subcategory/file.md
+    '!*/index.md', '!*/metadata.md',
+    '!*/*/index.md', '!*/*/metadata.md',
+    '!downloads/*.md',
+  ],
   schema: s
     .object({
       slug: s.path(),
@@ -56,12 +74,12 @@ const posts = defineCollection({
     .transform((data) => {
       const segments = data.slug.split('/')
       const topic = segments[0]
-      const subcategory = segments[1]
+      const subcategory = segments.length >= 3 ? segments[1] : null
       const fileName = segments[segments.length - 1]
       return {
         ...data,
         title: data.title ?? data.subject ?? fileName,
-        category: data.category ?? topic,
+        category: data.category ?? resolveCategory(topic),
         subcategory,
         slugAsParams: slugifyPath(segments.join('/')),
       }
@@ -94,7 +112,7 @@ const series = defineCollection({
       return {
         ...data,
         title: data.title ?? data.subject ?? seriesSlug,
-        category: data.category ?? topic,
+        category: data.category ?? resolveCategory(topic),
         subcategory,
         slugAsParams: slugifyPath(`${topic}/${subcategory}/${seriesSlug}`),
       }
@@ -143,7 +161,7 @@ const chapters = defineCollection({
         ...data,
         title: resolvedTitle,
         series: slugifyPath(`${topic}/${subcategory}/${data.series ?? seriesSlug}`),
-        category: data.category ?? topic,
+        category: data.category ?? resolveCategory(topic),
         subcategory,
         order: data.order ?? autoOrder,
         depth,

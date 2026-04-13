@@ -4,9 +4,10 @@
  * sidebar tree, category routes, breadcrumbs, etc. will all pick it up.
  */
 export const TOPICS = {
-  accounting: { label: '10. 회계실무', order: 1 },
-  ai: { label: '20. AI · 생산성', order: 2 },
-  dev: { label: '30. 개발 · 프로젝트', order: 3 },
+  '인사이트': { label: '00. 인사이트', order: 0 },
+  '회계실무': { label: '01. 회계실무', order: 1 },
+  'ai-생산성': { label: '02. AI&생산성', order: 2 },
+  '개발': { label: '03. 개발', order: 3 },
 } as const
 
 export type TopicKey = keyof typeof TOPICS

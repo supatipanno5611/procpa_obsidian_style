@@ -114,7 +114,8 @@ function TreeItem({
   onNavigate?: () => void
 }) {
   if (node.kind === 'file') {
-    const fileIndent = { paddingLeft: `${depth * 12 - 4}px` }
+    const effectiveDepth = Math.max(depth, 2)
+    const fileIndent = { paddingLeft: `${effectiveDepth * 12 - 4}px` }
     const active = node.href === pathname
     return (
       <li>

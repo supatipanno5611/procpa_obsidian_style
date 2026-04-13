@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastScanned": 1775878761107,
+  "lastScanned": 1775975040752,
   "projectRoot": "C:\\Users\\wogus\\Desktop\\03. Project\\01. Playground\\new_procpa_blog",
   "techStack": {
     "languages": [
@@ -81,48 +81,41 @@
       "path": "content",
       "purpose": null,
       "fileCount": 0,
-      "lastAccessed": 1775878761031,
+      "lastAccessed": 1775975040664,
       "keyFiles": []
     },
     "public": {
       "path": "public",
       "purpose": "Public files",
-      "fileCount": 7,
-      "lastAccessed": 1775878761051,
+      "fileCount": 12,
+      "lastAccessed": 1775975040665,
       "keyFiles": [
+        "apple-touch-icon.png",
+        "favicon.ico",
         "file.svg",
         "globe.svg",
-        "next.svg",
-        "procpa_dark_v2.png",
-        "procpa_light_v2.png"
+        "manifest.json"
       ]
     },
     "reference": {
       "path": "reference",
       "purpose": null,
       "fileCount": 0,
-      "lastAccessed": 1775878761052,
+      "lastAccessed": 1775975040688,
       "keyFiles": []
     },
     "src": {
       "path": "src",
       "purpose": "Source code",
       "fileCount": 0,
-      "lastAccessed": 1775878761052,
-      "keyFiles": []
-    },
-    "public\\static": {
-      "path": "public\\static",
-      "purpose": "Static files",
-      "fileCount": 0,
-      "lastAccessed": 1775878761053,
+      "lastAccessed": 1775975040689,
       "keyFiles": []
     },
     "reference\\app": {
       "path": "reference\\app",
       "purpose": "Application code",
       "fileCount": 9,
-      "lastAccessed": 1775878761053,
+      "lastAccessed": 1775975040689,
       "keyFiles": [
         "apple-icon.png",
         "favicon.ico",
@@ -133,14 +126,14 @@
       "path": "reference\\components",
       "purpose": "UI components",
       "fileCount": 0,
-      "lastAccessed": 1775878761054,
+      "lastAccessed": 1775975040690,
       "keyFiles": []
     },
     "reference\\lib": {
       "path": "reference\\lib",
       "purpose": "Library code",
       "fileCount": 13,
-      "lastAccessed": 1775878761054,
+      "lastAccessed": 1775975040690,
       "keyFiles": [
         "content.ts",
         "domains.ts",
@@ -150,30 +143,30 @@
     "src\\app": {
       "path": "src\\app",
       "purpose": "Application code",
-      "fileCount": 7,
-      "lastAccessed": 1775878761054,
+      "fileCount": 9,
+      "lastAccessed": 1775975040690,
       "keyFiles": [
+        "apple-touch-icon.png",
         "favicon.ico",
-        "globals.css",
-        "layout.tsx"
+        "globals.css"
       ]
     },
     "src\\components": {
       "path": "src\\components",
       "purpose": "UI components",
-      "fileCount": 9,
-      "lastAccessed": 1775878761055,
+      "fileCount": 17,
+      "lastAccessed": 1775975040690,
       "keyFiles": [
         "backlinks-panel.tsx",
         "command-palette.tsx",
-        "json-ld.tsx"
+        "content-aside.tsx"
       ]
     },
     "src\\lib": {
       "path": "src\\lib",
       "purpose": "Library code",
       "fileCount": 6,
-      "lastAccessed": 1775878761055,
+      "lastAccessed": 1775975040691,
       "keyFiles": [
         "about-data.ts",
         "search.ts",
@@ -184,303 +177,123 @@
   "hotPaths": [
     {
       "path": "src\\app\\[...slug]\\page.tsx",
-      "accessCount": 158,
-      "lastAccessed": 1775936272686,
-      "type": "file"
-    },
-    {
-      "path": "src\\app\\page.tsx",
-      "accessCount": 52,
-      "lastAccessed": 1775934204141,
-      "type": "file"
-    },
-    {
-      "path": "velite.config.ts",
-      "accessCount": 34,
-      "lastAccessed": 1775932590018,
-      "type": "file"
-    },
-    {
-      "path": "src\\components\\vault\\vault-tree.tsx",
-      "accessCount": 33,
-      "lastAccessed": 1775933792152,
-      "type": "file"
-    },
-    {
-      "path": "src\\app\\globals.css",
-      "accessCount": 29,
-      "lastAccessed": 1775906986959,
-      "type": "file"
-    },
-    {
-      "path": "src\\components\\site-header.tsx",
-      "accessCount": 29,
-      "lastAccessed": 1775923652495,
-      "type": "file"
-    },
-    {
-      "path": "src\\app\\explore\\page.tsx",
-      "accessCount": 18,
-      "lastAccessed": 1775923653184,
-      "type": "file"
-    },
-    {
-      "path": "src",
-      "accessCount": 16,
-      "lastAccessed": 1775935801070,
+      "accessCount": 19,
+      "lastAccessed": 1776040736988,
       "type": "directory"
-    },
-    {
-      "path": "src\\app\\layout.tsx",
-      "accessCount": 14,
-      "lastAccessed": 1775923669960,
-      "type": "file"
-    },
-    {
-      "path": "src\\app\\sitemap.ts",
-      "accessCount": 13,
-      "lastAccessed": 1775916213273,
-      "type": "file"
-    },
-    {
-      "path": "src\\components\\vault\\vault-sidebar.tsx",
-      "accessCount": 13,
-      "lastAccessed": 1775933772096,
-      "type": "file"
-    },
-    {
-      "path": "",
-      "accessCount": 12,
-      "lastAccessed": 1775916779804,
-      "type": "directory"
-    },
-    {
-      "path": "src\\app\\graph\\page.tsx",
-      "accessCount": 11,
-      "lastAccessed": 1775917072710,
-      "type": "file"
-    },
-    {
-      "path": "src\\app\\search\\page.tsx",
-      "accessCount": 10,
-      "lastAccessed": 1775916739771,
-      "type": "file"
     },
     {
       "path": "src\\lib\\vault-tree.ts",
+      "accessCount": 15,
+      "lastAccessed": 1776040569110,
+      "type": "directory"
+    },
+    {
+      "path": "velite.config.ts",
       "accessCount": 10,
-      "lastAccessed": 1775921668367,
-      "type": "file"
-    },
-    {
-      "path": "src\\components\\backlinks-panel.tsx",
-      "accessCount": 8,
-      "lastAccessed": 1775935998378,
-      "type": "file"
-    },
-    {
-      "path": "src\\app\\posts\\[...slug]\\page.tsx",
-      "accessCount": 7,
-      "lastAccessed": 1775886418050,
-      "type": "file"
-    },
-    {
-      "path": "src\\app\\rss.xml\\route.ts",
-      "accessCount": 7,
-      "lastAccessed": 1775916824802,
-      "type": "file"
-    },
-    {
-      "path": "src\\components\\mdx-content.tsx",
-      "accessCount": 7,
-      "lastAccessed": 1775918067128,
-      "type": "file"
-    },
-    {
-      "path": "src\\components\\graph\\local-graph.tsx",
-      "accessCount": 7,
-      "lastAccessed": 1775935999529,
-      "type": "file"
-    },
-    {
-      "path": "src\\lib\\search.ts",
-      "accessCount": 6,
-      "lastAccessed": 1775891322809,
-      "type": "file"
-    },
-    {
-      "path": "src\\components\\site-footer.tsx",
-      "accessCount": 6,
-      "lastAccessed": 1775910425823,
-      "type": "file"
-    },
-    {
-      "path": "src\\app\\series\\[series]\\[...chapter]\\page.tsx",
-      "accessCount": 5,
-      "lastAccessed": 1775886419187,
-      "type": "file"
-    },
-    {
-      "path": "src\\components\\wiki-link.tsx",
-      "accessCount": 5,
-      "lastAccessed": 1775918863625,
-      "type": "file"
-    },
-    {
-      "path": "src\\components\\json-ld.tsx",
-      "accessCount": 5,
-      "lastAccessed": 1775921669252,
-      "type": "file"
-    },
-    {
-      "path": "src\\components\\explore\\result-list.tsx",
-      "accessCount": 5,
-      "lastAccessed": 1775923664221,
-      "type": "file"
-    },
-    {
-      "path": "src\\lib\\velite\\remark-wiki-link.ts",
-      "accessCount": 4,
-      "lastAccessed": 1775917824725,
-      "type": "file"
-    },
-    {
-      "path": "src\\lib\\topics.ts",
-      "accessCount": 4,
-      "lastAccessed": 1775923877497,
-      "type": "file"
-    },
-    {
-      "path": "src\\app\\series\\[series]\\page.tsx",
-      "accessCount": 3,
-      "lastAccessed": 1775886418628,
-      "type": "file"
-    },
-    {
-      "path": "src\\components\\posts\\post-list.tsx",
-      "accessCount": 3,
-      "lastAccessed": 1775891291979,
-      "type": "file"
-    },
-    {
-      "path": "src\\components\\series\\series-list.tsx",
-      "accessCount": 3,
-      "lastAccessed": 1775891292064,
-      "type": "file"
-    },
-    {
-      "path": "src\\app\\tags\\[tag]\\page.tsx",
-      "accessCount": 3,
-      "lastAccessed": 1775891296135,
-      "type": "file"
-    },
-    {
-      "path": "src\\components\\command-palette.tsx",
-      "accessCount": 3,
-      "lastAccessed": 1775911738979,
-      "type": "file"
-    },
-    {
-      "path": "src\\app\\api\\og\\route.tsx",
-      "accessCount": 3,
-      "lastAccessed": 1775916214719,
-      "type": "file"
-    },
-    {
-      "path": "next.config.ts",
-      "accessCount": 3,
-      "lastAccessed": 1775917793450,
-      "type": "file"
-    },
-    {
-      "path": "package.json",
-      "accessCount": 3,
-      "lastAccessed": 1775917812841,
-      "type": "file"
-    },
-    {
-      "path": "src\\components\\vault\\vault-drawer.tsx",
-      "accessCount": 3,
-      "lastAccessed": 1775918247042,
-      "type": "file"
-    },
-    {
-      "path": "src\\app\\series\\page.tsx",
-      "accessCount": 2,
-      "lastAccessed": 1775885750244,
-      "type": "file"
-    },
-    {
-      "path": "src\\app\\series\\category\\[category]\\page.tsx",
-      "accessCount": 2,
-      "lastAccessed": 1775885756209,
-      "type": "file"
-    },
-    {
-      "path": "src\\components\\explore\\facet-panel.tsx",
-      "accessCount": 2,
-      "lastAccessed": 1775923664681,
-      "type": "file"
-    },
-    {
-      "path": "tsconfig.json",
-      "accessCount": 1,
-      "lastAccessed": 1775885217111,
-      "type": "file"
-    },
-    {
-      "path": ".velite\\series.json",
-      "accessCount": 1,
-      "lastAccessed": 1775885749777,
-      "type": "file"
-    },
-    {
-      "path": ".velite\\posts.json",
-      "accessCount": 1,
-      "lastAccessed": 1775885749868,
-      "type": "file"
-    },
-    {
-      "path": "src\\app\\posts\\page.tsx",
-      "accessCount": 1,
-      "lastAccessed": 1775885750196,
-      "type": "file"
-    },
-    {
-      "path": "src\\app\\posts\\category\\[category]\\page.tsx",
-      "accessCount": 1,
-      "lastAccessed": 1775885756102,
-      "type": "file"
-    },
-    {
-      "path": "src\\app\\series\\[series]\\opengraph-image.tsx",
-      "accessCount": 1,
-      "lastAccessed": 1775885837666,
+      "lastAccessed": 1776038419331,
       "type": "file"
     },
     {
       "path": "src\\components\\graph\\global-graph.tsx",
-      "accessCount": 1,
-      "lastAccessed": 1775891286633,
+      "accessCount": 5,
+      "lastAccessed": 1776039362045,
       "type": "file"
     },
     {
-      "path": "src\\components\\ui\\card.tsx",
-      "accessCount": 1,
-      "lastAccessed": 1775891318413,
+      "path": "src\\app\\page.tsx",
+      "accessCount": 5,
+      "lastAccessed": 1776040586936,
       "type": "file"
     },
     {
-      "path": "src\\components\\ui\\badge.tsx",
-      "accessCount": 1,
-      "lastAccessed": 1775891318827,
+      "path": "src\\lib\\topics.ts",
+      "accessCount": 3,
+      "lastAccessed": 1776039283301,
       "type": "file"
     },
     {
-      "path": "src\\lib\\utils.ts",
-      "accessCount": 1,
-      "lastAccessed": 1775891327212,
+      "path": "src\\components\\graph\\local-graph.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1776039377319,
       "type": "file"
+    },
+    {
+      "path": "src",
+      "accessCount": 3,
+      "lastAccessed": 1776040544095,
+      "type": "directory"
+    },
+    {
+      "path": "src\\components\\vault\\mobile-vault-sidebar.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1776040625807,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\backlinks-panel.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1776039398877,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\folder-posts-sidebar.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1776039502786,
+      "type": "file"
+    },
+    {
+      "path": "content",
+      "accessCount": 2,
+      "lastAccessed": 1776039520403,
+      "type": "directory"
+    },
+    {
+      "path": "content\\00. 인사이트\\AI 시대 지식관리의 핵심 - 마크다운(Markdown).md",
+      "accessCount": 2,
+      "lastAccessed": 1776039535764,
+      "type": "file"
+    },
+    {
+      "path": "content\\downloads\\dcf-template.md",
+      "accessCount": 2,
+      "lastAccessed": 1776039544004,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\vault\\vault-tree.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1776039927181,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\vault\\vault-sidebar.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1776040113219,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\vault\\vault-drawer.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1776040122554,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\wiki-link.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776039405536,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\vault",
+      "accessCount": 1,
+      "lastAccessed": 1776040093640,
+      "type": "directory"
+    },
+    {
+      "path": "src\\components",
+      "accessCount": 1,
+      "lastAccessed": 1776040094683,
+      "type": "directory"
     }
   ],
   "userDirectives": []

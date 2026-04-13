@@ -1,4 +1,4 @@
-import { posts, series } from '#site/content'
+import { posts, series, chapters } from '#site/content'
 import { buildVaultTree } from '@/lib/vault-tree'
 import { VaultSidebar, type VaultData } from './vault-sidebar'
 
@@ -13,7 +13,7 @@ export function MobileVaultSidebar({ onNavigate }: { onNavigate?: () => void }) 
     .slice(0, 8)
 
   const vaultData: VaultData = {
-    tree: buildVaultTree(visiblePosts, visibleSeries),
+    tree: buildVaultTree(visiblePosts, visibleSeries, chapters),
     counts: {
       posts: visiblePosts.length,
       series: visibleSeries.length,

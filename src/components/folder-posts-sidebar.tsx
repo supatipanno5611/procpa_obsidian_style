@@ -6,7 +6,7 @@ import { MobileCollapsible } from '@/components/mobile-collapsible'
 interface FolderPostsSidebarProps {
   currentSlug: string
   category: string
-  subcategory: string
+  subcategory: string | null
 }
 
 export function FolderPostsSidebar({

@@ -1,6 +1,5 @@
 ---
 title: AI 시대의 실무 핵심은 마크다운(Markdown)
-category: insight
 status: draft
 tags:
   - AI

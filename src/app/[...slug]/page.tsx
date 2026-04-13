@@ -25,7 +25,7 @@ function getVaultData(): VaultData {
   for (const p of visiblePosts) for (const t of p.tags) tagCounts.set(t, (tagCounts.get(t) ?? 0) + 1)
   const tagList: [string, number][] = [...tagCounts.entries()].sort((a, b) => b[1] - a[1]).slice(0, 8)
   return {
-    tree: buildVaultTree(visiblePosts, visibleSeries),
+    tree: buildVaultTree(visiblePosts, visibleSeries, chapters),
     counts: { posts: visiblePosts.length, series: visibleSeries.length, tags: tagCounts.size },
     tags: tagList,
   }
@@ -68,6 +68,15 @@ type CategoryDoc = {
   url: string
   date: string
   tags: string[]
+  cover?: string
+  chapterCount?: number
+  lastUpdated?: string
+}
+
+type SubcategoryInfo = {
+  name: string
+  postCount: number
+  seriesCount: number
 }
 
 type Resolved =
@@ -91,7 +100,7 @@ type Resolved =
       type: 'category'
       category: TopicKey
       label: string
-      subcategories: string[]
+      subcategories: SubcategoryInfo[]
       docs: CategoryDoc[]
     }
   | {
@@ -110,19 +119,31 @@ function resolveContent(path: string): Resolved | null {
     const cat = segments[0] as TopicKey
     const catPosts = posts.filter((p) => !p.draft && p.category === cat)
     const catSeries = series.filter((s) => !s.draft && s.category === cat)
-    const subcategories = [...new Set([
+    const subNames = [...new Set([
       ...catPosts.map((p) => p.subcategory),
       ...catSeries.map((s) => s.subcategory),
     ])].filter(Boolean).sort() as string[]
+    const subcategories: SubcategoryInfo[] = subNames.map((name) => ({
+      name,
+      postCount: catPosts.filter((p) => p.subcategory === name).length,
+      seriesCount: catSeries.filter((s) => s.subcategory === name).length,
+    }))
     const docs: CategoryDoc[] = [
-      ...catSeries.map((s) => ({
-        type: 'series' as const,
-        title: s.title,
-        description: s.description,
-        url: `/${s.slugAsParams}`,
-        date: s.date ?? '',
-        tags: s.tags,
-      })),
+      ...catSeries.map((s) => {
+        const cc = chapters.filter((c) => !c.draft && c.series === s.slugAsParams)
+        const lastSynced = cc.map((c) => c.last_synced).filter(Boolean).sort().pop()
+        return {
+          type: 'series' as const,
+          title: s.title,
+          description: s.description,
+          url: `/${s.slugAsParams}`,
+          date: s.date ?? '',
+          tags: s.tags,
+          cover: s.cover,
+          chapterCount: cc.length,
+          lastUpdated: lastSynced ?? undefined,
+        }
+      }),
       ...catPosts.map((p) => ({
         type: 'post' as const,
         title: p.title,
@@ -143,14 +164,21 @@ function resolveContent(path: string): Resolved | null {
     const subSeries = series.filter((s) => !s.draft && s.category === cat && s.subcategory === sub)
     if (subPosts.length > 0 || subSeries.length > 0) {
       const docs: CategoryDoc[] = [
-        ...subSeries.map((s) => ({
-          type: 'series' as const,
-          title: s.title,
-          description: s.description,
-          url: `/${s.slugAsParams}`,
-          date: s.date ?? '',
-          tags: s.tags,
-        })),
+        ...subSeries.map((s) => {
+          const cc = chapters.filter((c) => !c.draft && c.series === s.slugAsParams)
+          const lastSynced = cc.map((c) => c.last_synced).filter(Boolean).sort().pop()
+          return {
+            type: 'series' as const,
+            title: s.title,
+            description: s.description,
+            url: `/${s.slugAsParams}`,
+            date: s.date ?? '',
+            tags: s.tags,
+            cover: s.cover,
+            chapterCount: cc.length,
+            lastUpdated: lastSynced ?? undefined,
+          }
+        }),
         ...subPosts.map((p) => ({
           type: 'post' as const,
           title: p.title,
@@ -499,7 +527,7 @@ function PostView({
         data={breadcrumbJsonLd([
           { name: '홈', url: SITE },
           { name: topicLabel(post.category), url: `${SITE}/${post.category}` },
-          { name: post.subcategory, url: `${SITE}/${post.category}/${post.subcategory}` },
+          ...(post.subcategory ? [{ name: post.subcategory, url: `${SITE}/${post.category}/${post.subcategory}` }] : []),
           { name: post.title, url },
         ])}
       />
@@ -518,8 +546,12 @@ function PostView({
               <Link href="/" className="hover:text-foreground">Home</Link>
               {' ⟩ '}
               <Link href={`/${post.category}`} className="hover:text-foreground">{topicLabel(post.category)}</Link>
-              {' ⟩ '}
-              <Link href={`/${post.category}/${post.subcategory}`} className="hover:text-foreground">{post.subcategory}</Link>
+              {post.subcategory && (
+                <>
+                  {' ⟩ '}
+                  <Link href={`/${post.category}/${post.subcategory}`} className="hover:text-foreground">{post.subcategory}</Link>
+                </>
+              )}
             </nav>
             <div className="mb-4 flex flex-wrap items-center gap-3 text-xs text-muted-foreground">
               <time className="font-mono">{post.date.slice(0, 10)}</time>
@@ -801,26 +833,43 @@ function DocList({ docs, emptyMsg }: { docs: CategoryDoc[]; emptyMsg?: string })
   const postDocs = docs.filter((d) => d.type === 'post').sort((a, b) => b.date.localeCompare(a.date))
 
   return (
-    <div className="space-y-10">
+    <div className="space-y-12">
       {seriesDocs.length > 0 && (
         <div>
-          <h3 className="mb-4 font-mono text-[11px] uppercase tracking-widest text-muted-foreground">
+          <h3 className="mb-5 font-mono text-[11px] uppercase tracking-widest text-muted-foreground">
             시리즈 · {seriesDocs.length}
           </h3>
-          <div className="grid gap-3">
+          <div className="grid gap-4 sm:grid-cols-2">
             {seriesDocs.map((d) => (
               <Link
                 key={d.url}
                 href={d.url}
-                className="group flex items-baseline gap-4 rounded-md border border-border/60 px-4 py-3.5 transition-colors hover:border-foreground/40"
+                className="group rounded-xl border border-border/60 p-5 transition-colors hover:border-foreground/40"
               >
-                <span className="font-mono text-[11px] text-muted-foreground">▸</span>
-                <div className="min-w-0 flex-1">
-                  <div className="text-[15px] font-medium group-hover:text-primary">{d.title}</div>
-                  {d.description && (
-                    <div className="mt-0.5 line-clamp-2 text-[13px] leading-snug text-muted-foreground">
-                      {d.description}
+                <div className="flex items-start gap-4">
+                  {d.cover ? (
+                    <img src={d.cover} alt="" className="h-16 w-12 shrink-0 rounded-md border border-border/40 object-cover" />
+                  ) : (
+                    <div className="flex h-16 w-12 shrink-0 items-center justify-center rounded-md border border-border/40 bg-muted/40">
+                      <span className="font-mono text-lg text-muted-foreground">B</span>
                     </div>
+                  )}
+                  <div className="min-w-0 flex-1">
+                    <div className="text-[15px] font-medium leading-snug group-hover:text-primary">{d.title}</div>
+                    {d.description && (
+                      <div className="mt-1 line-clamp-2 text-[13px] leading-snug text-muted-foreground">
+                        {d.description}
+                      </div>
+                    )}
+                  </div>
+                </div>
+                <div className="mt-3 flex flex-wrap items-center gap-2 font-mono text-[10px] text-muted-foreground">
+                  {d.chapterCount != null && <span>{d.chapterCount}개 챕터</span>}
+                  {d.lastUpdated && (
+                    <>
+                      <span>·</span>
+                      <span>업데이트 {d.lastUpdated.slice(0, 10).replace(/-/g, '.')}</span>
+                    </>
                   )}
                 </div>
               </Link>
@@ -830,7 +879,7 @@ function DocList({ docs, emptyMsg }: { docs: CategoryDoc[]; emptyMsg?: string })
       )}
       {postDocs.length > 0 && (
         <div>
-          <h3 className="mb-4 font-mono text-[11px] uppercase tracking-widest text-muted-foreground">
+          <h3 className="mb-5 font-mono text-[11px] uppercase tracking-widest text-muted-foreground">
             포스트 · {postDocs.length}
           </h3>
           <ul className="divide-y divide-border/60">
@@ -838,16 +887,24 @@ function DocList({ docs, emptyMsg }: { docs: CategoryDoc[]; emptyMsg?: string })
               <li key={d.url}>
                 <Link
                   href={d.url}
-                  className="group flex flex-col gap-1 py-4 sm:flex-row sm:items-baseline sm:gap-4"
+                  className="group flex flex-col gap-2 py-4"
                 >
-                  <div className="flex min-w-0 flex-1 items-baseline gap-3">
-                    <span className="font-mono text-[11px] text-muted-foreground group-hover:text-foreground">▸</span>
+                  <div className="flex items-baseline gap-4">
                     <span className="flex-1 text-[15px] leading-snug group-hover:text-primary">{d.title}</span>
+                    {d.date && (
+                      <span className="shrink-0 font-mono text-[10px] text-muted-foreground">
+                        {d.date.slice(0, 10).replace(/-/g, '.')}
+                      </span>
+                    )}
                   </div>
-                  {d.date && (
-                    <span className="pl-6 font-mono text-[10px] text-muted-foreground sm:pl-0">
-                      {d.date.slice(0, 10).replace(/-/g, '.')}
-                    </span>
+                  {d.tags.length > 0 && (
+                    <div className="flex flex-wrap gap-1.5">
+                      {d.tags.map((t) => (
+                        <span key={t} className="rounded-full border border-border/60 px-2 py-0.5 font-mono text-[10px] text-muted-foreground">
+                          {t}
+                        </span>
+                      ))}
+                    </div>
                   )}
                 </Link>
               </li>
@@ -860,6 +917,14 @@ function DocList({ docs, emptyMsg }: { docs: CategoryDoc[]; emptyMsg?: string })
 }
 
 function CategoryView({ r }: { r: Extract<Resolved, { type: 'category' }> }) {
+  const postCount = r.docs.filter((d) => d.type === 'post').length
+  const seriesCount = r.docs.filter((d) => d.type === 'series').length
+  const statParts = [
+    seriesCount > 0 && `시리즈 ${seriesCount}`,
+    postCount > 0 && `포스트 ${postCount}`,
+    r.subcategories.length > 0 && `서브카테고리 ${r.subcategories.length}`,
+  ].filter(Boolean)
+
   return (
     <VaultLayout>
       <header className="mb-10">
@@ -870,23 +935,32 @@ function CategoryView({ r }: { r: Extract<Resolved, { type: 'category' }> }) {
         </nav>
         <h1 className="mt-2 text-3xl font-semibold tracking-tight">{r.label}</h1>
         <p className="mt-2 text-sm text-muted-foreground">
-          {r.docs.length}개의 글 · {r.subcategories.length}개의 서브카테고리
+          {statParts.join(' · ')}
         </p>
       </header>
 
       {r.subcategories.length > 0 && (
-        <div className="mb-10">
+        <div className="mb-12">
           <h2 className="mb-4 font-mono text-[11px] uppercase tracking-widest text-muted-foreground">
             서브카테고리
           </h2>
-          <div className="flex flex-wrap gap-2">
+          <div className="grid gap-3 sm:grid-cols-2">
             {r.subcategories.map((sub) => (
               <Link
-                key={sub}
-                href={`/${r.category}/${sub}`}
-                className="rounded-md border border-border/60 px-3 py-2 text-sm transition-colors hover:border-foreground/40 hover:text-foreground"
+                key={sub.name}
+                href={`/${r.category}/${sub.name}`}
+                className="group flex items-center justify-between rounded-xl border border-border/60 px-5 py-4 transition-colors hover:border-foreground/40"
               >
-                {sub}
+                <div>
+                  <div className="text-sm font-medium group-hover:text-primary">{sub.name}</div>
+                  <div className="mt-0.5 font-mono text-[10px] text-muted-foreground">
+                    {[
+                      sub.seriesCount > 0 && `시리즈 ${sub.seriesCount}`,
+                      sub.postCount > 0 && `포스트 ${sub.postCount}`,
+                    ].filter(Boolean).join(' · ')}
+                  </div>
+                </div>
+                <span className="text-muted-foreground transition-transform group-hover:translate-x-0.5">⟩</span>
               </Link>
             ))}
           </div>
@@ -901,6 +975,13 @@ function CategoryView({ r }: { r: Extract<Resolved, { type: 'category' }> }) {
 // ── Subcategory view ──
 
 function SubcategoryView({ r }: { r: Extract<Resolved, { type: 'subcategory' }> }) {
+  const postCount = r.docs.filter((d) => d.type === 'post').length
+  const seriesCount = r.docs.filter((d) => d.type === 'series').length
+  const statParts = [
+    seriesCount > 0 && `시리즈 ${seriesCount}`,
+    postCount > 0 && `포스트 ${postCount}`,
+  ].filter(Boolean)
+
   return (
     <VaultLayout>
       <header className="mb-10">
@@ -913,7 +994,7 @@ function SubcategoryView({ r }: { r: Extract<Resolved, { type: 'subcategory' }> 
         </nav>
         <h1 className="mt-2 text-3xl font-semibold tracking-tight">{r.subcategory}</h1>
         <p className="mt-2 text-sm text-muted-foreground">
-          {r.docs.length}개의 글
+          {statParts.join(' · ')}
         </p>
       </header>
 

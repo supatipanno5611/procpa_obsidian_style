@@ -37,7 +37,7 @@ interface PostLike {
   title: string
   draft: boolean
   category?: string
-  subcategory?: string
+  subcategory?: string | null
 }
 interface SeriesLike {
   slug: string
@@ -45,7 +45,7 @@ interface SeriesLike {
   title: string
   draft: boolean
   category?: string
-  subcategory?: string
+  subcategory?: string | null
 }
 
 type CategoryEntry = {
@@ -53,10 +53,23 @@ type CategoryEntry = {
   subcategories: Map<string, Extract<TreeNode, { kind: 'folder' }>>
 }
 
+interface ChapterLike {
+  series: string
+  draft: boolean
+}
+
 export function buildVaultTree(
   posts: PostLike[],
   seriesList: SeriesLike[],
+  chapterList: ChapterLike[] = [],
 ): TreeNode[] {
+  // Pre-compute chapter counts per series slugAsParams
+  const chapterCounts = new Map<string, number>()
+  for (const ch of chapterList) {
+    if (ch.draft) continue
+    chapterCounts.set(ch.series, (chapterCounts.get(ch.series) ?? 0) + 1)
+  }
+
   const categories = new Map<string, CategoryEntry>()
 
   function ensureCategory(topic: string): CategoryEntry {
@@ -101,42 +114,28 @@ export function buildVaultTree(
     return sub
   }
 
-  // Posts → file nodes under subcategory
+  // Posts → count only (no file nodes in tree, navigate via category/subcategory pages)
   for (const p of posts) {
     if (p.draft) continue
     const topic = p.category ?? p.slug.split('/')[0]
-    const subName = p.subcategory ?? p.slug.split('/')[1] ?? '일반'
     const catEntry = ensureCategory(topic)
-    const sub = ensureSubcategory(catEntry, topic, subName)
-    sub.children.push({
-      kind: 'file',
-      nodeType: 'post',
-      key: p.slug,
-      name: p.slugAsParams.split('/').pop() ?? p.slug,
-      label: p.title,
-      href: `/${p.slugAsParams}`,
-    })
-    sub.count += 1
+    if (p.subcategory) {
+      const sub = ensureSubcategory(catEntry, topic, p.subcategory)
+      sub.count += 1
+    }
     catEntry.node.count += 1
   }
 
-  // Series → file nodes (no children, no expand) under subcategory
+  // Series → count by chapter count (or 1 if no chapters)
   for (const s of seriesList) {
     if (s.draft) continue
     const topic = s.category ?? s.slug.split('/')[0]
     const subName = s.subcategory ?? s.slug.split('/')[1] ?? '일반'
     const catEntry = ensureCategory(topic)
     const sub = ensureSubcategory(catEntry, topic, subName)
-    sub.children.push({
-      kind: 'file',
-      nodeType: 'series',
-      key: s.slug,
-      name: s.slugAsParams,
-      label: s.title,
-      href: `/${s.slugAsParams}`,
-    })
-    sub.count += 1
-    catEntry.node.count += 1
+    const cc = chapterCounts.get(s.slugAsParams) ?? 1
+    sub.count += cc
+    catEntry.node.count += cc
   }
 
   // Sort: folders first, then series before posts, natural alpha within each group
