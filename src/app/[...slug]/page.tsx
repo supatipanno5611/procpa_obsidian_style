@@ -12,66 +12,17 @@ import { MobileCollapsible } from '@/components/mobile-collapsible'
 import { BacklinksPanel } from '@/components/backlinks-panel'
 import { LazyLocalGraph } from '@/components/graph/lazy-local-graph'
 import { JsonLd, articleJsonLd, breadcrumbJsonLd } from '@/components/json-ld'
-import { VaultSidebar, type VaultData } from '@/components/vault/vault-sidebar'
+import { VaultLayout } from '@/components/vault/vault-layout'
+import { DocList, type CategoryDoc } from '@/components/doc-list'
 import { ScrollArea } from '@/components/ui/scroll-area'
-import { buildVaultTree } from '@/lib/vault-tree'
 
 const SITE = 'https://procpa.co.kr'
-
-function getVaultData(): VaultData {
-  const visiblePosts = posts.filter((p) => !p.draft)
-  const visibleSeries = series.filter((s) => !s.draft)
-  const tagCounts = new Map<string, number>()
-  for (const p of visiblePosts) for (const t of p.tags) tagCounts.set(t, (tagCounts.get(t) ?? 0) + 1)
-  const tagList: [string, number][] = [...tagCounts.entries()].sort((a, b) => b[1] - a[1]).slice(0, 8)
-  return {
-    tree: buildVaultTree(visiblePosts, visibleSeries, chapters),
-    counts: { posts: visiblePosts.length, series: visibleSeries.length, tags: tagCounts.size },
-    tags: tagList,
-  }
-}
-
-function VaultLayout({ children }: { children: React.ReactNode }) {
-  const vaultData = getVaultData()
-  return (
-    <div className="border-t border-border/60">
-      <div className="mx-auto grid min-h-[calc(100vh-3.5rem)] max-w-5xl grid-cols-12 gap-0 px-6 lg:px-0">
-        <aside className="hidden border-border/60 lg:col-span-3 lg:block lg:border-r">
-          <div className="group/sidebar sticky top-14 h-[calc(100vh-3.5rem)]">
-            <ScrollArea className="h-full [&_[data-slot=scroll-area-scrollbar]]:opacity-0 [&_[data-slot=scroll-area-scrollbar]]:transition-opacity group-hover/sidebar:[&_[data-slot=scroll-area-scrollbar]]:opacity-100">
-              <div className="px-6 pt-14 pb-8">
-                <VaultSidebar data={vaultData} />
-              </div>
-            </ScrollArea>
-          </div>
-        </aside>
-        <section className="col-span-12 min-w-0 lg:col-span-9">
-          <div className="pt-14 pb-8 sm:pb-10 lg:px-12">
-            {children}
-          </div>
-        </section>
-      </div>
-    </div>
-  )
-}
 
 interface PageProps {
   params: Promise<{ slug: string[] }>
 }
 
 // ── Resolve content by full path ──
-
-type CategoryDoc = {
-  type: 'post' | 'series'
-  title: string
-  description: string
-  url: string
-  date: string
-  tags: string[]
-  cover?: string
-  chapterCount?: number
-  lastUpdated?: string
-}
 
 type SubcategoryInfo = {
   name: string
@@ -335,53 +286,64 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const r = resolveContent(path)
   if (!r) return {}
 
+  const defaultOg = '/og-default.png'
+
   if (r.type === 'category') {
-    return { title: r.label, description: `${r.label} 카테고리의 모든 글`, alternates: { canonical: `/${path}` } }
+    const desc = `${r.label} 카테고리의 모든 글`
+    return {
+      title: r.label,
+      description: desc,
+      alternates: { canonical: `/${path}` },
+      openGraph: { title: r.label, description: desc, images: [{ url: defaultOg, width: 1200, height: 630 }] },
+      twitter: { card: 'summary_large_image', title: r.label, description: desc, images: [defaultOg] },
+    }
   }
   if (r.type === 'subcategory') {
-    return { title: `${r.subcategory} · ${r.categoryLabel}`, description: `${r.categoryLabel} > ${r.subcategory}의 모든 글`, alternates: { canonical: `/${path}` } }
+    const title = `${r.subcategory} · ${r.categoryLabel}`
+    const desc = `${r.categoryLabel} > ${r.subcategory}의 모든 글`
+    return {
+      title,
+      description: desc,
+      alternates: { canonical: `/${path}` },
+      openGraph: { title, description: desc, images: [{ url: defaultOg, width: 1200, height: 630 }] },
+      twitter: { card: 'summary_large_image', title, description: desc, images: [defaultOg] },
+    }
   }
 
   if (r.type === 'post') {
     const { post } = r
-    const ogUrl = `/api/og?kicker=${encodeURIComponent('PROCPA · POST')}&title=${encodeURIComponent(
-      post.title,
-    )}&subtitle=${encodeURIComponent(post.description)}&meta=${encodeURIComponent(post.date.slice(0, 10))}`
+    const ogImage = post.cover || defaultOg
     return {
       title: post.title,
       description: post.description,
       alternates: { canonical: `/${post.slugAsParams}` },
-      openGraph: { title: post.title, description: post.description, type: 'article', publishedTime: post.date, images: [{ url: ogUrl, width: 1200, height: 630 }] },
-      twitter: { card: 'summary_large_image', title: post.title, description: post.description, images: [ogUrl] },
+      openGraph: { title: post.title, description: post.description, type: 'article', publishedTime: post.date, images: [{ url: ogImage, width: 1200, height: 630 }] },
+      twitter: { card: 'summary_large_image', title: post.title, description: post.description, images: [ogImage] },
     }
   }
 
   if (r.type === 'series') {
     const { series: s } = r
-    const ogUrl = `/api/og?kicker=${encodeURIComponent('PROCPA · SERIES')}&title=${encodeURIComponent(
-      s.title,
-    )}&subtitle=${encodeURIComponent(s.description)}&meta=${encodeURIComponent(`${r.totalCount}개 챕터`)}`
+    const ogImage = s.cover || defaultOg
     return {
       title: s.title,
       description: s.description,
       alternates: { canonical: `/${s.slugAsParams}` },
-      openGraph: { title: s.title, description: s.description, type: 'article', images: [{ url: ogUrl, width: 1200, height: 630 }] },
-      twitter: { card: 'summary_large_image', title: s.title, description: s.description, images: [ogUrl] },
+      openGraph: { title: s.title, description: s.description, type: 'article', images: [{ url: ogImage, width: 1200, height: 630 }] },
+      twitter: { card: 'summary_large_image', title: s.title, description: s.description, images: [ogImage] },
     }
   }
 
   // chapter
   const title = `${r.chapter.title} · ${r.series.title}`
   const description = r.chapter.description ?? r.series.description
-  const ogUrl = `/api/og?kicker=${encodeURIComponent('PROCPA · SERIES')}&title=${encodeURIComponent(
-    r.chapter.title,
-  )}&subtitle=${encodeURIComponent(description)}&meta=${encodeURIComponent(r.series.title)}`
+  const ogImage = r.series.cover || defaultOg
   return {
     title,
     description,
     alternates: { canonical: `/${r.chapter.slugAsParams}` },
-    openGraph: { title, description, type: 'article', images: [{ url: ogUrl, width: 1200, height: 630 }] },
-    twitter: { card: 'summary_large_image', title, description, images: [ogUrl] },
+    openGraph: { title, description, type: 'article', images: [{ url: ogImage, width: 1200, height: 630 }] },
+    twitter: { card: 'summary_large_image', title, description, images: [ogImage] },
   }
 }
 
@@ -830,95 +792,6 @@ function ChapterView({ r }: { r: Extract<Resolved, { type: 'chapter' }> }) {
 }
 
 // ── Category view ──
-
-function DocList({ docs, emptyMsg }: { docs: CategoryDoc[]; emptyMsg?: string }) {
-  if (docs.length === 0) return <p className="text-sm text-muted-foreground">{emptyMsg ?? '글이 없습니다.'}</p>
-  const seriesDocs = docs.filter((d) => d.type === 'series')
-  const postDocs = docs.filter((d) => d.type === 'post').sort((a, b) => b.date.localeCompare(a.date))
-
-  return (
-    <div className="space-y-12">
-      {seriesDocs.length > 0 && (
-        <div>
-          <h3 className="mb-5 font-mono text-[11px] uppercase tracking-widest text-muted-foreground">
-            시리즈 · {seriesDocs.length}
-          </h3>
-          <div className="grid gap-4 sm:grid-cols-2">
-            {seriesDocs.map((d) => (
-              <Link
-                key={d.url}
-                href={d.url}
-                className="group rounded-xl border border-border/60 p-5 transition-colors hover:border-foreground/40"
-              >
-                <div className="flex items-start gap-4">
-                  {d.cover ? (
-                    <img src={d.cover} alt="" className="h-16 w-12 shrink-0 rounded-md border border-border/40 object-cover" />
-                  ) : (
-                    <div className="flex h-16 w-12 shrink-0 items-center justify-center rounded-md border border-border/40 bg-muted/40">
-                      <span className="font-mono text-lg text-muted-foreground">B</span>
-                    </div>
-                  )}
-                  <div className="min-w-0 flex-1">
-                    <div className="text-[15px] font-medium leading-snug group-hover:text-primary">{d.title}</div>
-                    {d.description && (
-                      <div className="mt-1 line-clamp-2 text-[13px] leading-snug text-muted-foreground">
-                        {d.description}
-                      </div>
-                    )}
-                  </div>
-                </div>
-                <div className="mt-3 flex flex-wrap items-center gap-2 font-mono text-[10px] text-muted-foreground">
-                  {d.chapterCount != null && <span>{d.chapterCount}개 챕터</span>}
-                  {d.lastUpdated && (
-                    <>
-                      <span>·</span>
-                      <span>업데이트 {d.lastUpdated.slice(0, 10).replace(/-/g, '.')}</span>
-                    </>
-                  )}
-                </div>
-              </Link>
-            ))}
-          </div>
-        </div>
-      )}
-      {postDocs.length > 0 && (
-        <div>
-          <h3 className="mb-5 font-mono text-[11px] uppercase tracking-widest text-muted-foreground">
-            포스트 · {postDocs.length}
-          </h3>
-          <ul className="divide-y divide-border/60">
-            {postDocs.map((d) => (
-              <li key={d.url}>
-                <Link
-                  href={d.url}
-                  className="group flex flex-col gap-2 py-4"
-                >
-                  <div className="flex items-baseline gap-4">
-                    <span className="flex-1 text-[15px] leading-snug group-hover:text-primary">{d.title}</span>
-                    {d.date && (
-                      <span className="shrink-0 font-mono text-[10px] text-muted-foreground">
-                        {d.date.slice(0, 10).replace(/-/g, '.')}
-                      </span>
-                    )}
-                  </div>
-                  {d.tags.length > 0 && (
-                    <div className="flex flex-wrap gap-1.5">
-                      {d.tags.map((t) => (
-                        <span key={t} className="rounded-full border border-border/60 px-2 py-0.5 font-mono text-[10px] text-muted-foreground">
-                          {t}
-                        </span>
-                      ))}
-                    </div>
-                  )}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
-    </div>
-  )
-}
 
 function CategoryView({ r }: { r: Extract<Resolved, { type: 'category' }> }) {
   const postCount = r.docs.filter((d) => d.type === 'post').length

@@ -1,7 +1,0 @@
-{
-  "tool_name": "WebFetch",
-  "tool_input_preview": "{\"url\":\"https://raw.githubusercontent.com/uxjoseph/supanova-design-skill/main/SKILL.md\",\"prompt\":\"Extract the core design principles, layout patterns, typography rules, color guidance, and section com...",
-  "error": "Request failed with status code 404",
-  "timestamp": "2026-04-07T03:18:49.092Z",
-  "retry_count": 1
-}

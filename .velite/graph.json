@@ -69,11 +69,11 @@
       "degree": 0
     },
     {
-      "id": "개발/web-app/회계재무-실무자를-위한-지식관리-플랫폼-procpa-제작",
+      "id": "개발/web-app/procpa-개인-지식관리-웹사이트-구축feat-옵시디언",
       "type": "post",
-      "title": "회계·재무 실무자를 위한 지식관리 플랫폼 (PROCPA) 제작",
+      "title": "개인 지식관리 웹사이트 PROCPA 구축(feat. 옵시디언)",
       "category": "개발",
-      "url": "/개발/web-app/회계재무-실무자를-위한-지식관리-플랫폼-procpa-제작",
+      "url": "/개발/web-app/procpa-개인-지식관리-웹사이트-구축feat-옵시디언",
       "tags": [],
       "degree": 0
     },
@@ -113,86 +113,6 @@
       "url": "/회계실무/icfr/내부회계관리제도-실무-가이드북/개요",
       "tags": [],
       "series": "회계실무/icfr/내부회계관리제도-실무-가이드북",
-      "degree": 0
-    },
-    {
-      "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/클로드-엑셀-소개",
-      "type": "chapter",
-      "title": "1. 클로드 엑셀 소개",
-      "category": "ai-생산성",
-      "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/클로드-엑셀-소개",
-      "tags": [],
-      "series": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드",
-      "degree": 0
-    },
-    {
-      "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/설치-및-기본설정",
-      "type": "chapter",
-      "title": "2. 설치 및 기본설정",
-      "category": "ai-생산성",
-      "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/설치-및-기본설정",
-      "tags": [],
-      "series": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드",
-      "degree": 0
-    },
-    {
-      "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/주요-기능-및-동작-원리",
-      "type": "chapter",
-      "title": "3. 주요 기능 및 동작 원리",
-      "category": "ai-생산성",
-      "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/주요-기능-및-동작-원리",
-      "tags": [],
-      "series": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드",
-      "degree": 0
-    },
-    {
-      "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/데이터-유출-방지를-위한-보안-설정",
-      "type": "chapter",
-      "title": "4. 데이터 유출 방지를 위한 보안 설정",
-      "category": "ai-생산성",
-      "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/데이터-유출-방지를-위한-보안-설정",
-      "tags": [],
-      "series": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드",
-      "degree": 0
-    },
-    {
-      "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/프롬프트-작성-및-기본-활용-사례",
-      "type": "chapter",
-      "title": "5. 프롬프트 작성 및 기본 활용 사례",
-      "category": "ai-생산성",
-      "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/프롬프트-작성-및-기본-활용-사례",
-      "tags": [],
-      "series": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드",
-      "degree": 0
-    },
-    {
-      "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법",
-      "type": "chapter",
-      "title": "6. 스킬(Skills) 활용법",
-      "category": "ai-생산성",
-      "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법",
-      "tags": [],
-      "series": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드",
-      "degree": 0
-    },
-    {
-      "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/커넥터mcp-활용법",
-      "type": "chapter",
-      "title": "7. 커넥터(MCP) 활용법",
-      "category": "ai-생산성",
-      "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/커넥터mcp-활용법",
-      "tags": [],
-      "series": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드",
-      "degree": 0
-    },
-    {
-      "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/실무-사례-1-dcf-평가",
-      "type": "chapter",
-      "title": "8. 실무 사례 1 - DCF 평가",
-      "category": "ai-생산성",
-      "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/실무-사례-1-dcf-평가",
-      "tags": [],
-      "series": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드",
       "degree": 0
     },
     {
@@ -276,6 +196,86 @@
       "degree": 0
     },
     {
+      "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/클로드-엑셀-소개",
+      "type": "chapter",
+      "title": "1. 클로드 엑셀 소개",
+      "category": "ai-생산성",
+      "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/클로드-엑셀-소개",
+      "tags": [],
+      "series": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드",
+      "degree": 0
+    },
+    {
+      "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/설치-및-기본설정",
+      "type": "chapter",
+      "title": "2. 설치 및 기본설정",
+      "category": "ai-생산성",
+      "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/설치-및-기본설정",
+      "tags": [],
+      "series": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드",
+      "degree": 0
+    },
+    {
+      "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/주요-기능-및-동작-원리",
+      "type": "chapter",
+      "title": "3. 주요 기능 및 동작 원리",
+      "category": "ai-생산성",
+      "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/주요-기능-및-동작-원리",
+      "tags": [],
+      "series": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드",
+      "degree": 0
+    },
+    {
+      "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/데이터-유출-방지를-위한-보안-설정",
+      "type": "chapter",
+      "title": "4. 데이터 유출 방지를 위한 보안 설정",
+      "category": "ai-생산성",
+      "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/데이터-유출-방지를-위한-보안-설정",
+      "tags": [],
+      "series": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드",
+      "degree": 0
+    },
+    {
+      "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/프롬프트-작성-및-기본-활용-사례",
+      "type": "chapter",
+      "title": "5. 프롬프트 작성 및 기본 활용 사례",
+      "category": "ai-생산성",
+      "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/프롬프트-작성-및-기본-활용-사례",
+      "tags": [],
+      "series": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드",
+      "degree": 0
+    },
+    {
+      "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법",
+      "type": "chapter",
+      "title": "6. 스킬(Skills) 활용법",
+      "category": "ai-생산성",
+      "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법",
+      "tags": [],
+      "series": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드",
+      "degree": 0
+    },
+    {
+      "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/커넥터mcp-활용법",
+      "type": "chapter",
+      "title": "7. 커넥터(MCP) 활용법",
+      "category": "ai-생산성",
+      "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/커넥터mcp-활용법",
+      "tags": [],
+      "series": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드",
+      "degree": 0
+    },
+    {
+      "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/실무-사례-1-dcf-평가",
+      "type": "chapter",
+      "title": "8. 실무 사례 1 - DCF 평가",
+      "category": "ai-생산성",
+      "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/실무-사례-1-dcf-평가",
+      "tags": [],
+      "series": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드",
+      "degree": 0
+    },
+    {
       "id": "ai-생산성/ai-활용/클로드-코워크claude-cowork-실무-가이드/시작하며",
       "type": "chapter",
       "title": "시작하며",
@@ -313,36 +313,6 @@
       "url": "/회계실무/icfr/내부회계관리제도-실무-가이드북/개요/3-내부회계관리제도-관련-기준-체계",
       "tags": [],
       "series": "회계실무/icfr/내부회계관리제도-실무-가이드북",
-      "degree": 0
-    },
-    {
-      "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법/1-스킬skills이란",
-      "type": "chapter",
-      "title": "6.1. 스킬(Skills)이란",
-      "category": "ai-생산성",
-      "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법/1-스킬skills이란",
-      "tags": [],
-      "series": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드",
-      "degree": 0
-    },
-    {
-      "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법/2-스타터-스킬skills-맛보기",
-      "type": "chapter",
-      "title": "6.2. 스타터 스킬(Skills) 맛보기",
-      "category": "ai-생산성",
-      "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법/2-스타터-스킬skills-맛보기",
-      "tags": [],
-      "series": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드",
-      "degree": 0
-    },
-    {
-      "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법/3-나만의-스킬skills-만들고-등록하기",
-      "type": "chapter",
-      "title": "6.3. 나만의 스킬(Skills) 만들고 등록하기",
-      "category": "ai-생산성",
-      "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법/3-나만의-스킬skills-만들고-등록하기",
-      "tags": [],
-      "series": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드",
       "degree": 0
     },
     {
@@ -406,6 +376,56 @@
       "degree": 0
     },
     {
+      "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법/1-스킬skills이란",
+      "type": "chapter",
+      "title": "6.1. 스킬(Skills)이란",
+      "category": "ai-생산성",
+      "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법/1-스킬skills이란",
+      "tags": [],
+      "series": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드",
+      "degree": 0
+    },
+    {
+      "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법/2-스타터-스킬skills-맛보기",
+      "type": "chapter",
+      "title": "6.2. 스타터 스킬(Skills) 맛보기",
+      "category": "ai-생산성",
+      "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법/2-스타터-스킬skills-맛보기",
+      "tags": [],
+      "series": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드",
+      "degree": 0
+    },
+    {
+      "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법/3-나만의-스킬skills-만들고-등록하기",
+      "type": "chapter",
+      "title": "6.3. 나만의 스킬(Skills) 만들고 등록하기",
+      "category": "ai-생산성",
+      "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/스킬skills-활용법/3-나만의-스킬skills-만들고-등록하기",
+      "tags": [],
+      "series": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드",
+      "degree": 0
+    },
+    {
+      "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/커넥터mcp-활용법/1-커넥터mcp란",
+      "type": "chapter",
+      "title": "7.1. 커넥터(MCP)란",
+      "category": "ai-생산성",
+      "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/커넥터mcp-활용법/1-커넥터mcp란",
+      "tags": [],
+      "series": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드",
+      "degree": 0
+    },
+    {
+      "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/커넥터mcp-활용법/2-커스텀-커넥터-활용-전자공시시스템open-dart",
+      "type": "chapter",
+      "title": "7.2. 커스텀 커넥터 활용 - 전자공시시스템(Open DART)",
+      "category": "ai-생산성",
+      "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/커넥터mcp-활용법/2-커스텀-커넥터-활용-전자공시시스템open-dart",
+      "tags": [],
+      "series": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드",
+      "degree": 0
+    },
+    {
       "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/실무-사례-1-dcf-평가/1-dcf-평가-개요",
       "type": "chapter",
       "title": "8.1. DCF 평가 개요",
@@ -431,26 +451,6 @@
       "title": "8.3. Step 2. 기초 데이터 수집",
       "category": "ai-생산성",
       "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/실무-사례-1-dcf-평가/3-step-2-기초-데이터-수집",
-      "tags": [],
-      "series": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드",
-      "degree": 0
-    },
-    {
-      "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/커넥터mcp-활용법/1-커넥터mcp란",
-      "type": "chapter",
-      "title": "7.1. 커넥터(MCP)란",
-      "category": "ai-생산성",
-      "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/커넥터mcp-활용법/1-커넥터mcp란",
-      "tags": [],
-      "series": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드",
-      "degree": 0
-    },
-    {
-      "id": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/커넥터mcp-활용법/2-커스텀-커넥터-활용-전자공시시스템open-dart",
-      "type": "chapter",
-      "title": "7.2. 커스텀 커넥터 활용 - 전자공시시스템(Open DART)",
-      "category": "ai-생산성",
-      "url": "/ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드/커넥터mcp-활용법/2-커스텀-커넥터-활용-전자공시시스템open-dart",
       "tags": [],
       "series": "ai-생산성/ai-활용/클로드-엑셀claude-for-excel-가이드",
       "degree": 0

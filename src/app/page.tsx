@@ -6,6 +6,8 @@ import { ScrollArea } from '@/components/ui/scroll-area'
 import { buildVaultTree } from '@/lib/vault-tree'
 import { NoteCarousel } from '@/components/note-carousel'
 import { JsonLd, websiteJsonLd } from '@/components/json-ld'
+import { SeriesCard, PostCard } from '@/components/content-card'
+import { KakaoBanner } from '@/components/kakao-banner'
 
 export const metadata: Metadata = {
   title: 'PROCPA',
@@ -127,61 +129,57 @@ export default function HomePage() {
                 Featured Series
               </h2>
 
-              <div className="mt-5 grid gap-8 sm:grid-cols-2">
-                {accountingSeries.length > 0 && (
-                  <div>
-                    <h3 className="font-mono text-[10px] text-muted-foreground">
-                      회계실무
-                    </h3>
-                    <div className="mt-3 grid gap-3">
-                      {accountingSeries.map((s) => (
-                        <Link
+              {accountingSeries.length > 0 && (
+                <div className="mt-6">
+                  <h3 className="mb-3 font-mono text-[10px] text-muted-foreground">
+                    회계실무
+                  </h3>
+                  <NoteCarousel>
+                    {accountingSeries.map((s) => {
+                      const cc = chapters.filter((c) => !c.draft && c.series === s.slugAsParams)
+                      const lastSynced = cc.map((c) => c.last_synced).filter(Boolean).sort().pop()
+                      return (
+                        <SeriesCard
                           key={s.slug}
-                          href={`/${s.slugAsParams}`}
-                          className="group flex items-start gap-3 rounded-md border border-border/60 px-4 py-3.5 transition-all hover:translate-y-[-2px] hover:border-foreground/40 hover:shadow-sm"
-                        >
-                          <span className="mt-0.5 font-mono text-[11px] text-muted-foreground">▸</span>
-                          <div className="min-w-0 flex-1">
-                            <div className="text-[14px] font-medium leading-snug group-hover:text-primary">
-                              {s.title}
-                            </div>
-                            <div className="mt-0.5 line-clamp-2 text-[12px] leading-snug text-muted-foreground">
-                              {s.description}
-                            </div>
-                          </div>
-                        </Link>
-                      ))}
-                    </div>
-                  </div>
-                )}
+                          title={s.title}
+                          description={s.description}
+                          url={`/${s.slugAsParams}`}
+                          cover={s.cover}
+                          chapterCount={cc.length || undefined}
+                          lastUpdated={lastSynced ?? undefined}
+                          variant="featured"
+                        />
+                      )
+                    })}
+                  </NoteCarousel>
+                </div>
+              )}
 
-                {aiSeries.length > 0 && (
-                  <div>
-                    <h3 className="font-mono text-[10px] text-muted-foreground">
-                      AI
-                    </h3>
-                    <div className="mt-3 grid gap-3">
-                      {aiSeries.map((s) => (
-                        <Link
+              {aiSeries.length > 0 && (
+                <div className="mt-8">
+                  <h3 className="mb-3 font-mono text-[10px] text-muted-foreground">
+                    AI / 생산성
+                  </h3>
+                  <NoteCarousel>
+                    {aiSeries.map((s) => {
+                      const cc = chapters.filter((c) => !c.draft && c.series === s.slugAsParams)
+                      const lastSynced = cc.map((c) => c.last_synced).filter(Boolean).sort().pop()
+                      return (
+                        <SeriesCard
                           key={s.slug}
-                          href={`/${s.slugAsParams}`}
-                          className="group flex items-start gap-3 rounded-md border border-border/60 px-4 py-3.5 transition-all hover:translate-y-[-2px] hover:border-foreground/40 hover:shadow-sm"
-                        >
-                          <span className="mt-0.5 font-mono text-[11px] text-muted-foreground">▸</span>
-                          <div className="min-w-0 flex-1">
-                            <div className="text-[14px] font-medium leading-snug group-hover:text-primary">
-                              {s.title}
-                            </div>
-                            <div className="mt-0.5 line-clamp-2 text-[12px] leading-snug text-muted-foreground">
-                              {s.description}
-                            </div>
-                          </div>
-                        </Link>
-                      ))}
-                    </div>
-                  </div>
-                )}
-              </div>
+                          title={s.title}
+                          description={s.description}
+                          url={`/${s.slugAsParams}`}
+                          cover={s.cover}
+                          chapterCount={cc.length || undefined}
+                          lastUpdated={lastSynced ?? undefined}
+                          variant="featured"
+                        />
+                      )
+                    })}
+                  </NoteCarousel>
+                </div>
+              )}
             </div>
 
             {/* ── Recent Notes (carousel) ── */}
@@ -191,30 +189,25 @@ export default function HomePage() {
               </h2>
               <NoteCarousel>
                 {recentPosts.map((p) => (
-                  <Link
+                  <PostCard
                     key={p.slug}
-                    href={`/${p.slugAsParams}`}
-                    className="group flex w-[260px] shrink-0 snap-start flex-col justify-between rounded-md border border-border/60 px-4 py-4 transition-all hover:translate-y-[-2px] hover:border-foreground/40 hover:shadow-sm"
-                  >
-                    <div>
-                      <span className="rounded border border-border/60 px-1.5 py-0.5 font-mono text-[10px] text-muted-foreground">
-                        {p.category === '회계실무' ? '회계' : 'AI'}
-                      </span>
-                      <div className="mt-2.5 text-[14px] font-medium leading-snug group-hover:text-primary">
-                        {p.title}
-                      </div>
-                      {p.description && (
-                        <p className="mt-1 line-clamp-2 text-[12px] leading-relaxed text-muted-foreground">
-                          {p.description}
-                        </p>
-                      )}
-                    </div>
-                    <div className="mt-3 font-mono text-[10px] text-muted-foreground">
-                      {p.date.slice(0, 10).replace(/-/g, '.')}
-                    </div>
-                  </Link>
+                    title={p.title}
+                    description={p.description}
+                    url={`/${p.slugAsParams}`}
+                    date={p.date}
+                    category={p.category === '회계실무' ? '회계' : 'AI'}
+                    variant="card"
+                  />
                 ))}
               </NoteCarousel>
+            </div>
+
+            {/* ── Community ── */}
+            <div className="mt-14 border-t border-border/60 pt-14 lg:mt-16 lg:pt-16">
+              <h2 className="font-mono text-[11px] uppercase tracking-widest text-muted-foreground">
+                Community
+              </h2>
+              <KakaoBanner />
             </div>
           </div>
         </section>

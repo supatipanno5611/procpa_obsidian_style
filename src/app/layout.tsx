@@ -2,10 +2,11 @@ import type { Metadata } from 'next'
 import { Geist_Mono } from 'next/font/google'
 import './globals.css'
 import { SiteHeader } from '@/components/site-header'
-import { DevBanner } from '@/components/dev-banner'
 import { SiteFooter } from '@/components/site-footer'
 import Script from 'next/script'
 import { themeScript } from '@/lib/theme-script'
+import { Analytics } from '@vercel/analytics/react'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 
 const geistMono = Geist_Mono({
   variable: '--font-geist-mono',
@@ -80,10 +81,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Script strategy="beforeInteractive" dangerouslySetInnerHTML={{ __html: themeScript }} />
       </head>
       <body className="min-h-full flex flex-col bg-background text-foreground [word-break:keep-all]">
-        <DevBanner />
         <SiteHeader />
         <main className="flex-1">{children}</main>
         <SiteFooter />
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   )
