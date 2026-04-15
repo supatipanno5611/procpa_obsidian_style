@@ -17,31 +17,31 @@ export function SeriesCard({ title, description, url, cover, chapterCount, lastU
     return (
       <Link
         href={url}
-        className="group flex w-[280px] shrink-0 snap-start flex-col overflow-hidden rounded-xl border border-border/60 transition-all hover:translate-y-[-2px] hover:border-foreground/40 hover:shadow-sm"
+        className="group flex w-[280px] shrink-0 snap-start items-stretch overflow-hidden rounded-xl border border-border/60 transition-all hover:translate-y-[-2px] hover:border-foreground/40 hover:shadow-sm"
       >
-        {/* Large cover area */}
+        {/* Book cover (10:13 ratio, compact) */}
         {cover ? (
-          <div className="aspect-[16/9] w-full overflow-hidden bg-muted/20">
-            <img src={cover} alt="" className="h-full w-full object-cover transition-transform group-hover:scale-[1.02]" />
+          <div className="w-[90px] shrink-0 overflow-hidden bg-muted/20">
+            <img src={cover} alt="" className="h-full w-full object-cover transition-transform group-hover:scale-[1.03]" />
           </div>
         ) : (
-          <div className="flex aspect-[16/9] w-full items-center justify-center bg-muted/20">
-            <span className="font-mono text-2xl text-muted-foreground/40">SERIES</span>
+          <div className="flex w-[90px] shrink-0 items-center justify-center bg-muted/20">
+            <span className="font-mono text-sm text-muted-foreground/40">SERIES</span>
           </div>
         )}
         <div className="flex flex-1 flex-col justify-between p-4">
           <div>
-            <div className="text-[14px] font-medium leading-snug group-hover:text-primary">
+            <div className="text-[13px] font-medium leading-snug group-hover:text-primary">
               {title}
             </div>
             {description && (
-              <p className="mt-1.5 line-clamp-2 text-[12px] leading-relaxed text-muted-foreground">
+              <p className="mt-1.5 line-clamp-2 text-[11px] leading-relaxed text-muted-foreground">
                 {description}
               </p>
             )}
           </div>
           {(chapterCount != null || lastUpdated) && (
-            <div className="mt-3 flex flex-wrap items-center gap-2 font-mono text-[10px] text-muted-foreground">
+            <div className="mt-2 flex flex-wrap items-center gap-2 font-mono text-[10px] text-muted-foreground">
               {chapterCount != null && <span>{chapterCount}개 챕터</span>}
               {lastUpdated && (
                 <>
@@ -64,9 +64,9 @@ export function SeriesCard({ title, description, url, cover, chapterCount, lastU
     >
       <div className="flex items-start gap-4">
         {cover ? (
-          <img src={cover} alt="" className="h-16 w-12 shrink-0 rounded-md border border-border/40 object-cover" />
+          <img src={cover} alt="" className="aspect-[10/13] w-16 shrink-0 rounded-md border border-border/40 object-cover" />
         ) : (
-          <div className="flex h-16 w-12 shrink-0 items-center justify-center rounded-md border border-border/40 bg-muted/40">
+          <div className="flex aspect-[10/13] w-16 shrink-0 items-center justify-center rounded-md border border-border/40 bg-muted/40">
             <span className="font-mono text-lg text-muted-foreground">B</span>
           </div>
         )}

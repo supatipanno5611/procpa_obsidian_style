@@ -95,6 +95,54 @@
     "url": "/ai-생산성/ai-활용/오픈클로openclaw-vs-클로드-코드-채널claude-code-channels-사용후기-및-결론",
     "category": "ai-생산성"
   },
+  "개발/mcp/dcf-평가를-위한-peer-group-search-mcp-서버-개발": {
+    "id": "개발/mcp/dcf-평가를-위한-peer-group-search-mcp-서버-개발",
+    "type": "post",
+    "title": "DCF 평가를 위한 Peer-Group-Search MCP 서버 개발",
+    "description": "최근 클로드 엑셀(Claude for Excel) 을 활용한 DCF 평가 자동화 워크플로우를 구축하고 있습니다. DCF 평가를 하다보면 평가대상회사의 유사회사(Peer Group)을 선정하고 해당 유사회사에 대한 데이터를 수집하는 것에 상당한 시간을 쓰게 됩니다. 이번 글에서는 이를 자동화하기 위해 직접 구축한 MCP 서버의 개발 과정을 소개하고자 합니다.",
+    "url": "/개발/mcp/dcf-평가를-위한-peer-group-search-mcp-서버-개발",
+    "category": "개발"
+  },
+  "dcf-평가를-위한-peer-group-search-mcp-서버-개발": {
+    "id": "개발/mcp/dcf-평가를-위한-peer-group-search-mcp-서버-개발",
+    "type": "post",
+    "title": "DCF 평가를 위한 Peer-Group-Search MCP 서버 개발",
+    "description": "최근 클로드 엑셀(Claude for Excel) 을 활용한 DCF 평가 자동화 워크플로우를 구축하고 있습니다. DCF 평가를 하다보면 평가대상회사의 유사회사(Peer Group)을 선정하고 해당 유사회사에 대한 데이터를 수집하는 것에 상당한 시간을 쓰게 됩니다. 이번 글에서는 이를 자동화하기 위해 직접 구축한 MCP 서버의 개발 과정을 소개하고자 합니다.",
+    "url": "/개발/mcp/dcf-평가를-위한-peer-group-search-mcp-서버-개발",
+    "category": "개발"
+  },
+  "dcf 평가를 위한 peer-group-search mcp 서버 개발": {
+    "id": "개발/mcp/dcf-평가를-위한-peer-group-search-mcp-서버-개발",
+    "type": "post",
+    "title": "DCF 평가를 위한 Peer-Group-Search MCP 서버 개발",
+    "description": "최근 클로드 엑셀(Claude for Excel) 을 활용한 DCF 평가 자동화 워크플로우를 구축하고 있습니다. DCF 평가를 하다보면 평가대상회사의 유사회사(Peer Group)을 선정하고 해당 유사회사에 대한 데이터를 수집하는 것에 상당한 시간을 쓰게 됩니다. 이번 글에서는 이를 자동화하기 위해 직접 구축한 MCP 서버의 개발 과정을 소개하고자 합니다.",
+    "url": "/개발/mcp/dcf-평가를-위한-peer-group-search-mcp-서버-개발",
+    "category": "개발"
+  },
+  "개발/mcp/전자공시시스템opendart-mcp-웹-서버-개발": {
+    "id": "개발/mcp/전자공시시스템opendart-mcp-웹-서버-개발",
+    "type": "post",
+    "title": "전자공시시스템(OpenDART) MCP 웹 서버 개발",
+    "description": "클로드 엑셀(Claude for Excel)을 실무에 본격적으로 활용하다 보니, 한국 기업의 공시 데이터를 AI가 직접 가져와 분석하면 훨씬 효율적이겠다는 생각이 들었습니다. 이를 구현하기 위해 전자공시시스템(OpenDART) API를 연동한 MCP 서버를 직접 개발했고, 누구나 클로드 화면에서 커스텀 커넥터로 쉽게 연결해 사용할 수 있도록 웹에 배포했습니다.",
+    "url": "/개발/mcp/전자공시시스템opendart-mcp-웹-서버-개발",
+    "category": "개발"
+  },
+  "전자공시시스템opendart-mcp-웹-서버-개발": {
+    "id": "개발/mcp/전자공시시스템opendart-mcp-웹-서버-개발",
+    "type": "post",
+    "title": "전자공시시스템(OpenDART) MCP 웹 서버 개발",
+    "description": "클로드 엑셀(Claude for Excel)을 실무에 본격적으로 활용하다 보니, 한국 기업의 공시 데이터를 AI가 직접 가져와 분석하면 훨씬 효율적이겠다는 생각이 들었습니다. 이를 구현하기 위해 전자공시시스템(OpenDART) API를 연동한 MCP 서버를 직접 개발했고, 누구나 클로드 화면에서 커스텀 커넥터로 쉽게 연결해 사용할 수 있도록 웹에 배포했습니다.",
+    "url": "/개발/mcp/전자공시시스템opendart-mcp-웹-서버-개발",
+    "category": "개발"
+  },
+  "전자공시시스템(opendart) mcp 웹 서버 개발": {
+    "id": "개발/mcp/전자공시시스템opendart-mcp-웹-서버-개발",
+    "type": "post",
+    "title": "전자공시시스템(OpenDART) MCP 웹 서버 개발",
+    "description": "클로드 엑셀(Claude for Excel)을 실무에 본격적으로 활용하다 보니, 한국 기업의 공시 데이터를 AI가 직접 가져와 분석하면 훨씬 효율적이겠다는 생각이 들었습니다. 이를 구현하기 위해 전자공시시스템(OpenDART) API를 연동한 MCP 서버를 직접 개발했고, 누구나 클로드 화면에서 커스텀 커넥터로 쉽게 연결해 사용할 수 있도록 웹에 배포했습니다.",
+    "url": "/개발/mcp/전자공시시스템opendart-mcp-웹-서버-개발",
+    "category": "개발"
+  },
   "개발/web-app/clickthumb-디자인-툴-없이도-10초만에-끝내는-맞춤형-썸네일-제작기": {
     "id": "개발/web-app/clickthumb-디자인-툴-없이도-10초만에-끝내는-맞춤형-썸네일-제작기",
     "type": "post",
@@ -189,54 +237,6 @@
     "title": "개인 지식관리 웹사이트 PROCPA 구축(feat. 옵시디언)",
     "description": "옵시디언에서 작성한 마크다운을 그대로 웹에 올리는 개인 지식 플랫폼을 만든 과정을 정리합니다. 제작 동기부터 기술 스택, 주요 기능, 사용 방법까지.",
     "url": "/개발/web-app/procpa-개인-지식관리-웹사이트-구축feat-옵시디언",
-    "category": "개발"
-  },
-  "개발/mcp/dcf-평가를-위한-peer-group-search-mcp-서버-개발": {
-    "id": "개발/mcp/dcf-평가를-위한-peer-group-search-mcp-서버-개발",
-    "type": "post",
-    "title": "DCF 평가를 위한 Peer-Group-Search MCP 서버 개발",
-    "description": "최근 클로드 엑셀(Claude for Excel) 을 활용한 DCF 평가 자동화 워크플로우를 구축하고 있습니다. DCF 평가를 하다보면 평가대상회사의 유사회사(Peer Group)을 선정하고 해당 유사회사에 대한 데이터를 수집하는 것에 상당한 시간을 쓰게 됩니다. 이번 글에서는 이를 자동화하기 위해 직접 구축한 MCP 서버의 개발 과정을 소개하고자 합니다.",
-    "url": "/개발/mcp/dcf-평가를-위한-peer-group-search-mcp-서버-개발",
-    "category": "개발"
-  },
-  "dcf-평가를-위한-peer-group-search-mcp-서버-개발": {
-    "id": "개발/mcp/dcf-평가를-위한-peer-group-search-mcp-서버-개발",
-    "type": "post",
-    "title": "DCF 평가를 위한 Peer-Group-Search MCP 서버 개발",
-    "description": "최근 클로드 엑셀(Claude for Excel) 을 활용한 DCF 평가 자동화 워크플로우를 구축하고 있습니다. DCF 평가를 하다보면 평가대상회사의 유사회사(Peer Group)을 선정하고 해당 유사회사에 대한 데이터를 수집하는 것에 상당한 시간을 쓰게 됩니다. 이번 글에서는 이를 자동화하기 위해 직접 구축한 MCP 서버의 개발 과정을 소개하고자 합니다.",
-    "url": "/개발/mcp/dcf-평가를-위한-peer-group-search-mcp-서버-개발",
-    "category": "개발"
-  },
-  "dcf 평가를 위한 peer-group-search mcp 서버 개발": {
-    "id": "개발/mcp/dcf-평가를-위한-peer-group-search-mcp-서버-개발",
-    "type": "post",
-    "title": "DCF 평가를 위한 Peer-Group-Search MCP 서버 개발",
-    "description": "최근 클로드 엑셀(Claude for Excel) 을 활용한 DCF 평가 자동화 워크플로우를 구축하고 있습니다. DCF 평가를 하다보면 평가대상회사의 유사회사(Peer Group)을 선정하고 해당 유사회사에 대한 데이터를 수집하는 것에 상당한 시간을 쓰게 됩니다. 이번 글에서는 이를 자동화하기 위해 직접 구축한 MCP 서버의 개발 과정을 소개하고자 합니다.",
-    "url": "/개발/mcp/dcf-평가를-위한-peer-group-search-mcp-서버-개발",
-    "category": "개발"
-  },
-  "개발/mcp/전자공시시스템opendart-mcp-웹-서버-개발": {
-    "id": "개발/mcp/전자공시시스템opendart-mcp-웹-서버-개발",
-    "type": "post",
-    "title": "전자공시시스템(OpenDART) MCP 웹 서버 개발",
-    "description": "클로드 엑셀(Claude for Excel)을 실무에 본격적으로 활용하다 보니, 한국 기업의 공시 데이터를 AI가 직접 가져와 분석하면 훨씬 효율적이겠다는 생각이 들었습니다. 이를 구현하기 위해 전자공시시스템(OpenDART) API를 연동한 MCP 서버를 직접 개발했고, 누구나 클로드 화면에서 커스텀 커넥터로 쉽게 연결해 사용할 수 있도록 웹에 배포했습니다.",
-    "url": "/개발/mcp/전자공시시스템opendart-mcp-웹-서버-개발",
-    "category": "개발"
-  },
-  "전자공시시스템opendart-mcp-웹-서버-개발": {
-    "id": "개발/mcp/전자공시시스템opendart-mcp-웹-서버-개발",
-    "type": "post",
-    "title": "전자공시시스템(OpenDART) MCP 웹 서버 개발",
-    "description": "클로드 엑셀(Claude for Excel)을 실무에 본격적으로 활용하다 보니, 한국 기업의 공시 데이터를 AI가 직접 가져와 분석하면 훨씬 효율적이겠다는 생각이 들었습니다. 이를 구현하기 위해 전자공시시스템(OpenDART) API를 연동한 MCP 서버를 직접 개발했고, 누구나 클로드 화면에서 커스텀 커넥터로 쉽게 연결해 사용할 수 있도록 웹에 배포했습니다.",
-    "url": "/개발/mcp/전자공시시스템opendart-mcp-웹-서버-개발",
-    "category": "개발"
-  },
-  "전자공시시스템(opendart) mcp 웹 서버 개발": {
-    "id": "개발/mcp/전자공시시스템opendart-mcp-웹-서버-개발",
-    "type": "post",
-    "title": "전자공시시스템(OpenDART) MCP 웹 서버 개발",
-    "description": "클로드 엑셀(Claude for Excel)을 실무에 본격적으로 활용하다 보니, 한국 기업의 공시 데이터를 AI가 직접 가져와 분석하면 훨씬 효율적이겠다는 생각이 들었습니다. 이를 구현하기 위해 전자공시시스템(OpenDART) API를 연동한 MCP 서버를 직접 개발했고, 누구나 클로드 화면에서 커스텀 커넥터로 쉽게 연결해 사용할 수 있도록 웹에 배포했습니다.",
-    "url": "/개발/mcp/전자공시시스템opendart-mcp-웹-서버-개발",
     "category": "개발"
   },
   "회계실무/icfr/내부회계관리제도-실무-가이드북/시작하며": {
